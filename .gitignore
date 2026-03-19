@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.env
+.vscode/
+data/raw/biogrid/
+data/raw/string/string_links_human_v12.txt
+data/raw/string/string_links_human_v12.txt.gz

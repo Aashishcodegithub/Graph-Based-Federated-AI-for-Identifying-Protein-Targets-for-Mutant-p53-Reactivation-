@@ -1,0 +1,32 @@
+{
+  "pathogenic_missense_rows": 49929,
+  "dna_binding_fraction": 0.9872,
+  "hotspot_codons": {
+    "273": 4867,
+    "248": 4674,
+    "175": 3423,
+    "245": 2127,
+    "282": 1737,
+    "249": 1382,
+    "220": 1370,
+    "179": 1199,
+    "176": 928,
+    "278": 833
+  },
+  "top_domains": {
+    "DNA binding": 13743,
+    "HCD IV - DNA binding": 13540,
+    "HCD V - DNA binding": 12132,
+    "HCD III - DNA binding": 6898,
+    "HCD II - DNA binding": 2975
+  },
+  "reporter_medians": {
+    "WAF1_": 2.651,
+    "MDM2_": 8.734,
+    "BAX_": 7.504,
+    "GADD45_": 3.157,
+    "NOXA_": 4.593,
+    "p53R2_": 7.825
+  },
+  "reporter_loss_score": 0.9426
+}

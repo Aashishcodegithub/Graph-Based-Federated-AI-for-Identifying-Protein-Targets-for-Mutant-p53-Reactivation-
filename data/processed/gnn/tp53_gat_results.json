@@ -1,0 +1,54 @@
+{
+  "gene": "TP53",
+  "model": "GAT",
+  "num_nodes": 2758,
+  "num_edges": 164026,
+  "train_size": 1654,
+  "val_size": 551,
+  "test_size": 552,
+  "train_metrics": {
+    "loss": 0.5784,
+    "accuracy": 0.7346,
+    "precision": 0.5333,
+    "recall": 0.0363,
+    "f1": 0.0679,
+    "tp": 16,
+    "tn": 1199,
+    "fp": 14,
+    "fn": 425,
+    "positive_rate": 0.2666
+  },
+  "val_metrics": {
+    "loss": 0.6171,
+    "accuracy": 0.7005,
+    "precision": 0.8125,
+    "recall": 0.0743,
+    "f1": 0.1361,
+    "tp": 13,
+    "tn": 373,
+    "fp": 3,
+    "fn": 162,
+    "positive_rate": 0.3176
+  },
+  "test_metrics": {
+    "loss": 0.5794,
+    "accuracy": 0.7264,
+    "precision": 0.4737,
+    "recall": 0.06,
+    "f1": 0.1065,
+    "tp": 9,
+    "tn": 392,
+    "fp": 10,
+    "fn": 141,
+    "positive_rate": 0.2717
+  },
+  "fit_summary": {
+    "verdict": "reasonable_fit",
+    "overfit_flag": false,
+    "underfit_flag": false,
+    "train_val_accuracy_gap": 0.0341,
+    "val_train_loss_gap": 0.0387,
+    "best_epoch": 29,
+    "best_epoch_is_early": true
+  }
+}

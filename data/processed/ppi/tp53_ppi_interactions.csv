@@ -1,0 +1,3259 @@
+source,target_gene,interactor,interaction_score,experimental_system,experimental_system_type
+BioGRID,TP53,WWOX,,Two-hybrid,physical
+BioGRID,TP53,CDC14A,,Two-hybrid,physical
+BioGRID,TP53,MAGEB18,,Two-hybrid,physical
+BioGRID,TP53,DVL2,,Two-hybrid,physical
+BioGRID,TP53,TP53BP1,,Co-crystal Structure,physical
+BioGRID,TP53,BAK1,,Affinity Capture-Western,physical
+BioGRID,TP53,BLM,,Affinity Capture-Western,physical
+BioGRID,TP53,BRCA1,,Affinity Capture-Western,physical
+BioGRID,TP53,ATM,,Reconstituted Complex,physical
+BioGRID,TP53,ATR,,Reconstituted Complex,physical
+BioGRID,TP53,TFAP2A,,Co-localization,physical
+BioGRID,TP53,EPHA3,,Reconstituted Complex,physical
+BioGRID,TP53,BARD1,,Affinity Capture-Western,physical
+BioGRID,TP53,RAD51,,Affinity Capture-MS,physical
+BioGRID,TP53,BRCA2,,Affinity Capture-Western,physical
+BioGRID,TP53,BRE,,Affinity Capture-MS,physical
+BioGRID,TP53,BRCC3,,Affinity Capture-Western,physical
+BioGRID,TP53,MDM2,,Biochemical Activity,physical
+BioGRID,TP53,RPA1,,Reconstituted Complex,physical
+BioGRID,TP53,CHEK1,,Affinity Capture-Western,physical
+BioGRID,TP53,AR,,Phenotypic Suppression,genetic
+BioGRID,TP53,PRKDC,,Protein-peptide,physical
+BioGRID,TP53,S100B,,Affinity Capture-Western,physical
+BioGRID,TP53,SFN,,Affinity Capture-Western,physical
+BioGRID,TP53,TFAP2C,,Reconstituted Complex,physical
+BioGRID,TP53,CDKN1A,,Affinity Capture-Western,physical
+BioGRID,TP53,LINC01194,,Affinity Capture-Western,physical
+BioGRID,TP53,EP300,,Reconstituted Complex,physical
+BioGRID,TP53,PRMT1,,Reconstituted Complex,physical
+BioGRID,TP53,CARM1,,Reconstituted Complex,physical
+BioGRID,TP53,ANKRD2,,Affinity Capture-Western,physical
+BioGRID,TP53,YBX1,,Reconstituted Complex,physical
+BioGRID,TP53,APTX,,Affinity Capture-Western,physical
+BioGRID,TP53,PARP1,,Affinity Capture-Western,physical
+BioGRID,TP53,XRCC1,,Affinity Capture-Western,physical
+BioGRID,TP53,CABLES2,,Affinity Capture-Western,physical
+BioGRID,TP53,CABLES1,,Affinity Capture-Western,physical
+BioGRID,TP53,RPL11,,Affinity Capture-Western,physical
+BioGRID,TP53,CDKN2A,,Affinity Capture-Western,physical
+BioGRID,TP53,MDC1,,Affinity Capture-Western,physical
+BioGRID,TP53,PHB,,Co-localization,physical
+BioGRID,TP53,MTA1,,Reconstituted Complex,physical
+BioGRID,TP53,MTA2,,Reconstituted Complex,physical
+BioGRID,TP53,PML,,Affinity Capture-Western,physical
+BioGRID,TP53,EEF2,,Affinity Capture-Western,physical
+BioGRID,TP53,TP53INP1,,Reconstituted Complex,physical
+BioGRID,TP53,ING4,,Affinity Capture-Western,physical
+BioGRID,TP53,ING5,,Affinity Capture-Western,physical
+BioGRID,TP53,HIPK1,,Affinity Capture-Western,physical
+BioGRID,TP53,TP53RK,,Reconstituted Complex,physical
+BioGRID,TP53,RCHY1,,Affinity Capture-Western,physical
+BioGRID,TP53,UBE2A,,Affinity Capture-Western,physical
+BioGRID,TP53,PTEN,,Affinity Capture-Western,physical
+BioGRID,TP53,RRM2B,,Affinity Capture-Western,physical
+BioGRID,TP53,RRM2,,Affinity Capture-Western,physical
+BioGRID,TP53,HIF1A,,Affinity Capture-Western,physical
+BioGRID,TP53,HDAC1,,Affinity Capture-Western,physical
+BioGRID,TP53,CREBBP,,Biochemical Activity,physical
+BioGRID,TP53,SMARCB1,,Reconstituted Complex,physical
+BioGRID,TP53,SMARCA4,,Reconstituted Complex,physical
+BioGRID,TP53,SMARCC1,,Co-fractionation,physical
+BioGRID,TP53,SUMO1,,Two-hybrid,physical
+BioGRID,TP53,UBE2I,,Two-hybrid,physical
+BioGRID,TP53,CHD3,,Two-hybrid,physical
+BioGRID,TP53,HIPK3,,Two-hybrid,physical
+BioGRID,TP53,TDG,,Two-hybrid,physical
+BioGRID,TP53,TADA3,,Affinity Capture-Western,physical
+BioGRID,TP53,CREB1,,Reconstituted Complex,physical
+BioGRID,TP53,HIPK2,,Reconstituted Complex,physical
+BioGRID,TP53,KAT2B,,Biochemical Activity,physical
+BioGRID,TP53,KIAA0087,,Two-hybrid,physical
+BioGRID,TP53,RAB4A,,Two-hybrid,physical
+BioGRID,TP53,THAP8,,Two-hybrid,physical
+BioGRID,TP53,CCDC106,,Two-hybrid,physical
+BioGRID,TP53,FAM173A,,Two-hybrid,physical
+BioGRID,TP53,S100A8,,Two-hybrid,physical
+BioGRID,TP53,ZCCHC10,,Two-hybrid,physical
+BioGRID,TP53,ANXA3,,Two-hybrid,physical
+BioGRID,TP53,ARL3,,Two-hybrid,physical
+BioGRID,TP53,ATF3,,Two-hybrid,physical
+BioGRID,TP53,BCR,,Two-hybrid,physical
+BioGRID,TP53,CCT5,,Two-hybrid,physical
+BioGRID,TP53,COX17,,Two-hybrid,physical
+BioGRID,TP53,DLEU1,,Two-hybrid,physical
+BioGRID,TP53,FXYD6,,Two-hybrid,physical
+BioGRID,TP53,GSTM4,,Two-hybrid,physical
+BioGRID,TP53,HSPB1,,Two-hybrid,physical
+BioGRID,TP53,PNP,,Two-hybrid,physical
+BioGRID,TP53,STX5,,Two-hybrid,physical
+BioGRID,TP53,WDR33,,Two-hybrid,physical
+BioGRID,TP53,ARIH2,,Two-hybrid,physical
+BioGRID,TP53,BTBD2,,Two-hybrid,physical
+BioGRID,TP53,CCL18,,Two-hybrid,physical
+BioGRID,TP53,CDC42,,Two-hybrid,physical
+BioGRID,TP53,EIF2S2,,Two-hybrid,physical
+BioGRID,TP53,LAMA4,,Two-hybrid,physical
+BioGRID,TP53,MAD2L1BP,,Two-hybrid,physical
+BioGRID,TP53,MPHOSPH6,,Two-hybrid,physical
+BioGRID,TP53,PAFAH1B3,,Two-hybrid,physical
+BioGRID,TP53,PCDHA4,,Two-hybrid,physical
+BioGRID,TP53,PPA1,,Two-hybrid,physical
+BioGRID,TP53,PSMD11,,Two-hybrid,physical
+BioGRID,TP53,SAT1,,Two-hybrid,physical
+BioGRID,TP53,SERPINB9,,Two-hybrid,physical
+BioGRID,TP53,SNRPN,,Two-hybrid,physical
+BioGRID,TP53,SULT1E1,,Two-hybrid,physical
+BioGRID,TP53,TK1,,Two-hybrid,physical
+BioGRID,TP53,CDKN2C,,Two-hybrid,physical
+BioGRID,TP53,ERH,,Two-hybrid,physical
+BioGRID,TP53,ZNF24,,Two-hybrid,physical
+BioGRID,TP53,PLAGL1,,Reconstituted Complex,physical
+BioGRID,TP53,THRB,,Affinity Capture-Western,physical
+BioGRID,TP53,ELL,,Two-hybrid,physical
+BioGRID,TP53,E4F1,,Affinity Capture-Western,physical
+BioGRID,TP53,ABL1,,Reconstituted Complex,physical
+BioGRID,TP53,GSK3B,,Affinity Capture-Western,physical
+BioGRID,TP53,HSP90AA1,,Affinity Capture-Western,physical
+BioGRID,TP53,TOP1,,Affinity Capture-Western,physical
+BioGRID,TP53,BRF1,,Affinity Capture-Western,physical
+BioGRID,TP53,ESR1,,Reconstituted Complex,physical
+BioGRID,TP53,EIF2AK2,,Affinity Capture-Western,physical
+BioGRID,TP53,S100A4,,Reconstituted Complex,physical
+BioGRID,TP53,HMGB1,,Affinity Capture-Western,physical
+BioGRID,TP53,APEX1,,Co-purification,physical
+BioGRID,TP53,HNF4A,,Reconstituted Complex,physical
+BioGRID,TP53,NDN,,Two-hybrid,physical
+BioGRID,TP53,PLK3,,Biochemical Activity,physical
+BioGRID,TP53,HTT,,Reconstituted Complex,physical
+BioGRID,TP53,PTGS2,,Affinity Capture-Western,physical
+BioGRID,TP53,AURKA,,Two-hybrid,physical
+BioGRID,TP53,RFC1,,Affinity Capture-Western,physical
+BioGRID,TP53,CDK1,,Biochemical Activity,physical
+BioGRID,TP53,CDK2,,Biochemical Activity,physical
+BioGRID,TP53,CCNA2,,Reconstituted Complex,physical
+BioGRID,TP53,PIN1,,Reconstituted Complex,physical
+BioGRID,TP53,GPS2,,Affinity Capture-Western,physical
+BioGRID,TP53,CCNG1,,Reconstituted Complex,physical
+BioGRID,TP53,YWHAZ,,Affinity Capture-Western,physical
+BioGRID,TP53,MDM4,,Biochemical Activity,physical
+BioGRID,TP53,TFDP1,,Affinity Capture-Western,physical
+BioGRID,TP53,NFKBIA,,Affinity Capture-Western,physical
+BioGRID,TP53,ZNF148,,Affinity Capture-Western,physical
+BioGRID,TP53,PPP1R13L,,Affinity Capture-Western,physical
+BioGRID,TP53,MED1,,Affinity Capture-Western,physical
+BioGRID,TP53,WRN,,Affinity Capture-Western,physical
+BioGRID,TP53,TBP,,Reconstituted Complex,physical
+BioGRID,TP53,CDC14B,,Affinity Capture-Western,physical
+BioGRID,TP53,STK11,,Affinity Capture-Western,physical
+BioGRID,TP53,MED17,,Reconstituted Complex,physical
+BioGRID,TP53,IFI16,,Affinity Capture-Western,physical
+BioGRID,TP53,GTF2H1,,Reconstituted Complex,physical
+BioGRID,TP53,PIAS1,,Two-hybrid,physical
+BioGRID,TP53,EFEMP2,,Two-hybrid,physical
+BioGRID,TP53,ERCC3,,Reconstituted Complex,physical
+BioGRID,TP53,ERCC2,,Reconstituted Complex,physical
+BioGRID,TP53,ERCC6,,Reconstituted Complex,physical
+BioGRID,TP53,MAPK8,,Affinity Capture-Western,physical
+BioGRID,TP53,MAPK9,,Affinity Capture-Western,physical
+BioGRID,TP53,MAPK10,,Affinity Capture-Western,physical
+BioGRID,TP53,CEBPZ,,Affinity Capture-Western,physical
+BioGRID,TP53,PPP4C,,Reconstituted Complex,physical
+BioGRID,TP53,NCL,,Affinity Capture-Western,physical
+BioGRID,TP53,TSG101,,Affinity Capture-Western,physical
+BioGRID,TP53,TAF1,,Affinity Capture-Western,physical
+BioGRID,TP53,BAG1,,Phenotypic Suppression,genetic
+BioGRID,TP53,TOP2A,,Affinity Capture-Western,physical
+BioGRID,TP53,TOP2B,,Affinity Capture-Western,physical
+BioGRID,TP53,CDK9,,Phenotypic Suppression,genetic
+BioGRID,TP53,EGR1,,Affinity Capture-Western,physical
+BioGRID,TP53,PRKRIR,,Reconstituted Complex,physical
+BioGRID,TP53,CDK7,,Biochemical Activity,physical
+BioGRID,TP53,MNAT1,,Reconstituted Complex,physical
+BioGRID,TP53,GNL3,,Reconstituted Complex,physical
+BioGRID,TP53,TAF1B,,Reconstituted Complex,physical
+BioGRID,TP53,TAF1A,,Reconstituted Complex,physical
+BioGRID,TP53,TAF1C,,Reconstituted Complex,physical
+BioGRID,TP53,MAPK3,,Affinity Capture-Western,physical
+BioGRID,TP53,MAPK1,,Affinity Capture-Western,physical
+BioGRID,TP53,TOPORS,,Two-hybrid,physical
+BioGRID,TP53,USP7,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPA9,,Reconstituted Complex,physical
+BioGRID,TP53,ING1,,Affinity Capture-Western,physical
+BioGRID,TP53,POLA1,,Affinity Capture-Western,physical
+BioGRID,TP53,SMN1,,Affinity Capture-Western,physical
+BioGRID,TP53,TEP1,,Reconstituted Complex,physical
+BioGRID,TP53,CCNH,,Far Western,physical
+BioGRID,TP53,TP53BP2,,Two-hybrid,physical
+BioGRID,TP53,KPNB1,,Affinity Capture-Western,physical
+BioGRID,TP53,HSPA8,,Reconstituted Complex,physical
+BioGRID,TP53,WT1,,Affinity Capture-Western,physical
+BioGRID,TP53,PTTG1,,Affinity Capture-Western,physical
+BioGRID,TP53,TAF9,,Reconstituted Complex,physical
+BioGRID,TP53,CUL9,,Affinity Capture-MS,physical
+BioGRID,TP53,NR3C1,,Affinity Capture-Western,physical
+BioGRID,TP53,FKBP3,,Affinity Capture-Western,physical
+BioGRID,TP53,RYBP,,Affinity Capture-Western,physical
+BioGRID,TP53,AIMP2,,Affinity Capture-Western,physical
+BioGRID,TP53,UCHL1,,Affinity Capture-Western,physical
+BioGRID,TP53,CFLAR,,Affinity Capture-Western,physical
+BioGRID,TP53,ITCH,,Affinity Capture-Western,physical
+BioGRID,TP53,DHFR,,Reconstituted Complex,physical
+BioGRID,TP53,CCAR1,,Affinity Capture-Western,physical
+BioGRID,TP53,PSME3,,Affinity Capture-Western,physical
+BioGRID,TP53,HSPA4,,Affinity Capture-Western,physical
+BioGRID,TP53,STUB1,,Affinity Capture-Western,physical
+BioGRID,TP53,PTK2,,Affinity Capture-Western,physical
+BioGRID,TP53,NUMB,,Affinity Capture-Western,physical
+BioGRID,TP53,SERPINH1,,Affinity Capture-Western,physical
+BioGRID,TP53,COPS5,,Affinity Capture-Western,physical
+BioGRID,TP53,VRK1,,Biochemical Activity,physical
+BioGRID,TP53,ZMIZ1,,Two-hybrid,physical
+BioGRID,TP53,ZMIZ2,,Two-hybrid,physical
+BioGRID,TP53,CDK5,,Affinity Capture-Western,physical
+BioGRID,TP53,ZMYND11,,Affinity Capture-Western,physical
+BioGRID,TP53,KAT7,,Affinity Capture-Western,physical
+BioGRID,TP53,ETHE1,,Affinity Capture-Western,physical
+BioGRID,TP53,CHD8,,Affinity Capture-Western,physical
+BioGRID,TP53,DAPK1,,Affinity Capture-Western,physical
+BioGRID,TP53,TXN,,Reconstituted Complex,physical
+BioGRID,TP53,OTUD5,,Affinity Capture-MS,physical
+BioGRID,TP53,USP11,,Affinity Capture-MS,physical
+BioGRID,TP53,USP39,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR48,,Affinity Capture-MS,physical
+BioGRID,TP53,PADI4,,Affinity Capture-Western,physical
+BioGRID,TP53,NR4A1,,Affinity Capture-Western,physical
+BioGRID,TP53,FBXO11,,Affinity Capture-MS,physical
+BioGRID,TP53,UBE2N,,Reconstituted Complex,physical
+BioGRID,TP53,HDAC2,,Reconstituted Complex,physical
+BioGRID,TP53,SP1,,Affinity Capture-Western,physical
+BioGRID,TP53,STAT6,,Two-hybrid,physical
+BioGRID,TP53,TAF6,,Reconstituted Complex,physical
+BioGRID,TP53,RFWD2,,Affinity Capture-Western,physical
+BioGRID,TP53,ADH5,,Affinity Capture-Western,physical
+BioGRID,TP53,AGBL2,,Affinity Capture-Western,physical
+BioGRID,TP53,ASF1A,,Affinity Capture-Western,physical
+BioGRID,TP53,ASPM,,Affinity Capture-Western,physical
+BioGRID,TP53,BRD8,,Affinity Capture-Western,physical
+BioGRID,TP53,NPRL3,,Affinity Capture-Western,physical
+BioGRID,TP53,TRAPPC11,,Affinity Capture-Western,physical
+BioGRID,TP53,DAB2IP,,Affinity Capture-Western,physical
+BioGRID,TP53,DNAJB6,,Affinity Capture-Western,physical
+BioGRID,TP53,DPH1,,Affinity Capture-Western,physical
+BioGRID,TP53,AGO1,,Affinity Capture-Western,physical
+BioGRID,TP53,AGO2,,Affinity Capture-Western,physical
+BioGRID,TP53,GTPBP4,,Affinity Capture-Western,physical
+BioGRID,TP53,IGF2BP1,,Affinity Capture-Western,physical
+BioGRID,TP53,LOC613037,,Affinity Capture-Western,physical
+BioGRID,TP53,LRPPRC,,Affinity Capture-Western,physical
+BioGRID,TP53,MTHFSD,,Affinity Capture-Western,physical
+BioGRID,TP53,MYL9,,Affinity Capture-Western,physical
+BioGRID,TP53,PIWIL1,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF38,,Affinity Capture-Western,physical
+BioGRID,TP53,SMARCD2,,Affinity Capture-Western,physical
+BioGRID,TP53,SPSB1,,Affinity Capture-Western,physical
+BioGRID,TP53,TRMT11,,Affinity Capture-Western,physical
+BioGRID,TP53,TTLL5,,Affinity Capture-Western,physical
+BioGRID,TP53,CUL7,,Affinity Capture-Western,physical
+BioGRID,TP53,BANP,,Reconstituted Complex,physical
+BioGRID,TP53,RNF20,,Reconstituted Complex,physical
+BioGRID,TP53,ZBTB7A,,Affinity Capture-Western,physical
+BioGRID,TP53,KAT8,,Biochemical Activity,physical
+BioGRID,TP53,PSMD10,,Affinity Capture-Western,physical
+BioGRID,TP53,SMYD2,,Biochemical Activity,physical
+BioGRID,TP53,SETD7,,Biochemical Activity,physical
+BioGRID,TP53,BACH1,,Affinity Capture-Western,physical
+BioGRID,TP53,MAFK,,Affinity Capture-Western,physical
+BioGRID,TP53,NCOR1,,Affinity Capture-Western,physical
+BioGRID,TP53,KAT6A,,Affinity Capture-MS,physical
+BioGRID,TP53,XRCC6,,Affinity Capture-Western,physical
+BioGRID,TP53,CTBP1,,Affinity Capture-Western,physical
+BioGRID,TP53,MAGEA2,,Affinity Capture-Western,physical
+BioGRID,TP53,NPM1,,Affinity Capture-Western,physical
+BioGRID,TP53,KAT5,,Affinity Capture-Western,physical
+BioGRID,TP53,RPL5,,Affinity Capture-Western,physical
+BioGRID,TP53,RPL23,,Affinity Capture-Western,physical
+BioGRID,TP53,YY1,,Reconstituted Complex,physical
+BioGRID,TP53,VRK2,,Biochemical Activity,physical
+BioGRID,TP53,SETD2,,Affinity Capture-Western,physical
+BioGRID,TP53,VHL,,Affinity Capture-Western,physical
+BioGRID,TP53,RAD23A,,Affinity Capture-Western,physical
+BioGRID,TP53,HABP4,,Reconstituted Complex,physical
+BioGRID,TP53,SERBP1,,Affinity Capture-Western,physical
+BioGRID,TP53,ZBTB2,,Affinity Capture-Western,physical
+BioGRID,TP53,ZNF420,,Affinity Capture-Western,physical
+BioGRID,TP53,KDM1A,,Affinity Capture-Western,physical
+BioGRID,TP53,H2AFX,,Affinity Capture-Western,physical
+BioGRID,TP53,SP3,,Affinity Capture-Western,physical
+BioGRID,TP53,TRRAP,,Reconstituted Complex,physical
+BioGRID,TP53,MSH2,,Affinity Capture-Western,physical
+BioGRID,TP53,ING2,,Affinity Capture-Western,physical
+BioGRID,TP53,KMT2A,,Reconstituted Complex,physical
+BioGRID,TP53,RBBP5,,Reconstituted Complex,physical
+BioGRID,TP53,MEN1,,Reconstituted Complex,physical
+BioGRID,TP53,WDR5,,Reconstituted Complex,physical
+BioGRID,TP53,NFYA,,Affinity Capture-Western,physical
+BioGRID,TP53,NFYB,,Affinity Capture-Western,physical
+BioGRID,TP53,HECW2,,Affinity Capture-Western,physical
+BioGRID,TP53,CHEK2,,Affinity Capture-Western,physical
+BioGRID,TP53,PHF1,,Affinity Capture-Western,physical
+BioGRID,TP53,KAT2A,,Affinity Capture-Western,physical
+BioGRID,TP53,TAF5L,,Affinity Capture-Western,physical
+BioGRID,TP53,SUPT3H,,Affinity Capture-Western,physical
+BioGRID,TP53,SUPT7L,,Affinity Capture-Western,physical
+BioGRID,TP53,TADA1,,Affinity Capture-Western,physical
+BioGRID,TP53,TADA2A,,Affinity Capture-Western,physical
+BioGRID,TP53,TAF10,,Affinity Capture-Western,physical
+BioGRID,TP53,SIRT1,,Affinity Capture-Western,physical
+BioGRID,TP53,SIN3A,,Affinity Capture-Western,physical
+BioGRID,TP53,PRAM1,,Affinity Capture-Western,physical
+BioGRID,TP53,PIAS2,,Reconstituted Complex,physical
+BioGRID,TP53,DNMT1,,Affinity Capture-Western,physical
+BioGRID,TP53,KMT2E,,Affinity Capture-Western,physical
+BioGRID,TP53,RB1CC1,,Affinity Capture-Western,physical
+BioGRID,TP53,PRDM2,,Affinity Capture-Western,physical
+BioGRID,TP53,EHMT1,,Biochemical Activity,physical
+BioGRID,TP53,HMGA1,,Affinity Capture-Western,physical
+BioGRID,TP53,USP29,,Affinity Capture-Western,physical
+BioGRID,TP53,VDR,,Affinity Capture-Western,physical
+BioGRID,TP53,UBE3A,,Reconstituted Complex,physical
+BioGRID,TP53,EHMT2,,Biochemical Activity,physical
+BioGRID,TP53,NOC2L,,Affinity Capture-Western,physical
+BioGRID,TP53,AURKB,,Affinity Capture-Western,physical
+BioGRID,TP53,SIVA1,,Affinity Capture-Western,physical
+BioGRID,TP53,MDH1,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF34,,Affinity Capture-Western,physical
+BioGRID,TP53,RFFL,,Affinity Capture-Western,physical
+BioGRID,TP53,HDAC9,,Affinity Capture-Western,physical
+BioGRID,TP53,G3BP1,,Affinity Capture-MS,physical
+BioGRID,TP53,G3BP2,,Affinity Capture-MS,physical
+BioGRID,TP53,KPNA4,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM24,,Affinity Capture-Western,physical
+BioGRID,TP53,L3MBTL1,,Reconstituted Complex,physical
+BioGRID,TP53,PSMC5,,Reconstituted Complex,physical
+BioGRID,TP53,ZNF668,,Affinity Capture-Western,physical
+BioGRID,TP53,USP10,,Affinity Capture-Western,physical
+BioGRID,TP53,UBR5,,Affinity Capture-Western,physical
+BioGRID,TP53,GNL3L,,Affinity Capture-Western,physical
+BioGRID,TP53,SETD8,,Biochemical Activity,physical
+BioGRID,TP53,IKBKB,,Biochemical Activity,physical
+BioGRID,TP53,BTRC,,Affinity Capture-Western,physical
+BioGRID,TP53,MSL2,,Affinity Capture-Western,physical
+BioGRID,TP53,RYK,,Affinity Capture-MS,physical
+BioGRID,TP53,UIMC1,,Affinity Capture-Western,physical
+BioGRID,TP53,NUB1,,Affinity Capture-Western,physical
+BioGRID,TP53,SKI,,Affinity Capture-Western,physical
+BioGRID,TP53,SOX4,,Reconstituted Complex,physical
+BioGRID,TP53,CDK8,,Reconstituted Complex,physical
+BioGRID,TP53,MED21,,Reconstituted Complex,physical
+BioGRID,TP53,UBE4B,,Affinity Capture-Western,physical
+BioGRID,TP53,BAIAP2L1,,Affinity Capture-Western,physical
+BioGRID,TP53,TTK,,Affinity Capture-Western,physical
+BioGRID,TP53,DAXX,,Affinity Capture-Western,physical
+BioGRID,TP53,IGF1R,,Affinity Capture-Western,physical
+BioGRID,TP53,RFWD3,,Affinity Capture-Western,physical
+BioGRID,TP53,RPS7,,Affinity Capture-Western,physical
+BioGRID,TP53,HDAC5,,Affinity Capture-MS,physical
+BioGRID,TP53,HUWE1,,Reconstituted Complex,physical
+BioGRID,TP53,RPS3,,FRET,physical
+BioGRID,TP53,PSMC3,,Affinity Capture-Western,physical
+BioGRID,TP53,PSMD4,,Affinity Capture-Western,physical
+BioGRID,TP53,UHRF2,,Far Western,physical
+BioGRID,TP53,FBXO42,,Biochemical Activity,physical
+BioGRID,TP53,USP42,,Reconstituted Complex,physical
+BioGRID,TP53,SMURF1,,Affinity Capture-Western,physical
+BioGRID,TP53,NOTCH4,,Affinity Capture-Western,physical
+BioGRID,TP53,UTP14A,,Reconstituted Complex,physical
+BioGRID,TP53,CSNK1A1,,Affinity Capture-Western,physical
+BioGRID,TP53,HSPA5,,Affinity Capture-Western,physical
+BioGRID,TP53,ZNHIT1,,Reconstituted Complex,physical
+BioGRID,TP53,SYVN1,,Affinity Capture-Western,physical
+BioGRID,TP53,OTUB1,,Affinity Capture-Western,physical
+BioGRID,TP53,PDLIM7,,Affinity Capture-Western,physical
+BioGRID,TP53,APOH,,Two-hybrid,physical
+BioGRID,TP53,BMP1,,Two-hybrid,physical
+BioGRID,TP53,SENP3,,Affinity Capture-Western,physical
+BioGRID,TP53,UFD1L,,Two-hybrid,physical
+BioGRID,TP53,RAP1B,,Two-hybrid,physical
+BioGRID,TP53,BCL2L1,,Two-hybrid,physical
+BioGRID,TP53,RCC1,,Two-hybrid,physical
+BioGRID,TP53,ANXA7,,Two-hybrid,physical
+BioGRID,TP53,GADD45A,,Two-hybrid,physical
+BioGRID,TP53,TPT1,,Affinity Capture-Western,physical
+BioGRID,TP53,HSPA1A,,Affinity Capture-Western,physical
+BioGRID,TP53,USO1,,Affinity Capture-Western,physical
+BioGRID,TP53,SMAD2,,Affinity Capture-Western,physical
+BioGRID,TP53,SMAD3,,Affinity Capture-Western,physical
+BioGRID,TP53,RPL26,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM27,,Affinity Capture-Western,physical
+BioGRID,TP53,BCL2,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIAP1,,Affinity Capture-RNA,physical
+BioGRID,TP53,TRIM28,,Biochemical Activity,physical
+BioGRID,TP53,PRMT3,,Affinity Capture-Western,physical
+BioGRID,TP53,AXIN1,,Affinity Capture-Western,physical
+BioGRID,TP53,SIN3B,,Affinity Capture-Western,physical
+BioGRID,TP53,AGT,,Two-hybrid,physical
+BioGRID,TP53,MSH6,,Affinity Capture-Western,physical
+BioGRID,TP53,SET,,Affinity Capture-Western,physical
+BioGRID,TP53,ARID1A,,Affinity Capture-Western,physical
+BioGRID,TP53,ETS1,,Affinity Capture-Western,physical
+BioGRID,TP53,ETS2,,Affinity Capture-Western,physical
+BioGRID,TP53,ACTL6A,,Affinity Capture-Western,physical
+BioGRID,TP53,CSNK2B,,PCA,physical
+BioGRID,TP53,MAPK14,,PCA,physical
+BioGRID,TP53,MAP9,,Two-hybrid,physical
+BioGRID,TP53,NR0B2,,Affinity Capture-Western,physical
+BioGRID,TP53,NCOA1,,Two-hybrid,physical
+BioGRID,TP53,NCOA3,,Reconstituted Complex,physical
+BioGRID,TP53,SIRT7,,Affinity Capture-MS,physical
+BioGRID,TP53,KDM4D,,Affinity Capture-Western,physical
+BioGRID,TP53,COPS2,,Affinity Capture-Western,physical
+BioGRID,TP53,SMARCD1,,Affinity Capture-Western,physical
+BioGRID,TP53,EWSR1,,Affinity Capture-Western,physical
+BioGRID,TP53,CCDC8,,Affinity Capture-MS,physical
+BioGRID,TP53,UBE2B,,Affinity Capture-Western,physical
+BioGRID,TP53,RANBP2,,Biochemical Activity,physical
+BioGRID,TP53,RPS10,,Two-hybrid,physical
+BioGRID,TP53,LYN,,Affinity Capture-Western,physical
+BioGRID,TP53,PPARGC1A,,Affinity Capture-Western,physical
+BioGRID,TP53,HECW1,,Affinity Capture-Western,physical
+BioGRID,TP53,GAPDH,,Affinity Capture-Western,physical
+BioGRID,TP53,SRSF1,,Biochemical Activity,physical
+BioGRID,TP53,CRYAB,,Affinity Capture-Western,physical
+BioGRID,TP53,FBXO4,,Affinity Capture-Western,physical
+BioGRID,TP53,CUL4A,,Affinity Capture-Western,physical
+BioGRID,TP53,DTL,,Affinity Capture-Western,physical
+BioGRID,TP53,PCNA,,Affinity Capture-Western,physical
+BioGRID,TP53,RB1,,Affinity Capture-Western,physical
+BioGRID,TP53,PPP1CC,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF43,,Affinity Capture-Western,physical
+BioGRID,TP53,CSNK2A1,,Biochemical Activity,physical
+BioGRID,TP53,PRKD1,,Biochemical Activity,physical
+BioGRID,TP53,GPS1,,Co-fractionation,physical
+BioGRID,TP53,DHCR24,,Affinity Capture-Western,physical
+BioGRID,TP53,TP63,,Synthetic Rescue,genetic
+BioGRID,TP53,PRKCD,,Affinity Capture-Western,physical
+BioGRID,TP53,NQO1,,Affinity Capture-Western,physical
+BioGRID,TP53,TFAP4,,Affinity Capture-Western,physical
+BioGRID,TP53,PIAS4,,Two-hybrid,physical
+BioGRID,TP53,ZHX1,,Two-hybrid,physical
+BioGRID,TP53,DMTF1,,Affinity Capture-Western,physical
+BioGRID,TP53,HEXIM1,,Affinity Capture-Western,physical
+BioGRID,TP53,MUL1,,Affinity Capture-Western,physical
+BioGRID,TP53,TSC22D1,,Two-hybrid,physical
+BioGRID,TP53,UBD,,Affinity Capture-Western,physical
+BioGRID,TP53,ANG,,Affinity Capture-Western,physical
+BioGRID,TP53,PDCD5,,Reconstituted Complex,physical
+BioGRID,TP53,MIF,,Affinity Capture-Western,physical
+BioGRID,TP53,ITPK1,,Biochemical Activity,physical
+BioGRID,TP53,TXNRD1,,Affinity Capture-Western,physical
+BioGRID,TP53,MAP3K1,,Affinity Capture-Western,physical
+BioGRID,TP53,ERCC8,,Affinity Capture-Western,physical
+BioGRID,TP53,ARID3A,,Affinity Capture-Western,physical
+BioGRID,TP53,CSNK1D,,Biochemical Activity,physical
+BioGRID,TP53,VPRBP,,Reconstituted Complex,physical
+BioGRID,TP53,ELAVL1,,Affinity Capture-RNA,physical
+BioGRID,TP53,TAF5,,Affinity Capture-Western,physical
+BioGRID,TP53,ERBB4,,Affinity Capture-Western,physical
+BioGRID,TP53,PLK1,,Biochemical Activity,physical
+BioGRID,TP53,CASP8,,Affinity Capture-Western,physical
+BioGRID,TP53,SCAMP1,,Two-hybrid,physical
+BioGRID,TP53,HRAS,,Affinity Capture-Western,physical
+BioGRID,TP53,MAGED2,,Affinity Capture-Western,physical
+BioGRID,TP53,UBE2M,,Biochemical Activity,physical
+BioGRID,TP53,DAPK3,,Biochemical Activity,physical
+BioGRID,TP53,SOCS1,,Affinity Capture-Western,physical
+BioGRID,TP53,SMAD7,,Affinity Capture-Western,physical
+BioGRID,TP53,PARK7,,Affinity Capture-Western,physical
+BioGRID,TP53,SMAD1,,Affinity Capture-Western,physical
+BioGRID,TP53,BMI1,,Affinity Capture-Western,physical
+BioGRID,TP53,RING1,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF2,,Affinity Capture-Western,physical
+BioGRID,TP53,MUC1,,Affinity Capture-Western,physical
+BioGRID,TP53,ECT2,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM39,,Affinity Capture-Western,physical
+BioGRID,TP53,HNRNPK,,Affinity Capture-Western,physical
+BioGRID,TP53,NABP2,,Affinity Capture-Western,physical
+BioGRID,TP53,TWIST1,,Reconstituted Complex,physical
+BioGRID,TP53,PHF20,,Affinity Capture-Western,physical
+BioGRID,TP53,HECTD3,,Two-hybrid,physical
+BioGRID,TP53,VCP,,Affinity Capture-MS,physical
+BioGRID,TP53,EP400,,Affinity Capture-Western,physical
+BioGRID,TP53,MYC,,Affinity Capture-MS,physical
+BioGRID,TP53,SNAI1,,Affinity Capture-Western,physical
+BioGRID,TP53,MTOR,,Affinity Capture-Western,physical
+BioGRID,TP53,TNFAIP3,,Affinity Capture-Western,physical
+BioGRID,TP53,MKRN1,,Affinity Capture-Western,physical
+BioGRID,TP53,PPP1CA,,Two-hybrid,physical
+BioGRID,TP53,TMED9,,Co-fractionation,physical
+BioGRID,TP53,RNF39,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM8,,Affinity Capture-Western,physical
+BioGRID,TP53,BHLHE40,,Affinity Capture-Western,physical
+BioGRID,TP53,RABL6,,Affinity Capture-Western,physical
+BioGRID,TP53,PAN2,,Affinity Capture-MS,physical
+BioGRID,TP53,ANXA2,,Reconstituted Complex,physical
+BioGRID,TP53,MYBBP1A,,Reconstituted Complex,physical
+BioGRID,TP53,GTF2H4,,Far Western,physical
+BioGRID,TP53,RPS26,,Affinity Capture-Western,physical
+BioGRID,TP53,ECD,,Affinity Capture-Western,physical
+BioGRID,TP53,TXNIP,,Affinity Capture-Western,physical
+BioGRID,TP53,UBE2K,,Affinity Capture-Western,physical
+BioGRID,TP53,FCAMR,,Two-hybrid,physical
+BioGRID,TP53,GPX2,,Two-hybrid,physical
+BioGRID,TP53,SQSTM1,,Reconstituted Complex,physical
+BioGRID,TP53,PSMB3,,Biochemical Activity,physical
+BioGRID,TP53,ANK2,,Reconstituted Complex,physical
+BioGRID,TP53,NCOA2,,Reconstituted Complex,physical
+BioGRID,TP53,CLK3,,Affinity Capture-MS,physical
+BioGRID,TP53,ICK,,Affinity Capture-MS,physical
+BioGRID,TP53,CREBZF,,Affinity Capture-Western,physical
+BioGRID,TP53,C10ORF90,,Affinity Capture-Western,physical
+BioGRID,TP53,RPS27A,,Affinity Capture-Western,physical
+BioGRID,TP53,XPC,,Affinity Capture-Western,physical
+BioGRID,TP53,PSMD6,,Affinity Capture-Western,physical
+BioGRID,TP53,CUL4B,,Affinity Capture-Western,physical
+BioGRID,TP53,PTTG1IP,,Reconstituted Complex,physical
+BioGRID,TP53,HERC2,,Affinity Capture-Western,physical
+BioGRID,TP53,DNAJB1,,Affinity Capture-Western,physical
+BioGRID,TP53,ZBTB16,,Affinity Capture-Western,physical
+BioGRID,TP53,NLK,,Affinity Capture-Western,physical
+BioGRID,TP53,MCL1,,Protein-peptide,physical
+BioGRID,TP53,BCL2L2,,Protein-peptide,physical
+BioGRID,TP53,RUNX2,,Affinity Capture-Western,physical
+BioGRID,TP53,ATRX,,Affinity Capture-MS,physical
+BioGRID,TP53,RNF128,,Reconstituted Complex,physical
+BioGRID,TP53,TNK2,,Affinity Capture-Western,physical
+BioGRID,TP53,DNAJC7,,Two-hybrid,physical
+BioGRID,TP53,ZBTB8A,,Reconstituted Complex,physical
+BioGRID,TP53,PATZ1,,Affinity Capture-Western,physical
+BioGRID,TP53,MVP,,Two-hybrid,physical
+BioGRID,TP53,MAPK7,,Affinity Capture-Western,physical
+BioGRID,TP53,ABR,,Affinity Capture-MS,physical
+BioGRID,TP53,ACSL4,,Affinity Capture-MS,physical
+BioGRID,TP53,ACTA2,,Affinity Capture-MS,physical
+BioGRID,TP53,ACTB,,Affinity Capture-MS,physical
+BioGRID,TP53,AIFM2,,Affinity Capture-MS,physical
+BioGRID,TP53,AKAP12,,Affinity Capture-MS,physical
+BioGRID,TP53,ATP5A1,,Affinity Capture-MS,physical
+BioGRID,TP53,BAG2,,Affinity Capture-MS,physical
+BioGRID,TP53,PRRC2A,,Affinity Capture-MS,physical
+BioGRID,TP53,PRRC2C,,Affinity Capture-MS,physical
+BioGRID,TP53,CAD,,Affinity Capture-MS,physical
+BioGRID,TP53,CAPN1,,Affinity Capture-MS,physical
+BioGRID,TP53,CCT2,,Affinity Capture-MS,physical
+BioGRID,TP53,CCT3,,Affinity Capture-MS,physical
+BioGRID,TP53,CCT4,,Affinity Capture-MS,physical
+BioGRID,TP53,CCT6A,,Affinity Capture-MS,physical
+BioGRID,TP53,CCT7,,Affinity Capture-MS,physical
+BioGRID,TP53,CCT8,,Affinity Capture-MS,physical
+BioGRID,TP53,CEP55,,Affinity Capture-MS,physical
+BioGRID,TP53,CPNE7,,Affinity Capture-MS,physical
+BioGRID,TP53,CRTC2,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBB,,Affinity Capture-MS,physical
+BioGRID,TP53,DDB1,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX5,,Affinity Capture-MS,physical
+BioGRID,TP53,DGCR14,,Affinity Capture-MS,physical
+BioGRID,TP53,DNAJA1,,Affinity Capture-MS,physical
+BioGRID,TP53,DNAJA2,,Affinity Capture-MS,physical
+BioGRID,TP53,DOCK7,,Affinity Capture-MS,physical
+BioGRID,TP53,EBNA1BP2,,Affinity Capture-MS,physical
+BioGRID,TP53,EEF1A1,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF4E2,,Affinity Capture-MS,physical
+BioGRID,TP53,ENAH,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS18B,,Affinity Capture-MS,physical
+BioGRID,TP53,RCN2,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL24,,Affinity Capture-MS,physical
+BioGRID,TP53,EXOSC7,,Affinity Capture-MS,physical
+BioGRID,TP53,EXOSC8,,Affinity Capture-MS,physical
+BioGRID,TP53,MZT2B,,Affinity Capture-MS,physical
+BioGRID,TP53,FAU,,Affinity Capture-MS,physical
+BioGRID,TP53,FBL,,Affinity Capture-MS,physical
+BioGRID,TP53,FBXO21,,Affinity Capture-MS,physical
+BioGRID,TP53,FTH1,,Affinity Capture-MS,physical
+BioGRID,TP53,MOGS,,Affinity Capture-MS,physical
+BioGRID,TP53,GIGYF2,,Affinity Capture-MS,physical
+BioGRID,TP53,GPATCH8,,Affinity Capture-MS,physical
+BioGRID,TP53,GRWD1,,Affinity Capture-MS,physical
+BioGRID,TP53,GTF3C3,,Affinity Capture-MS,physical
+BioGRID,TP53,GTF3C4,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL27AP6,,Affinity Capture-MS,physical
+BioGRID,TP53,HECTD1,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPA1,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPA2B1,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPF,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPH1,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPM,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPU,,Affinity Capture-MS,physical
+BioGRID,TP53,HPCA,,Affinity Capture-MS,physical
+BioGRID,TP53,HSP90AB1,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPA1L,,Affinity Capture-MS,physical
+BioGRID,TP53,IDH3B,,Affinity Capture-MS,physical
+BioGRID,TP53,IGF2BP3,,Affinity Capture-MS,physical
+BioGRID,TP53,ARHGEF17,,Affinity Capture-MS,physical
+BioGRID,TP53,IQGAP1,,Affinity Capture-MS,physical
+BioGRID,TP53,IRS4,,Affinity Capture-MS,physical
+BioGRID,TP53,ITPKC,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS15P2,,Affinity Capture-MS,physical
+BioGRID,TP53,LY6G5B,,Affinity Capture-MS,physical
+BioGRID,TP53,MFAP4,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPL24,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPL38,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPL39,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPL41,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS14,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS2,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS22,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS23,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS25,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS27,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS28,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS5,,Affinity Capture-MS,physical
+BioGRID,TP53,MRPS9,,Affinity Capture-MS,physical
+BioGRID,TP53,OBSL1,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL13,,Affinity Capture-MS,physical
+BioGRID,TP53,PABPC1,,Affinity Capture-MS,physical
+BioGRID,TP53,PCBP1,,Affinity Capture-MS,physical
+BioGRID,TP53,PCMT1,,Affinity Capture-MS,physical
+BioGRID,TP53,PDCD6,,Affinity Capture-MS,physical
+BioGRID,TP53,PHKA2,,Affinity Capture-MS,physical
+BioGRID,TP53,PHKB,,Affinity Capture-MS,physical
+BioGRID,TP53,PHKG2,,Affinity Capture-MS,physical
+BioGRID,TP53,POLDIP2,,Affinity Capture-MS,physical
+BioGRID,TP53,PPFIBP1,,Affinity Capture-MS,physical
+BioGRID,TP53,PPP3CA,,Affinity Capture-MS,physical
+BioGRID,TP53,PPP3R1,,Affinity Capture-MS,physical
+BioGRID,TP53,PTCD3,,Affinity Capture-MS,physical
+BioGRID,TP53,RAE1,,Affinity Capture-MS,physical
+BioGRID,TP53,RAVER1,,Affinity Capture-MS,physical
+BioGRID,TP53,RBBP4,,Affinity Capture-MS,physical
+BioGRID,TP53,RBBP7,,Affinity Capture-MS,physical
+BioGRID,TP53,RBX1,,Affinity Capture-MS,physical
+BioGRID,TP53,RDH13,,Affinity Capture-MS,physical
+BioGRID,TP53,RFC3,,Affinity Capture-MS,physical
+BioGRID,TP53,RFC4,,Affinity Capture-MS,physical
+BioGRID,TP53,TRMT10C,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL7A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL10A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL10L,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL12,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL14,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL15,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL18,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL18A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL19,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL21,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL23A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL26L1,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL27,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL3,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL30,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL31,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL37A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL4,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL6,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL7,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL8,,Affinity Capture-MS,physical
+BioGRID,TP53,RPLP0,,Affinity Capture-MS,physical
+BioGRID,TP53,RPLP2,,Affinity Capture-MS,physical
+BioGRID,TP53,RPRD1A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS14,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS15,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS17,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS2,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS24,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS25,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS27,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS3A,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS6,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS8,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS9,,Affinity Capture-MS,physical
+BioGRID,TP53,RRP1B,,Affinity Capture-MS,physical
+BioGRID,TP53,SART1,,Affinity Capture-MS,physical
+BioGRID,TP53,SCO2,,Affinity Capture-MS,physical
+BioGRID,TP53,SF3B2,,Affinity Capture-MS,physical
+BioGRID,TP53,SKP1,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC2A12,,Affinity Capture-MS,physical
+BioGRID,TP53,SNRPD3,,Affinity Capture-MS,physical
+BioGRID,TP53,SNW1,,Affinity Capture-MS,physical
+BioGRID,TP53,SUPT6H,,Affinity Capture-MS,physical
+BioGRID,TP53,TBC1D4,,Affinity Capture-MS,physical
+BioGRID,TP53,TCEAL4,,Affinity Capture-MS,physical
+BioGRID,TP53,TCP1,,Affinity Capture-MS,physical
+BioGRID,TP53,TFRC,,Affinity Capture-MS,physical
+BioGRID,TP53,TIMM50,,Affinity Capture-MS,physical
+BioGRID,TP53,TOR1AIP2,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBA1A,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBA1C,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBA4A,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBB2A,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBB4B,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBG1,,Affinity Capture-MS,physical
+BioGRID,TP53,UBB,,Affinity Capture-MS,physical
+BioGRID,TP53,UBR4,,Affinity Capture-MS,physical
+BioGRID,TP53,VASP,,Affinity Capture-MS,physical
+BioGRID,TP53,VAT1,,Affinity Capture-MS,physical
+BioGRID,TP53,DCAF7,,Affinity Capture-MS,physical
+BioGRID,TP53,YTHDF1,,Affinity Capture-MS,physical
+BioGRID,TP53,YWHAE,,Affinity Capture-MS,physical
+BioGRID,TP53,ZWINT,,Affinity Capture-MS,physical
+BioGRID,TP53,SNAI2,,Affinity Capture-MS,physical
+BioGRID,TP53,PER2,,Two-hybrid,physical
+BioGRID,TP53,TRIM59,,Affinity Capture-Western,physical
+BioGRID,TP53,TSC22D3,,Reconstituted Complex,physical
+BioGRID,TP53,UBC,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM32,,Affinity Capture-Western,physical
+BioGRID,TP53,HSPA1B,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPA2,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPA6,,Affinity Capture-MS,physical
+BioGRID,TP53,BAG5,,Affinity Capture-MS,physical
+BioGRID,TP53,RBM3,,Affinity Capture-MS,physical
+BioGRID,TP53,RBM39,,Affinity Capture-MS,physical
+BioGRID,TP53,SRSF6,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX3X,,Affinity Capture-MS,physical
+BioGRID,TP53,ACTBL2,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBA8,,Affinity Capture-MS,physical
+BioGRID,TP53,MYH9,,Affinity Capture-MS,physical
+BioGRID,TP53,MYLK,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO1C,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO6,,Affinity Capture-MS,physical
+BioGRID,TP53,TPM1,,Affinity Capture-MS,physical
+BioGRID,TP53,TPM3,,Affinity Capture-MS,physical
+BioGRID,TP53,TPM4,,Affinity Capture-MS,physical
+BioGRID,TP53,CAPZB,,Affinity Capture-MS,physical
+BioGRID,TP53,GSN,,Affinity Capture-MS,physical
+BioGRID,TP53,VIM,,Affinity Capture-MS,physical
+BioGRID,TP53,CKAP4,,Affinity Capture-MS,physical
+BioGRID,TP53,CORO1C,,Affinity Capture-MS,physical
+BioGRID,TP53,DBN1,,Affinity Capture-MS,physical
+BioGRID,TP53,FLNA,,Affinity Capture-MS,physical
+BioGRID,TP53,LIMA1,,Affinity Capture-MS,physical
+BioGRID,TP53,LMNA,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL28,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS4X,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS13,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS16,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS18,,Affinity Capture-MS,physical
+BioGRID,TP53,RPS19,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPL,,Affinity Capture-MS,physical
+BioGRID,TP53,ALYREF,,Affinity Capture-MS,physical
+BioGRID,TP53,CALD1,,Affinity Capture-MS,physical
+BioGRID,TP53,CHMP4B,,Affinity Capture-MS,physical
+BioGRID,TP53,CLTA,,Affinity Capture-MS,physical
+BioGRID,TP53,CLTB,,Affinity Capture-MS,physical
+BioGRID,TP53,CLTC,,Affinity Capture-MS,physical
+BioGRID,TP53,DHRS4,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF5B,,Affinity Capture-MS,physical
+BioGRID,TP53,GNB2,,Affinity Capture-MS,physical
+BioGRID,TP53,GTF2I,,Affinity Capture-MS,physical
+BioGRID,TP53,HADHB,,Affinity Capture-MS,physical
+BioGRID,TP53,KCTD17,,Affinity Capture-MS,physical
+BioGRID,TP53,LSM14A,,Affinity Capture-MS,physical
+BioGRID,TP53,LYZ,,Affinity Capture-MS,physical
+BioGRID,TP53,NME4,,Affinity Capture-MS,physical
+BioGRID,TP53,PPP1R12A,,Affinity Capture-MS,physical
+BioGRID,TP53,PRMT5,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC25A5,,Affinity Capture-MS,physical
+BioGRID,TP53,THRAP3,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR77,,Affinity Capture-MS,physical
+BioGRID,TP53,MAP1LC3B,,Affinity Capture-Western,physical
+BioGRID,TP53,FAM175B,,Affinity Capture-Western,physical
+BioGRID,TP53,XAF1,,Affinity Capture-Western,physical
+BioGRID,TP53,FZR1,,Biochemical Activity,physical
+BioGRID,TP53,SENP1,,Affinity Capture-Western,physical
+BioGRID,TP53,PPP1R13B,,Affinity Capture-Western,physical
+BioGRID,TP53,RELA,,Affinity Capture-Western,physical
+BioGRID,TP53,CHUK,,Affinity Capture-Western,physical
+BioGRID,TP53,CXXC1,,Affinity Capture-Western,physical
+BioGRID,TP53,ASH2L,,Affinity Capture-Western,physical
+BioGRID,TP53,SETD1A,,Affinity Capture-Western,physical
+BioGRID,TP53,WDR82,,Reconstituted Complex,physical
+BioGRID,TP53,S100A6,,Reconstituted Complex,physical
+BioGRID,TP53,ZNF302,,Two-hybrid,physical
+BioGRID,TP53,IRF7,,Two-hybrid,physical
+BioGRID,TP53,RANBP9,,Two-hybrid,physical
+BioGRID,TP53,CAPG,,Two-hybrid,physical
+BioGRID,TP53,NMT1,,Affinity Capture-Western,physical
+BioGRID,TP53,NMT2,,Affinity Capture-Western,physical
+BioGRID,TP53,BCL6,,Reconstituted Complex,physical
+BioGRID,TP53,NABP1,,Reconstituted Complex,physical
+BioGRID,TP53,NEIL3,,Reconstituted Complex,physical
+BioGRID,TP53,PADI1,,Reconstituted Complex,physical
+BioGRID,TP53,TOP1MT,,Reconstituted Complex,physical
+BioGRID,TP53,YY2,,Reconstituted Complex,physical
+BioGRID,TP53,ZIC3,,Reconstituted Complex,physical
+BioGRID,TP53,TCF4,,Reconstituted Complex,physical
+BioGRID,TP53,SRPK1,,Two-hybrid,physical
+BioGRID,TP53,SAFB,,Affinity Capture-Western,physical
+BioGRID,TP53,SAFB2,,Affinity Capture-Western,physical
+BioGRID,TP53,MAPKAPK5,,Biochemical Activity,physical
+BioGRID,TP53,KDM6A,,Affinity Capture-Western,physical
+BioGRID,TP53,ABCE1,,Affinity Capture-MS,physical
+BioGRID,TP53,CELA2B,,Affinity Capture-MS,physical
+BioGRID,TP53,TCEAL1,,Affinity Capture-MS,physical
+BioGRID,TP53,BRD7,,Affinity Capture-Western,physical
+BioGRID,TP53,HERC5,,Affinity Capture-Western,physical
+BioGRID,TP53,SRC,,Biochemical Activity,physical
+BioGRID,TP53,ZBTB33,,Affinity Capture-Western,physical
+BioGRID,TP53,GUCY1A3,,Affinity Capture-Western,physical
+BioGRID,TP53,COPS4,,Affinity Capture-Western,physical
+BioGRID,TP53,BIRC6,,Affinity Capture-Western,physical
+BioGRID,TP53,FBXW11,,Affinity Capture-MS,physical
+BioGRID,TP53,KLF5,,Affinity Capture-Western,physical
+BioGRID,TP53,AAGAB,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ACVR1C,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ADAM28,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ARMCX5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ARPP21,,Synthetic Growth Defect,genetic
+BioGRID,TP53,CENPA,,Synthetic Growth Defect,genetic
+BioGRID,TP53,CLCA3P,,Synthetic Growth Defect,genetic
+BioGRID,TP53,CPA5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,CYP20A1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,C12ORF49,,Synthetic Growth Defect,genetic
+BioGRID,TP53,DCLRE1C,,Synthetic Growth Defect,genetic
+BioGRID,TP53,DDX50,,Synthetic Growth Defect,genetic
+BioGRID,TP53,DKK2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,DOT1L,,Synthetic Growth Defect,genetic
+BioGRID,TP53,DPP6,,Synthetic Growth Defect,genetic
+BioGRID,TP53,DZIP1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,EGFR,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ELL3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,EPG5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ETV1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,EXOSC4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,RMDN1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,FHIT,,Synthetic Growth Defect,genetic
+BioGRID,TP53,GABRG3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,GFPT2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,GK2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,GOLGA2P5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,GPSM3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,GRIN2B,,Synthetic Growth Defect,genetic
+BioGRID,TP53,HAUS1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,HAUS4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,HINT3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,HOXA9,,Synthetic Growth Defect,genetic
+BioGRID,TP53,HYAL4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,IL1A,,Synthetic Growth Defect,genetic
+BioGRID,TP53,CXCL8,,Synthetic Growth Defect,genetic
+BioGRID,TP53,IMP3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,INSIG1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,IRX1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,JMJD8,,Synthetic Growth Defect,genetic
+BioGRID,TP53,KLHL40,,Synthetic Growth Defect,genetic
+BioGRID,TP53,KLRF1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,LAPTM5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,LAP3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,LGI4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MCM8,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MED8,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MED22,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MFSD12,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MIA2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MORN2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MYBPC1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,MYOT,,Synthetic Growth Defect,genetic
+BioGRID,TP53,NEUROG2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,NT5C3A,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PACRG,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PDIA5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PHYH,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PKIA,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PLAC8,,Synthetic Growth Defect,genetic
+BioGRID,TP53,POLD3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,POLR1D,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PRPF6,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PSD3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PTX3,,Synthetic Growth Defect,genetic
+BioGRID,TP53,PURG,,Synthetic Growth Defect,genetic
+BioGRID,TP53,RECQL5,,Synthetic Growth Defect,genetic
+BioGRID,TP53,RETNLB,,Synthetic Growth Defect,genetic
+BioGRID,TP53,RNASE4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,RPL36P14,,Synthetic Growth Defect,genetic
+BioGRID,TP53,RPUSD4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SACS,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SAMD7,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SBF2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SEC63,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SLAMF1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SLC7A2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SNX12,,Synthetic Growth Defect,genetic
+BioGRID,TP53,SPESP1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,STAM2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,STT3B,,Synthetic Growth Defect,genetic
+BioGRID,TP53,STXBP4,,Synthetic Growth Defect,genetic
+BioGRID,TP53,STX2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,TBC1D24,,Synthetic Growth Defect,genetic
+BioGRID,TP53,THAP1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,NELFCD,,Synthetic Growth Defect,genetic
+BioGRID,TP53,TMEM200A,,Synthetic Growth Defect,genetic
+BioGRID,TP53,TOM1L1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,TTC28,,Synthetic Growth Defect,genetic
+BioGRID,TP53,UBQLN2,,Synthetic Growth Defect,genetic
+BioGRID,TP53,UMPS,,Synthetic Growth Defect,genetic
+BioGRID,TP53,USH2A,,Synthetic Growth Defect,genetic
+BioGRID,TP53,USP1,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ZNF300,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ZNF619,,Synthetic Growth Defect,genetic
+BioGRID,TP53,ZNF763,,Synthetic Growth Defect,genetic
+BioGRID,TP53,TERT,,Phenotypic Enhancement,genetic
+BioGRID,TP53,RBBP6,,Affinity Capture-Western,physical
+BioGRID,TP53,PLCG2,,Two-hybrid,physical
+BioGRID,TP53,CRK,,Two-hybrid,physical
+BioGRID,TP53,APPL1,,Two-hybrid,physical
+BioGRID,TP53,ZBTB17,,Affinity Capture-Western,physical
+BioGRID,TP53,UBE2Q1,,Affinity Capture-Western,physical
+BioGRID,TP53,OFD1,,Affinity Capture-MS,physical
+BioGRID,TP53,SSX2IP,,Proximity Label-MS,physical
+BioGRID,TP53,CEP120,,Proximity Label-MS,physical
+BioGRID,TP53,CEP152,,Proximity Label-MS,physical
+BioGRID,TP53,SPICE1,,Proximity Label-MS,physical
+BioGRID,TP53,CEP128,,Proximity Label-MS,physical
+BioGRID,TP53,CEP135,,Proximity Label-MS,physical
+BioGRID,TP53,NINL,,Proximity Label-MS,physical
+BioGRID,TP53,NIN,,Proximity Label-MS,physical
+BioGRID,TP53,RPGRIP1L,,Proximity Label-MS,physical
+BioGRID,TP53,HINFP,,Two-hybrid,physical
+BioGRID,TP53,RNF125,,Affinity Capture-Western,physical
+BioGRID,TP53,FOXO3,,Co-localization,physical
+BioGRID,TP53,PPP2R5C,,Co-localization,physical
+BioGRID,TP53,BAX,,Co-localization,physical
+BioGRID,TP53,PPP2R1A,,Co-localization,physical
+BioGRID,TP53,STK4,,Co-localization,physical
+BioGRID,TP53,CSNK1E,,Co-localization,physical
+BioGRID,TP53,TP73,,Affinity Capture-Western,physical
+BioGRID,TP53,GLI1,,Affinity Capture-MS,physical
+BioGRID,TP53,NFATC1,,Affinity Capture-MS,physical
+BioGRID,TP53,SMARCA5,,Affinity Capture-MS,physical
+BioGRID,TP53,FBXW8,,Affinity Capture-MS,physical
+BioGRID,TP53,MOV10,,Affinity Capture-MS,physical
+BioGRID,TP53,NPAS3,,Affinity Capture-MS,physical
+BioGRID,TP53,PES1,,Affinity Capture-MS,physical
+BioGRID,TP53,POLRMT,,Affinity Capture-MS,physical
+BioGRID,TP53,RNASEL,,Affinity Capture-MS,physical
+BioGRID,TP53,RPA2,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL29P11,,Affinity Capture-MS,physical
+BioGRID,TP53,SMG5,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXA3,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXB1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXC1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXG1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXJ3,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXK1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXK2,,Affinity Capture-MS,physical
+BioGRID,TP53,REV1,,Affinity Capture-Western,physical
+BioGRID,TP53,HSP90B1,,Affinity Capture-Western,physical
+BioGRID,TP53,BRINP1,,Affinity Capture-Western,physical
+BioGRID,TP53,FOXN1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXP1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXQ1,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXS1,,Affinity Capture-MS,physical
+BioGRID,TP53,TFIP11,,Affinity Capture-Western,physical
+BioGRID,TP53,ERN1,,Affinity Capture-Western,physical
+BioGRID,TP53,DNMT3L,,Reconstituted Complex,physical
+BioGRID,TP53,UHRF1,,Affinity Capture-Western,physical
+BioGRID,TP53,LAMTOR5,,Affinity Capture-Western,physical
+BioGRID,TP53,TGM2,,Affinity Capture-Western,physical
+BioGRID,TP53,NAT10,,Affinity Capture-MS,physical
+BioGRID,TP53,CCND1,,Affinity Capture-Western,physical
+BioGRID,TP53,USP24,,Biochemical Activity,physical
+BioGRID,TP53,GMPS,,Affinity Capture-Western,physical
+BioGRID,TP53,NR1I2,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM65,,Affinity Capture-Western,physical
+BioGRID,TP53,BCL2L12,,Reconstituted Complex,physical
+BioGRID,TP53,DGKZ,,Affinity Capture-Western,physical
+BioGRID,TP53,TSNAX,,Dosage Rescue,genetic
+BioGRID,TP53,KIF2A,,Dosage Rescue,genetic
+BioGRID,TP53,CDKN1C,,Affinity Capture-MS,physical
+BioGRID,TP53,HBB,,Affinity Capture-MS,physical
+BioGRID,TP53,EEA1,,Affinity Capture-MS,physical
+BioGRID,TP53,GLTSCR2,,Affinity Capture-Western,physical
+BioGRID,TP53,LRRK2,,Biochemical Activity,physical
+BioGRID,TP53,POLI,,Affinity Capture-Western,physical
+BioGRID,TP53,ATXN3,,Affinity Capture-MS,physical
+BioGRID,TP53,USP15,,Affinity Capture-Western,physical
+BioGRID,TP53,CYLD,,Affinity Capture-Western,physical
+BioGRID,TP53,USP21,,Biochemical Activity,physical
+BioGRID,TP53,STAMBP,,Biochemical Activity,physical
+BioGRID,TP53,KIT,,Positive Genetic,genetic
+BioGRID,TP53,NGFR,,Affinity Capture-Western,physical
+BioGRID,TP53,HYPK,,Affinity Capture-MS,physical
+BioGRID,TP53,TRAF6,,Biochemical Activity,physical
+BioGRID,TP53,SMG7,,Affinity Capture-Western,physical
+BioGRID,TP53,BECN1,,Affinity Capture-Western,physical
+BioGRID,TP53,TBPL1,,Reconstituted Complex,physical
+BioGRID,TP53,MSI2,,Affinity Capture-Western,physical
+BioGRID,TP53,OTUD1,,Affinity Capture-Western,physical
+BioGRID,TP53,FBXW7,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM111A,,Affinity Capture-MS,physical
+BioGRID,TP53,GPR156,,Affinity Capture-MS,physical
+BioGRID,TP53,RORC,,Affinity Capture-MS,physical
+BioGRID,TP53,HOMER3,,Affinity Capture-MS,physical
+BioGRID,TP53,HR,,Affinity Capture-Western,physical
+BioGRID,TP53,OLIG2,,Phenotypic Suppression,genetic
+BioGRID,TP53,KDR,,Synthetic Lethality,genetic
+BioGRID,TP53,AIPL1,,Affinity Capture-MS,physical
+BioGRID,TP53,DACH1,,Affinity Capture-Western,physical
+BioGRID,TP53,DLST,,Affinity Capture-MS,physical
+BioGRID,TP53,PDHA1,,Affinity Capture-MS,physical
+BioGRID,TP53,RBPJ,,Affinity Capture-Western,physical
+BioGRID,TP53,CETP,,Two-hybrid,physical
+BioGRID,TP53,ACKR3,,Two-hybrid,physical
+BioGRID,TP53,RAB7A,,Two-hybrid,physical
+BioGRID,TP53,SLC9A9,,Two-hybrid,physical
+BioGRID,TP53,STARD10,,Two-hybrid,physical
+BioGRID,TP53,UBE2V2,,Two-hybrid,physical
+BioGRID,TP53,ZNF679,,Two-hybrid,physical
+BioGRID,TP53,ZNF839,,Two-hybrid,physical
+BioGRID,TP53,HEY1,,Reconstituted Complex,physical
+BioGRID,TP53,TRIM45,,Affinity Capture-Western,physical
+BioGRID,TP53,PARK2,,Reconstituted Complex,physical
+BioGRID,TP53,YWHAB,,Affinity Capture-Western,physical
+BioGRID,TP53,USP3,,Affinity Capture-Western,physical
+BioGRID,TP53,NDRG4,,Affinity Capture-Western,physical
+BioGRID,TP53,CFTR,,Affinity Capture-MS,physical
+BioGRID,TP53,PPP2CA,,Affinity Capture-Western,physical
+BioGRID,TP53,PHC3,,Affinity Capture-MS,physical
+BioGRID,TP53,HIF1AN,,Affinity Capture-MS,physical
+BioGRID,TP53,EGLN3,,Affinity Capture-MS,physical
+BioGRID,TP53,RIPK4,,Affinity Capture-MS,physical
+BioGRID,TP53,MAPK6,,Affinity Capture-MS,physical
+BioGRID,TP53,PAK4,,Reconstituted Complex,physical
+BioGRID,TP53,ZBTB49,,Affinity Capture-Western,physical
+BioGRID,TP53,NEURL4,,Affinity Capture-Western,physical
+BioGRID,TP53,USP28,,Biochemical Activity,physical
+BioGRID,TP53,REL,,Affinity Capture-MS,physical
+BioGRID,TP53,LARP7,,Affinity Capture-MS,physical
+BioGRID,TP53,EAF2,,Two-hybrid,physical
+BioGRID,TP53,PRKAB2,,Two-hybrid,physical
+BioGRID,TP53,FAM188B,,Affinity Capture-MS,physical
+BioGRID,TP53,BBC3,,Co-localization,physical
+BioGRID,TP53,C12ORF5,,Co-localization,physical
+BioGRID,TP53,GLS2,,Co-localization,physical
+BioGRID,TP53,PELP1,,Reconstituted Complex,physical
+BioGRID,TP53,UBE2L3,,Biochemical Activity,physical
+BioGRID,TP53,NAP1L1,,Reconstituted Complex,physical
+BioGRID,TP53,ANXA1,,Affinity Capture-Western,physical
+BioGRID,TP53,PPARG,,Affinity Capture-Western,physical
+BioGRID,TP53,RUNX3,,Affinity Capture-Western,physical
+BioGRID,TP53,SUB1,,Reconstituted Complex,physical
+BioGRID,TP53,PBK,,Affinity Capture-Western,physical
+BioGRID,TP53,PPIB,,Affinity Capture-Western,physical
+BioGRID,TP53,CASP3,,Affinity Capture-MS,physical
+BioGRID,TP53,LDB3,,Affinity Capture-Western,physical
+BioGRID,TP53,XPO1,,Two-hybrid,physical
+BioGRID,TP53,CSNK2A2,,Biochemical Activity,physical
+BioGRID,TP53,NUAK1,,Affinity Capture-Western,physical
+BioGRID,TP53,TSPY1,,Affinity Capture-Western,physical
+BioGRID,TP53,E2F1,,Affinity Capture-Western,physical
+BioGRID,TP53,CDK4,,Affinity Capture-Western,physical
+BioGRID,TP53,USP49,,Co-localization,physical
+BioGRID,TP53,TOPBP1,,Affinity Capture-Western,physical
+BioGRID,TP53,LACTB,,Affinity Capture-Western,physical
+BioGRID,TP53,POLR2A,,Reconstituted Complex,physical
+BioGRID,TP53,NTHL1,,Reconstituted Complex,physical
+BioGRID,TP53,EIF3F,,Affinity Capture-Western,physical
+BioGRID,TP53,HNRNPA0,,Affinity Capture-MS,physical
+BioGRID,TP53,NUP88,,Affinity Capture-MS,physical
+BioGRID,TP53,NUP155,,Affinity Capture-MS,physical
+BioGRID,TP53,SF3B1,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC24D,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3H,,Affinity Capture-MS,physical
+BioGRID,TP53,TAB1,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3L,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC13,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC31A,,Affinity Capture-MS,physical
+BioGRID,TP53,ZFYVE16,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3I,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3M,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBGCP2,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3E,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3G,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3B,,Affinity Capture-MS,physical
+BioGRID,TP53,SNRPA1,,Affinity Capture-MS,physical
+BioGRID,TP53,SCYL2,,Affinity Capture-MS,physical
+BioGRID,TP53,PTGES3,,Affinity Capture-Western,physical
+BioGRID,TP53,FKBP4,,Affinity Capture-Western,physical
+BioGRID,TP53,PPID,,Affinity Capture-Western,physical
+BioGRID,TP53,TFPI2,,Affinity Capture-Western,physical
+BioGRID,TP53,DCTN2,,Affinity Capture-Western,physical
+BioGRID,TP53,DDX20,,Reconstituted Complex,physical
+BioGRID,TP53,PPM1D,,Biochemical Activity,physical
+BioGRID,TP53,TMEM173,,Affinity Capture-Western,physical
+BioGRID,TP53,HIST1H2AB,,Affinity Capture-MS,physical
+BioGRID,TP53,MAML1,,Reconstituted Complex,physical
+BioGRID,TP53,RPS6KA2,,Two-hybrid,physical
+BioGRID,TP53,RPS6KA3,,Biochemical Activity,physical
+BioGRID,TP53,RPS6KA1,,Biochemical Activity,physical
+BioGRID,TP53,TRIM25,,Affinity Capture-Western,physical
+BioGRID,TP53,HMGA2,,Affinity Capture-Western,physical
+BioGRID,TP53,APBB2,,Reconstituted Complex,physical
+BioGRID,TP53,MYL6B,,Affinity Capture-Western,physical
+BioGRID,TP53,CBLB,,Affinity Capture-Western,physical
+BioGRID,TP53,ZC3H7A,,Proximity Label-MS,physical
+BioGRID,TP53,AATF,,Affinity Capture-Western,physical
+BioGRID,TP53,KLF9,,Co-localization,physical
+BioGRID,TP53,MRE11A,,Affinity Capture-Western,physical
+BioGRID,TP53,BCCIP,,Reconstituted Complex,physical
+BioGRID,TP53,WHSC1,,Affinity Capture-Western,physical
+BioGRID,TP53,FBXO22,,Affinity Capture-Western,physical
+BioGRID,TP53,AHNAK,,Affinity Capture-Western,physical
+BioGRID,TP53,LRPAP1,,Affinity Capture-Western,physical
+BioGRID,TP53,MECOM,,Affinity Capture-MS,physical
+BioGRID,TP53,ZDHHC18,,Affinity Capture-MS,physical
+BioGRID,TP53,ZDHHC23,,Affinity Capture-MS,physical
+BioGRID,TP53,BICD1,,Proximity Label-MS,physical
+BioGRID,TP53,CRBN,,Affinity Capture-Western,physical
+BioGRID,TP53,GYS2,,Affinity Capture-Western,physical
+BioGRID,TP53,VRK3,,Affinity Capture-MS,physical
+BioGRID,TP53,BRD4,,Affinity Capture-Western,physical
+BioGRID,TP53,PRKAA1,,Affinity Capture-Western,physical
+BioGRID,TP53,RBCK1,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM69,,Affinity Capture-Western,physical
+BioGRID,TP53,SMYD3,,Affinity Capture-Western,physical
+BioGRID,TP53,TIAF1,,FRET,physical
+BioGRID,TP53,PELI1,,Affinity Capture-MS,physical
+BioGRID,TP53,PELI2,,Protein-peptide,physical
+BioGRID,TP53,EPHA2,,FRET,physical
+BioGRID,TP53,NF2,,FRET,physical
+BioGRID,TP53,ARAF,,FRET,physical
+BioGRID,TP53,CBLC,,FRET,physical
+BioGRID,TP53,MAP2K5,,FRET,physical
+BioGRID,TP53,AKT1,,FRET,physical
+BioGRID,TP53,ARNT,,FRET,physical
+BioGRID,TP53,CDK6,,FRET,physical
+BioGRID,TP53,CDKN2B,,FRET,physical
+BioGRID,TP53,ERBB2,,FRET,physical
+BioGRID,TP53,FGFR4,,FRET,physical
+BioGRID,TP53,LATS2,,FRET,physical
+BioGRID,TP53,MAP2K3,,FRET,physical
+BioGRID,TP53,MET,,FRET,physical
+BioGRID,TP53,PDGFRA,,FRET,physical
+BioGRID,TP53,TEAD2,,FRET,physical
+BioGRID,TP53,CLUAP1,,Affinity Capture-MS,physical
+BioGRID,TP53,BIRC3,,Affinity Capture-MS,physical
+BioGRID,TP53,RNF40,,Affinity Capture-Western,physical
+BioGRID,TP53,PRPF8,,Reconstituted Complex,physical
+BioGRID,TP53,COA1,,Affinity Capture-MS,physical
+BioGRID,TP53,MCCC2,,Affinity Capture-MS,physical
+BioGRID,TP53,MCCC1,,Affinity Capture-MS,physical
+BioGRID,TP53,PC,,Affinity Capture-MS,physical
+BioGRID,TP53,DECR1,,Affinity Capture-MS,physical
+BioGRID,TP53,ACACA,,Affinity Capture-MS,physical
+BioGRID,TP53,PCCB,,Affinity Capture-MS,physical
+BioGRID,TP53,HADHA,,Affinity Capture-MS,physical
+BioGRID,TP53,WAC,,Affinity Capture-MS,physical
+BioGRID,TP53,YES1P1,,Affinity Capture-MS,physical
+BioGRID,TP53,AP2B1,,Affinity Capture-MS,physical
+BioGRID,TP53,MAGEB2,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL17,,Affinity Capture-MS,physical
+BioGRID,TP53,SDPR,,Affinity Capture-MS,physical
+BioGRID,TP53,SSB,,Affinity Capture-MS,physical
+BioGRID,TP53,RPLP1,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF2S3,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX1,,Affinity Capture-MS,physical
+BioGRID,TP53,YBX3,,Affinity Capture-MS,physical
+BioGRID,TP53,HIST1H2BB,,Affinity Capture-MS,physical
+BioGRID,TP53,MAPK8IP3,,Affinity Capture-MS,physical
+BioGRID,TP53,EEF1A1P5,,Affinity Capture-MS,physical
+BioGRID,TP53,CSNK1A1L,,Affinity Capture-MS,physical
+BioGRID,TP53,SYNCRIP,,Affinity Capture-MS,physical
+BioGRID,TP53,PCCA,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPD,,Affinity Capture-MS,physical
+BioGRID,TP53,SYK,,Affinity Capture-MS,physical
+BioGRID,TP53,FBXL15,,Affinity Capture-MS,physical
+BioGRID,TP53,DHX9,,Affinity Capture-MS,physical
+BioGRID,TP53,MUC2,,Affinity Capture-MS,physical
+BioGRID,TP53,GFM2,,Affinity Capture-MS,physical
+BioGRID,TP53,GAPDHS,,Affinity Capture-MS,physical
+BioGRID,TP53,MAGEA1,,Affinity Capture-Western,physical
+BioGRID,TP53,TRAIP,,Affinity Capture-MS,physical
+BioGRID,TP53,PLEKHA4,,Affinity Capture-MS,physical
+BioGRID,TP53,USP9X,,Affinity Capture-MS,physical
+BioGRID,TP53,FUBP1,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM71,,Affinity Capture-MS,physical
+BioGRID,TP53,YAP1,,Affinity Capture-MS,physical
+BioGRID,TP53,TFCP2,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM67,,Affinity Capture-Western,physical
+BioGRID,TP53,ZNF398,,Co-localization,physical
+BioGRID,TP53,HELLS,,Biochemical Activity,physical
+BioGRID,TP53,PKM,,Affinity Capture-Western,physical
+BioGRID,TP53,MT1G,,Affinity Capture-Western,physical
+BioGRID,TP53,JDP2,,Reconstituted Complex,physical
+BioGRID,TP53,ZC3H18,,Affinity Capture-MS,physical
+BioGRID,TP53,LNX1,,Affinity Capture-Western,physical
+BioGRID,TP53,LRRC31,,Affinity Capture-MS,physical
+BioGRID,TP53,BRD1,,Affinity Capture-MS,physical
+BioGRID,TP53,BRD3,,Affinity Capture-MS,physical
+BioGRID,TP53,BRPF3,,Affinity Capture-MS,physical
+BioGRID,TP53,CECR2,,Affinity Capture-MS,physical
+BioGRID,TP53,SP100,,Affinity Capture-MS,physical
+BioGRID,TP53,SP110,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM66,,Affinity Capture-MS,physical
+BioGRID,TP53,MCF2,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO9A,,Affinity Capture-MS,physical
+BioGRID,TP53,ARHGEF4,,Affinity Capture-MS,physical
+BioGRID,TP53,SOS2,,Affinity Capture-MS,physical
+BioGRID,TP53,E2F4,,Positive Genetic,genetic
+BioGRID,TP53,GLIS1,,Negative Genetic,genetic
+BioGRID,TP53,CNTRL,,Negative Genetic,genetic
+BioGRID,TP53,EFNB2,,Negative Genetic,genetic
+BioGRID,TP53,CCDC54,,Negative Genetic,genetic
+BioGRID,TP53,RGAG4,,Negative Genetic,genetic
+BioGRID,TP53,PGLYRP4,,Negative Genetic,genetic
+BioGRID,TP53,ZNF207,,Negative Genetic,genetic
+BioGRID,TP53,GLTSCR1L,,Negative Genetic,genetic
+BioGRID,TP53,SLC2A1,,Negative Genetic,genetic
+BioGRID,TP53,NFXL1,,Negative Genetic,genetic
+BioGRID,TP53,ZNF230,,Negative Genetic,genetic
+BioGRID,TP53,LIMS2,,Negative Genetic,genetic
+BioGRID,TP53,ERBB3,,Negative Genetic,genetic
+BioGRID,TP53,IKBKG,,Negative Genetic,genetic
+BioGRID,TP53,ZMAT2,,Negative Genetic,genetic
+BioGRID,TP53,CNIH3,,Negative Genetic,genetic
+BioGRID,TP53,SYT12,,Negative Genetic,genetic
+BioGRID,TP53,DAOA,,Negative Genetic,genetic
+BioGRID,TP53,CD8A,,Negative Genetic,genetic
+BioGRID,TP53,PRIMA1,,Negative Genetic,genetic
+BioGRID,TP53,C11ORF68,,Negative Genetic,genetic
+BioGRID,TP53,SETD4,,Negative Genetic,genetic
+BioGRID,TP53,NR3C2,,Negative Genetic,genetic
+BioGRID,TP53,ABHD16B,,Negative Genetic,genetic
+BioGRID,TP53,PCID2,,Negative Genetic,genetic
+BioGRID,TP53,OR8G2,,Negative Genetic,genetic
+BioGRID,TP53,SMARCD3,,Negative Genetic,genetic
+BioGRID,TP53,TRNT1,,Negative Genetic,genetic
+BioGRID,TP53,C18ORF21,,Negative Genetic,genetic
+BioGRID,TP53,EDC4,,Negative Genetic,genetic
+BioGRID,TP53,PTCHD3,,Negative Genetic,genetic
+BioGRID,TP53,TRPT1,,Negative Genetic,genetic
+BioGRID,TP53,FUT10,,Negative Genetic,genetic
+BioGRID,TP53,SCLY,,Negative Genetic,genetic
+BioGRID,TP53,WNT4,,Negative Genetic,genetic
+BioGRID,TP53,UTF1,,Negative Genetic,genetic
+BioGRID,TP53,SYT5,,Negative Genetic,genetic
+BioGRID,TP53,ZNF268,,Negative Genetic,genetic
+BioGRID,TP53,ORC3,,Negative Genetic,genetic
+BioGRID,TP53,MAGI3,,Negative Genetic,genetic
+BioGRID,TP53,FCRL6,,Negative Genetic,genetic
+BioGRID,TP53,FAM24A,,Negative Genetic,genetic
+BioGRID,TP53,CAPN7,,Negative Genetic,genetic
+BioGRID,TP53,LIN54,,Negative Genetic,genetic
+BioGRID,TP53,C16ORF59,,Negative Genetic,genetic
+BioGRID,TP53,NDUFV3,,Negative Genetic,genetic
+BioGRID,TP53,SYN2,,Negative Genetic,genetic
+BioGRID,TP53,GPER1,,Negative Genetic,genetic
+BioGRID,TP53,CRYGC,,Negative Genetic,genetic
+BioGRID,TP53,ASTL,,Negative Genetic,genetic
+BioGRID,TP53,USP4,,Negative Genetic,genetic
+BioGRID,TP53,PVRIG,,Negative Genetic,genetic
+BioGRID,TP53,COL14A1,,Negative Genetic,genetic
+BioGRID,TP53,ERI3,,Negative Genetic,genetic
+BioGRID,TP53,KCNA5,,Negative Genetic,genetic
+BioGRID,TP53,POMP,,Negative Genetic,genetic
+BioGRID,TP53,NKG7,,Negative Genetic,genetic
+BioGRID,TP53,TMEM86A,,Negative Genetic,genetic
+BioGRID,TP53,TRIM3,,Negative Genetic,genetic
+BioGRID,TP53,TAS2R60,,Negative Genetic,genetic
+BioGRID,TP53,STOML3,,Negative Genetic,genetic
+BioGRID,TP53,MAD2L2,,Negative Genetic,genetic
+BioGRID,TP53,TXNL1,,Negative Genetic,genetic
+BioGRID,TP53,TMED1,,Negative Genetic,genetic
+BioGRID,TP53,ARL14EPL,,Negative Genetic,genetic
+BioGRID,TP53,CCDC86,,Negative Genetic,genetic
+BioGRID,TP53,GNAS,,Negative Genetic,genetic
+BioGRID,TP53,FAM47E-STBD1,,Negative Genetic,genetic
+BioGRID,TP53,LOC554223,,Negative Genetic,genetic
+BioGRID,TP53,FAM174A,,Negative Genetic,genetic
+BioGRID,TP53,LRRC15,,Negative Genetic,genetic
+BioGRID,TP53,MB21D2,,Negative Genetic,genetic
+BioGRID,TP53,ATP2C1,,Negative Genetic,genetic
+BioGRID,TP53,OTULIN,,Negative Genetic,genetic
+BioGRID,TP53,KRT5,,Negative Genetic,genetic
+BioGRID,TP53,PUM2,,Negative Genetic,genetic
+BioGRID,TP53,ZNF79,,Negative Genetic,genetic
+BioGRID,TP53,AKR1A1,,Negative Genetic,genetic
+BioGRID,TP53,GNPNAT1,,Negative Genetic,genetic
+BioGRID,TP53,LRRC27,,Negative Genetic,genetic
+BioGRID,TP53,FUBP3,,Negative Genetic,genetic
+BioGRID,TP53,GATAD2B,,Negative Genetic,genetic
+BioGRID,TP53,TBC1D21,,Negative Genetic,genetic
+BioGRID,TP53,OR2L5,,Negative Genetic,genetic
+BioGRID,TP53,CHRFAM7A,,Negative Genetic,genetic
+BioGRID,TP53,TAMM41,,Negative Genetic,genetic
+BioGRID,TP53,TMEM116,,Negative Genetic,genetic
+BioGRID,TP53,TRAM1L1,,Negative Genetic,genetic
+BioGRID,TP53,NTSR2,,Negative Genetic,genetic
+BioGRID,TP53,WDR83,,Negative Genetic,genetic
+BioGRID,TP53,URB2,,Negative Genetic,genetic
+BioGRID,TP53,TGIF2,,Negative Genetic,genetic
+BioGRID,TP53,ZCCHC18,,Negative Genetic,genetic
+BioGRID,TP53,LOH12CR1,,Negative Genetic,genetic
+BioGRID,TP53,RAPSN,,Negative Genetic,genetic
+BioGRID,TP53,OGN,,Negative Genetic,genetic
+BioGRID,TP53,CADM4,,Negative Genetic,genetic
+BioGRID,TP53,PRY2,,Negative Genetic,genetic
+BioGRID,TP53,NKAIN4,,Negative Genetic,genetic
+BioGRID,TP53,TMCO2,,Negative Genetic,genetic
+BioGRID,TP53,OR51M1,,Negative Genetic,genetic
+BioGRID,TP53,RIMBP2,,Negative Genetic,genetic
+BioGRID,TP53,SSX5,,Negative Genetic,genetic
+BioGRID,TP53,GATA2,,Negative Genetic,genetic
+BioGRID,TP53,PRR11,,Negative Genetic,genetic
+BioGRID,TP53,SLFN5,,Negative Genetic,genetic
+BioGRID,TP53,DYRK2,,Negative Genetic,genetic
+BioGRID,TP53,KMT2D,,Negative Genetic,genetic
+BioGRID,TP53,DCAF10,,Negative Genetic,genetic
+BioGRID,TP53,GLRA1,,Negative Genetic,genetic
+BioGRID,TP53,SLC38A10,,Negative Genetic,genetic
+BioGRID,TP53,BDKRB1,,Negative Genetic,genetic
+BioGRID,TP53,TRIP12,,Negative Genetic,genetic
+BioGRID,TP53,POLR2C,,Negative Genetic,genetic
+BioGRID,TP53,HAGH,,Negative Genetic,genetic
+BioGRID,TP53,LGR6,,Negative Genetic,genetic
+BioGRID,TP53,SPATA31A1,,Negative Genetic,genetic
+BioGRID,TP53,CSN3,,Negative Genetic,genetic
+BioGRID,TP53,TRIM42,,Negative Genetic,genetic
+BioGRID,TP53,PCGF1,,Negative Genetic,genetic
+BioGRID,TP53,ATN1,,Negative Genetic,genetic
+BioGRID,TP53,SLC25A34,,Negative Genetic,genetic
+BioGRID,TP53,POGLUT1,,Negative Genetic,genetic
+BioGRID,TP53,MPP1,,Negative Genetic,genetic
+BioGRID,TP53,HMX1,,Negative Genetic,genetic
+BioGRID,TP53,SST,,Negative Genetic,genetic
+BioGRID,TP53,MAVS,,Affinity Capture-Western,physical
+BioGRID,TP53,AKAP5,,Two-hybrid,physical
+BioGRID,TP53,FOS,,Two-hybrid,physical
+BioGRID,TP53,JUN,,Two-hybrid,physical
+BioGRID,TP53,CLPB,,Phenotypic Suppression,genetic
+BioGRID,TP53,RBM10,,Affinity Capture-Western,physical
+BioGRID,TP53,PLCE1,,Affinity Capture-Western,physical
+BioGRID,TP53,BAG6,,Affinity Capture-Western,physical
+BioGRID,TP53,NUPR1,,Co-localization,physical
+BioGRID,TP53,TRIM23,,Affinity Capture-Western,physical
+BioGRID,TP53,SBDS,,Affinity Capture-Western,physical
+BioGRID,TP53,MKRN2,,Affinity Capture-Western,physical
+BioGRID,TP53,CIC,,Affinity Capture-MS,physical
+BioGRID,TP53,HSF1,,Affinity Capture-Western,physical
+BioGRID,TP53,SCN3B,,Affinity Capture-Western,physical
+BioGRID,TP53,TMUB1,,Affinity Capture-Western,physical
+BioGRID,TP53,GAS5,,Affinity Capture-RNA,physical
+BioGRID,TP53,RNF138,,Biochemical Activity,physical
+BioGRID,TP53,ZNF514,,Affinity Capture-MS,physical
+BioGRID,TP53,S100A1,,Reconstituted Complex,physical
+BioGRID,TP53,OTUD3,,Affinity Capture-Western,physical
+BioGRID,TP53,OGT,,Reconstituted Complex,physical
+BioGRID,TP53,UFL1,,Affinity Capture-MS,physical
+BioGRID,TP53,DDRGK1,,Affinity Capture-MS,physical
+BioGRID,TP53,IGKV2-29,,Affinity Capture-MS,physical
+BioGRID,TP53,SUMO2,,Affinity Capture-MS,physical
+BioGRID,TP53,UBA52,,Affinity Capture-MS,physical
+BioGRID,TP53,PECR,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX21,,Affinity Capture-MS,physical
+BioGRID,TP53,ACLY,,Affinity Capture-MS,physical
+BioGRID,TP53,MCM5,,Affinity Capture-MS,physical
+BioGRID,TP53,ILF3,,Affinity Capture-MS,physical
+BioGRID,TP53,ADCK5,,Affinity Capture-MS,physical
+BioGRID,TP53,SND1,,Affinity Capture-MS,physical
+BioGRID,TP53,AGTPBP1,,Affinity Capture-MS,physical
+BioGRID,TP53,ATP1A1,,Affinity Capture-MS,physical
+BioGRID,TP53,COPB2,,Affinity Capture-MS,physical
+BioGRID,TP53,CCDC91,,Affinity Capture-MS,physical
+BioGRID,TP53,NOP2,,Affinity Capture-MS,physical
+BioGRID,TP53,EFTUD2,,Affinity Capture-MS,physical
+BioGRID,TP53,FASN,,Affinity Capture-MS,physical
+BioGRID,TP53,NPEPPS,,Affinity Capture-MS,physical
+BioGRID,TP53,CDC6,,Affinity Capture-MS,physical
+BioGRID,TP53,GANAB,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPUL1,,Affinity Capture-MS,physical
+BioGRID,TP53,MCM6,,Affinity Capture-MS,physical
+BioGRID,TP53,PSMD2,,Affinity Capture-MS,physical
+BioGRID,TP53,NKRF,,Affinity Capture-MS,physical
+BioGRID,TP53,SUPT16H,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX17,,Affinity Capture-MS,physical
+BioGRID,TP53,ZC3HAV1,,Affinity Capture-MS,physical
+BioGRID,TP53,TBL3,,Affinity Capture-MS,physical
+BioGRID,TP53,MSN,,Affinity Capture-MS,physical
+BioGRID,TP53,PLCH2,,Affinity Capture-MS,physical
+BioGRID,TP53,XRCC5,,Affinity Capture-MS,physical
+BioGRID,TP53,DYNC1I2,,Affinity Capture-MS,physical
+BioGRID,TP53,EPB41L3,,Affinity Capture-MS,physical
+BioGRID,TP53,MATR3,,Affinity Capture-MS,physical
+BioGRID,TP53,ACBD3,,Affinity Capture-MS,physical
+BioGRID,TP53,STT3A,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC16A1,,Affinity Capture-MS,physical
+BioGRID,TP53,SFPQ,,Affinity Capture-MS,physical
+BioGRID,TP53,DHX15,,Affinity Capture-MS,physical
+BioGRID,TP53,ADD3,,Affinity Capture-MS,physical
+BioGRID,TP53,OCRL,,Affinity Capture-MS,physical
+BioGRID,TP53,CUL1,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF22,,Affinity Capture-MS,physical
+BioGRID,TP53,TARS,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPUL2,,Affinity Capture-MS,physical
+BioGRID,TP53,HIST1H1D,,Affinity Capture-MS,physical
+BioGRID,TP53,EPB41L2,,Affinity Capture-MS,physical
+BioGRID,TP53,RPN1,,Affinity Capture-MS,physical
+BioGRID,TP53,CSDE1,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC25A3,,Affinity Capture-MS,physical
+BioGRID,TP53,PDIA4,,Affinity Capture-MS,physical
+BioGRID,TP53,EPB41,,Affinity Capture-MS,physical
+BioGRID,TP53,COPG1,,Affinity Capture-MS,physical
+BioGRID,TP53,NXF1,,Affinity Capture-MS,physical
+BioGRID,TP53,UBA1,,Affinity Capture-MS,physical
+BioGRID,TP53,HCFC1,,Affinity Capture-MS,physical
+BioGRID,TP53,YTHDF2,,Affinity Capture-MS,physical
+BioGRID,TP53,DPY19L1,,Affinity Capture-MS,physical
+BioGRID,TP53,EPRS,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR36,,Affinity Capture-MS,physical
+BioGRID,TP53,USP5,,Affinity Capture-MS,physical
+BioGRID,TP53,TLE3,,Affinity Capture-MS,physical
+BioGRID,TP53,HBS1L,,Affinity Capture-MS,physical
+BioGRID,TP53,COPB1,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX54,,Affinity Capture-MS,physical
+BioGRID,TP53,GFM1,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC61A1,,Affinity Capture-MS,physical
+BioGRID,TP53,PLG,,Affinity Capture-MS,physical
+BioGRID,TP53,PRPF3,,Affinity Capture-MS,physical
+BioGRID,TP53,CUL2,,Affinity Capture-MS,physical
+BioGRID,TP53,SF3B3,,Affinity Capture-MS,physical
+BioGRID,TP53,HNRNPR,,Affinity Capture-MS,physical
+BioGRID,TP53,POP1,,Affinity Capture-MS,physical
+BioGRID,TP53,SCAMP3,,Affinity Capture-MS,physical
+BioGRID,TP53,HM13,,Affinity Capture-MS,physical
+BioGRID,TP53,DNM2,,Affinity Capture-MS,physical
+BioGRID,TP53,RAN,,Affinity Capture-MS,physical
+BioGRID,TP53,SH3PXD2B,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPH1,,Affinity Capture-MS,physical
+BioGRID,TP53,ARL6IP5,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX27,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC24C,,Affinity Capture-MS,physical
+BioGRID,TP53,DCD,,Affinity Capture-MS,physical
+BioGRID,TP53,ACTG1,,Affinity Capture-MS,physical
+BioGRID,TP53,TSPAN3,,Affinity Capture-MS,physical
+BioGRID,TP53,PIP5K1C,,Affinity Capture-MS,physical
+BioGRID,TP53,RBM14,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC1A5,,Affinity Capture-MS,physical
+BioGRID,TP53,FERMT2,,Affinity Capture-MS,physical
+BioGRID,TP53,MCM3,,Affinity Capture-MS,physical
+BioGRID,TP53,PTPLAD1,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC23A,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR91,,Affinity Capture-MS,physical
+BioGRID,TP53,CKAP2,,Affinity Capture-MS,physical
+BioGRID,TP53,LBR,,Affinity Capture-MS,physical
+BioGRID,TP53,NCAPH,,Affinity Capture-MS,physical
+BioGRID,TP53,DCP1A,,Affinity Capture-MS,physical
+BioGRID,TP53,ALDH18A1,,Affinity Capture-MS,physical
+BioGRID,TP53,UPF1,,Affinity Capture-MS,physical
+BioGRID,TP53,PLAA,,Affinity Capture-MS,physical
+BioGRID,TP53,DIS3,,Affinity Capture-MS,physical
+BioGRID,TP53,MCM7,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX18,,Affinity Capture-MS,physical
+BioGRID,TP53,OSBP,,Affinity Capture-MS,physical
+BioGRID,TP53,ATP2A2,,Affinity Capture-MS,physical
+BioGRID,TP53,BCAP31,,Affinity Capture-MS,physical
+BioGRID,TP53,CCNT1,,Affinity Capture-MS,physical
+BioGRID,TP53,RBM15,,Affinity Capture-MS,physical
+BioGRID,TP53,NEK9,,Affinity Capture-MS,physical
+BioGRID,TP53,SPAG9,,Affinity Capture-MS,physical
+BioGRID,TP53,JAK1,,Affinity Capture-MS,physical
+BioGRID,TP53,XRN2,,Affinity Capture-MS,physical
+BioGRID,TP53,APEH,,Affinity Capture-MS,physical
+BioGRID,TP53,SURF4,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC7A5,,Affinity Capture-MS,physical
+BioGRID,TP53,YTHDF3,,Affinity Capture-MS,physical
+BioGRID,TP53,CD47,,Affinity Capture-MS,physical
+BioGRID,TP53,ESYT2,,Affinity Capture-MS,physical
+BioGRID,TP53,C1ORF27,,Affinity Capture-MS,physical
+BioGRID,TP53,PWP1,,Affinity Capture-MS,physical
+BioGRID,TP53,DSC1,,Affinity Capture-MS,physical
+BioGRID,TP53,PSMD1,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC7A1,,Affinity Capture-MS,physical
+BioGRID,TP53,CLUH,,Affinity Capture-MS,physical
+BioGRID,TP53,CASP14,,Affinity Capture-MS,physical
+BioGRID,TP53,SF3A1,,Affinity Capture-MS,physical
+BioGRID,TP53,GHITM,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC3A2,,Affinity Capture-MS,physical
+BioGRID,TP53,ATP6V0A1,,Affinity Capture-MS,physical
+BioGRID,TP53,ABCF1,,Affinity Capture-MS,physical
+BioGRID,TP53,AARS,,Affinity Capture-MS,physical
+BioGRID,TP53,REST,,Affinity Capture-MS,physical
+BioGRID,TP53,IARS,,Affinity Capture-MS,physical
+BioGRID,TP53,HIST1H2BL,,Affinity Capture-MS,physical
+BioGRID,TP53,NNT,,Affinity Capture-MS,physical
+BioGRID,TP53,HIST1H1C,,Affinity Capture-MS,physical
+BioGRID,TP53,TECR,,Affinity Capture-MS,physical
+BioGRID,TP53,PIK3C3,,Affinity Capture-MS,physical
+BioGRID,TP53,OSBPL9,,Affinity Capture-MS,physical
+BioGRID,TP53,PYGL,,Affinity Capture-MS,physical
+BioGRID,TP53,AIFM1,,Affinity Capture-MS,physical
+BioGRID,TP53,LDHB,,Affinity Capture-MS,physical
+BioGRID,TP53,GART,,Affinity Capture-MS,physical
+BioGRID,TP53,DSP,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF4B,,Affinity Capture-MS,physical
+BioGRID,TP53,NBN,,Affinity Capture-MS,physical
+BioGRID,TP53,NOC3L,,Affinity Capture-MS,physical
+BioGRID,TP53,TMEM165,,Affinity Capture-MS,physical
+BioGRID,TP53,GPHN,,Affinity Capture-MS,physical
+BioGRID,TP53,BUB1B,,Affinity Capture-MS,physical
+BioGRID,TP53,NOMO1,,Affinity Capture-MS,physical
+BioGRID,TP53,DSG1,,Affinity Capture-MS,physical
+BioGRID,TP53,SUPT5H,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX46,,Affinity Capture-MS,physical
+BioGRID,TP53,ESYT1,,Affinity Capture-MS,physical
+BioGRID,TP53,GNB2L1,,Affinity Capture-MS,physical
+BioGRID,TP53,TM9SF2,,Affinity Capture-MS,physical
+BioGRID,TP53,EZR,,Affinity Capture-MS,physical
+BioGRID,TP53,SEPT9,,Affinity Capture-MS,physical
+BioGRID,TP53,TMEM245,,Affinity Capture-MS,physical
+BioGRID,TP53,ZBED4,,Affinity Capture-MS,physical
+BioGRID,TP53,HSD17B4,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC24A,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR44,,Affinity Capture-MS,physical
+BioGRID,TP53,NOL9,,Affinity Capture-MS,physical
+BioGRID,TP53,STAT3,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF326,,Affinity Capture-MS,physical
+BioGRID,TP53,TM9SF3,,Affinity Capture-MS,physical
+BioGRID,TP53,AP1B1,,Affinity Capture-MS,physical
+BioGRID,TP53,HSP90AB2P,,Affinity Capture-MS,physical
+BioGRID,TP53,POLD1,,Affinity Capture-MS,physical
+BioGRID,TP53,BOP1,,Affinity Capture-MS,physical
+BioGRID,TP53,RFT1,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF5B,,Affinity Capture-MS,physical
+BioGRID,TP53,OGDH,,Affinity Capture-MS,physical
+BioGRID,TP53,CMTR1,,Affinity Capture-MS,physical
+BioGRID,TP53,ADAR,,Affinity Capture-MS,physical
+BioGRID,TP53,TKT,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX24,,Affinity Capture-MS,physical
+BioGRID,TP53,SPCS1,,Affinity Capture-MS,physical
+BioGRID,TP53,GTPBP1,,Affinity Capture-MS,physical
+BioGRID,TP53,SDHA,,Affinity Capture-MS,physical
+BioGRID,TP53,TRA2A,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR75,,Affinity Capture-MS,physical
+BioGRID,TP53,AZGP1,,Affinity Capture-MS,physical
+BioGRID,TP53,MAGT1,,Affinity Capture-MS,physical
+BioGRID,TP53,CNIH4,,Affinity Capture-MS,physical
+BioGRID,TP53,MTHFD1,,Affinity Capture-MS,physical
+BioGRID,TP53,PLA2G4A,,Affinity Capture-MS,physical
+BioGRID,TP53,HIST1H4A,,Affinity Capture-MS,physical
+BioGRID,TP53,SF3A2,,Affinity Capture-MS,physical
+BioGRID,TP53,UFM1,,Affinity Capture-MS,physical
+BioGRID,TP53,MARS,,Affinity Capture-MS,physical
+BioGRID,TP53,MCM2,,Affinity Capture-MS,physical
+BioGRID,TP53,GNL2,,Affinity Capture-MS,physical
+BioGRID,TP53,LIG3,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPA4L,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF11,,Affinity Capture-MS,physical
+BioGRID,TP53,CANX,,Affinity Capture-MS,physical
+BioGRID,TP53,KHSRP,,Affinity Capture-MS,physical
+BioGRID,TP53,MCM4,,Affinity Capture-MS,physical
+BioGRID,TP53,DHX16,,Affinity Capture-MS,physical
+BioGRID,TP53,EML4,,Affinity Capture-MS,physical
+BioGRID,TP53,RTN4,,Affinity Capture-MS,physical
+BioGRID,TP53,RECQL,,Affinity Capture-MS,physical
+BioGRID,TP53,TRA2B,,Affinity Capture-MS,physical
+BioGRID,TP53,LAMP1,,Affinity Capture-MS,physical
+BioGRID,TP53,EMC1,,Affinity Capture-MS,physical
+BioGRID,TP53,TMEM205,,Affinity Capture-MS,physical
+BioGRID,TP53,PPM1B,,Affinity Capture-MS,physical
+BioGRID,TP53,BMS1,,Affinity Capture-MS,physical
+BioGRID,TP53,ASPH,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR1,,Affinity Capture-MS,physical
+BioGRID,TP53,TPP2,,Affinity Capture-MS,physical
+BioGRID,TP53,ELP2,,Affinity Capture-MS,physical
+BioGRID,TP53,NOL10,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC6A15,,Affinity Capture-MS,physical
+BioGRID,TP53,VPS16,,Affinity Capture-MS,physical
+BioGRID,TP53,AP3B1,,Affinity Capture-MS,physical
+BioGRID,TP53,ALG6,,Affinity Capture-MS,physical
+BioGRID,TP53,TMTC3,,Affinity Capture-MS,physical
+BioGRID,TP53,IDE,,Affinity Capture-MS,physical
+BioGRID,TP53,P3H1,,Affinity Capture-MS,physical
+BioGRID,TP53,IGHV1-2,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM115A,,Affinity Capture-MS,physical
+BioGRID,TP53,C4B,,Affinity Capture-MS,physical
+BioGRID,TP53,PFAS,,Affinity Capture-MS,physical
+BioGRID,TP53,ZYX,,Affinity Capture-MS,physical
+BioGRID,TP53,BBS7,,Affinity Capture-MS,physical
+BioGRID,TP53,PTDSS2,,Affinity Capture-MS,physical
+BioGRID,TP53,PDPR,,Affinity Capture-MS,physical
+BioGRID,TP53,CLPTM1,,Affinity Capture-MS,physical
+BioGRID,TP53,CHD4,,Affinity Capture-MS,physical
+BioGRID,TP53,CDS2,,Affinity Capture-MS,physical
+BioGRID,TP53,ADNP,,Affinity Capture-MS,physical
+BioGRID,TP53,FUS,,Affinity Capture-MS,physical
+BioGRID,TP53,SKIV2L2,,Affinity Capture-MS,physical
+BioGRID,TP53,OSBPL11,,Affinity Capture-MS,physical
+BioGRID,TP53,LDHA,,Affinity Capture-MS,physical
+BioGRID,TP53,PRDX1,,Affinity Capture-MS,physical
+BioGRID,TP53,SCAMP2,,Affinity Capture-MS,physical
+BioGRID,TP53,MEPCE,,Affinity Capture-MS,physical
+BioGRID,TP53,EXOSC10,,Affinity Capture-MS,physical
+BioGRID,TP53,SUZ12,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR47,,Affinity Capture-MS,physical
+BioGRID,TP53,CALML5,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC29A1,,Affinity Capture-MS,physical
+BioGRID,TP53,NEDD8,,Affinity Capture-MS,physical
+BioGRID,TP53,SERINC1,,Affinity Capture-MS,physical
+BioGRID,TP53,WWP2,,Affinity Capture-MS,physical
+BioGRID,TP53,POLR2B,,Affinity Capture-MS,physical
+BioGRID,TP53,CAP2,,Affinity Capture-MS,physical
+BioGRID,TP53,TSR1,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC35B2,,Affinity Capture-MS,physical
+BioGRID,TP53,RTN3,,Affinity Capture-MS,physical
+BioGRID,TP53,DAD1,,Affinity Capture-MS,physical
+BioGRID,TP53,MPDU1,,Affinity Capture-MS,physical
+BioGRID,TP53,LARS,,Affinity Capture-MS,physical
+BioGRID,TP53,PLCG1,,Affinity Capture-MS,physical
+BioGRID,TP53,HP1BP3,,Affinity Capture-MS,physical
+BioGRID,TP53,PALLD,,Affinity Capture-MS,physical
+BioGRID,TP53,AP3D1,,Affinity Capture-MS,physical
+BioGRID,TP53,TMEM258,,Affinity Capture-MS,physical
+BioGRID,TP53,UBE2O,,Affinity Capture-MS,physical
+BioGRID,TP53,ZMPSTE24,,Affinity Capture-MS,physical
+BioGRID,TP53,FLVCR1,,Affinity Capture-MS,physical
+BioGRID,TP53,SNRNP70,,Affinity Capture-MS,physical
+BioGRID,TP53,CDIPT,,Affinity Capture-MS,physical
+BioGRID,TP53,YIPF5,,Affinity Capture-MS,physical
+BioGRID,TP53,RBM28,,Affinity Capture-MS,physical
+BioGRID,TP53,TTLL12,,Affinity Capture-MS,physical
+BioGRID,TP53,TRAM1,,Affinity Capture-MS,physical
+BioGRID,TP53,EXOSC9,,Affinity Capture-MS,physical
+BioGRID,TP53,RSL1D1,,Affinity Capture-MS,physical
+BioGRID,TP53,AKAP8L,,Affinity Capture-MS,physical
+BioGRID,TP53,ZAK,,Affinity Capture-MS,physical
+BioGRID,TP53,EIF3C,,Affinity Capture-MS,physical
+BioGRID,TP53,PDE12,,Affinity Capture-MS,physical
+BioGRID,TP53,DPP9,,Affinity Capture-MS,physical
+BioGRID,TP53,RSBN1,,Affinity Capture-MS,physical
+BioGRID,TP53,NADSYN1,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL29,,Affinity Capture-MS,physical
+BioGRID,TP53,SSRP1,,Affinity Capture-MS,physical
+BioGRID,TP53,HIST1H2AJ,,Affinity Capture-MS,physical
+BioGRID,TP53,TM9SF4,,Affinity Capture-MS,physical
+BioGRID,TP53,FTSJ3,,Affinity Capture-MS,physical
+BioGRID,TP53,ZFR,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF280C,,Affinity Capture-MS,physical
+BioGRID,TP53,ARGLU1,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR3,,Affinity Capture-MS,physical
+BioGRID,TP53,GARS,,Affinity Capture-MS,physical
+BioGRID,TP53,ABCF2,,Affinity Capture-MS,physical
+BioGRID,TP53,SPCS2,,Affinity Capture-MS,physical
+BioGRID,TP53,PFKM,,Affinity Capture-MS,physical
+BioGRID,TP53,DYTN,,Affinity Capture-MS,physical
+BioGRID,TP53,CSTA,,Affinity Capture-MS,physical
+BioGRID,TP53,PAN3,,Affinity Capture-MS,physical
+BioGRID,TP53,CPT1A,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF20A,,Affinity Capture-MS,physical
+BioGRID,TP53,FKBP10,,Affinity Capture-MS,physical
+BioGRID,TP53,MGEA5,,Affinity Capture-MS,physical
+BioGRID,TP53,CHPT1,,Affinity Capture-MS,physical
+BioGRID,TP53,PARN,,Affinity Capture-MS,physical
+BioGRID,TP53,DYNC1H1,,Affinity Capture-MS,physical
+BioGRID,TP53,GEMIN5,,Affinity Capture-MS,physical
+BioGRID,TP53,JUP,,Affinity Capture-MS,physical
+BioGRID,TP53,KPRP,,Affinity Capture-MS,physical
+BioGRID,TP53,ARHGEF26,,Affinity Capture-MS,physical
+BioGRID,TP53,YIPF6,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO5B,,Affinity Capture-MS,physical
+BioGRID,TP53,NRD1,,Affinity Capture-MS,physical
+BioGRID,TP53,WFS1,,Affinity Capture-MS,physical
+BioGRID,TP53,CXORF57,,Affinity Capture-MS,physical
+BioGRID,TP53,U2SURP,,Affinity Capture-MS,physical
+BioGRID,TP53,PACS1,,Affinity Capture-MS,physical
+BioGRID,TP53,FARP2,,Affinity Capture-MS,physical
+BioGRID,TP53,AGTRAP,,Affinity Capture-MS,physical
+BioGRID,TP53,SPNS1,,Affinity Capture-MS,physical
+BioGRID,TP53,NHLRC2,,Affinity Capture-MS,physical
+BioGRID,TP53,TMEM63B,,Affinity Capture-MS,physical
+BioGRID,TP53,ACTN4,,Affinity Capture-MS,physical
+BioGRID,TP53,LMNB1,,Affinity Capture-MS,physical
+BioGRID,TP53,PRDX6,,Affinity Capture-MS,physical
+BioGRID,TP53,GPCPD1,,Affinity Capture-MS,physical
+BioGRID,TP53,MECP2,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC5A6,,Affinity Capture-MS,physical
+BioGRID,TP53,PAPOLA,,Affinity Capture-MS,physical
+BioGRID,TP53,PABPC4,,Affinity Capture-MS,physical
+BioGRID,TP53,PWP2,,Affinity Capture-MS,physical
+BioGRID,TP53,SLAIN2,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC25A6,,Affinity Capture-MS,physical
+BioGRID,TP53,H1F0,,Affinity Capture-MS,physical
+BioGRID,TP53,ZFP91,,Affinity Capture-MS,physical
+BioGRID,TP53,SCAMP4,,Affinity Capture-MS,physical
+BioGRID,TP53,MGST2,,Affinity Capture-MS,physical
+BioGRID,TP53,GSPT1,,Affinity Capture-MS,physical
+BioGRID,TP53,CMTM6,,Affinity Capture-MS,physical
+BioGRID,TP53,PRMT7,,Affinity Capture-MS,physical
+BioGRID,TP53,TSPAN6,,Affinity Capture-MS,physical
+BioGRID,TP53,DSC3,,Affinity Capture-MS,physical
+BioGRID,TP53,HTATSF1,,Affinity Capture-MS,physical
+BioGRID,TP53,C4ORF32,,Affinity Capture-MS,physical
+BioGRID,TP53,SMC5,,Affinity Capture-MS,physical
+BioGRID,TP53,SEL1L,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM83D,,Affinity Capture-MS,physical
+BioGRID,TP53,CORO7,,Affinity Capture-MS,physical
+BioGRID,TP53,INCENP,,Affinity Capture-MS,physical
+BioGRID,TP53,NEDD1,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC35F2,,Affinity Capture-MS,physical
+BioGRID,TP53,CLCN7,,Affinity Capture-MS,physical
+BioGRID,TP53,MFSD1,,Affinity Capture-MS,physical
+BioGRID,TP53,ADAM9,,Affinity Capture-MS,physical
+BioGRID,TP53,APAF1,,Affinity Capture-MS,physical
+BioGRID,TP53,ADD1,,Affinity Capture-MS,physical
+BioGRID,TP53,MYADM,,Affinity Capture-MS,physical
+BioGRID,TP53,DNAH17,,Affinity Capture-MS,physical
+BioGRID,TP53,AP1G1,,Affinity Capture-MS,physical
+BioGRID,TP53,PTPRF,,Affinity Capture-MS,physical
+BioGRID,TP53,ZDHHC5,,Affinity Capture-MS,physical
+BioGRID,TP53,SRP72,,Affinity Capture-MS,physical
+BioGRID,TP53,DDI2,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO1D,,Affinity Capture-MS,physical
+BioGRID,TP53,MED16,,Affinity Capture-MS,physical
+BioGRID,TP53,GAA,,Affinity Capture-MS,physical
+BioGRID,TP53,SMARCA1,,Affinity Capture-MS,physical
+BioGRID,TP53,CD81,,Affinity Capture-MS,physical
+BioGRID,TP53,PROSER1,,Affinity Capture-MS,physical
+BioGRID,TP53,SBSN,,Affinity Capture-MS,physical
+BioGRID,TP53,CST6,,Affinity Capture-MS,physical
+BioGRID,TP53,TGM3,,Affinity Capture-MS,physical
+BioGRID,TP53,PPWD1,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF384,,Affinity Capture-MS,physical
+BioGRID,TP53,NUFIP2,,Affinity Capture-MS,physical
+BioGRID,TP53,LAMP2,,Affinity Capture-MS,physical
+BioGRID,TP53,DHX36,,Affinity Capture-MS,physical
+BioGRID,TP53,TNRC6B,,Affinity Capture-MS,physical
+BioGRID,TP53,TOP3B,,Affinity Capture-MS,physical
+BioGRID,TP53,UBAC2,,Affinity Capture-MS,physical
+BioGRID,TP53,TP53I11,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBGCP6,,Affinity Capture-MS,physical
+BioGRID,TP53,GTF3C2,,Affinity Capture-MS,physical
+BioGRID,TP53,CEPT1,,Affinity Capture-MS,physical
+BioGRID,TP53,PLOD3,,Affinity Capture-MS,physical
+BioGRID,TP53,NUP160,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX10,,Affinity Capture-MS,physical
+BioGRID,TP53,LMBRD2,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF1C,,Affinity Capture-MS,physical
+BioGRID,TP53,PRKCSH,,Affinity Capture-MS,physical
+BioGRID,TP53,IARS2,,Affinity Capture-MS,physical
+BioGRID,TP53,AGPAT6,,Affinity Capture-MS,physical
+BioGRID,TP53,BTK,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL13AP3,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC26A6,,Affinity Capture-MS,physical
+BioGRID,TP53,RPL27A,,Affinity Capture-MS,physical
+BioGRID,TP53,RCC2,,Affinity Capture-MS,physical
+BioGRID,TP53,ACADM,,Affinity Capture-MS,physical
+BioGRID,TP53,PGM3,,Affinity Capture-MS,physical
+BioGRID,TP53,NUP133,,Affinity Capture-MS,physical
+BioGRID,TP53,RPN2,,Affinity Capture-MS,physical
+BioGRID,TP53,PRDX2,,Affinity Capture-MS,physical
+BioGRID,TP53,RAP2C,,Affinity Capture-MS,physical
+BioGRID,TP53,CHM,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC38A1,,Affinity Capture-MS,physical
+BioGRID,TP53,PRKD3,,Affinity Capture-MS,physical
+BioGRID,TP53,SMTN,,Affinity Capture-MS,physical
+BioGRID,TP53,ND5,,Affinity Capture-MS,physical
+BioGRID,TP53,SACM1L,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF598,,Affinity Capture-MS,physical
+BioGRID,TP53,RDX,,Affinity Capture-MS,physical
+BioGRID,TP53,SPIN1,,Affinity Capture-MS,physical
+BioGRID,TP53,STK38,,Affinity Capture-MS,physical
+BioGRID,TP53,NFKB2,,Affinity Capture-MS,physical
+BioGRID,TP53,CHORDC1,,Affinity Capture-MS,physical
+BioGRID,TP53,NPLOC4,,Affinity Capture-MS,physical
+BioGRID,TP53,ARL6IP1,,Affinity Capture-MS,physical
+BioGRID,TP53,DHX30,,Affinity Capture-MS,physical
+BioGRID,TP53,PTPLB,,Affinity Capture-MS,physical
+BioGRID,TP53,TESPA1,,Affinity Capture-MS,physical
+BioGRID,TP53,SBNO1,,Affinity Capture-MS,physical
+BioGRID,TP53,CAPN8,,Affinity Capture-MS,physical
+BioGRID,TP53,OR6C75,,Affinity Capture-MS,physical
+BioGRID,TP53,ANKRD36C,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX11L8,,Affinity Capture-MS,physical
+BioGRID,TP53,COL6A5,,Affinity Capture-MS,physical
+BioGRID,TP53,FHAD1,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF814,,Affinity Capture-MS,physical
+BioGRID,TP53,TNFRSF11B,,Affinity Capture-MS,physical
+BioGRID,TP53,NOP56,,Affinity Capture-MS,physical
+BioGRID,TP53,PDXK,,Affinity Capture-MS,physical
+BioGRID,TP53,CIT,,Affinity Capture-MS,physical
+BioGRID,TP53,FGF10,,Affinity Capture-MS,physical
+BioGRID,TP53,SEC14L5,,Affinity Capture-MS,physical
+BioGRID,TP53,BUB3,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF5C,,Affinity Capture-MS,physical
+BioGRID,TP53,TLR5,,Affinity Capture-MS,physical
+BioGRID,TP53,SNX2,,Affinity Capture-MS,physical
+BioGRID,TP53,MEGF6,,Affinity Capture-MS,physical
+BioGRID,TP53,COQ9,,Affinity Capture-MS,physical
+BioGRID,TP53,ULK1,,Affinity Capture-MS,physical
+BioGRID,TP53,MTRF1,,Affinity Capture-MS,physical
+BioGRID,TP53,RFPL3,,Affinity Capture-MS,physical
+BioGRID,TP53,STBD1,,Affinity Capture-MS,physical
+BioGRID,TP53,VAPB,,Affinity Capture-MS,physical
+BioGRID,TP53,PTH,,Affinity Capture-MS,physical
+BioGRID,TP53,IGJ,,Affinity Capture-MS,physical
+BioGRID,TP53,IGHG2,,Affinity Capture-MS,physical
+BioGRID,TP53,SPTA1,,Affinity Capture-MS,physical
+BioGRID,TP53,CCDC175,,Affinity Capture-MS,physical
+BioGRID,TP53,MYH13,,Affinity Capture-MS,physical
+BioGRID,TP53,PVR,,Affinity Capture-MS,physical
+BioGRID,TP53,HDC,,Affinity Capture-MS,physical
+BioGRID,TP53,C4BPB,,Affinity Capture-MS,physical
+BioGRID,TP53,SCP2,,Affinity Capture-MS,physical
+BioGRID,TP53,MAP4,,Affinity Capture-MS,physical
+BioGRID,TP53,LMOD1,,Affinity Capture-MS,physical
+BioGRID,TP53,OAS2,,Affinity Capture-MS,physical
+BioGRID,TP53,HOXD12,,Affinity Capture-MS,physical
+BioGRID,TP53,GBP2,,Affinity Capture-MS,physical
+BioGRID,TP53,SOAT1,,Affinity Capture-MS,physical
+BioGRID,TP53,HSD17B3,,Affinity Capture-MS,physical
+BioGRID,TP53,ZEB1,,Affinity Capture-MS,physical
+BioGRID,TP53,PRKCI,,Affinity Capture-MS,physical
+BioGRID,TP53,NCAPD3,,Affinity Capture-MS,physical
+BioGRID,TP53,RAP1GAP,,Affinity Capture-MS,physical
+BioGRID,TP53,GABRB2,,Affinity Capture-MS,physical
+BioGRID,TP53,NRIP1,,Affinity Capture-MS,physical
+BioGRID,TP53,KNTC1,,Affinity Capture-MS,physical
+BioGRID,TP53,PMS1,,Affinity Capture-MS,physical
+BioGRID,TP53,PMS2,,Affinity Capture-MS,physical
+BioGRID,TP53,UGT2B15,,Affinity Capture-MS,physical
+BioGRID,TP53,CASP7,,Affinity Capture-MS,physical
+BioGRID,TP53,SUMO3,,Affinity Capture-MS,physical
+BioGRID,TP53,GABARAPL2,,Affinity Capture-MS,physical
+BioGRID,TP53,HSPE1,,Affinity Capture-MS,physical
+BioGRID,TP53,PRAME,,Affinity Capture-MS,physical
+BioGRID,TP53,HDLBP,,Affinity Capture-MS,physical
+BioGRID,TP53,CENPE,,Affinity Capture-MS,physical
+BioGRID,TP53,TCHH,,Affinity Capture-MS,physical
+BioGRID,TP53,CGNL1,,Affinity Capture-MS,physical
+BioGRID,TP53,BPTF,,Affinity Capture-MS,physical
+BioGRID,TP53,ARHGAP5,,Affinity Capture-MS,physical
+BioGRID,TP53,MMRN1,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF177,,Affinity Capture-MS,physical
+BioGRID,TP53,PLD1,,Affinity Capture-MS,physical
+BioGRID,TP53,ORC1,,Affinity Capture-MS,physical
+BioGRID,TP53,ROCK1,,Affinity Capture-MS,physical
+BioGRID,TP53,BAAT,,Affinity Capture-MS,physical
+BioGRID,TP53,DSG2,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF267,,Affinity Capture-MS,physical
+BioGRID,TP53,NBR1,,Affinity Capture-MS,physical
+BioGRID,TP53,NCOA6,,Affinity Capture-MS,physical
+BioGRID,TP53,PDCD11,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC39A14,,Affinity Capture-MS,physical
+BioGRID,TP53,PLCB4,,Affinity Capture-MS,physical
+BioGRID,TP53,RABEP1,,Affinity Capture-MS,physical
+BioGRID,TP53,ZRSR2,,Affinity Capture-MS,physical
+BioGRID,TP53,MPEG1,,Affinity Capture-MS,physical
+BioGRID,TP53,HYDIN,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM133B,,Affinity Capture-MS,physical
+BioGRID,TP53,FSIP2,,Affinity Capture-MS,physical
+BioGRID,TP53,TTC38,,Affinity Capture-MS,physical
+BioGRID,TP53,NHSL1,,Affinity Capture-MS,physical
+BioGRID,TP53,TMTC4,,Affinity Capture-MS,physical
+BioGRID,TP53,SYCP2L,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF648,,Affinity Capture-MS,physical
+BioGRID,TP53,DCAF12,,Affinity Capture-MS,physical
+BioGRID,TP53,CEP350,,Affinity Capture-MS,physical
+BioGRID,TP53,SPATA1,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM91A1,,Affinity Capture-MS,physical
+BioGRID,TP53,ARL6IP4,,Affinity Capture-MS,physical
+BioGRID,TP53,CC2D2B,,Affinity Capture-MS,physical
+BioGRID,TP53,ACAD10,,Affinity Capture-MS,physical
+BioGRID,TP53,PYHIN1,,Affinity Capture-MS,physical
+BioGRID,TP53,TET2,,Affinity Capture-MS,physical
+BioGRID,TP53,GLCCI1,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM198B,,Affinity Capture-MS,physical
+BioGRID,TP53,LCLAT1,,Affinity Capture-MS,physical
+BioGRID,TP53,PDZD4,,Affinity Capture-MS,physical
+BioGRID,TP53,BNC2,,Affinity Capture-MS,physical
+BioGRID,TP53,GBP6,,Affinity Capture-MS,physical
+BioGRID,TP53,KRBA2,,Affinity Capture-MS,physical
+BioGRID,TP53,FGD6,,Affinity Capture-MS,physical
+BioGRID,TP53,PAXIP1,,Affinity Capture-MS,physical
+BioGRID,TP53,SV2A,,Affinity Capture-MS,physical
+BioGRID,TP53,CHST9,,Affinity Capture-MS,physical
+BioGRID,TP53,TAS1R1,,Affinity Capture-MS,physical
+BioGRID,TP53,KDELC2,,Affinity Capture-MS,physical
+BioGRID,TP53,TRPM1,,Affinity Capture-MS,physical
+BioGRID,TP53,C6ORF201,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF329,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM35A,,Affinity Capture-MS,physical
+BioGRID,TP53,HOOK3,,Affinity Capture-MS,physical
+BioGRID,TP53,SERPINA9,,Affinity Capture-MS,physical
+BioGRID,TP53,NDUFA11,,Affinity Capture-MS,physical
+BioGRID,TP53,DNAH10,,Affinity Capture-MS,physical
+BioGRID,TP53,P3H2,,Affinity Capture-MS,physical
+BioGRID,TP53,HERC6,,Affinity Capture-MS,physical
+BioGRID,TP53,ARID3B,,Affinity Capture-MS,physical
+BioGRID,TP53,BRSK2,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM217A,,Affinity Capture-MS,physical
+BioGRID,TP53,CKAP2L,,Affinity Capture-MS,physical
+BioGRID,TP53,DIS3L2,,Affinity Capture-MS,physical
+BioGRID,TP53,MCOLN2,,Affinity Capture-MS,physical
+BioGRID,TP53,CADM2,,Affinity Capture-MS,physical
+BioGRID,TP53,SPATA6L,,Affinity Capture-MS,physical
+BioGRID,TP53,MARVELD2,,Affinity Capture-MS,physical
+BioGRID,TP53,CNTD1,,Affinity Capture-MS,physical
+BioGRID,TP53,TTLL6,,Affinity Capture-MS,physical
+BioGRID,TP53,PNLDC1,,Affinity Capture-MS,physical
+BioGRID,TP53,TTC16,,Affinity Capture-MS,physical
+BioGRID,TP53,THOC2,,Affinity Capture-MS,physical
+BioGRID,TP53,CAGE1,,Affinity Capture-MS,physical
+BioGRID,TP53,PNISR,,Affinity Capture-MS,physical
+BioGRID,TP53,SSMEM1,,Affinity Capture-MS,physical
+BioGRID,TP53,PSPC1,,Affinity Capture-MS,physical
+BioGRID,TP53,SYNE2,,Affinity Capture-MS,physical
+BioGRID,TP53,AHCTF1,,Affinity Capture-MS,physical
+BioGRID,TP53,PTPRU,,Affinity Capture-MS,physical
+BioGRID,TP53,RREB1,,Affinity Capture-MS,physical
+BioGRID,TP53,RUNDC1,,Affinity Capture-MS,physical
+BioGRID,TP53,DCUN1D1,,Affinity Capture-MS,physical
+BioGRID,TP53,SCARF2,,Affinity Capture-MS,physical
+BioGRID,TP53,LRIG1,,Affinity Capture-MS,physical
+BioGRID,TP53,LRR1,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF16B,,Affinity Capture-MS,physical
+BioGRID,TP53,ZSWIM3,,Affinity Capture-MS,physical
+BioGRID,TP53,YTHDC1,,Affinity Capture-MS,physical
+BioGRID,TP53,FRMD6,,Affinity Capture-MS,physical
+BioGRID,TP53,ANKRD27,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC38A2,,Affinity Capture-MS,physical
+BioGRID,TP53,KCTD15,,Affinity Capture-MS,physical
+BioGRID,TP53,RSF1,,Affinity Capture-MS,physical
+BioGRID,TP53,FEV,,Affinity Capture-MS,physical
+BioGRID,TP53,ELOVL1,,Affinity Capture-MS,physical
+BioGRID,TP53,SHANK3,,Affinity Capture-MS,physical
+BioGRID,TP53,LDHAL6B,,Affinity Capture-MS,physical
+BioGRID,TP53,CEP295,,Affinity Capture-MS,physical
+BioGRID,TP53,WDR12,,Affinity Capture-MS,physical
+BioGRID,TP53,IQCG,,Affinity Capture-MS,physical
+BioGRID,TP53,PUS7L,,Affinity Capture-MS,physical
+BioGRID,TP53,RBSN,,Affinity Capture-MS,physical
+BioGRID,TP53,PABPC3,,Affinity Capture-MS,physical
+BioGRID,TP53,NARFL,,Affinity Capture-MS,physical
+BioGRID,TP53,C19ORF44,,Affinity Capture-MS,physical
+BioGRID,TP53,KIF9,,Affinity Capture-MS,physical
+BioGRID,TP53,CENPJ,,Affinity Capture-MS,physical
+BioGRID,TP53,PRDM11,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO5C,,Affinity Capture-MS,physical
+BioGRID,TP53,ATP8A2,,Affinity Capture-MS,physical
+BioGRID,TP53,TMEM106B,,Affinity Capture-MS,physical
+BioGRID,TP53,DACT1,,Affinity Capture-MS,physical
+BioGRID,TP53,PIPOX,,Affinity Capture-MS,physical
+BioGRID,TP53,ARHGAP20,,Affinity Capture-MS,physical
+BioGRID,TP53,POLK,,Affinity Capture-MS,physical
+BioGRID,TP53,CLIP2,,Affinity Capture-MS,physical
+BioGRID,TP53,LRWD1,,Affinity Capture-MS,physical
+BioGRID,TP53,IFT172,,Affinity Capture-MS,physical
+BioGRID,TP53,TES,,Affinity Capture-MS,physical
+BioGRID,TP53,RPUSD1,,Affinity Capture-MS,physical
+BioGRID,TP53,CCNL1,,Affinity Capture-MS,physical
+BioGRID,TP53,DBR1,,Affinity Capture-MS,physical
+BioGRID,TP53,UTP11L,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF451,,Affinity Capture-MS,physical
+BioGRID,TP53,KIAA0430,,Affinity Capture-MS,physical
+BioGRID,TP53,CDY1,,Affinity Capture-MS,physical
+BioGRID,TP53,MYO16,,Affinity Capture-MS,physical
+BioGRID,TP53,RAD18,,Affinity Capture-Western,physical
+BioGRID,TP53,UBE3C,,Affinity Capture-Western,physical
+BioGRID,TP53,KLHL4,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF126,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIML2,,Affinity Capture-Western,physical
+BioGRID,TP53,ACTR3,,Proximity Label-MS,physical
+BioGRID,TP53,ANAPC2,,Proximity Label-MS,physical
+BioGRID,TP53,GFAP,,Proximity Label-MS,physical
+BioGRID,TP53,KRT8,,Proximity Label-MS,physical
+BioGRID,TP53,LATS1,,Proximity Label-MS,physical
+BioGRID,TP53,PXN,,Proximity Label-MS,physical
+BioGRID,TP53,STIL,,Proximity Label-MS,physical
+BioGRID,TP53,SYNE3,,Proximity Label-MS,physical
+BioGRID,TP53,HTRA4,,Affinity Capture-MS,physical
+BioGRID,TP53,FXR1,,Two-hybrid,physical
+BioGRID,TP53,TFAP2B,,Affinity Capture-Western,physical
+BioGRID,TP53,MAP4K4,,Affinity Capture-MS,physical
+BioGRID,TP53,NAA40,,Proximity Label-MS,physical
+BioGRID,TP53,EDEM1,,Affinity Capture-MS,physical
+BioGRID,TP53,ZBTB44,,Affinity Capture-MS,physical
+BioGRID,TP53,ESRRG,,Affinity Capture-MS,physical
+BioGRID,TP53,PXK,,Affinity Capture-MS,physical
+BioGRID,TP53,PIP,,Affinity Capture-MS,physical
+BioGRID,TP53,TUBB8,,Affinity Capture-MS,physical
+BioGRID,TP53,LOC388882,,Affinity Capture-MS,physical
+BioGRID,TP53,XPNPEP3,,Affinity Capture-MS,physical
+BioGRID,TP53,C1ORF111,,Affinity Capture-MS,physical
+BioGRID,TP53,FAM133A,,Affinity Capture-MS,physical
+BioGRID,TP53,AGGF1,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM47,,Affinity Capture-Western,physical
+BioGRID,TP53,BTF3,,Affinity Capture-MS,physical
+BioGRID,TP53,KDM4A,,Affinity Capture-Western,physical
+BioGRID,TP53,KDM4C,,Affinity Capture-Western,physical
+BioGRID,TP53,DAZAP2,,Affinity Capture-Western,physical
+BioGRID,TP53,RAG1,,Reconstituted Complex,physical
+BioGRID,TP53,RNF6,,Reconstituted Complex,physical
+BioGRID,TP53,WWP1,,Reconstituted Complex,physical
+BioGRID,TP53,ZNF645,,Reconstituted Complex,physical
+BioGRID,TP53,DCST1,,Reconstituted Complex,physical
+BioGRID,TP53,DZIP3,,Reconstituted Complex,physical
+BioGRID,TP53,ZBTB5,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF31,,Affinity Capture-Western,physical
+BioGRID,TP53,TMPRSS2,,Affinity Capture-MS,physical
+BioGRID,TP53,CTSL,,Affinity Capture-MS,physical
+BioGRID,TP53,CTSB,,Affinity Capture-MS,physical
+BioGRID,TP53,FURIN,,Affinity Capture-MS,physical
+BioGRID,TP53,IFITM1,,Affinity Capture-MS,physical
+BioGRID,TP53,CTSS,,Affinity Capture-MS,physical
+BioGRID,TP53,DPP4,,Affinity Capture-MS,physical
+BioGRID,TP53,IFITM3,,Affinity Capture-MS,physical
+BioGRID,TP53,TMPRSS11B,,Affinity Capture-MS,physical
+BioGRID,TP53,CLEC4D,,Affinity Capture-MS,physical
+BioGRID,TP53,ACE2,,Affinity Capture-MS,physical
+BioGRID,TP53,CLEC4E,,Affinity Capture-MS,physical
+BioGRID,TP53,NRP1,,Proximity Label-MS,physical
+BioGRID,TP53,FBXL6,,Affinity Capture-MS,physical
+BioGRID,TP53,ARRB1,,Affinity Capture-Western,physical
+BioGRID,TP53,DGCR8,,Affinity Capture-MS,physical
+BioGRID,TP53,GATA3,,Affinity Capture-MS,physical
+BioGRID,TP53,STIP1,,Affinity Capture-MS,physical
+BioGRID,TP53,PSMD7,,Affinity Capture-MS,physical
+BioGRID,TP53,RAD50,,Affinity Capture-MS,physical
+BioGRID,TP53,ACO2,,Affinity Capture-MS,physical
+BioGRID,TP53,PSMB4,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC25A10,,Affinity Capture-MS,physical
+BioGRID,TP53,SLC25A13,,Affinity Capture-MS,physical
+BioGRID,TP53,SOX15,,Affinity Capture-MS,physical
+BioGRID,TP53,RNF19A,,Affinity Capture-Western,physical
+BioGRID,TP53,BRD2,,Affinity Capture-MS,physical
+BioGRID,TP53,BRDT,,Affinity Capture-MS,physical
+BioGRID,TP53,BCAS3,,Affinity Capture-MS,physical
+BioGRID,TP53,RANGAP1,,Proximity Label-MS,physical
+BioGRID,TP53,TRIM33,,Proximity Label-MS,physical
+BioGRID,TP53,MED23,,Proximity Label-MS,physical
+BioGRID,TP53,YEATS2,,Proximity Label-MS,physical
+BioGRID,TP53,ZMYM2,,Proximity Label-MS,physical
+BioGRID,TP53,KIAA1551,,Proximity Label-MS,physical
+BioGRID,TP53,TCERG1,,Proximity Label-MS,physical
+BioGRID,TP53,ZBTB21,,Proximity Label-MS,physical
+BioGRID,TP53,NAB1,,Proximity Label-MS,physical
+BioGRID,TP53,SATB1,,Proximity Label-MS,physical
+BioGRID,TP53,SATB2,,Proximity Label-MS,physical
+BioGRID,TP53,XAB2,,Proximity Label-MS,physical
+BioGRID,TP53,ZMYM4,,Proximity Label-MS,physical
+BioGRID,TP53,GATAD2A,,Proximity Label-MS,physical
+BioGRID,TP53,RAD54L2,,Proximity Label-MS,physical
+BioGRID,TP53,MGA,,Proximity Label-MS,physical
+BioGRID,TP53,PIAS3,,Proximity Label-MS,physical
+BioGRID,TP53,LCN1,,Proximity Label-MS,physical
+BioGRID,TP53,CDKN2AIP,,Proximity Label-MS,physical
+BioGRID,TP53,FAM50A,,Proximity Label-MS,physical
+BioGRID,TP53,NFRKB,,Proximity Label-MS,physical
+BioGRID,TP53,PGAM2,,Proximity Label-MS,physical
+BioGRID,TP53,BCOR,,Proximity Label-MS,physical
+BioGRID,TP53,TDP2,,Proximity Label-MS,physical
+BioGRID,TP53,RNF220,,Proximity Label-MS,physical
+BioGRID,TP53,RIT1,,Negative Genetic,genetic
+BioGRID,TP53,HIST2H2BE,,Affinity Capture-MS,physical
+BioGRID,TP53,SRP9,,Affinity Capture-MS,physical
+BioGRID,TP53,POLR3B,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM31,,Affinity Capture-Western,physical
+BioGRID,TP53,TRAF7,,Affinity Capture-Western,physical
+BioGRID,TP53,TRIM72,,Affinity Capture-Western,physical
+BioGRID,TP53,SLC5A7,,Affinity Capture-Western,physical
+BioGRID,TP53,NFE2L2,,Affinity Capture-Western,physical
+BioGRID,TP53,NUP43,,Proximity Label-MS,physical
+BioGRID,TP53,UBE4A,,Affinity Capture-Western,physical
+BioGRID,TP53,RNF187,,Affinity Capture-Western,physical
+BioGRID,TP53,C9ORF78,,Affinity Capture-MS,physical
+BioGRID,TP53,UBE2D2,,Reconstituted Complex,physical
+BioGRID,TP53,CEP164,,Co-localization,physical
+BioGRID,TP53,ORC2,,Co-localization,physical
+BioGRID,TP53,RNF157,,Affinity Capture-Western,physical
+BioGRID,TP53,HNRNPC,,Affinity Capture-Western,physical
+BioGRID,TP53,FAS,,Proximity Label-MS,physical
+BioGRID,TP53,BAP1,,Affinity Capture-Western,physical
+BioGRID,TP53,SSBP1,,Reconstituted Complex,physical
+BioGRID,TP53,CUL3,,Affinity Capture-MS,physical
+BioGRID,TP53,KLHL15,,Negative Genetic,genetic
+BioGRID,TP53,LIN7C,,Negative Genetic,genetic
+BioGRID,TP53,CNBP,,Negative Genetic,genetic
+BioGRID,TP53,B4GALT7,,Negative Genetic,genetic
+BioGRID,TP53,NSMF,,Negative Genetic,genetic
+BioGRID,TP53,KIAA0907,,Negative Genetic,genetic
+BioGRID,TP53,OPRD1,,Negative Genetic,genetic
+BioGRID,TP53,STX18,,Negative Genetic,genetic
+BioGRID,TP53,UNC13D,,Negative Genetic,genetic
+BioGRID,TP53,CAB39,,Negative Genetic,genetic
+BioGRID,TP53,CNKSR2,,Negative Genetic,genetic
+BioGRID,TP53,WRAP53,,Negative Genetic,genetic
+BioGRID,TP53,RPRD1B,,Negative Genetic,genetic
+BioGRID,TP53,TYMS,,Negative Genetic,genetic
+BioGRID,TP53,TAF4,,Co-fractionation,physical
+BioGRID,TP53,GNS,,Co-fractionation,physical
+BioGRID,TP53,TCEA1,,Co-fractionation,physical
+BioGRID,TP53,PSMA1,,Co-fractionation,physical
+BioGRID,TP53,GTF2E1,,Co-fractionation,physical
+BioGRID,TP53,GTF2E2,,Co-fractionation,physical
+BioGRID,TP53,GTF2F1,,Co-fractionation,physical
+BioGRID,TP53,GTF2A1,,Co-fractionation,physical
+BioGRID,TP53,GTF2B,,Co-fractionation,physical
+BioGRID,TP53,EIF3A,,Co-fractionation,physical
+BioGRID,TP53,TAF7,,Co-fractionation,physical
+BioGRID,TP53,COPS6,,Co-fractionation,physical
+BioGRID,TP53,COPS8,,Co-fractionation,physical
+BioGRID,TP53,COPS7A,,Co-fractionation,physical
+BioGRID,TP53,COPS3,,Co-fractionation,physical
+BioGRID,TP53,TRIM2,,Affinity Capture-Western,physical
+BioGRID,TP53,DTX3,,Affinity Capture-Western,physical
+BioGRID,TP53,HERC3,,Affinity Capture-Western,physical
+BioGRID,TP53,CBL,,Affinity Capture-Western,physical
+BioGRID,TP53,UROS,,Synthetic Lethality,genetic
+BioGRID,TP53,GYPC,,Synthetic Lethality,genetic
+BioGRID,TP53,PRO1596,,Synthetic Lethality,genetic
+BioGRID,TP53,CD69,,Synthetic Lethality,genetic
+BioGRID,TP53,PDXP,,Synthetic Lethality,genetic
+BioGRID,TP53,THADA,,Synthetic Lethality,genetic
+BioGRID,TP53,KCNJ10,,Synthetic Lethality,genetic
+BioGRID,TP53,ABCA12,,Synthetic Lethality,genetic
+BioGRID,TP53,UBA6,,Synthetic Lethality,genetic
+BioGRID,TP53,CDC7,,Synthetic Lethality,genetic
+BioGRID,TP53,ID1,,Synthetic Lethality,genetic
+BioGRID,TP53,CTBS,,Synthetic Lethality,genetic
+BioGRID,TP53,EIF2B3,,Synthetic Lethality,genetic
+BioGRID,TP53,PTCD1,,Synthetic Lethality,genetic
+BioGRID,TP53,TPCN2,,Synthetic Lethality,genetic
+BioGRID,TP53,NEURL1,,Synthetic Lethality,genetic
+BioGRID,TP53,STEAP4,,Synthetic Lethality,genetic
+BioGRID,TP53,C19ORF40,,Synthetic Lethality,genetic
+BioGRID,TP53,C19ORF38,,Synthetic Lethality,genetic
+BioGRID,TP53,C14ORF37,,Synthetic Lethality,genetic
+BioGRID,TP53,NIM1K,,Synthetic Lethality,genetic
+BioGRID,TP53,GP6,,Synthetic Lethality,genetic
+BioGRID,TP53,BCL2L14,,Synthetic Lethality,genetic
+BioGRID,TP53,HILS1,,Synthetic Lethality,genetic
+BioGRID,TP53,CLDND2,,Synthetic Lethality,genetic
+BioGRID,TP53,UMOD,,Synthetic Lethality,genetic
+BioGRID,TP53,RHAG,,Synthetic Lethality,genetic
+BioGRID,TP53,SATL1,,Synthetic Lethality,genetic
+BioGRID,TP53,RTN4IP1,,Synthetic Lethality,genetic
+BioGRID,TP53,DOK7,,Synthetic Lethality,genetic
+BioGRID,TP53,NUP98,,Synthetic Lethality,genetic
+BioGRID,TP53,PWWP2A,,Synthetic Lethality,genetic
+BioGRID,TP53,MEP1A,,Synthetic Lethality,genetic
+BioGRID,TP53,CCT6B,,Synthetic Lethality,genetic
+BioGRID,TP53,DEFB125,,Synthetic Lethality,genetic
+BioGRID,TP53,GJA5,,Synthetic Lethality,genetic
+BioGRID,TP53,EFNA4,,Synthetic Lethality,genetic
+BioGRID,TP53,NMNAT1,,Synthetic Lethality,genetic
+BioGRID,TP53,KLHL10,,Synthetic Lethality,genetic
+BioGRID,TP53,LMLN,,Synthetic Lethality,genetic
+BioGRID,TP53,ITGB7,,Synthetic Lethality,genetic
+BioGRID,TP53,CPN1,,Synthetic Lethality,genetic
+BioGRID,TP53,COLQ,,Synthetic Lethality,genetic
+BioGRID,TP53,AP3B2,,Synthetic Lethality,genetic
+BioGRID,TP53,ANXA11,,Synthetic Lethality,genetic
+BioGRID,TP53,GATA4,,Affinity Capture-MS,physical
+BioGRID,TP53,TBX5,,Affinity Capture-MS,physical
+BioGRID,TP53,ULK3,,Affinity Capture-MS,physical
+BioGRID,TP53,PIM3,,Affinity Capture-MS,physical
+BioGRID,TP53,MINK1,,Affinity Capture-MS,physical
+BioGRID,TP53,TBCK,,Affinity Capture-MS,physical
+BioGRID,TP53,GSG2,,Affinity Capture-MS,physical
+BioGRID,TP53,CDKL2,,Affinity Capture-MS,physical
+BioGRID,TP53,MKNK1,,Affinity Capture-MS,physical
+BioGRID,TP53,PAK7,,Affinity Capture-MS,physical
+BioGRID,TP53,TNIK,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXO4,,Reconstituted Complex,physical
+BioGRID,TP53,CDC25C,,Co-localization,physical
+BioGRID,TP53,CCNA1,,Co-localization,physical
+BioGRID,TP53,DNAJA3,,Affinity Capture-MS,physical
+BioGRID,TP53,RRAD,,Affinity Capture-MS,physical
+BioGRID,TP53,GDF15,,Affinity Capture-MS,physical
+BioGRID,TP53,LRP1,,Affinity Capture-MS,physical
+BioGRID,TP53,EPPK1,,Affinity Capture-MS,physical
+BioGRID,TP53,DDX60,,Affinity Capture-MS,physical
+BioGRID,TP53,MTMR14,,Affinity Capture-MS,physical
+BioGRID,TP53,OLA1,,Affinity Capture-MS,physical
+BioGRID,TP53,HGS,,Affinity Capture-MS,physical
+BioGRID,TP53,TOX4,,Affinity Capture-MS,physical
+BioGRID,TP53,LENG1,,Affinity Capture-MS,physical
+BioGRID,TP53,MPG,,Affinity Capture-MS,physical
+BioGRID,TP53,NELFA,,Affinity Capture-MS,physical
+BioGRID,TP53,STRAP,,Affinity Capture-MS,physical
+BioGRID,TP53,IDH1,,Affinity Capture-MS,physical
+BioGRID,TP53,HN1L,,Affinity Capture-MS,physical
+BioGRID,TP53,SNX5,,Affinity Capture-MS,physical
+BioGRID,TP53,SARS,,Affinity Capture-MS,physical
+BioGRID,TP53,FARSB,,Affinity Capture-MS,physical
+BioGRID,TP53,LSG1,,Affinity Capture-MS,physical
+BioGRID,TP53,L1RE1,,Affinity Capture-MS,physical
+BioGRID,TP53,ATIC,,Affinity Capture-MS,physical
+BioGRID,TP53,PIP4K2C,,Affinity Capture-MS,physical
+BioGRID,TP53,ANK3,,Affinity Capture-MS,physical
+BioGRID,TP53,SENP5,,Affinity Capture-MS,physical
+BioGRID,TP53,EVL,,Affinity Capture-MS,physical
+BioGRID,TP53,PPP1R10,,Affinity Capture-MS,physical
+BioGRID,TP53,GAK,,Affinity Capture-MS,physical
+BioGRID,TP53,ZC3H15,,Affinity Capture-MS,physical
+BioGRID,TP53,GSTO1,,Affinity Capture-MS,physical
+BioGRID,TP53,DRG1,,Affinity Capture-MS,physical
+BioGRID,TP53,AHCY,,Affinity Capture-MS,physical
+BioGRID,TP53,TLN1,,Affinity Capture-MS,physical
+BioGRID,TP53,AATK,,Proximity Label-MS,physical
+BioGRID,TP53,CCNF,,Affinity Capture-MS,physical
+BioGRID,TP53,RAF1,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM37,,Affinity Capture-Western,physical
+BioGRID,TP53,PSMA3,,Reconstituted Complex,physical
+BioGRID,TP53,DCAF13,,Affinity Capture-Western,physical
+BioGRID,TP53,CCDC3,,Affinity Capture-Western,physical
+BioGRID,TP53,PSMC4,,Affinity Capture-Western,physical
+BioGRID,TP53,MOB2,,Proximity Label-MS,physical
+BioGRID,TP53,TRIM41,,Affinity Capture-Western,physical
+BioGRID,TP53,PRNP,,Affinity Capture-MS,physical
+BioGRID,TP53,MIDN,,Affinity Capture-MS,physical
+BioGRID,TP53,GGA1,,Protein-peptide,physical
+BioGRID,TP53,GGA2,,Protein-peptide,physical
+BioGRID,TP53,GGA3,,Protein-peptide,physical
+BioGRID,TP53,MEX3A,,Affinity Capture-Western,physical
+BioGRID,TP53,RPA4,,Affinity Capture-Western,physical
+BioGRID,TP53,RPA3,,Proximity Label-MS,physical
+BioGRID,TP53,KRT10,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT9,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT16,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT14,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT17,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT1,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT2,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT77,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT6B,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT80,,Affinity Capture-MS,physical
+BioGRID,TP53,KRT78,,Affinity Capture-MS,physical
+BioGRID,TP53,NES,,Affinity Capture-MS,physical
+BioGRID,TP53,PLEC,,Affinity Capture-MS,physical
+BioGRID,TP53,FLNB,,Affinity Capture-MS,physical
+BioGRID,TP53,FLG2,,Affinity Capture-MS,physical
+BioGRID,TP53,TGM1,,Affinity Capture-MS,physical
+BioGRID,TP53,ALB,,Affinity Capture-MS,physical
+BioGRID,TP53,TNC,,Affinity Capture-MS,physical
+BioGRID,TP53,ARG1,,Affinity Capture-MS,physical
+BioGRID,TP53,PSMB6,,Affinity Capture-MS,physical
+BioGRID,TP53,SPTAN1,,Affinity Capture-MS,physical
+BioGRID,TP53,SPTBN1,,Affinity Capture-MS,physical
+BioGRID,TP53,CAT,,Affinity Capture-MS,physical
+BioGRID,TP53,SERPINB12,,Affinity Capture-MS,physical
+BioGRID,TP53,HRNR,,Affinity Capture-MS,physical
+BioGRID,TP53,GTPBP2,,Affinity Capture-MS,physical
+BioGRID,TP53,SYNPO2,,Affinity Capture-MS,physical
+BioGRID,TP53,TTC7A,,Affinity Capture-MS,physical
+BioGRID,TP53,CEP170B,,Affinity Capture-MS,physical
+BioGRID,TP53,BLMH,,Affinity Capture-MS,physical
+BioGRID,TP53,FLI1,,Affinity Capture-MS,physical
+BioGRID,TP53,ARHGAP33,,Affinity Capture-MS,physical
+BioGRID,TP53,PHC1,,Affinity Capture-MS,physical
+BioGRID,TP53,HAL,,Affinity Capture-MS,physical
+BioGRID,TP53,HAUS3,,Affinity Capture-MS,physical
+BioGRID,TP53,SLX4IP,,Affinity Capture-MS,physical
+BioGRID,TP53,ZBTB14,,Affinity Capture-MS,physical
+BioGRID,TP53,MOCS1,,Affinity Capture-MS,physical
+BioGRID,TP53,ZNF608,,Affinity Capture-MS,physical
+BioGRID,TP53,CSNK1G3,,Affinity Capture-MS,physical
+BioGRID,TP53,TRIM21,,Affinity Capture-MS,physical
+BioGRID,TP53,MYH4,,Affinity Capture-MS,physical
+BioGRID,TP53,UBE2H,,Affinity Capture-MS,physical
+BioGRID,TP53,FBXL8,,Affinity Capture-Western,physical
+BioGRID,TP53,WWTR1,,Proximity Label-MS,physical
+BioGRID,TP53,FOXP2,,Affinity Capture-MS,physical
+BioGRID,TP53,FOXP4,,Affinity Capture-MS,physical
+BioGRID,TP53,CEBPA,,Proximity Label-MS,physical
+BioGRID,TP53,ARRDC1,,Affinity Capture-MS,physical
+BioGRID,TP53,CCDC6,,Co-localization,physical
+BioGRID,TP53,ZNF593,,Synthetic Rescue,genetic
+BioGRID,TP53,IPO4,,Synthetic Rescue,genetic
+BioGRID,TP53,C16ORF72,,Synthetic Rescue,genetic
+BioGRID,TP53,DDX31,,Synthetic Rescue,genetic
+BioGRID,TP53,SEPHS1,,Synthetic Rescue,genetic
+BioGRID,TP53,BRAP,,Synthetic Rescue,genetic
+BioGRID,TP53,ANKRD49,,Synthetic Rescue,genetic
+BioGRID,TP53,PTK6,,Synthetic Rescue,genetic
+BioGRID,TP53,PPM1G,,Synthetic Rescue,genetic
+BioGRID,TP53,ATP5O,,Synthetic Rescue,genetic
+BioGRID,TP53,MED25,,Synthetic Rescue,genetic
+BioGRID,TP53,RHOG,,Synthetic Rescue,genetic
+BioGRID,TP53,COX7C,,Synthetic Rescue,genetic
+BioGRID,TP53,EIF5AL1,,Synthetic Rescue,genetic
+BioGRID,TP53,NDE1,,Synthetic Rescue,genetic
+BioGRID,TP53,C14ORF80,,Synthetic Rescue,genetic
+BioGRID,TP53,PLA2G12A,,Synthetic Rescue,genetic
+BioGRID,TP53,NONO,,Synthetic Rescue,genetic
+BioGRID,TP53,UBE2C,,Synthetic Rescue,genetic
+BioGRID,TP53,BAZ1B,,Synthetic Rescue,genetic
+BioGRID,TP53,PCBP2,,Synthetic Rescue,genetic
+BioGRID,TP53,NCF1,,Synthetic Rescue,genetic
+BioGRID,TP53,RNASEH2A,,Synthetic Rescue,genetic
+BioGRID,TP53,LSM12,,Synthetic Rescue,genetic
+BioGRID,TP53,ZNF574,,Synthetic Rescue,genetic
+BioGRID,TP53,KIF2C,,Synthetic Rescue,genetic
+BioGRID,TP53,TCOF1,,Synthetic Rescue,genetic
+BioGRID,TP53,GID8,,Synthetic Rescue,genetic
+BioGRID,TP53,PPP2R3C,,Synthetic Rescue,genetic
+BioGRID,TP53,MST1,,Synthetic Rescue,genetic
+BioGRID,TP53,PFDN1,,Synthetic Rescue,genetic
+BioGRID,TP53,APEX2,,Synthetic Rescue,genetic
+BioGRID,TP53,EXOC3,,Synthetic Rescue,genetic
+BioGRID,TP53,PDAP1,,Synthetic Rescue,genetic
+BioGRID,TP53,DSCC1,,Synthetic Rescue,genetic
+BioGRID,TP53,ADO,,Synthetic Rescue,genetic
+BioGRID,TP53,TSEN34,,Synthetic Rescue,genetic
+BioGRID,TP53,KANSL3,,Synthetic Rescue,genetic
+BioGRID,TP53,EXOSC1,,Synthetic Rescue,genetic
+BioGRID,TP53,C11ORF30,,Proximity Label-MS,physical
+BioGRID,TP53,CTR9,,Proximity Label-MS,physical
+BioGRID,TP53,BACH2,,Proximity Label-MS,physical
+BioGRID,TP53,POLDIP3,,Proximity Label-MS,physical
+BioGRID,TP53,C2ORF44,,Proximity Label-MS,physical
+BioGRID,TP53,ALKBH5,,Proximity Label-MS,physical
+BioGRID,TP53,CSRP2BP,,Proximity Label-MS,physical
+BioGRID,TP53,HPRT1,,Proximity Label-MS,physical
+BioGRID,TP53,AASDH,,Proximity Label-MS,physical
+BioGRID,TP53,SUPT20H,,Proximity Label-MS,physical
+BioGRID,TP53,FARSA,,Proximity Label-MS,physical
+BioGRID,TP53,TBKBP1,,Proximity Label-MS,physical
+BioGRID,TP53,PEF1,,Proximity Label-MS,physical
+BioGRID,TP53,SALL1,,Proximity Label-MS,physical
+BioGRID,TP53,UBN1,,Proximity Label-MS,physical
+BioGRID,TP53,FN3KRP,,Proximity Label-MS,physical
+BioGRID,TP53,ARID5B,,Proximity Label-MS,physical
+BioGRID,TP53,KDM5C,,Proximity Label-MS,physical
+BioGRID,TP53,SETD1B,,Proximity Label-MS,physical
+BioGRID,TP53,DYNC2H1,,Proximity Label-MS,physical
+BioGRID,TP53,ZDBF2,,Proximity Label-MS,physical
+BioGRID,TP53,DDX11,,Proximity Label-MS,physical
+BioGRID,TP53,NFATC3,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF318,,Proximity Label-MS,physical
+BioGRID,TP53,CENPH,,Proximity Label-MS,physical
+BioGRID,TP53,CTBP2,,Proximity Label-MS,physical
+BioGRID,TP53,RMI1,,Proximity Label-MS,physical
+BioGRID,TP53,TTC4,,Proximity Label-MS,physical
+BioGRID,TP53,CWF19L2,,Proximity Label-MS,physical
+BioGRID,TP53,YEATS4,,Proximity Label-MS,physical
+BioGRID,TP53,RBM22,,Proximity Label-MS,physical
+BioGRID,TP53,SRCAP,,Proximity Label-MS,physical
+BioGRID,TP53,DLD,,Proximity Label-MS,physical
+BioGRID,TP53,KRT35,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF546,,Proximity Label-MS,physical
+BioGRID,TP53,TOP3A,,Proximity Label-MS,physical
+BioGRID,TP53,SPEN,,Proximity Label-MS,physical
+BioGRID,TP53,FAM21A,,Proximity Label-MS,physical
+BioGRID,TP53,FAM21C,,Proximity Label-MS,physical
+BioGRID,TP53,CASC5,,Proximity Label-MS,physical
+BioGRID,TP53,DLG5,,Proximity Label-MS,physical
+BioGRID,TP53,ZCCHC8,,Proximity Label-MS,physical
+BioGRID,TP53,UBN2,,Proximity Label-MS,physical
+BioGRID,TP53,SENP6,,Proximity Label-MS,physical
+BioGRID,TP53,TUBB2B,,Proximity Label-MS,physical
+BioGRID,TP53,NCOR2,,Proximity Label-MS,physical
+BioGRID,TP53,PAF1,,Proximity Label-MS,physical
+BioGRID,TP53,CDK11A,,Proximity Label-MS,physical
+BioGRID,TP53,ZSWIM8,,Proximity Label-MS,physical
+BioGRID,TP53,APC,,Proximity Label-MS,physical
+BioGRID,TP53,TUBB4A,,Proximity Label-MS,physical
+BioGRID,TP53,CEP192,,Proximity Label-MS,physical
+BioGRID,TP53,YY1AP1,,Proximity Label-MS,physical
+BioGRID,TP53,LZTS2,,Proximity Label-MS,physical
+BioGRID,TP53,SDCCAG3,,Proximity Label-MS,physical
+BioGRID,TP53,TCHP,,Proximity Label-MS,physical
+BioGRID,TP53,CHD7,,Proximity Label-MS,physical
+BioGRID,TP53,RBM11,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF507,,Proximity Label-MS,physical
+BioGRID,TP53,RNGTT,,Proximity Label-MS,physical
+BioGRID,TP53,SETX,,Proximity Label-MS,physical
+BioGRID,TP53,TRIM26,,Proximity Label-MS,physical
+BioGRID,TP53,POLR3C,,Proximity Label-MS,physical
+BioGRID,TP53,CDC23,,Proximity Label-MS,physical
+BioGRID,TP53,RBM20,,Proximity Label-MS,physical
+BioGRID,TP53,SALL2,,Proximity Label-MS,physical
+BioGRID,TP53,MCMBP,,Proximity Label-MS,physical
+BioGRID,TP53,ANP32E,,Proximity Label-MS,physical
+BioGRID,TP53,ESRRA,,Proximity Label-MS,physical
+BioGRID,TP53,ZCCHC2,,Proximity Label-MS,physical
+BioGRID,TP53,C18ORF25,,Proximity Label-MS,physical
+BioGRID,TP53,SLX4,,Proximity Label-MS,physical
+BioGRID,TP53,SIRT2,,Proximity Label-MS,physical
+BioGRID,TP53,SMARCAD1,,Proximity Label-MS,physical
+BioGRID,TP53,USP34,,Proximity Label-MS,physical
+BioGRID,TP53,SIPA1L2,,Proximity Label-MS,physical
+BioGRID,TP53,NUDCD3,,Proximity Label-MS,physical
+BioGRID,TP53,TONSL,,Proximity Label-MS,physical
+BioGRID,TP53,AIP,,Proximity Label-MS,physical
+BioGRID,TP53,ANKRD26,,Proximity Label-MS,physical
+BioGRID,TP53,FKBP5,,Proximity Label-MS,physical
+BioGRID,TP53,ST13,,Proximity Label-MS,physical
+BioGRID,TP53,MORC3,,Proximity Label-MS,physical
+BioGRID,TP53,ZZZ3,,Proximity Label-MS,physical
+BioGRID,TP53,GSR,,Proximity Label-MS,physical
+BioGRID,TP53,PROSC,,Proximity Label-MS,physical
+BioGRID,TP53,HIST1H2AE,,Proximity Label-MS,physical
+BioGRID,TP53,LEO1,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF629,,Proximity Label-MS,physical
+BioGRID,TP53,FAM178A,,Proximity Label-MS,physical
+BioGRID,TP53,KPNA6,,Proximity Label-MS,physical
+BioGRID,TP53,PPIL2,,Proximity Label-MS,physical
+BioGRID,TP53,MCM3AP,,Proximity Label-MS,physical
+BioGRID,TP53,CAPZA1,,Proximity Label-MS,physical
+BioGRID,TP53,MBTD1,,Proximity Label-MS,physical
+BioGRID,TP53,DROSHA,,Proximity Label-MS,physical
+BioGRID,TP53,PELO,,Proximity Label-MS,physical
+BioGRID,TP53,SOX13,,Proximity Label-MS,physical
+BioGRID,TP53,NUP107,,Proximity Label-MS,physical
+BioGRID,TP53,PQBP1,,Proximity Label-MS,physical
+BioGRID,TP53,E2F3,,Proximity Label-MS,physical
+BioGRID,TP53,DHX38,,Proximity Label-MS,physical
+BioGRID,TP53,ATF7IP,,Proximity Label-MS,physical
+BioGRID,TP53,GSE1,,Proximity Label-MS,physical
+BioGRID,TP53,ZGRF1,,Proximity Label-MS,physical
+BioGRID,TP53,EYA3,,Proximity Label-MS,physical
+BioGRID,TP53,CDCA4,,Proximity Label-MS,physical
+BioGRID,TP53,CKS2,,Proximity Label-MS,physical
+BioGRID,TP53,NFATC2IP,,Proximity Label-MS,physical
+BioGRID,TP53,INADL,,Proximity Label-MS,physical
+BioGRID,TP53,SPRTN,,Proximity Label-MS,physical
+BioGRID,TP53,THOC3,,Proximity Label-MS,physical
+BioGRID,TP53,LRIF1,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF644,,Proximity Label-MS,physical
+BioGRID,TP53,ZMYM6,,Proximity Label-MS,physical
+BioGRID,TP53,NOSIP,,Proximity Label-MS,physical
+BioGRID,TP53,RUVBL2,,Proximity Label-MS,physical
+BioGRID,TP53,CDC20,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF180,,Proximity Label-MS,physical
+BioGRID,TP53,CPSF7,,Proximity Label-MS,physical
+BioGRID,TP53,DHX40,,Proximity Label-MS,physical
+BioGRID,TP53,PAPOLG,,Proximity Label-MS,physical
+BioGRID,TP53,IKZF3,,Proximity Label-MS,physical
+BioGRID,TP53,MAX,,Proximity Label-MS,physical
+BioGRID,TP53,UBA2,,Proximity Label-MS,physical
+BioGRID,TP53,BCORL1,,Proximity Label-MS,physical
+BioGRID,TP53,HIVEP1,,Proximity Label-MS,physical
+BioGRID,TP53,RBM6,,Proximity Label-MS,physical
+BioGRID,TP53,CD2BP2,,Proximity Label-MS,physical
+BioGRID,TP53,PRRC2B,,Proximity Label-MS,physical
+BioGRID,TP53,CLSPN,,Proximity Label-MS,physical
+BioGRID,TP53,MYBL2,,Proximity Label-MS,physical
+BioGRID,TP53,MORC4,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF516,,Proximity Label-MS,physical
+BioGRID,TP53,C15ORF39,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF217,,Proximity Label-MS,physical
+BioGRID,TP53,RBM33,,Proximity Label-MS,physical
+BioGRID,TP53,CDK11B,,Proximity Label-MS,physical
+BioGRID,TP53,RNF8,,Proximity Label-MS,physical
+BioGRID,TP53,RNF219,,Proximity Label-MS,physical
+BioGRID,TP53,RBBP8,,Proximity Label-MS,physical
+BioGRID,TP53,TPRN,,Proximity Label-MS,physical
+BioGRID,TP53,CBX4,,Proximity Label-MS,physical
+BioGRID,TP53,NOMO2,,Proximity Label-MS,physical
+BioGRID,TP53,FOXM1,,Proximity Label-MS,physical
+BioGRID,TP53,FBRS,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF703,,Proximity Label-MS,physical
+BioGRID,TP53,SETDB1,,Proximity Label-MS,physical
+BioGRID,TP53,WEE1,,Proximity Label-MS,physical
+BioGRID,TP53,MIS18BP1,,Proximity Label-MS,physical
+BioGRID,TP53,HSF2,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF92,,Proximity Label-MS,physical
+BioGRID,TP53,CCDC174,,Proximity Label-MS,physical
+BioGRID,TP53,SLFN11,,Proximity Label-MS,physical
+BioGRID,TP53,FBRSL1,,Proximity Label-MS,physical
+BioGRID,TP53,MED27,,Proximity Label-MS,physical
+BioGRID,TP53,KDM2B,,Proximity Label-MS,physical
+BioGRID,TP53,ZNF146,,Proximity Label-MS,physical
+BioGRID,TP53,C1ORF86,,Proximity Label-MS,physical
+BioGRID,TP53,E2F7,,Proximity Label-MS,physical
+BioGRID,TP53,CIRH1A,,Proximity Label-MS,physical
+BioGRID,TP53,METTL3,,Proximity Label-MS,physical
+BioGRID,TP53,C19ORF47,,Proximity Label-MS,physical
+BioGRID,TP53,E2F2,,Proximity Label-MS,physical
+BioGRID,TP53,BABAM1,,Proximity Label-MS,physical
+BioGRID,TP53,VPS72,,Proximity Label-MS,physical
+BioGRID,TP53,ZMYM3,,Proximity Label-MS,physical
+BioGRID,TP53,PRDX3,,Proximity Label-MS,physical
+BioGRID,TP53,SGOL1,,Proximity Label-MS,physical
+BioGRID,TP53,RPL38,,Proximity Label-MS,physical
+BioGRID,TP53,DYNLL1,,Proximity Label-MS,physical
+BioGRID,TP53,TRIM29,,Affinity Capture-Western,physical
+BioGRID,TP53,NFKB1,,Affinity Capture-Western,physical
+BioGRID,TP53,CTNNB1,,Proximity Label-MS,physical
+BioGRID,TP53,KLF12,,Affinity Capture-Western,physical
+BioGRID,TP53,STAT1,,Affinity Capture-Western,physical
+BioGRID,TP53,NRON,,Protein-RNA,physical
+BioGRID,TP53,MLF2,,Affinity Capture-Western,physical
+BioGRID,TP53,MIB1,,Affinity Capture-MS,physical
+BioGRID,TP53,HYOU1,,Affinity Capture-MS,physical
+BioGRID,TP53,GCN1L1,,Affinity Capture-MS,physical
+BioGRID,TP53,NUMA1,,Affinity Capture-MS,physical
+BioGRID,TP53,CPNE3,,Affinity Capture-MS,physical
+BioGRID,TP53,NUP93,,Affinity Capture-MS,physical
+BioGRID,TP53,LRRC59,,Affinity Capture-MS,physical
+BioGRID,TP53,FBXO46,,Affinity Capture-MS,physical
+BioGRID,TP53,CDC123,,Affinity Capture-MS,physical
+BioGRID,TP53,YOD1,,Affinity Capture-Western,physical
+BioGRID,TP53,SART3,,Affinity Capture-Western,physical
+BioGRID,TP53,IL13RA2,,Affinity Capture-Western,physical
+STRING,TP53,USP28,806,STRING_combined,scored
+STRING,TP53,CD4,703,STRING_combined,scored
+STRING,TP53,SNAI2,915,STRING_combined,scored
+STRING,TP53,RB1CC1,984,STRING_combined,scored
+STRING,TP53,TNFRSF1A,741,STRING_combined,scored
+STRING,TP53,TIGAR,981,STRING_combined,scored
+STRING,TP53,PPP1R13B,986,STRING_combined,scored
+STRING,TP53,CDC6,741,STRING_combined,scored
+STRING,TP53,MAPK13,943,STRING_combined,scored
+STRING,TP53,SIRT1,999,STRING_combined,scored
+STRING,TP53,GADD45B,964,STRING_combined,scored
+STRING,TP53,MAPK12,946,STRING_combined,scored
+STRING,TP53,MIF,731,STRING_combined,scored
+STRING,TP53,MAPK1,998,STRING_combined,scored
+STRING,TP53,RBX1,776,STRING_combined,scored
+STRING,TP53,SUPT16H,756,STRING_combined,scored
+STRING,TP53,VRK1,859,STRING_combined,scored
+STRING,TP53,APEX1,944,STRING_combined,scored
+STRING,TP53,NFKBIA,915,STRING_combined,scored
+STRING,TP53,AURKA,998,STRING_combined,scored
+STRING,TP53,MYBL2,742,STRING_combined,scored
+STRING,TP53,CSNK2A1,959,STRING_combined,scored
+STRING,TP53,PSMD10,866,STRING_combined,scored
+STRING,TP53,USP11,864,STRING_combined,scored
+STRING,TP53,TSC2,713,STRING_combined,scored
+STRING,TP53,STUB1,968,STRING_combined,scored
+STRING,TP53,AGO2,872,STRING_combined,scored
+STRING,TP53,TNFRSF10A,898,STRING_combined,scored
+STRING,TP53,PPP2CB,714,STRING_combined,scored
+STRING,TP53,TGFB1,809,STRING_combined,scored
+STRING,TP53,AIMP2,767,STRING_combined,scored
+STRING,TP53,PPIF,993,STRING_combined,scored
+STRING,TP53,RPS6KB1,700,STRING_combined,scored
+STRING,TP53,DDX5,997,STRING_combined,scored
+STRING,TP53,KAT2A,909,STRING_combined,scored
+STRING,TP53,HDAC5,768,STRING_combined,scored
+STRING,TP53,CD38,727,STRING_combined,scored
+STRING,TP53,NFKB1,989,STRING_combined,scored
+STRING,TP53,IL2,741,STRING_combined,scored
+STRING,TP53,CCND1,946,STRING_combined,scored
+STRING,TP53,CDKN1B,991,STRING_combined,scored
+STRING,TP53,IFNG,834,STRING_combined,scored
+STRING,TP53,NANOG,857,STRING_combined,scored
+STRING,TP53,MAPK14,994,STRING_combined,scored
+STRING,TP53,TBP,997,STRING_combined,scored
+STRING,TP53,IL4,718,STRING_combined,scored
+STRING,TP53,SKP1,812,STRING_combined,scored
+STRING,TP53,NR3C1,936,STRING_combined,scored
+STRING,TP53,MLH1,965,STRING_combined,scored
+STRING,TP53,EIF2AK2,775,STRING_combined,scored
+STRING,TP53,MSH2,974,STRING_combined,scored
+STRING,TP53,MSH6,826,STRING_combined,scored
+STRING,TP53,WDR77,787,STRING_combined,scored
+STRING,TP53,TP53I3,903,STRING_combined,scored
+STRING,TP53,EGR1,969,STRING_combined,scored
+STRING,TP53,NFYB,717,STRING_combined,scored
+STRING,TP53,POLK,918,STRING_combined,scored
+STRING,TP53,FLT3,722,STRING_combined,scored
+STRING,TP53,TWIST1,967,STRING_combined,scored
+STRING,TP53,SNAI1,992,STRING_combined,scored
+STRING,TP53,H4C6,947,STRING_combined,scored
+STRING,TP53,NOP53,702,STRING_combined,scored
+STRING,TP53,PIN1,946,STRING_combined,scored
+STRING,TP53,HSPB1,955,STRING_combined,scored
+STRING,TP53,SIRT2,768,STRING_combined,scored
+STRING,TP53,MYOD1,797,STRING_combined,scored
+STRING,TP53,E2F8,765,STRING_combined,scored
+STRING,TP53,BCL2L2,718,STRING_combined,scored
+STRING,TP53,FOXA1,735,STRING_combined,scored
+STRING,TP53,NEDD8,808,STRING_combined,scored
+STRING,TP53,RRM2B,992,STRING_combined,scored
+STRING,TP53,MED17,914,STRING_combined,scored
+STRING,TP53,TSG101,701,STRING_combined,scored
+STRING,TP53,CUL9,971,STRING_combined,scored
+STRING,TP53,KRT5,737,STRING_combined,scored
+STRING,TP53,GADD45G,937,STRING_combined,scored
+STRING,TP53,PXDN,821,STRING_combined,scored
+STRING,TP53,GDF15,762,STRING_combined,scored
+STRING,TP53,TRIM28,904,STRING_combined,scored
+STRING,TP53,SESN2,854,STRING_combined,scored
+STRING,TP53,PRKAB2,774,STRING_combined,scored
+STRING,TP53,NR0B2,777,STRING_combined,scored
+STRING,TP53,DNAJB1,951,STRING_combined,scored
+STRING,TP53,PER2,879,STRING_combined,scored
+STRING,TP53,RPA1,999,STRING_combined,scored
+STRING,TP53,H3-3B,865,STRING_combined,scored
+STRING,TP53,KDM6B,786,STRING_combined,scored
+STRING,TP53,CCNA1,974,STRING_combined,scored
+STRING,TP53,KRAS,949,STRING_combined,scored
+STRING,TP53,CCNB1,914,STRING_combined,scored
+STRING,TP53,CDK7,888,STRING_combined,scored
+STRING,TP53,VHL,784,STRING_combined,scored
+STRING,TP53,CABLES1,864,STRING_combined,scored
+STRING,TP53,DDB2,979,STRING_combined,scored
+STRING,TP53,PDGFRA,762,STRING_combined,scored
+STRING,TP53,CDK4,966,STRING_combined,scored
+STRING,TP53,CCT7,823,STRING_combined,scored
+STRING,TP53,MDM2,999,STRING_combined,scored
+STRING,TP53,DRAM1,830,STRING_combined,scored
+STRING,TP53,HUS1,712,STRING_combined,scored
+STRING,TP53,TTC5,745,STRING_combined,scored
+STRING,TP53,SRSF1,878,STRING_combined,scored
+STRING,TP53,POU5F1,824,STRING_combined,scored
+STRING,TP53,MMP7,774,STRING_combined,scored
+STRING,TP53,THBS1,720,STRING_combined,scored
+STRING,TP53,TOPBP1,949,STRING_combined,scored
+STRING,TP53,BARD1,982,STRING_combined,scored
+STRING,TP53,NUAK1,722,STRING_combined,scored
+STRING,TP53,UBE2K,753,STRING_combined,scored
+STRING,TP53,PALB2,738,STRING_combined,scored
+STRING,TP53,HERC2,816,STRING_combined,scored
+STRING,TP53,CDH1,853,STRING_combined,scored
+STRING,TP53,CSNK1A1,926,STRING_combined,scored
+STRING,TP53,MCM4,722,STRING_combined,scored
+STRING,TP53,RBL2,760,STRING_combined,scored
+STRING,TP53,SMAD2,993,STRING_combined,scored
+STRING,TP53,KMT2C,858,STRING_combined,scored
+STRING,TP53,YY1,942,STRING_combined,scored
+STRING,TP53,RCOR1,703,STRING_combined,scored
+STRING,TP53,AXIN1,905,STRING_combined,scored
+STRING,TP53,CREBBP,999,STRING_combined,scored
+STRING,TP53,CSNK2A2,939,STRING_combined,scored
+STRING,TP53,SETD1A,826,STRING_combined,scored
+STRING,TP53,CCNE1,926,STRING_combined,scored
+STRING,TP53,CDKN2C,957,STRING_combined,scored
+STRING,TP53,PRDX1,723,STRING_combined,scored
+STRING,TP53,ELL,822,STRING_combined,scored
+STRING,TP53,XRCC1,750,STRING_combined,scored
+STRING,TP53,E2F3,707,STRING_combined,scored
+STRING,TP53,PIAS4,954,STRING_combined,scored
+STRING,TP53,MAPK3,994,STRING_combined,scored
+STRING,TP53,DGCR8,929,STRING_combined,scored
+STRING,TP53,EP300,999,STRING_combined,scored
+STRING,TP53,PAX8,772,STRING_combined,scored
+STRING,TP53,IL1B,718,STRING_combined,scored
+STRING,TP53,BRD4,990,STRING_combined,scored
+STRING,TP53,NOTCH3,710,STRING_combined,scored
+STRING,TP53,ARID3A,929,STRING_combined,scored
+STRING,TP53,EPAS1,736,STRING_combined,scored
+STRING,TP53,KAT2B,985,STRING_combined,scored
+STRING,TP53,KDR,730,STRING_combined,scored
+STRING,TP53,PIK3CA,941,STRING_combined,scored
+STRING,TP53,ATF2,805,STRING_combined,scored
+STRING,TP53,MUL1,820,STRING_combined,scored
+STRING,TP53,TXNDC9,737,STRING_combined,scored
+STRING,TP53,YWHAE,900,STRING_combined,scored
+STRING,TP53,FGF2,754,STRING_combined,scored
+STRING,TP53,RBBP5,748,STRING_combined,scored
+STRING,TP53,STAT3,994,STRING_combined,scored
+STRING,TP53,DNMT3A,835,STRING_combined,scored
+STRING,TP53,TP63,953,STRING_combined,scored
+STRING,TP53,ICAM1,722,STRING_combined,scored
+STRING,TP53,PPARGC1A,887,STRING_combined,scored
+STRING,TP53,CASP6,898,STRING_combined,scored
+STRING,TP53,EGF,780,STRING_combined,scored
+STRING,TP53,POLB,838,STRING_combined,scored
+STRING,TP53,NBN,763,STRING_combined,scored
+STRING,TP53,ANK1,734,STRING_combined,scored
+STRING,TP53,KAT6A,861,STRING_combined,scored
+STRING,TP53,CDK6,808,STRING_combined,scored
+STRING,TP53,PMS2,936,STRING_combined,scored
+STRING,TP53,GTF2H1,950,STRING_combined,scored
+STRING,TP53,DAXX,999,STRING_combined,scored
+STRING,TP53,PATZ1,764,STRING_combined,scored
+STRING,TP53,CDK2,987,STRING_combined,scored
+STRING,TP53,RB1,936,STRING_combined,scored
+STRING,TP53,PML,967,STRING_combined,scored
+STRING,TP53,NCOR1,853,STRING_combined,scored
+STRING,TP53,SREBF2,978,STRING_combined,scored
+STRING,TP53,ERCC3,908,STRING_combined,scored
+STRING,TP53,ANXA2,977,STRING_combined,scored
+STRING,TP53,FGFR3,718,STRING_combined,scored
+STRING,TP53,LRRK2,738,STRING_combined,scored
+STRING,TP53,IL6,777,STRING_combined,scored
+STRING,TP53,PHF20,970,STRING_combined,scored
+STRING,TP53,CDKN2B,860,STRING_combined,scored
+STRING,TP53,KEAP1,810,STRING_combined,scored
+STRING,TP53,NR4A1,817,STRING_combined,scored
+STRING,TP53,PXDNL,821,STRING_combined,scored
+STRING,TP53,SRSF2,750,STRING_combined,scored
+STRING,TP53,PRKN,760,STRING_combined,scored
+STRING,TP53,LOC102723407,813,STRING_combined,scored
+STRING,TP53,SQSTM1,901,STRING_combined,scored
+STRING,TP53,YBX1,922,STRING_combined,scored
+STRING,TP53,H4C5,822,STRING_combined,scored
+STRING,TP53,ATF3,982,STRING_combined,scored
+STRING,TP53,RPA2,774,STRING_combined,scored
+STRING,TP53,E2F7,895,STRING_combined,scored
+STRING,TP53,DNMT1,997,STRING_combined,scored
+STRING,TP53,ATG7,907,STRING_combined,scored
+STRING,TP53,ZEB1,824,STRING_combined,scored
+STRING,TP53,TUBB,723,STRING_combined,scored
+STRING,TP53,FBXW7,960,STRING_combined,scored
+STRING,TP53,SUMO4,930,STRING_combined,scored
+STRING,TP53,SFN,999,STRING_combined,scored
+STRING,TP53,NSD2,769,STRING_combined,scored
+STRING,TP53,RNF20,929,STRING_combined,scored
+STRING,TP53,IGF2,745,STRING_combined,scored
+STRING,TP53,PTK2,928,STRING_combined,scored
+STRING,TP53,H2BC11,874,STRING_combined,scored
+STRING,TP53,YWHAG,909,STRING_combined,scored
+STRING,TP53,KHDRBS1,701,STRING_combined,scored
+STRING,TP53,ING1,914,STRING_combined,scored
+STRING,TP53,RPL11,971,STRING_combined,scored
+STRING,TP53,XPA,738,STRING_combined,scored
+STRING,TP53,SLCO6A1,879,STRING_combined,scored
+STRING,TP53,CDK12,775,STRING_combined,scored
+STRING,TP53,PHB,860,STRING_combined,scored
+STRING,TP53,H3C12,971,STRING_combined,scored
+STRING,TP53,PMAIP1,970,STRING_combined,scored
+STRING,TP53,EZH2,899,STRING_combined,scored
+STRING,TP53,HK2,706,STRING_combined,scored
+STRING,TP53,HSP90AB1,995,STRING_combined,scored
+STRING,TP53,MMUT,751,STRING_combined,scored
+STRING,TP53,CCNK,806,STRING_combined,scored
+STRING,TP53,XRCC6,955,STRING_combined,scored
+STRING,TP53,SMAD4,875,STRING_combined,scored
+STRING,TP53,JUN,997,STRING_combined,scored
+STRING,TP53,MRE11,905,STRING_combined,scored
+STRING,TP53,HIPK4,918,STRING_combined,scored
+STRING,TP53,G3BP1,879,STRING_combined,scored
+STRING,TP53,UHRF2,763,STRING_combined,scored
+STRING,TP53,MAP1B,740,STRING_combined,scored
+STRING,TP53,CYCS,911,STRING_combined,scored
+STRING,TP53,FOXM1,790,STRING_combined,scored
+STRING,TP53,NFE2L2,780,STRING_combined,scored
+STRING,TP53,SESN3,796,STRING_combined,scored
+STRING,TP53,VCP,709,STRING_combined,scored
+STRING,TP53,PSME3,882,STRING_combined,scored
+STRING,TP53,WRAP53,703,STRING_combined,scored
+STRING,TP53,AURKB,908,STRING_combined,scored
+STRING,TP53,PPP2R1A,946,STRING_combined,scored
+STRING,TP53,PRMT1,937,STRING_combined,scored
+STRING,TP53,AKT3,953,STRING_combined,scored
+STRING,TP53,KAT5,996,STRING_combined,scored
+STRING,TP53,CCNH,833,STRING_combined,scored
+STRING,TP53,HNRNPK,943,STRING_combined,scored
+STRING,TP53,DAPK1,866,STRING_combined,scored
+STRING,TP53,PRKAA1,764,STRING_combined,scored
+STRING,TP53,RELA,955,STRING_combined,scored
+STRING,TP53,HSPA4,997,STRING_combined,scored
+STRING,TP53,GSK3B,992,STRING_combined,scored
+STRING,TP53,DDX3X,750,STRING_combined,scored
+STRING,TP53,TUBB2A,709,STRING_combined,scored
+STRING,TP53,H4C7,719,STRING_combined,scored
+STRING,TP53,RCHY1,998,STRING_combined,scored
+STRING,TP53,H3C13,863,STRING_combined,scored
+STRING,TP53,TOPORS,952,STRING_combined,scored
+STRING,TP53,RBBP6,982,STRING_combined,scored
+STRING,TP53,SRC,884,STRING_combined,scored
+STRING,TP53,RUNX1,820,STRING_combined,scored
+STRING,TP53,TXN,899,STRING_combined,scored
+STRING,TP53,PGR,849,STRING_combined,scored
+STRING,TP53,H2AC4,800,STRING_combined,scored
+STRING,TP53,PADI4,861,STRING_combined,scored
+STRING,TP53,KLK3,760,STRING_combined,scored
+STRING,TP53,SUMO2,965,STRING_combined,scored
+STRING,TP53,H2BC12,876,STRING_combined,scored
+STRING,TP53,UBA1,710,STRING_combined,scored
+STRING,TP53,HIPK3,958,STRING_combined,scored
+STRING,TP53,HIF1A,999,STRING_combined,scored
+STRING,TP53,BRCA2,995,STRING_combined,scored
+STRING,TP53,CDC25C,894,STRING_combined,scored
+STRING,TP53,S100A1,790,STRING_combined,scored
+STRING,TP53,H3-2,863,STRING_combined,scored
+STRING,TP53,VENTX,770,STRING_combined,scored
+STRING,TP53,UBR5,840,STRING_combined,scored
+STRING,TP53,CASP2,794,STRING_combined,scored
+STRING,TP53,S100A4,996,STRING_combined,scored
+STRING,TP53,EHMT2,919,STRING_combined,scored
+STRING,TP53,CASP10,939,STRING_combined,scored
+STRING,TP53,MAP3K1,866,STRING_combined,scored
+STRING,TP53,TP73,985,STRING_combined,scored
+STRING,TP53,TOP3A,736,STRING_combined,scored
+STRING,TP53,TCHP,946,STRING_combined,scored
+STRING,TP53,NF1,880,STRING_combined,scored
+STRING,TP53,SET,714,STRING_combined,scored
+STRING,TP53,TP53INP1,935,STRING_combined,scored
+STRING,TP53,BUB1B,745,STRING_combined,scored
+STRING,TP53,NUPR1,755,STRING_combined,scored
+STRING,TP53,GATA3,724,STRING_combined,scored
+STRING,TP53,CRYAB,798,STRING_combined,scored
+STRING,TP53,CEBPB,862,STRING_combined,scored
+STRING,TP53,RPS19,723,STRING_combined,scored
+STRING,TP53,ITCH,791,STRING_combined,scored
+STRING,TP53,PCNA,913,STRING_combined,scored
+STRING,TP53,MDC1,853,STRING_combined,scored
+STRING,TP53,CUL1,709,STRING_combined,scored
+STRING,TP53,SETD2,845,STRING_combined,scored
+STRING,TP53,BAG1,754,STRING_combined,scored
+STRING,TP53,TRRAP,973,STRING_combined,scored
+STRING,TP53,CASP8,991,STRING_combined,scored
+STRING,TP53,SMAD3,963,STRING_combined,scored
+STRING,TP53,TAF6,854,STRING_combined,scored
+STRING,TP53,RAD50,709,STRING_combined,scored
+STRING,TP53,ELAVL1,839,STRING_combined,scored
+STRING,TP53,FOXO1,886,STRING_combined,scored
+STRING,TP53,MTA2,857,STRING_combined,scored
+STRING,TP53,EWSR1,810,STRING_combined,scored
+STRING,TP53,PBK,873,STRING_combined,scored
+STRING,TP53,GPX4,730,STRING_combined,scored
+STRING,TP53,STEAP3,856,STRING_combined,scored
+STRING,TP53,PLK1,981,STRING_combined,scored
+STRING,TP53,PELP1,771,STRING_combined,scored
+STRING,TP53,CREB1,998,STRING_combined,scored
+STRING,TP53,SIRT6,748,STRING_combined,scored
+STRING,TP53,G6PD,986,STRING_combined,scored
+STRING,TP53,CSNK1E,735,STRING_combined,scored
+STRING,TP53,POLI,960,STRING_combined,scored
+STRING,TP53,ALK,772,STRING_combined,scored
+STRING,TP53,H3C6,859,STRING_combined,scored
+STRING,TP53,H4C8,819,STRING_combined,scored
+STRING,TP53,H3-4,863,STRING_combined,scored
+STRING,TP53,RABGGTA,756,STRING_combined,scored
+STRING,TP53,HDAC1,999,STRING_combined,scored
+STRING,TP53,HSP90AA1,999,STRING_combined,scored
+STRING,TP53,TAF9,983,STRING_combined,scored
+STRING,TP53,H4C11,819,STRING_combined,scored
+STRING,TP53,FOXO4,995,STRING_combined,scored
+STRING,TP53,HIPK1,967,STRING_combined,scored
+STRING,TP53,NDRG1,859,STRING_combined,scored
+STRING,TP53,CDC25A,861,STRING_combined,scored
+STRING,TP53,RNF40,732,STRING_combined,scored
+STRING,TP53,BID,856,STRING_combined,scored
+STRING,TP53,PCBP4,909,STRING_combined,scored
+STRING,TP53,SREBF1,801,STRING_combined,scored
+STRING,TP53,ING4,982,STRING_combined,scored
+STRING,TP53,HTT,998,STRING_combined,scored
+STRING,TP53,PPM1D,883,STRING_combined,scored
+STRING,TP53,RPL5,945,STRING_combined,scored
+STRING,TP53,CEBPA,930,STRING_combined,scored
+STRING,TP53,ANK3,753,STRING_combined,scored
+STRING,TP53,WEE1,753,STRING_combined,scored
+STRING,TP53,PIDD1,958,STRING_combined,scored
+STRING,TP53,SP100,744,STRING_combined,scored
+STRING,TP53,CASP3,956,STRING_combined,scored
+STRING,TP53,GAPDH,886,STRING_combined,scored
+STRING,TP53,RRM2,803,STRING_combined,scored
+STRING,TP53,SETD7,947,STRING_combined,scored
+STRING,TP53,CHD4,749,STRING_combined,scored
+STRING,TP53,CCAR2,726,STRING_combined,scored
+STRING,TP53,ATM,999,STRING_combined,scored
+STRING,TP53,ACTB,879,STRING_combined,scored
+STRING,TP53,ABRAXAS2,790,STRING_combined,scored
+STRING,TP53,HSPA1A,754,STRING_combined,scored
+STRING,TP53,POU4F1,766,STRING_combined,scored
+STRING,TP53,BECN1,939,STRING_combined,scored
+STRING,TP53,ING2,837,STRING_combined,scored
+STRING,TP53,NDN,998,STRING_combined,scored
+STRING,TP53,YWHAZ,991,STRING_combined,scored
+STRING,TP53,H2AC8,860,STRING_combined,scored
+STRING,TP53,HSPB3,733,STRING_combined,scored
+STRING,TP53,CHEK1,997,STRING_combined,scored
+STRING,TP53,PTTG1,775,STRING_combined,scored
+STRING,TP53,MAP2K3,711,STRING_combined,scored
+STRING,TP53,PLK3,924,STRING_combined,scored
+STRING,TP53,YWHAQ,739,STRING_combined,scored
+STRING,TP53,NCOA1,826,STRING_combined,scored
+STRING,TP53,PRKCD,767,STRING_combined,scored
+STRING,TP53,CCT6A,761,STRING_combined,scored
+STRING,TP53,SUZ12,791,STRING_combined,scored
+STRING,TP53,SIRT3,750,STRING_combined,scored
+STRING,TP53,UBL4A,717,STRING_combined,scored
+STRING,TP53,HNF4A,868,STRING_combined,scored
+STRING,TP53,UBB,799,STRING_combined,scored
+STRING,TP53,HRAS,925,STRING_combined,scored
+STRING,TP53,IGF1,720,STRING_combined,scored
+STRING,TP53,IGF1R,853,STRING_combined,scored
+STRING,TP53,H4C2,821,STRING_combined,scored
+STRING,TP53,CASP7,740,STRING_combined,scored
+STRING,TP53,XIAP,836,STRING_combined,scored
+STRING,TP53,PARP1,972,STRING_combined,scored
+STRING,TP53,RUNX2,808,STRING_combined,scored
+STRING,TP53,S100B,995,STRING_combined,scored
+STRING,TP53,OGA,725,STRING_combined,scored
+STRING,TP53,THRB,705,STRING_combined,scored
+STRING,TP53,CASP1,876,STRING_combined,scored
+STRING,TP53,UBE2N,811,STRING_combined,scored
+STRING,TP53,PRKDC,997,STRING_combined,scored
+STRING,TP53,CCDC8,808,STRING_combined,scored
+STRING,TP53,ETS1,972,STRING_combined,scored
+STRING,TP53,ERCC6,752,STRING_combined,scored
+STRING,TP53,DDIT4,911,STRING_combined,scored
+STRING,TP53,MYC,997,STRING_combined,scored
+STRING,TP53,TDG,786,STRING_combined,scored
+STRING,TP53,KDM4A,798,STRING_combined,scored
+STRING,TP53,STAT5A,755,STRING_combined,scored
+STRING,TP53,MUC1,966,STRING_combined,scored
+STRING,TP53,LIN28A,739,STRING_combined,scored
+STRING,TP53,ZNF385A,910,STRING_combined,scored
+STRING,TP53,IFI16,988,STRING_combined,scored
+STRING,TP53,HMGA1,720,STRING_combined,scored
+STRING,TP53,DLG4,734,STRING_combined,scored
+STRING,TP53,CHD3,717,STRING_combined,scored
+STRING,TP53,GPX2,802,STRING_combined,scored
+STRING,TP53,DHFR,785,STRING_combined,scored
+STRING,TP53,MOV10,773,STRING_combined,scored
+STRING,TP53,BIRC5,930,STRING_combined,scored
+STRING,TP53,VIM,712,STRING_combined,scored
+STRING,TP53,MDM4,999,STRING_combined,scored
+STRING,TP53,DDB1,711,STRING_combined,scored
+STRING,TP53,RAD17,807,STRING_combined,scored
+STRING,TP53,GRB2,766,STRING_combined,scored
+STRING,TP53,TXNIP,855,STRING_combined,scored
+STRING,TP53,NQO1,946,STRING_combined,scored
+STRING,TP53,TOP1MT,873,STRING_combined,scored
+STRING,TP53,TNFRSF10D,769,STRING_combined,scored
+STRING,TP53,INS,879,STRING_combined,scored
+STRING,TP53,H4C9,822,STRING_combined,scored
+STRING,TP53,SLC7A11,710,STRING_combined,scored
+STRING,TP53,CHEK2,999,STRING_combined,scored
+STRING,TP53,SLC25A4,925,STRING_combined,scored
+STRING,TP53,BCL2,999,STRING_combined,scored
+STRING,TP53,SETD9,752,STRING_combined,scored
+STRING,TP53,PSMD4,880,STRING_combined,scored
+STRING,TP53,TOP2A,843,STRING_combined,scored
+STRING,TP53,ZNF420,799,STRING_combined,scored
+STRING,TP53,PSMC5,903,STRING_combined,scored
+STRING,TP53,TRIAP1,863,STRING_combined,scored
+STRING,TP53,BCL2L1,999,STRING_combined,scored
+STRING,TP53,SMARCA4,993,STRING_combined,scored
+STRING,TP53,HDAC3,741,STRING_combined,scored
+STRING,TP53,MYCN,852,STRING_combined,scored
+STRING,TP53,EXO1,708,STRING_combined,scored
+STRING,TP53,H2AX,892,STRING_combined,scored
+STRING,TP53,PPP1R13L,999,STRING_combined,scored
+STRING,TP53,AR,905,STRING_combined,scored
+STRING,TP53,S100A6,842,STRING_combined,scored
+STRING,TP53,UBE2I,994,STRING_combined,scored
+STRING,TP53,GTSE1,933,STRING_combined,scored
+STRING,TP53,LMO3,754,STRING_combined,scored
+STRING,TP53,KLF6,857,STRING_combined,scored
+STRING,TP53,BDP1,778,STRING_combined,scored
+STRING,TP53,H4-16,824,STRING_combined,scored
+STRING,TP53,HSPA1B,971,STRING_combined,scored
+STRING,TP53,CAPN1,938,STRING_combined,scored
+STRING,TP53,CABIN1,721,STRING_combined,scored
+STRING,TP53,TNF,865,STRING_combined,scored
+STRING,TP53,MED1,906,STRING_combined,scored
+STRING,TP53,ZNF148,857,STRING_combined,scored
+STRING,TP53,CDKN3,858,STRING_combined,scored
+STRING,TP53,TNFRSF10B,908,STRING_combined,scored
+STRING,TP53,CHUK,914,STRING_combined,scored
+STRING,TP53,CD44,876,STRING_combined,scored
+STRING,TP53,UBE2A,824,STRING_combined,scored
+STRING,TP53,DMTF1,768,STRING_combined,scored
+STRING,TP53,CCT5,831,STRING_combined,scored
+STRING,TP53,RFFL,742,STRING_combined,scored
+STRING,TP53,DNAJA1,759,STRING_combined,scored
+STRING,TP53,BAG2,752,STRING_combined,scored
+STRING,TP53,CDK5R1,798,STRING_combined,scored
+STRING,TP53,RBBP4,713,STRING_combined,scored
+STRING,TP53,PRMT5,924,STRING_combined,scored
+STRING,TP53,RPL26,876,STRING_combined,scored
+STRING,TP53,IKBKB,933,STRING_combined,scored
+STRING,TP53,SMARCD1,889,STRING_combined,scored
+STRING,TP53,RPS6,704,STRING_combined,scored
+STRING,TP53,MET,804,STRING_combined,scored
+STRING,TP53,H3C3,867,STRING_combined,scored
+STRING,TP53,ESR1,992,STRING_combined,scored
+STRING,TP53,ESR2,783,STRING_combined,scored
+STRING,TP53,XAF1,776,STRING_combined,scored
+STRING,TP53,BRCA1,999,STRING_combined,scored
+STRING,TP53,RING1,819,STRING_combined,scored
+STRING,TP53,BLM,932,STRING_combined,scored
+STRING,TP53,ATG5,764,STRING_combined,scored
+STRING,TP53,CYLD,717,STRING_combined,scored
+STRING,TP53,ZBTB16,703,STRING_combined,scored
+STRING,TP53,IDH1,845,STRING_combined,scored
+STRING,TP53,CDKN1A,999,STRING_combined,scored
+STRING,TP53,MCL1,918,STRING_combined,scored
+STRING,TP53,WDR5,768,STRING_combined,scored
+STRING,TP53,DTL,727,STRING_combined,scored
+STRING,TP53,GADD45A,991,STRING_combined,scored
+STRING,TP53,USP10,931,STRING_combined,scored
+STRING,TP53,STAT1,781,STRING_combined,scored
+STRING,TP53,ACTL6A,721,STRING_combined,scored
+STRING,TP53,RNF2,834,STRING_combined,scored
+STRING,TP53,COPS5,977,STRING_combined,scored
+STRING,TP53,JAK2,728,STRING_combined,scored
+STRING,TP53,DMD,730,STRING_combined,scored
+STRING,TP53,ARID1A,961,STRING_combined,scored
+STRING,TP53,FUBP1,769,STRING_combined,scored
+STRING,TP53,TRAF6,954,STRING_combined,scored
+STRING,TP53,SIN3A,941,STRING_combined,scored
+STRING,TP53,PHGDH,719,STRING_combined,scored
+STRING,TP53,TP53BP2,999,STRING_combined,scored
+STRING,TP53,ATRX,981,STRING_combined,scored
+STRING,TP53,PMS1,706,STRING_combined,scored
+STRING,TP53,CCT8,757,STRING_combined,scored
+STRING,TP53,STK11,970,STRING_combined,scored
+STRING,TP53,BTRC,758,STRING_combined,scored
+STRING,TP53,H3C10,860,STRING_combined,scored
+STRING,TP53,UBC,921,STRING_combined,scored
+STRING,TP53,KIT,816,STRING_combined,scored
+STRING,TP53,MAF,731,STRING_combined,scored
+STRING,TP53,DCAF1,751,STRING_combined,scored
+STRING,TP53,RAD9A,813,STRING_combined,scored
+STRING,TP53,IGFBP3,901,STRING_combined,scored
+STRING,TP53,H3C2,879,STRING_combined,scored
+STRING,TP53,YWHAB,828,STRING_combined,scored
+STRING,TP53,NOC2L,930,STRING_combined,scored
+STRING,TP53,CCNG1,998,STRING_combined,scored
+STRING,TP53,ATRIP,840,STRING_combined,scored
+STRING,TP53,NF2,773,STRING_combined,scored
+STRING,TP53,CFLAR,816,STRING_combined,scored
+STRING,TP53,GNL3,976,STRING_combined,scored
+STRING,TP53,HMGA2,867,STRING_combined,scored
+STRING,TP53,DHCR24,706,STRING_combined,scored
+STRING,TP53,BRPF3,713,STRING_combined,scored
+STRING,TP53,SOCS1,839,STRING_combined,scored
+STRING,TP53,CARM1,930,STRING_combined,scored
+STRING,TP53,TNFAIP3,708,STRING_combined,scored
+STRING,TP53,NCL,911,STRING_combined,scored
+STRING,TP53,REL,831,STRING_combined,scored
+STRING,TP53,CCDC106,751,STRING_combined,scored
+STRING,TP53,H4C14,880,STRING_combined,scored
+STRING,TP53,HNRNPC,733,STRING_combined,scored
+STRING,TP53,ERCC2,804,STRING_combined,scored
+STRING,TP53,RBPJ,845,STRING_combined,scored
+STRING,TP53,NPM1,997,STRING_combined,scored
+STRING,TP53,SUMO1,996,STRING_combined,scored
+STRING,TP53,NFYA,865,STRING_combined,scored
+STRING,TP53,CDK9,889,STRING_combined,scored
+STRING,TP53,YAP1,721,STRING_combined,scored
+STRING,TP53,BNIP3L,855,STRING_combined,scored
+STRING,TP53,MYD88,721,STRING_combined,scored
+STRING,TP53,KLF4,925,STRING_combined,scored
+STRING,TP53,CCT2,826,STRING_combined,scored
+STRING,TP53,HDAC2,990,STRING_combined,scored
+STRING,TP53,E4F1,969,STRING_combined,scored
+STRING,TP53,BSG,727,STRING_combined,scored
+STRING,TP53,UBE3A,999,STRING_combined,scored
+STRING,TP53,PRIMA1,798,STRING_combined,scored
+STRING,TP53,MAPK11,960,STRING_combined,scored
+STRING,TP53,SMYD2,989,STRING_combined,scored
+STRING,TP53,ERBB2,935,STRING_combined,scored
+STRING,TP53,PTGS2,974,STRING_combined,scored
+STRING,TP53,WT1,983,STRING_combined,scored
+STRING,TP53,COP1,961,STRING_combined,scored
+STRING,TP53,XPO1,959,STRING_combined,scored
+STRING,TP53,PPP2CA,833,STRING_combined,scored
+STRING,TP53,BAX,994,STRING_combined,scored
+STRING,TP53,CDC42,760,STRING_combined,scored
+STRING,TP53,RPS27,739,STRING_combined,scored
+STRING,TP53,RET,801,STRING_combined,scored
+STRING,TP53,ASXL1,721,STRING_combined,scored
+STRING,TP53,USP7,999,STRING_combined,scored
+STRING,TP53,JAK1,774,STRING_combined,scored
+STRING,TP53,TRIM25,780,STRING_combined,scored
+STRING,TP53,ABL1,909,STRING_combined,scored
+STRING,TP53,PIAS2,844,STRING_combined,scored
+STRING,TP53,MAPK8,997,STRING_combined,scored
+STRING,TP53,TERT,902,STRING_combined,scored
+STRING,TP53,KAT8,835,STRING_combined,scored
+STRING,TP53,H3C1,858,STRING_combined,scored
+STRING,TP53,CTNNB1,927,STRING_combined,scored
+STRING,TP53,CDK5,967,STRING_combined,scored
+STRING,TP53,CASP9,953,STRING_combined,scored
+STRING,TP53,HSPA5,824,STRING_combined,scored
+STRING,TP53,LGALS4,764,STRING_combined,scored
+STRING,TP53,EEF2,828,STRING_combined,scored
+STRING,TP53,CDKN1C,701,STRING_combined,scored
+STRING,TP53,FBXO11,736,STRING_combined,scored
+STRING,TP53,PPARG,949,STRING_combined,scored
+STRING,TP53,WWOX,914,STRING_combined,scored
+STRING,TP53,NFYC,711,STRING_combined,scored
+STRING,TP53,CNOT3,782,STRING_combined,scored
+STRING,TP53,PKM,825,STRING_combined,scored
+STRING,TP53,TP53RK,982,STRING_combined,scored
+STRING,TP53,HLA-A,770,STRING_combined,scored
+STRING,TP53,CTBP1,759,STRING_combined,scored
+STRING,TP53,BCL2L14,824,STRING_combined,scored
+STRING,TP53,H1-0,726,STRING_combined,scored
+STRING,TP53,MTA1,929,STRING_combined,scored
+STRING,TP53,H4C4,821,STRING_combined,scored
+STRING,TP53,ATR,996,STRING_combined,scored
+STRING,TP53,ANK2,727,STRING_combined,scored
+STRING,TP53,H3C4,861,STRING_combined,scored
+STRING,TP53,APAF1,974,STRING_combined,scored
+STRING,TP53,CDKN2A,999,STRING_combined,scored
+STRING,TP53,CALML5,700,STRING_combined,scored
+STRING,TP53,CCNA2,997,STRING_combined,scored
+STRING,TP53,LATS2,738,STRING_combined,scored
+STRING,TP53,EHMT1,920,STRING_combined,scored
+STRING,TP53,H4C3,824,STRING_combined,scored
+STRING,TP53,NLRC4,802,STRING_combined,scored
+STRING,TP53,DYRK2,870,STRING_combined,scored
+STRING,TP53,TP53BP1,999,STRING_combined,scored
+STRING,TP53,NOTCH1,789,STRING_combined,scored
+STRING,TP53,ANXA5,818,STRING_combined,scored
+STRING,TP53,SP1,994,STRING_combined,scored
+STRING,TP53,PIK3R1,853,STRING_combined,scored
+STRING,TP53,COMMD3-BMI1,787,STRING_combined,scored
+STRING,TP53,PRKCA,700,STRING_combined,scored
+STRING,TP53,E2F2,791,STRING_combined,scored
+STRING,TP53,E2F1,986,STRING_combined,scored
+STRING,TP53,FASLG,718,STRING_combined,scored
+STRING,TP53,H4C15,820,STRING_combined,scored
+STRING,TP53,DICER1,762,STRING_combined,scored
+STRING,TP53,TRIM24,865,STRING_combined,scored
+STRING,TP53,STAT6,803,STRING_combined,scored
+STRING,TP53,H3-5,864,STRING_combined,scored
+STRING,TP53,PARK7,814,STRING_combined,scored
+STRING,TP53,TPX2,903,STRING_combined,scored
+STRING,TP53,HMGB1,997,STRING_combined,scored
+STRING,TP53,BUB3,718,STRING_combined,scored
+STRING,TP53,KMT2A,757,STRING_combined,scored
+STRING,TP53,ETS2,970,STRING_combined,scored
+STRING,TP53,PLK2,855,STRING_combined,scored
+STRING,TP53,UBE4B,732,STRING_combined,scored
+STRING,TP53,BRD7,990,STRING_combined,scored
+STRING,TP53,PPP2R5C,878,STRING_combined,scored
+STRING,TP53,ERBB4,726,STRING_combined,scored
+STRING,TP53,H4C12,820,STRING_combined,scored
+STRING,TP53,PTEN,999,STRING_combined,scored
+STRING,TP53,FOS,952,STRING_combined,scored
+STRING,TP53,GSDME,864,STRING_combined,scored
+STRING,TP53,HSPA1L,826,STRING_combined,scored
+STRING,TP53,POU4F2,743,STRING_combined,scored
+STRING,TP53,SOX2,883,STRING_combined,scored
+STRING,TP53,GTF2B,876,STRING_combined,scored
+STRING,TP53,BAG5,703,STRING_combined,scored
+STRING,TP53,DDX17,970,STRING_combined,scored
+STRING,TP53,H3C11,857,STRING_combined,scored
+STRING,TP53,HUWE1,825,STRING_combined,scored
+STRING,TP53,MAGED2,750,STRING_combined,scored
+STRING,TP53,KDM6A,710,STRING_combined,scored
+STRING,TP53,KLF5,762,STRING_combined,scored
+STRING,TP53,H4C13,820,STRING_combined,scored
+STRING,TP53,FBXW8,804,STRING_combined,scored
+STRING,TP53,KDM1A,941,STRING_combined,scored
+STRING,TP53,BCL6,957,STRING_combined,scored
+STRING,TP53,SMARCB1,976,STRING_combined,scored
+STRING,TP53,PLAGL1,856,STRING_combined,scored
+STRING,TP53,TFAP2A,913,STRING_combined,scored
+STRING,TP53,SSRP1,766,STRING_combined,scored
+STRING,TP53,CD34,700,STRING_combined,scored
+STRING,TP53,NUMB,940,STRING_combined,scored
+STRING,TP53,TCP1,851,STRING_combined,scored
+STRING,TP53,CCT3,776,STRING_combined,scored
+STRING,TP53,TOP1,947,STRING_combined,scored
+STRING,TP53,HSPB2,733,STRING_combined,scored
+STRING,TP53,CSF2,718,STRING_combined,scored
+STRING,TP53,RGCC,794,STRING_combined,scored
+STRING,TP53,WRN,963,STRING_combined,scored
+STRING,TP53,SLC2A2,926,STRING_combined,scored
+STRING,TP53,AGO1,710,STRING_combined,scored
+STRING,TP53,BAK1,997,STRING_combined,scored
+STRING,TP53,MAPKAPK5,738,STRING_combined,scored
+STRING,TP53,E2F4,872,STRING_combined,scored
+STRING,TP53,AIFM2,934,STRING_combined,scored
+STRING,TP53,HIPK2,999,STRING_combined,scored
+STRING,TP53,NRAS,876,STRING_combined,scored
+STRING,TP53,STMN1,766,STRING_combined,scored
+STRING,TP53,MYBBP1A,798,STRING_combined,scored
+STRING,TP53,PRDM1,870,STRING_combined,scored
+STRING,TP53,VDAC1,772,STRING_combined,scored
+STRING,TP53,MEN1,720,STRING_combined,scored
+STRING,TP53,PIAS1,897,STRING_combined,scored
+STRING,TP53,CITED2,723,STRING_combined,scored
+STRING,TP53,AKT2,973,STRING_combined,scored
+STRING,TP53,MYB,770,STRING_combined,scored
+STRING,TP53,RANBP2,812,STRING_combined,scored
+STRING,TP53,ZMAT3,708,STRING_combined,scored
+STRING,TP53,FADD,820,STRING_combined,scored
+STRING,TP53,SKP2,716,STRING_combined,scored
+STRING,TP53,H3C8,859,STRING_combined,scored
+STRING,TP53,APP,714,STRING_combined,scored
+STRING,TP53,STAT5B,728,STRING_combined,scored
+STRING,TP53,PERP,928,STRING_combined,scored
+STRING,TP53,PSMD2,795,STRING_combined,scored
+STRING,TP53,FOXO3,998,STRING_combined,scored
+STRING,TP53,TET2,755,STRING_combined,scored
+STRING,TP53,ALB,722,STRING_combined,scored
+STRING,TP53,TADA3,983,STRING_combined,scored
+STRING,TP53,S100A2,980,STRING_combined,scored
+STRING,TP53,EP400,902,STRING_combined,scored
+STRING,TP53,FANCC,871,STRING_combined,scored
+STRING,TP53,HSPA8,987,STRING_combined,scored
+STRING,TP53,USP24,709,STRING_combined,scored
+STRING,TP53,MAPK9,982,STRING_combined,scored
+STRING,TP53,CD8A,770,STRING_combined,scored
+STRING,TP53,BCL2L11,867,STRING_combined,scored
+STRING,TP53,REST,718,STRING_combined,scored
+STRING,TP53,PRKCZ,933,STRING_combined,scored
+STRING,TP53,NCOA6,782,STRING_combined,scored
+STRING,TP53,L3MBTL1,982,STRING_combined,scored
+STRING,TP53,KMT5A,916,STRING_combined,scored
+STRING,TP53,UCHL1,795,STRING_combined,scored
+STRING,TP53,SIRT7,904,STRING_combined,scored
+STRING,TP53,KMT2D,810,STRING_combined,scored
+STRING,TP53,FBXO42,740,STRING_combined,scored
+STRING,TP53,H4C1,820,STRING_combined,scored
+STRING,TP53,BBC3,959,STRING_combined,scored
+STRING,TP53,TAF1,963,STRING_combined,scored
+STRING,TP53,OTUB1,872,STRING_combined,scored
+STRING,TP53,BANP,944,STRING_combined,scored
+STRING,TP53,IRS1,702,STRING_combined,scored
+STRING,TP53,CCNL2,870,STRING_combined,scored
+STRING,TP53,SCO2,961,STRING_combined,scored
+STRING,TP53,SLC2A1,967,STRING_combined,scored
+STRING,TP53,RPLP0,755,STRING_combined,scored
+STRING,TP53,TP53AIP1,945,STRING_combined,scored
+STRING,TP53,HERC1,720,STRING_combined,scored
+STRING,TP53,PPID,934,STRING_combined,scored
+STRING,TP53,CTCF,830,STRING_combined,scored
+STRING,TP53,BTG2,888,STRING_combined,scored
+STRING,TP53,HEY1,703,STRING_combined,scored
+STRING,TP53,SESN1,874,STRING_combined,scored
+STRING,TP53,CCT4,887,STRING_combined,scored
+STRING,TP53,FAS,877,STRING_combined,scored
+STRING,TP53,TYMS,774,STRING_combined,scored
+STRING,TP53,TPT1,859,STRING_combined,scored
+STRING,TP53,MGMT,770,STRING_combined,scored
+STRING,TP53,RUNX3,936,STRING_combined,scored
+STRING,TP53,IDH2,783,STRING_combined,scored
+STRING,TP53,ING5,969,STRING_combined,scored
+STRING,TP53,CDK8,726,STRING_combined,scored
+STRING,TP53,TFAM,959,STRING_combined,scored
+STRING,TP53,CSNK2B,843,STRING_combined,scored
+STRING,TP53,HDAC8,756,STRING_combined,scored
+STRING,TP53,MAGEA3,707,STRING_combined,scored
+STRING,TP53,CDK1,962,STRING_combined,scored
+STRING,TP53,TFDP1,823,STRING_combined,scored
+STRING,TP53,CAPN2,924,STRING_combined,scored
+STRING,TP53,RPS3,857,STRING_combined,scored
+STRING,TP53,IKBIP,845,STRING_combined,scored
+STRING,TP53,HSPA9,998,STRING_combined,scored
+STRING,TP53,H3C7,857,STRING_combined,scored
+STRING,TP53,BRAF,887,STRING_combined,scored
+STRING,TP53,OBSL1,734,STRING_combined,scored
+STRING,TP53,CSNK1D,826,STRING_combined,scored
+STRING,TP53,CUL7,969,STRING_combined,scored
+STRING,TP53,CXCL8,804,STRING_combined,scored
+STRING,TP53,CD274,776,STRING_combined,scored
+STRING,TP53,MTOR,874,STRING_combined,scored
+STRING,TP53,HNRNPU,700,STRING_combined,scored
+STRING,TP53,CCNE2,890,STRING_combined,scored
+STRING,TP53,IL10,756,STRING_combined,scored
+STRING,TP53,BRD1,821,STRING_combined,scored
+STRING,TP53,GNAS,810,STRING_combined,scored
+STRING,TP53,H6PD,879,STRING_combined,scored
+STRING,TP53,DDX20,888,STRING_combined,scored
+STRING,TP53,MAGEA2B,839,STRING_combined,scored
+STRING,TP53,GLS2,926,STRING_combined,scored
+STRING,TP53,EGFR,943,STRING_combined,scored
+STRING,TP53,SERPINB5,709,STRING_combined,scored
+STRING,TP53,AKT1,994,STRING_combined,scored
+STRING,TP53,KRT8,763,STRING_combined,scored
+STRING,TP53,UBD,786,STRING_combined,scored
+STRING,TP53,KRT7,787,STRING_combined,scored
+STRING,TP53,BMI1,956,STRING_combined,scored
+STRING,TP53,SSBP1,839,STRING_combined,scored
+STRING,TP53,MUTYH,746,STRING_combined,scored
+STRING,TP53,DROSHA,996,STRING_combined,scored
+STRING,TP53,USP42,835,STRING_combined,scored
+STRING,TP53,CUL4A,882,STRING_combined,scored
+STRING,TP53,SMN1,714,STRING_combined,scored
+STRING,TP53,PHC3,705,STRING_combined,scored
+STRING,TP53,JMY,940,STRING_combined,scored
+STRING,TP53,ANXA1,762,STRING_combined,scored
+STRING,TP53,MMP9,838,STRING_combined,scored
+STRING,TP53,PHF1,802,STRING_combined,scored
+STRING,TP53,RPS27A,971,STRING_combined,scored
+STRING,TP53,RAD51,999,STRING_combined,scored

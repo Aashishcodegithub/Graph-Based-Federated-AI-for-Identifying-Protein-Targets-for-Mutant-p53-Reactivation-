@@ -1,0 +1,15 @@
+interactor,priority_score,recommended_action,mechanistic_class,sources,source_count,max_interaction_score,evidence_types,rationale
+MDM2,99.47,inhibit,negative_regulator,"BioGRID,STRING",2,999.0,"Biochemical Activity,STRING_combined",Suppresses p53 stability and transcriptional activity through ubiquitin-mediated control.
+MDM4,98.47,inhibit,negative_regulator,"BioGRID,STRING",2,999.0,"Biochemical Activity,STRING_combined",Blunts p53 transactivation and cooperates with MDM2 in dampening p53 function.
+SIRT1,94.75,inhibit,deacetylase,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined",Removes activating acetylation marks from p53 and weakens transcriptional recovery.
+EP300,94.25,activate_or_support,acetyltransferase,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined",Acetyltransferase activity can restore transcriptional competence to p53-responsive programs.
+HDAC1,93.75,inhibit,deacetylase,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined",Chromatin and p53 deacetylation can suppress mutant p53 reactivation programs.
+CREBBP,93.25,activate_or_support,acetyltransferase,"BioGRID,STRING",2,999.0,"Biochemical Activity,STRING_combined",Supports p53-dependent transcription through acetylation and co-activation functions.
+HIPK2,92.61,activate_or_support,activating_kinase,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined",HIPK2 promotes activating p53 phosphorylation and apoptotic gene expression.
+KAT5,92.21,activate_or_support,acetyltransferase,"BioGRID,STRING",2,996.0,"Affinity Capture-Western,STRING_combined",TIP60/KAT5-mediated acetylation is linked to p53 activation and apoptotic recovery.
+USP7,91.74,inhibit,deubiquitinase_axis,"BioGRID,STRING",2,999.0,"Affinity Capture-MS,STRING_combined",Can stabilize the MDM2 axis and indirectly restrain p53 reactivation.
+ATM,91.03,activate_or_support,dna_damage_kinase,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined",DNA-damage signaling can reactivate p53 pathway output through phosphorylation and checkpoint control.
+CHEK2,89.45,activate_or_support,checkpoint_kinase,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined",CHEK2 is a canonical upstream activator of p53 signaling after genotoxic stress.
+ATR,88.98,activate_or_support,dna_damage_kinase,"BioGRID,STRING",2,996.0,"Reconstituted Complex,STRING_combined",Checkpoint kinase signaling can reinforce p53 activation states under replicative stress.
+CHEK1,85.42,modulate,checkpoint_kinase,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined",Checkpoint signaling intersects with p53 stress response control.
+PRKDC,85.0,modulate,dna_damage_kinase,"BioGRID,STRING",2,997.0,"Protein-peptide,STRING_combined",DNA-PK participates in DNA damage signaling linked to p53 regulation.

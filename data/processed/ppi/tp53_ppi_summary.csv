@@ -1,0 +1,2758 @@
+interactor,sources,source_count,max_interaction_score,evidence_types
+ATM,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined"
+BCL2,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+BCL2L1,"BioGRID,STRING",2,999.0,"STRING_combined,Two-hybrid"
+BRCA1,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+CDKN1A,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+CDKN2A,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+CHEK2,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+CREBBP,"BioGRID,STRING",2,999.0,"Biochemical Activity,STRING_combined"
+DAXX,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+EP300,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined"
+HDAC1,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+HIF1A,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+HIPK2,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined"
+HSP90AA1,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+MDM2,"BioGRID,STRING",2,999.0,"Biochemical Activity,STRING_combined"
+MDM4,"BioGRID,STRING",2,999.0,"Biochemical Activity,STRING_combined"
+PPP1R13L,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+PTEN,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+RAD51,"BioGRID,STRING",2,999.0,"Affinity Capture-MS,STRING_combined"
+RPA1,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined"
+SFN,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+SIRT1,"BioGRID,STRING",2,999.0,"Affinity Capture-Western,STRING_combined"
+TP53BP1,"BioGRID,STRING",2,999.0,"Co-crystal Structure,STRING_combined"
+TP53BP2,"BioGRID,STRING",2,999.0,"STRING_combined,Two-hybrid"
+UBE3A,"BioGRID,STRING",2,999.0,"Reconstituted Complex,STRING_combined"
+USP7,"BioGRID,STRING",2,999.0,"Affinity Capture-MS,STRING_combined"
+AURKA,"BioGRID,STRING",2,998.0,"STRING_combined,Two-hybrid"
+CCNG1,"BioGRID,STRING",2,998.0,"Reconstituted Complex,STRING_combined"
+CREB1,"BioGRID,STRING",2,998.0,"Reconstituted Complex,STRING_combined"
+FOXO3,"BioGRID,STRING",2,998.0,"Co-localization,STRING_combined"
+HSPA9,"BioGRID,STRING",2,998.0,"Reconstituted Complex,STRING_combined"
+HTT,"BioGRID,STRING",2,998.0,"Reconstituted Complex,STRING_combined"
+MAPK1,"BioGRID,STRING",2,998.0,"Affinity Capture-Western,STRING_combined"
+NDN,"BioGRID,STRING",2,998.0,"STRING_combined,Two-hybrid"
+RCHY1,"BioGRID,STRING",2,998.0,"Affinity Capture-Western,STRING_combined"
+BAK1,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+CCNA2,"BioGRID,STRING",2,997.0,"Reconstituted Complex,STRING_combined"
+CHEK1,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+DDX5,"BioGRID,STRING",2,997.0,"Affinity Capture-MS,STRING_combined"
+DNMT1,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+HMGB1,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+HSPA4,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+JUN,"BioGRID,STRING",2,997.0,"STRING_combined,Two-hybrid"
+MAPK8,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+MYC,"BioGRID,STRING",2,997.0,"Affinity Capture-MS,STRING_combined"
+NPM1,"BioGRID,STRING",2,997.0,"Affinity Capture-Western,STRING_combined"
+PRKDC,"BioGRID,STRING",2,997.0,"Protein-peptide,STRING_combined"
+TBP,"BioGRID,STRING",2,997.0,"Reconstituted Complex,STRING_combined"
+ATR,"BioGRID,STRING",2,996.0,"Reconstituted Complex,STRING_combined"
+DROSHA,"BioGRID,STRING",2,996.0,"Proximity Label-MS,STRING_combined"
+KAT5,"BioGRID,STRING",2,996.0,"Affinity Capture-Western,STRING_combined"
+S100A4,"BioGRID,STRING",2,996.0,"Reconstituted Complex,STRING_combined"
+SUMO1,"BioGRID,STRING",2,996.0,"STRING_combined,Two-hybrid"
+BRCA2,"BioGRID,STRING",2,995.0,"Affinity Capture-Western,STRING_combined"
+FOXO4,"BioGRID,STRING",2,995.0,"Reconstituted Complex,STRING_combined"
+HSP90AB1,"BioGRID,STRING",2,995.0,"Affinity Capture-MS,STRING_combined"
+S100B,"BioGRID,STRING",2,995.0,"Affinity Capture-Western,STRING_combined"
+AKT1,"BioGRID,STRING",2,994.0,"FRET,STRING_combined"
+BAX,"BioGRID,STRING",2,994.0,"Co-localization,STRING_combined"
+MAPK14,"BioGRID,STRING",2,994.0,"PCA,STRING_combined"
+MAPK3,"BioGRID,STRING",2,994.0,"Affinity Capture-Western,STRING_combined"
+SP1,"BioGRID,STRING",2,994.0,"Affinity Capture-Western,STRING_combined"
+STAT3,"BioGRID,STRING",2,994.0,"Affinity Capture-MS,STRING_combined"
+UBE2I,"BioGRID,STRING",2,994.0,"STRING_combined,Two-hybrid"
+SMAD2,"BioGRID,STRING",2,993.0,"Affinity Capture-Western,STRING_combined"
+SMARCA4,"BioGRID,STRING",2,993.0,"Reconstituted Complex,STRING_combined"
+ESR1,"BioGRID,STRING",2,992.0,"Reconstituted Complex,STRING_combined"
+GSK3B,"BioGRID,STRING",2,992.0,"Affinity Capture-Western,STRING_combined"
+RRM2B,"BioGRID,STRING",2,992.0,"Affinity Capture-Western,STRING_combined"
+SNAI1,"BioGRID,STRING",2,992.0,"Affinity Capture-Western,STRING_combined"
+CASP8,"BioGRID,STRING",2,991.0,"Affinity Capture-Western,STRING_combined"
+GADD45A,"BioGRID,STRING",2,991.0,"STRING_combined,Two-hybrid"
+YWHAZ,"BioGRID,STRING",2,991.0,"Affinity Capture-Western,STRING_combined"
+BRD4,"BioGRID,STRING",2,990.0,"Affinity Capture-Western,STRING_combined"
+BRD7,"BioGRID,STRING",2,990.0,"Affinity Capture-Western,STRING_combined"
+HDAC2,"BioGRID,STRING",2,990.0,"Reconstituted Complex,STRING_combined"
+NFKB1,"BioGRID,STRING",2,989.0,"Affinity Capture-Western,STRING_combined"
+SMYD2,"BioGRID,STRING",2,989.0,"Biochemical Activity,STRING_combined"
+IFI16,"BioGRID,STRING",2,988.0,"Affinity Capture-Western,STRING_combined"
+CDK2,"BioGRID,STRING",2,987.0,"Biochemical Activity,STRING_combined"
+HSPA8,"BioGRID,STRING",2,987.0,"Reconstituted Complex,STRING_combined"
+E2F1,"BioGRID,STRING",2,986.0,"Affinity Capture-Western,STRING_combined"
+PPP1R13B,"BioGRID,STRING",2,986.0,"Affinity Capture-Western,STRING_combined"
+KAT2B,"BioGRID,STRING",2,985.0,"Biochemical Activity,STRING_combined"
+TP73,"BioGRID,STRING",2,985.0,"Affinity Capture-Western,STRING_combined"
+RB1CC1,"BioGRID,STRING",2,984.0,"Affinity Capture-Western,STRING_combined"
+TADA3,"BioGRID,STRING",2,983.0,"Affinity Capture-Western,STRING_combined"
+TAF9,"BioGRID,STRING",2,983.0,"Reconstituted Complex,STRING_combined"
+WT1,"BioGRID,STRING",2,983.0,"Affinity Capture-Western,STRING_combined"
+ATF3,"BioGRID,STRING",2,982.0,"STRING_combined,Two-hybrid"
+BARD1,"BioGRID,STRING",2,982.0,"Affinity Capture-Western,STRING_combined"
+ING4,"BioGRID,STRING",2,982.0,"Affinity Capture-Western,STRING_combined"
+L3MBTL1,"BioGRID,STRING",2,982.0,"Reconstituted Complex,STRING_combined"
+MAPK9,"BioGRID,STRING",2,982.0,"Affinity Capture-Western,STRING_combined"
+RBBP6,"BioGRID,STRING",2,982.0,"Affinity Capture-Western,STRING_combined"
+TP53RK,"BioGRID,STRING",2,982.0,"Reconstituted Complex,STRING_combined"
+ATRX,"BioGRID,STRING",2,981.0,"Affinity Capture-MS,STRING_combined"
+PLK1,"BioGRID,STRING",2,981.0,"Biochemical Activity,STRING_combined"
+ANXA2,"BioGRID,STRING",2,977.0,"Reconstituted Complex,STRING_combined"
+COPS5,"BioGRID,STRING",2,977.0,"Affinity Capture-Western,STRING_combined"
+GNL3,"BioGRID,STRING",2,976.0,"Reconstituted Complex,STRING_combined"
+SMARCB1,"BioGRID,STRING",2,976.0,"Reconstituted Complex,STRING_combined"
+APAF1,"BioGRID,STRING",2,974.0,"Affinity Capture-MS,STRING_combined"
+CCNA1,"BioGRID,STRING",2,974.0,"Co-localization,STRING_combined"
+MSH2,"BioGRID,STRING",2,974.0,"Affinity Capture-Western,STRING_combined"
+PTGS2,"BioGRID,STRING",2,974.0,"Affinity Capture-Western,STRING_combined"
+TRRAP,"BioGRID,STRING",2,973.0,"Reconstituted Complex,STRING_combined"
+ETS1,"BioGRID,STRING",2,972.0,"Affinity Capture-Western,STRING_combined"
+PARP1,"BioGRID,STRING",2,972.0,"Affinity Capture-Western,STRING_combined"
+CUL9,"BioGRID,STRING",2,971.0,"Affinity Capture-MS,STRING_combined"
+HSPA1B,"BioGRID,STRING",2,971.0,"Affinity Capture-MS,STRING_combined"
+RPL11,"BioGRID,STRING",2,971.0,"Affinity Capture-Western,STRING_combined"
+RPS27A,"BioGRID,STRING",2,971.0,"Affinity Capture-Western,STRING_combined"
+DDX17,"BioGRID,STRING",2,970.0,"Affinity Capture-MS,STRING_combined"
+ETS2,"BioGRID,STRING",2,970.0,"Affinity Capture-Western,STRING_combined"
+PHF20,"BioGRID,STRING",2,970.0,"Affinity Capture-Western,STRING_combined"
+STK11,"BioGRID,STRING",2,970.0,"Affinity Capture-Western,STRING_combined"
+CUL7,"BioGRID,STRING",2,969.0,"Affinity Capture-Western,STRING_combined"
+E4F1,"BioGRID,STRING",2,969.0,"Affinity Capture-Western,STRING_combined"
+EGR1,"BioGRID,STRING",2,969.0,"Affinity Capture-Western,STRING_combined"
+ING5,"BioGRID,STRING",2,969.0,"Affinity Capture-Western,STRING_combined"
+STUB1,"BioGRID,STRING",2,968.0,"Affinity Capture-Western,STRING_combined"
+CDK5,"BioGRID,STRING",2,967.0,"Affinity Capture-Western,STRING_combined"
+HIPK1,"BioGRID,STRING",2,967.0,"Affinity Capture-Western,STRING_combined"
+PML,"BioGRID,STRING",2,967.0,"Affinity Capture-Western,STRING_combined"
+SLC2A1,"BioGRID,STRING",2,967.0,"Negative Genetic,STRING_combined"
+TWIST1,"BioGRID,STRING",2,967.0,"Reconstituted Complex,STRING_combined"
+CDK4,"BioGRID,STRING",2,966.0,"Affinity Capture-Western,STRING_combined"
+MUC1,"BioGRID,STRING",2,966.0,"Affinity Capture-Western,STRING_combined"
+SUMO2,"BioGRID,STRING",2,965.0,"Affinity Capture-MS,STRING_combined"
+SMAD3,"BioGRID,STRING",2,963.0,"Affinity Capture-Western,STRING_combined"
+TAF1,"BioGRID,STRING",2,963.0,"Affinity Capture-Western,STRING_combined"
+WRN,"BioGRID,STRING",2,963.0,"Affinity Capture-Western,STRING_combined"
+CDK1,"BioGRID,STRING",2,962.0,"Biochemical Activity,STRING_combined"
+ARID1A,"BioGRID,STRING",2,961.0,"Affinity Capture-Western,STRING_combined"
+SCO2,"BioGRID,STRING",2,961.0,"Affinity Capture-MS,STRING_combined"
+FBXW7,"BioGRID,STRING",2,960.0,"Affinity Capture-MS,STRING_combined"
+POLI,"BioGRID,STRING",2,960.0,"Affinity Capture-Western,STRING_combined"
+BBC3,"BioGRID,STRING",2,959.0,"Co-localization,STRING_combined"
+CSNK2A1,"BioGRID,STRING",2,959.0,"Biochemical Activity,STRING_combined"
+XPO1,"BioGRID,STRING",2,959.0,"STRING_combined,Two-hybrid"
+HIPK3,"BioGRID,STRING",2,958.0,"STRING_combined,Two-hybrid"
+BCL6,"BioGRID,STRING",2,957.0,"Reconstituted Complex,STRING_combined"
+CDKN2C,"BioGRID,STRING",2,957.0,"STRING_combined,Two-hybrid"
+BMI1,"BioGRID,STRING",2,956.0,"Affinity Capture-Western,STRING_combined"
+CASP3,"BioGRID,STRING",2,956.0,"Affinity Capture-MS,STRING_combined"
+HSPB1,"BioGRID,STRING",2,955.0,"STRING_combined,Two-hybrid"
+RELA,"BioGRID,STRING",2,955.0,"Affinity Capture-Western,STRING_combined"
+XRCC6,"BioGRID,STRING",2,955.0,"Affinity Capture-Western,STRING_combined"
+PIAS4,"BioGRID,STRING",2,954.0,"STRING_combined,Two-hybrid"
+TRAF6,"BioGRID,STRING",2,954.0,"Biochemical Activity,STRING_combined"
+TP63,"BioGRID,STRING",2,953.0,"STRING_combined,Synthetic Rescue"
+FOS,"BioGRID,STRING",2,952.0,"STRING_combined,Two-hybrid"
+TOPORS,"BioGRID,STRING",2,952.0,"STRING_combined,Two-hybrid"
+DNAJB1,"BioGRID,STRING",2,951.0,"Affinity Capture-Western,STRING_combined"
+GTF2H1,"BioGRID,STRING",2,950.0,"Reconstituted Complex,STRING_combined"
+PPARG,"BioGRID,STRING",2,949.0,"Affinity Capture-Western,STRING_combined"
+TOPBP1,"BioGRID,STRING",2,949.0,"Affinity Capture-Western,STRING_combined"
+SETD7,"BioGRID,STRING",2,947.0,"Biochemical Activity,STRING_combined"
+TOP1,"BioGRID,STRING",2,947.0,"Affinity Capture-Western,STRING_combined"
+CCND1,"BioGRID,STRING",2,946.0,"Affinity Capture-Western,STRING_combined"
+NQO1,"BioGRID,STRING",2,946.0,"Affinity Capture-Western,STRING_combined"
+PIN1,"BioGRID,STRING",2,946.0,"Reconstituted Complex,STRING_combined"
+PPP2R1A,"BioGRID,STRING",2,946.0,"Co-localization,STRING_combined"
+TCHP,"BioGRID,STRING",2,946.0,"Proximity Label-MS,STRING_combined"
+RPL5,"BioGRID,STRING",2,945.0,"Affinity Capture-Western,STRING_combined"
+APEX1,"BioGRID,STRING",2,944.0,"Co-purification,STRING_combined"
+BANP,"BioGRID,STRING",2,944.0,"Reconstituted Complex,STRING_combined"
+EGFR,"BioGRID,STRING",2,943.0,"STRING_combined,Synthetic Growth Defect"
+HNRNPK,"BioGRID,STRING",2,943.0,"Affinity Capture-Western,STRING_combined"
+YY1,"BioGRID,STRING",2,942.0,"Reconstituted Complex,STRING_combined"
+KDM1A,"BioGRID,STRING",2,941.0,"Affinity Capture-Western,STRING_combined"
+SIN3A,"BioGRID,STRING",2,941.0,"Affinity Capture-Western,STRING_combined"
+NUMB,"BioGRID,STRING",2,940.0,"Affinity Capture-Western,STRING_combined"
+BECN1,"BioGRID,STRING",2,939.0,"Affinity Capture-Western,STRING_combined"
+CSNK2A2,"BioGRID,STRING",2,939.0,"Biochemical Activity,STRING_combined"
+CAPN1,"BioGRID,STRING",2,938.0,"Affinity Capture-MS,STRING_combined"
+PRMT1,"BioGRID,STRING",2,937.0,"Reconstituted Complex,STRING_combined"
+NR3C1,"BioGRID,STRING",2,936.0,"Affinity Capture-Western,STRING_combined"
+PMS2,"BioGRID,STRING",2,936.0,"Affinity Capture-MS,STRING_combined"
+RB1,"BioGRID,STRING",2,936.0,"Affinity Capture-Western,STRING_combined"
+RUNX3,"BioGRID,STRING",2,936.0,"Affinity Capture-Western,STRING_combined"
+ERBB2,"BioGRID,STRING",2,935.0,"FRET,STRING_combined"
+TP53INP1,"BioGRID,STRING",2,935.0,"Reconstituted Complex,STRING_combined"
+AIFM2,"BioGRID,STRING",2,934.0,"Affinity Capture-MS,STRING_combined"
+PPID,"BioGRID,STRING",2,934.0,"Affinity Capture-Western,STRING_combined"
+IKBKB,"BioGRID,STRING",2,933.0,"Biochemical Activity,STRING_combined"
+BLM,"BioGRID,STRING",2,932.0,"Affinity Capture-Western,STRING_combined"
+USP10,"BioGRID,STRING",2,931.0,"Affinity Capture-Western,STRING_combined"
+CARM1,"BioGRID,STRING",2,930.0,"Reconstituted Complex,STRING_combined"
+CEBPA,"BioGRID,STRING",2,930.0,"Proximity Label-MS,STRING_combined"
+NOC2L,"BioGRID,STRING",2,930.0,"Affinity Capture-Western,STRING_combined"
+ARID3A,"BioGRID,STRING",2,929.0,"Affinity Capture-Western,STRING_combined"
+DGCR8,"BioGRID,STRING",2,929.0,"Affinity Capture-MS,STRING_combined"
+MTA1,"BioGRID,STRING",2,929.0,"Reconstituted Complex,STRING_combined"
+RNF20,"BioGRID,STRING",2,929.0,"Reconstituted Complex,STRING_combined"
+PTK2,"BioGRID,STRING",2,928.0,"Affinity Capture-Western,STRING_combined"
+CTNNB1,"BioGRID,STRING",2,927.0,"Proximity Label-MS,STRING_combined"
+CSNK1A1,"BioGRID,STRING",2,926.0,"Affinity Capture-Western,STRING_combined"
+GLS2,"BioGRID,STRING",2,926.0,"Co-localization,STRING_combined"
+HRAS,"BioGRID,STRING",2,925.0,"Affinity Capture-Western,STRING_combined"
+PLK3,"BioGRID,STRING",2,924.0,"Biochemical Activity,STRING_combined"
+PRMT5,"BioGRID,STRING",2,924.0,"Affinity Capture-MS,STRING_combined"
+YBX1,"BioGRID,STRING",2,922.0,"Reconstituted Complex,STRING_combined"
+UBC,"BioGRID,STRING",2,921.0,"Affinity Capture-Western,STRING_combined"
+EHMT1,"BioGRID,STRING",2,920.0,"Biochemical Activity,STRING_combined"
+EHMT2,"BioGRID,STRING",2,919.0,"Biochemical Activity,STRING_combined"
+MCL1,"BioGRID,STRING",2,918.0,"Protein-peptide,STRING_combined"
+POLK,"BioGRID,STRING",2,918.0,"Affinity Capture-MS,STRING_combined"
+NFKBIA,"BioGRID,STRING",2,915.0,"Affinity Capture-Western,STRING_combined"
+SNAI2,"BioGRID,STRING",2,915.0,"Affinity Capture-MS,STRING_combined"
+CHUK,"BioGRID,STRING",2,914.0,"Affinity Capture-Western,STRING_combined"
+ING1,"BioGRID,STRING",2,914.0,"Affinity Capture-Western,STRING_combined"
+MED17,"BioGRID,STRING",2,914.0,"Reconstituted Complex,STRING_combined"
+WWOX,"BioGRID,STRING",2,914.0,"STRING_combined,Two-hybrid"
+PCNA,"BioGRID,STRING",2,913.0,"Affinity Capture-Western,STRING_combined"
+TFAP2A,"BioGRID,STRING",2,913.0,"Co-localization,STRING_combined"
+NCL,"BioGRID,STRING",2,911.0,"Affinity Capture-Western,STRING_combined"
+ABL1,"BioGRID,STRING",2,909.0,"Reconstituted Complex,STRING_combined"
+KAT2A,"BioGRID,STRING",2,909.0,"Affinity Capture-Western,STRING_combined"
+AURKB,"BioGRID,STRING",2,908.0,"Affinity Capture-Western,STRING_combined"
+ERCC3,"BioGRID,STRING",2,908.0,"Reconstituted Complex,STRING_combined"
+MED1,"BioGRID,STRING",2,906.0,"Affinity Capture-Western,STRING_combined"
+AR,"BioGRID,STRING",2,905.0,"Phenotypic Suppression,STRING_combined"
+AXIN1,"BioGRID,STRING",2,905.0,"Affinity Capture-Western,STRING_combined"
+SIRT7,"BioGRID,STRING",2,904.0,"Affinity Capture-MS,STRING_combined"
+TRIM28,"BioGRID,STRING",2,904.0,"Biochemical Activity,STRING_combined"
+PSMC5,"BioGRID,STRING",2,903.0,"Reconstituted Complex,STRING_combined"
+EP400,"BioGRID,STRING",2,902.0,"Affinity Capture-Western,STRING_combined"
+TERT,"BioGRID,STRING",2,902.0,"Phenotypic Enhancement,STRING_combined"
+SQSTM1,"BioGRID,STRING",2,901.0,"Reconstituted Complex,STRING_combined"
+YWHAE,"BioGRID,STRING",2,900.0,"Affinity Capture-MS,STRING_combined"
+TXN,"BioGRID,STRING",2,899.0,"Reconstituted Complex,STRING_combined"
+PIAS1,"BioGRID,STRING",2,897.0,"STRING_combined,Two-hybrid"
+E2F7,"BioGRID,STRING",2,895.0,"Proximity Label-MS,STRING_combined"
+CDC25C,"BioGRID,STRING",2,894.0,"Co-localization,STRING_combined"
+CDK9,"BioGRID,STRING",2,889.0,"Phenotypic Suppression,STRING_combined"
+SMARCD1,"BioGRID,STRING",2,889.0,"Affinity Capture-Western,STRING_combined"
+CDK7,"BioGRID,STRING",2,888.0,"Biochemical Activity,STRING_combined"
+DDX20,"BioGRID,STRING",2,888.0,"Reconstituted Complex,STRING_combined"
+CCT4,"BioGRID,STRING",2,887.0,"Affinity Capture-MS,STRING_combined"
+PPARGC1A,"BioGRID,STRING",2,887.0,"Affinity Capture-Western,STRING_combined"
+GAPDH,"BioGRID,STRING",2,886.0,"Affinity Capture-Western,STRING_combined"
+SRC,"BioGRID,STRING",2,884.0,"Biochemical Activity,STRING_combined"
+PPM1D,"BioGRID,STRING",2,883.0,"Biochemical Activity,STRING_combined"
+CUL4A,"BioGRID,STRING",2,882.0,"Affinity Capture-Western,STRING_combined"
+PSME3,"BioGRID,STRING",2,882.0,"Affinity Capture-Western,STRING_combined"
+PSMD4,"BioGRID,STRING",2,880.0,"Affinity Capture-Western,STRING_combined"
+ACTB,"BioGRID,STRING",2,879.0,"Affinity Capture-MS,STRING_combined"
+G3BP1,"BioGRID,STRING",2,879.0,"Affinity Capture-MS,STRING_combined"
+PER2,"BioGRID,STRING",2,879.0,"STRING_combined,Two-hybrid"
+PPP2R5C,"BioGRID,STRING",2,878.0,"Co-localization,STRING_combined"
+SRSF1,"BioGRID,STRING",2,878.0,"Biochemical Activity,STRING_combined"
+FAS,"BioGRID,STRING",2,877.0,"Proximity Label-MS,STRING_combined"
+GTF2B,"BioGRID,STRING",2,876.0,"Co-fractionation,STRING_combined"
+RPL26,"BioGRID,STRING",2,876.0,"Affinity Capture-Western,STRING_combined"
+MTOR,"BioGRID,STRING",2,874.0,"Affinity Capture-Western,STRING_combined"
+PBK,"BioGRID,STRING",2,873.0,"Affinity Capture-Western,STRING_combined"
+TOP1MT,"BioGRID,STRING",2,873.0,"Reconstituted Complex,STRING_combined"
+AGO2,"BioGRID,STRING",2,872.0,"Affinity Capture-Western,STRING_combined"
+E2F4,"BioGRID,STRING",2,872.0,"Positive Genetic,STRING_combined"
+OTUB1,"BioGRID,STRING",2,872.0,"Affinity Capture-Western,STRING_combined"
+DYRK2,"BioGRID,STRING",2,870.0,"Negative Genetic,STRING_combined"
+HNF4A,"BioGRID,STRING",2,868.0,"Reconstituted Complex,STRING_combined"
+HMGA2,"BioGRID,STRING",2,867.0,"Affinity Capture-Western,STRING_combined"
+DAPK1,"BioGRID,STRING",2,866.0,"Affinity Capture-Western,STRING_combined"
+MAP3K1,"BioGRID,STRING",2,866.0,"Affinity Capture-Western,STRING_combined"
+PSMD10,"BioGRID,STRING",2,866.0,"Affinity Capture-Western,STRING_combined"
+NFYA,"BioGRID,STRING",2,865.0,"Affinity Capture-Western,STRING_combined"
+TRIM24,"BioGRID,STRING",2,865.0,"Affinity Capture-Western,STRING_combined"
+CABLES1,"BioGRID,STRING",2,864.0,"Affinity Capture-Western,STRING_combined"
+USP11,"BioGRID,STRING",2,864.0,"Affinity Capture-MS,STRING_combined"
+TRIAP1,"BioGRID,STRING",2,863.0,"Affinity Capture-RNA,STRING_combined"
+KAT6A,"BioGRID,STRING",2,861.0,"Affinity Capture-MS,STRING_combined"
+PADI4,"BioGRID,STRING",2,861.0,"Affinity Capture-Western,STRING_combined"
+CDKN2B,"BioGRID,STRING",2,860.0,"FRET,STRING_combined"
+PHB,"BioGRID,STRING",2,860.0,"Co-localization,STRING_combined"
+TPT1,"BioGRID,STRING",2,859.0,"Affinity Capture-Western,STRING_combined"
+VRK1,"BioGRID,STRING",2,859.0,"Biochemical Activity,STRING_combined"
+MTA2,"BioGRID,STRING",2,857.0,"Reconstituted Complex,STRING_combined"
+RPS3,"BioGRID,STRING",2,857.0,"FRET,STRING_combined"
+ZNF148,"BioGRID,STRING",2,857.0,"Affinity Capture-Western,STRING_combined"
+PLAGL1,"BioGRID,STRING",2,856.0,"Reconstituted Complex,STRING_combined"
+TXNIP,"BioGRID,STRING",2,855.0,"Affinity Capture-Western,STRING_combined"
+TAF6,"BioGRID,STRING",2,854.0,"Reconstituted Complex,STRING_combined"
+IGF1R,"BioGRID,STRING",2,853.0,"Affinity Capture-Western,STRING_combined"
+MDC1,"BioGRID,STRING",2,853.0,"Affinity Capture-Western,STRING_combined"
+NCOR1,"BioGRID,STRING",2,853.0,"Affinity Capture-Western,STRING_combined"
+TCP1,"BioGRID,STRING",2,851.0,"Affinity Capture-MS,STRING_combined"
+IDH1,"BioGRID,STRING",2,845.0,"Affinity Capture-MS,STRING_combined"
+RBPJ,"BioGRID,STRING",2,845.0,"Affinity Capture-Western,STRING_combined"
+SETD2,"BioGRID,STRING",2,845.0,"Affinity Capture-Western,STRING_combined"
+PIAS2,"BioGRID,STRING",2,844.0,"Reconstituted Complex,STRING_combined"
+CSNK2B,"BioGRID,STRING",2,843.0,"PCA,STRING_combined"
+TOP2A,"BioGRID,STRING",2,843.0,"Affinity Capture-Western,STRING_combined"
+S100A6,"BioGRID,STRING",2,842.0,"Reconstituted Complex,STRING_combined"
+UBR5,"BioGRID,STRING",2,840.0,"Affinity Capture-Western,STRING_combined"
+ELAVL1,"BioGRID,STRING",2,839.0,"Affinity Capture-RNA,STRING_combined"
+SOCS1,"BioGRID,STRING",2,839.0,"Affinity Capture-Western,STRING_combined"
+SSBP1,"BioGRID,STRING",2,839.0,"Reconstituted Complex,STRING_combined"
+ING2,"BioGRID,STRING",2,837.0,"Affinity Capture-Western,STRING_combined"
+KAT8,"BioGRID,STRING",2,835.0,"Biochemical Activity,STRING_combined"
+USP42,"BioGRID,STRING",2,835.0,"Reconstituted Complex,STRING_combined"
+RNF2,"BioGRID,STRING",2,834.0,"Affinity Capture-Western,STRING_combined"
+CCNH,"BioGRID,STRING",2,833.0,"Far Western,STRING_combined"
+PPP2CA,"BioGRID,STRING",2,833.0,"Affinity Capture-Western,STRING_combined"
+CCT5,"BioGRID,STRING",2,831.0,"STRING_combined,Two-hybrid"
+REL,"BioGRID,STRING",2,831.0,"Affinity Capture-MS,STRING_combined"
+EEF2,"BioGRID,STRING",2,828.0,"Affinity Capture-Western,STRING_combined"
+YWHAB,"BioGRID,STRING",2,828.0,"Affinity Capture-Western,STRING_combined"
+CCT2,"BioGRID,STRING",2,826.0,"Affinity Capture-MS,STRING_combined"
+CSNK1D,"BioGRID,STRING",2,826.0,"Biochemical Activity,STRING_combined"
+HSPA1L,"BioGRID,STRING",2,826.0,"Affinity Capture-MS,STRING_combined"
+MSH6,"BioGRID,STRING",2,826.0,"Affinity Capture-Western,STRING_combined"
+NCOA1,"BioGRID,STRING",2,826.0,"STRING_combined,Two-hybrid"
+SETD1A,"BioGRID,STRING",2,826.0,"Affinity Capture-Western,STRING_combined"
+HUWE1,"BioGRID,STRING",2,825.0,"Reconstituted Complex,STRING_combined"
+PKM,"BioGRID,STRING",2,825.0,"Affinity Capture-Western,STRING_combined"
+BCL2L14,"BioGRID,STRING",2,824.0,"STRING_combined,Synthetic Lethality"
+HSPA5,"BioGRID,STRING",2,824.0,"Affinity Capture-Western,STRING_combined"
+UBE2A,"BioGRID,STRING",2,824.0,"Affinity Capture-Western,STRING_combined"
+ZEB1,"BioGRID,STRING",2,824.0,"Affinity Capture-MS,STRING_combined"
+CCT7,"BioGRID,STRING",2,823.0,"Affinity Capture-MS,STRING_combined"
+TFDP1,"BioGRID,STRING",2,823.0,"Affinity Capture-Western,STRING_combined"
+ELL,"BioGRID,STRING",2,822.0,"STRING_combined,Two-hybrid"
+BRD1,"BioGRID,STRING",2,821.0,"Affinity Capture-MS,STRING_combined"
+MUL1,"BioGRID,STRING",2,820.0,"Affinity Capture-Western,STRING_combined"
+RING1,"BioGRID,STRING",2,819.0,"Affinity Capture-Western,STRING_combined"
+NR4A1,"BioGRID,STRING",2,817.0,"Affinity Capture-Western,STRING_combined"
+CFLAR,"BioGRID,STRING",2,816.0,"Affinity Capture-Western,STRING_combined"
+HERC2,"BioGRID,STRING",2,816.0,"Affinity Capture-Western,STRING_combined"
+KIT,"BioGRID,STRING",2,816.0,"Positive Genetic,STRING_combined"
+PARK7,"BioGRID,STRING",2,814.0,"Affinity Capture-Western,STRING_combined"
+RANBP2,"BioGRID,STRING",2,812.0,"Biochemical Activity,STRING_combined"
+SKP1,"BioGRID,STRING",2,812.0,"Affinity Capture-MS,STRING_combined"
+UBE2N,"BioGRID,STRING",2,811.0,"Reconstituted Complex,STRING_combined"
+EWSR1,"BioGRID,STRING",2,810.0,"Affinity Capture-Western,STRING_combined"
+GNAS,"BioGRID,STRING",2,810.0,"Negative Genetic,STRING_combined"
+KMT2D,"BioGRID,STRING",2,810.0,"Negative Genetic,STRING_combined"
+CCDC8,"BioGRID,STRING",2,808.0,"Affinity Capture-MS,STRING_combined"
+CDK6,"BioGRID,STRING",2,808.0,"FRET,STRING_combined"
+NEDD8,"BioGRID,STRING",2,808.0,"Affinity Capture-MS,STRING_combined"
+RUNX2,"BioGRID,STRING",2,808.0,"Affinity Capture-Western,STRING_combined"
+USP28,"BioGRID,STRING",2,806.0,"Biochemical Activity,STRING_combined"
+CXCL8,"BioGRID,STRING",2,804.0,"STRING_combined,Synthetic Growth Defect"
+ERCC2,"BioGRID,STRING",2,804.0,"Reconstituted Complex,STRING_combined"
+FBXW8,"BioGRID,STRING",2,804.0,"Affinity Capture-MS,STRING_combined"
+MET,"BioGRID,STRING",2,804.0,"FRET,STRING_combined"
+RRM2,"BioGRID,STRING",2,803.0,"Affinity Capture-Western,STRING_combined"
+STAT6,"BioGRID,STRING",2,803.0,"STRING_combined,Two-hybrid"
+GPX2,"BioGRID,STRING",2,802.0,"STRING_combined,Two-hybrid"
+PHF1,"BioGRID,STRING",2,802.0,"Affinity Capture-Western,STRING_combined"
+UBB,"BioGRID,STRING",2,799.0,"Affinity Capture-MS,STRING_combined"
+ZNF420,"BioGRID,STRING",2,799.0,"Affinity Capture-Western,STRING_combined"
+CRYAB,"BioGRID,STRING",2,798.0,"Affinity Capture-Western,STRING_combined"
+KDM4A,"BioGRID,STRING",2,798.0,"Affinity Capture-Western,STRING_combined"
+MYBBP1A,"BioGRID,STRING",2,798.0,"Reconstituted Complex,STRING_combined"
+PRIMA1,"BioGRID,STRING",2,798.0,"Negative Genetic,STRING_combined"
+PSMD2,"BioGRID,STRING",2,795.0,"Affinity Capture-MS,STRING_combined"
+UCHL1,"BioGRID,STRING",2,795.0,"Affinity Capture-Western,STRING_combined"
+E2F2,"BioGRID,STRING",2,791.0,"Proximity Label-MS,STRING_combined"
+ITCH,"BioGRID,STRING",2,791.0,"Affinity Capture-Western,STRING_combined"
+SUZ12,"BioGRID,STRING",2,791.0,"Affinity Capture-MS,STRING_combined"
+FOXM1,"BioGRID,STRING",2,790.0,"Proximity Label-MS,STRING_combined"
+S100A1,"BioGRID,STRING",2,790.0,"Reconstituted Complex,STRING_combined"
+WDR77,"BioGRID,STRING",2,787.0,"Affinity Capture-MS,STRING_combined"
+TDG,"BioGRID,STRING",2,786.0,"STRING_combined,Two-hybrid"
+UBD,"BioGRID,STRING",2,786.0,"Affinity Capture-Western,STRING_combined"
+DHFR,"BioGRID,STRING",2,785.0,"Reconstituted Complex,STRING_combined"
+VHL,"BioGRID,STRING",2,784.0,"Affinity Capture-Western,STRING_combined"
+NCOA6,"BioGRID,STRING",2,782.0,"Affinity Capture-MS,STRING_combined"
+STAT1,"BioGRID,STRING",2,781.0,"Affinity Capture-Western,STRING_combined"
+NFE2L2,"BioGRID,STRING",2,780.0,"Affinity Capture-Western,STRING_combined"
+TRIM25,"BioGRID,STRING",2,780.0,"Affinity Capture-Western,STRING_combined"
+NR0B2,"BioGRID,STRING",2,777.0,"Affinity Capture-Western,STRING_combined"
+CCT3,"BioGRID,STRING",2,776.0,"Affinity Capture-MS,STRING_combined"
+RBX1,"BioGRID,STRING",2,776.0,"Affinity Capture-MS,STRING_combined"
+XAF1,"BioGRID,STRING",2,776.0,"Affinity Capture-Western,STRING_combined"
+EIF2AK2,"BioGRID,STRING",2,775.0,"Affinity Capture-Western,STRING_combined"
+PTTG1,"BioGRID,STRING",2,775.0,"Affinity Capture-Western,STRING_combined"
+JAK1,"BioGRID,STRING",2,774.0,"Affinity Capture-MS,STRING_combined"
+PRKAB2,"BioGRID,STRING",2,774.0,"STRING_combined,Two-hybrid"
+RPA2,"BioGRID,STRING",2,774.0,"Affinity Capture-MS,STRING_combined"
+TYMS,"BioGRID,STRING",2,774.0,"Negative Genetic,STRING_combined"
+MOV10,"BioGRID,STRING",2,773.0,"Affinity Capture-MS,STRING_combined"
+NF2,"BioGRID,STRING",2,773.0,"FRET,STRING_combined"
+PELP1,"BioGRID,STRING",2,771.0,"Reconstituted Complex,STRING_combined"
+CD8A,"BioGRID,STRING",2,770.0,"Negative Genetic,STRING_combined"
+FUBP1,"BioGRID,STRING",2,769.0,"Affinity Capture-MS,STRING_combined"
+DMTF1,"BioGRID,STRING",2,768.0,"Affinity Capture-Western,STRING_combined"
+HDAC5,"BioGRID,STRING",2,768.0,"Affinity Capture-MS,STRING_combined"
+SIRT2,"BioGRID,STRING",2,768.0,"Proximity Label-MS,STRING_combined"
+WDR5,"BioGRID,STRING",2,768.0,"Reconstituted Complex,STRING_combined"
+AIMP2,"BioGRID,STRING",2,767.0,"Affinity Capture-Western,STRING_combined"
+PRKCD,"BioGRID,STRING",2,767.0,"Affinity Capture-Western,STRING_combined"
+SSRP1,"BioGRID,STRING",2,766.0,"Affinity Capture-MS,STRING_combined"
+PATZ1,"BioGRID,STRING",2,764.0,"Affinity Capture-Western,STRING_combined"
+PRKAA1,"BioGRID,STRING",2,764.0,"Affinity Capture-Western,STRING_combined"
+KRT8,"BioGRID,STRING",2,763.0,"Proximity Label-MS,STRING_combined"
+NBN,"BioGRID,STRING",2,763.0,"Affinity Capture-MS,STRING_combined"
+UHRF2,"BioGRID,STRING",2,763.0,"Far Western,STRING_combined"
+ANXA1,"BioGRID,STRING",2,762.0,"Affinity Capture-Western,STRING_combined"
+GDF15,"BioGRID,STRING",2,762.0,"Affinity Capture-MS,STRING_combined"
+KLF5,"BioGRID,STRING",2,762.0,"Affinity Capture-Western,STRING_combined"
+PDGFRA,"BioGRID,STRING",2,762.0,"FRET,STRING_combined"
+CCT6A,"BioGRID,STRING",2,761.0,"Affinity Capture-MS,STRING_combined"
+CDC42,"BioGRID,STRING",2,760.0,"STRING_combined,Two-hybrid"
+CTBP1,"BioGRID,STRING",2,759.0,"Affinity Capture-Western,STRING_combined"
+DNAJA1,"BioGRID,STRING",2,759.0,"Affinity Capture-MS,STRING_combined"
+BTRC,"BioGRID,STRING",2,758.0,"Affinity Capture-Western,STRING_combined"
+CCT8,"BioGRID,STRING",2,757.0,"Affinity Capture-MS,STRING_combined"
+KMT2A,"BioGRID,STRING",2,757.0,"Reconstituted Complex,STRING_combined"
+SUPT16H,"BioGRID,STRING",2,756.0,"Affinity Capture-MS,STRING_combined"
+NUPR1,"BioGRID,STRING",2,755.0,"Co-localization,STRING_combined"
+RPLP0,"BioGRID,STRING",2,755.0,"Affinity Capture-MS,STRING_combined"
+TET2,"BioGRID,STRING",2,755.0,"Affinity Capture-MS,STRING_combined"
+BAG1,"BioGRID,STRING",2,754.0,"Phenotypic Suppression,STRING_combined"
+HSPA1A,"BioGRID,STRING",2,754.0,"Affinity Capture-Western,STRING_combined"
+ANK3,"BioGRID,STRING",2,753.0,"Affinity Capture-MS,STRING_combined"
+UBE2K,"BioGRID,STRING",2,753.0,"Affinity Capture-Western,STRING_combined"
+WEE1,"BioGRID,STRING",2,753.0,"Proximity Label-MS,STRING_combined"
+BAG2,"BioGRID,STRING",2,752.0,"Affinity Capture-MS,STRING_combined"
+ERCC6,"BioGRID,STRING",2,752.0,"Reconstituted Complex,STRING_combined"
+CCDC106,"BioGRID,STRING",2,751.0,"STRING_combined,Two-hybrid"
+DDX3X,"BioGRID,STRING",2,750.0,"Affinity Capture-MS,STRING_combined"
+MAGED2,"BioGRID,STRING",2,750.0,"Affinity Capture-Western,STRING_combined"
+XRCC1,"BioGRID,STRING",2,750.0,"Affinity Capture-Western,STRING_combined"
+CHD4,"BioGRID,STRING",2,749.0,"Affinity Capture-MS,STRING_combined"
+RBBP5,"BioGRID,STRING",2,748.0,"Reconstituted Complex,STRING_combined"
+BUB1B,"BioGRID,STRING",2,745.0,"Affinity Capture-MS,STRING_combined"
+SP100,"BioGRID,STRING",2,744.0,"Affinity Capture-MS,STRING_combined"
+MYBL2,"BioGRID,STRING",2,742.0,"Proximity Label-MS,STRING_combined"
+RFFL,"BioGRID,STRING",2,742.0,"Affinity Capture-Western,STRING_combined"
+CDC6,"BioGRID,STRING",2,741.0,"Affinity Capture-MS,STRING_combined"
+CASP7,"BioGRID,STRING",2,740.0,"Affinity Capture-MS,STRING_combined"
+FBXO42,"BioGRID,STRING",2,740.0,"Biochemical Activity,STRING_combined"
+RPS27,"BioGRID,STRING",2,739.0,"Affinity Capture-MS,STRING_combined"
+LATS2,"BioGRID,STRING",2,738.0,"FRET,STRING_combined"
+LRRK2,"BioGRID,STRING",2,738.0,"Biochemical Activity,STRING_combined"
+MAPKAPK5,"BioGRID,STRING",2,738.0,"Biochemical Activity,STRING_combined"
+KRT5,"BioGRID,STRING",2,737.0,"Negative Genetic,STRING_combined"
+FBXO11,"BioGRID,STRING",2,736.0,"Affinity Capture-MS,STRING_combined"
+TOP3A,"BioGRID,STRING",2,736.0,"Proximity Label-MS,STRING_combined"
+CSNK1E,"BioGRID,STRING",2,735.0,"Co-localization,STRING_combined"
+OBSL1,"BioGRID,STRING",2,734.0,"Affinity Capture-MS,STRING_combined"
+HNRNPC,"BioGRID,STRING",2,733.0,"Affinity Capture-Western,STRING_combined"
+RNF40,"BioGRID,STRING",2,732.0,"Affinity Capture-Western,STRING_combined"
+UBE4B,"BioGRID,STRING",2,732.0,"Affinity Capture-Western,STRING_combined"
+MIF,"BioGRID,STRING",2,731.0,"Affinity Capture-Western,STRING_combined"
+KDR,"BioGRID,STRING",2,730.0,"STRING_combined,Synthetic Lethality"
+ANK2,"BioGRID,STRING",2,727.0,"Reconstituted Complex,STRING_combined"
+DTL,"BioGRID,STRING",2,727.0,"Affinity Capture-Western,STRING_combined"
+CDK8,"BioGRID,STRING",2,726.0,"Reconstituted Complex,STRING_combined"
+ERBB4,"BioGRID,STRING",2,726.0,"Affinity Capture-Western,STRING_combined"
+GATA3,"BioGRID,STRING",2,724.0,"Affinity Capture-MS,STRING_combined"
+PRDX1,"BioGRID,STRING",2,723.0,"Affinity Capture-MS,STRING_combined"
+RPS19,"BioGRID,STRING",2,723.0,"Affinity Capture-MS,STRING_combined"
+TUBB,"BioGRID,STRING",2,723.0,"Affinity Capture-MS,STRING_combined"
+ALB,"BioGRID,STRING",2,722.0,"Affinity Capture-MS,STRING_combined"
+MCM4,"BioGRID,STRING",2,722.0,"Affinity Capture-MS,STRING_combined"
+NUAK1,"BioGRID,STRING",2,722.0,"Affinity Capture-Western,STRING_combined"
+ACTL6A,"BioGRID,STRING",2,721.0,"Affinity Capture-Western,STRING_combined"
+YAP1,"BioGRID,STRING",2,721.0,"Affinity Capture-MS,STRING_combined"
+HMGA1,"BioGRID,STRING",2,720.0,"Affinity Capture-Western,STRING_combined"
+MEN1,"BioGRID,STRING",2,720.0,"Reconstituted Complex,STRING_combined"
+BCL2L2,"BioGRID,STRING",2,718.0,"Protein-peptide,STRING_combined"
+BUB3,"BioGRID,STRING",2,718.0,"Affinity Capture-MS,STRING_combined"
+REST,"BioGRID,STRING",2,718.0,"Affinity Capture-MS,STRING_combined"
+CHD3,"BioGRID,STRING",2,717.0,"STRING_combined,Two-hybrid"
+CYLD,"BioGRID,STRING",2,717.0,"Affinity Capture-Western,STRING_combined"
+NFYB,"BioGRID,STRING",2,717.0,"Affinity Capture-Western,STRING_combined"
+SET,"BioGRID,STRING",2,714.0,"Affinity Capture-Western,STRING_combined"
+SMN1,"BioGRID,STRING",2,714.0,"Affinity Capture-Western,STRING_combined"
+BRPF3,"BioGRID,STRING",2,713.0,"Affinity Capture-MS,STRING_combined"
+RBBP4,"BioGRID,STRING",2,713.0,"Affinity Capture-MS,STRING_combined"
+VIM,"BioGRID,STRING",2,712.0,"Affinity Capture-MS,STRING_combined"
+DDB1,"BioGRID,STRING",2,711.0,"Affinity Capture-MS,STRING_combined"
+MAP2K3,"BioGRID,STRING",2,711.0,"FRET,STRING_combined"
+AGO1,"BioGRID,STRING",2,710.0,"Affinity Capture-Western,STRING_combined"
+KDM6A,"BioGRID,STRING",2,710.0,"Affinity Capture-Western,STRING_combined"
+UBA1,"BioGRID,STRING",2,710.0,"Affinity Capture-MS,STRING_combined"
+CUL1,"BioGRID,STRING",2,709.0,"Affinity Capture-MS,STRING_combined"
+RAD50,"BioGRID,STRING",2,709.0,"Affinity Capture-MS,STRING_combined"
+TUBB2A,"BioGRID,STRING",2,709.0,"Affinity Capture-MS,STRING_combined"
+USP24,"BioGRID,STRING",2,709.0,"Biochemical Activity,STRING_combined"
+VCP,"BioGRID,STRING",2,709.0,"Affinity Capture-MS,STRING_combined"
+TNFAIP3,"BioGRID,STRING",2,708.0,"Affinity Capture-Western,STRING_combined"
+E2F3,"BioGRID,STRING",2,707.0,"Proximity Label-MS,STRING_combined"
+DHCR24,"BioGRID,STRING",2,706.0,"Affinity Capture-Western,STRING_combined"
+PMS1,"BioGRID,STRING",2,706.0,"Affinity Capture-MS,STRING_combined"
+PHC3,"BioGRID,STRING",2,705.0,"Affinity Capture-MS,STRING_combined"
+THRB,"BioGRID,STRING",2,705.0,"Affinity Capture-Western,STRING_combined"
+RPS6,"BioGRID,STRING",2,704.0,"Affinity Capture-MS,STRING_combined"
+BAG5,"BioGRID,STRING",2,703.0,"Affinity Capture-MS,STRING_combined"
+HEY1,"BioGRID,STRING",2,703.0,"Reconstituted Complex,STRING_combined"
+WRAP53,"BioGRID,STRING",2,703.0,"Negative Genetic,STRING_combined"
+ZBTB16,"BioGRID,STRING",2,703.0,"Affinity Capture-Western,STRING_combined"
+CDKN1C,"BioGRID,STRING",2,701.0,"Affinity Capture-MS,STRING_combined"
+TSG101,"BioGRID,STRING",2,701.0,"Affinity Capture-Western,STRING_combined"
+CALML5,"BioGRID,STRING",2,700.0,"Affinity Capture-MS,STRING_combined"
+HNRNPU,"BioGRID,STRING",2,700.0,"Affinity Capture-MS,STRING_combined"
+PPIF,STRING,1,993.0,STRING_combined
+CDKN1B,STRING,1,991.0,STRING_combined
+G6PD,STRING,1,986.0,STRING_combined
+TIGAR,STRING,1,981.0,STRING_combined
+S100A2,STRING,1,980.0,STRING_combined
+DDB2,STRING,1,979.0,STRING_combined
+SREBF2,STRING,1,978.0,STRING_combined
+AKT2,STRING,1,973.0,STRING_combined
+H3C12,STRING,1,971.0,STRING_combined
+PMAIP1,STRING,1,970.0,STRING_combined
+MLH1,STRING,1,965.0,STRING_combined
+GADD45B,STRING,1,964.0,STRING_combined
+COP1,STRING,1,961.0,STRING_combined
+MAPK11,STRING,1,960.0,STRING_combined
+TFAM,STRING,1,959.0,STRING_combined
+PIDD1,STRING,1,958.0,STRING_combined
+AKT3,STRING,1,953.0,STRING_combined
+CASP9,STRING,1,953.0,STRING_combined
+KRAS,STRING,1,949.0,STRING_combined
+H4C6,STRING,1,947.0,STRING_combined
+MAPK12,STRING,1,946.0,STRING_combined
+TP53AIP1,STRING,1,945.0,STRING_combined
+MAPK13,STRING,1,943.0,STRING_combined
+PIK3CA,STRING,1,941.0,STRING_combined
+JMY,STRING,1,940.0,STRING_combined
+CASP10,STRING,1,939.0,STRING_combined
+GADD45G,STRING,1,937.0,STRING_combined
+GTSE1,STRING,1,933.0,STRING_combined
+PRKCZ,STRING,1,933.0,STRING_combined
+BIRC5,STRING,1,930.0,STRING_combined
+SUMO4,STRING,1,930.0,STRING_combined
+PERP,STRING,1,928.0,STRING_combined
+CCNE1,STRING,1,926.0,STRING_combined
+SLC2A2,STRING,1,926.0,STRING_combined
+KLF4,STRING,1,925.0,STRING_combined
+SLC25A4,STRING,1,925.0,STRING_combined
+CAPN2,STRING,1,924.0,STRING_combined
+HIPK4,STRING,1,918.0,STRING_combined
+KMT5A,STRING,1,916.0,STRING_combined
+CCNB1,STRING,1,914.0,STRING_combined
+CYCS,STRING,1,911.0,STRING_combined
+DDIT4,STRING,1,911.0,STRING_combined
+ZNF385A,STRING,1,910.0,STRING_combined
+PCBP4,STRING,1,909.0,STRING_combined
+YWHAG,STRING,1,909.0,STRING_combined
+TNFRSF10B,STRING,1,908.0,STRING_combined
+ATG7,STRING,1,907.0,STRING_combined
+MRE11,STRING,1,905.0,STRING_combined
+TP53I3,STRING,1,903.0,STRING_combined
+TPX2,STRING,1,903.0,STRING_combined
+IGFBP3,STRING,1,901.0,STRING_combined
+EZH2,STRING,1,899.0,STRING_combined
+CASP6,STRING,1,898.0,STRING_combined
+TNFRSF10A,STRING,1,898.0,STRING_combined
+H2AX,STRING,1,892.0,STRING_combined
+CCNE2,STRING,1,890.0,STRING_combined
+BTG2,STRING,1,888.0,STRING_combined
+BRAF,STRING,1,887.0,STRING_combined
+FOXO1,STRING,1,886.0,STRING_combined
+SOX2,STRING,1,883.0,STRING_combined
+H4C14,STRING,1,880.0,STRING_combined
+NF1,STRING,1,880.0,STRING_combined
+H3C2,STRING,1,879.0,STRING_combined
+H6PD,STRING,1,879.0,STRING_combined
+INS,STRING,1,879.0,STRING_combined
+SLCO6A1,STRING,1,879.0,STRING_combined
+CASP1,STRING,1,876.0,STRING_combined
+CD44,STRING,1,876.0,STRING_combined
+H2BC12,STRING,1,876.0,STRING_combined
+NRAS,STRING,1,876.0,STRING_combined
+SMAD4,STRING,1,875.0,STRING_combined
+H2BC11,STRING,1,874.0,STRING_combined
+SESN1,STRING,1,874.0,STRING_combined
+FANCC,STRING,1,871.0,STRING_combined
+CCNL2,STRING,1,870.0,STRING_combined
+PRDM1,STRING,1,870.0,STRING_combined
+BCL2L11,STRING,1,867.0,STRING_combined
+H3C3,STRING,1,867.0,STRING_combined
+H3-3B,STRING,1,865.0,STRING_combined
+TNF,STRING,1,865.0,STRING_combined
+GSDME,STRING,1,864.0,STRING_combined
+H3-5,STRING,1,864.0,STRING_combined
+H3-2,STRING,1,863.0,STRING_combined
+H3-4,STRING,1,863.0,STRING_combined
+H3C13,STRING,1,863.0,STRING_combined
+CEBPB,STRING,1,862.0,STRING_combined
+CDC25A,STRING,1,861.0,STRING_combined
+H3C4,STRING,1,861.0,STRING_combined
+H2AC8,STRING,1,860.0,STRING_combined
+H3C10,STRING,1,860.0,STRING_combined
+H3C6,STRING,1,859.0,STRING_combined
+H3C8,STRING,1,859.0,STRING_combined
+NDRG1,STRING,1,859.0,STRING_combined
+CDKN3,STRING,1,858.0,STRING_combined
+H3C1,STRING,1,858.0,STRING_combined
+KMT2C,STRING,1,858.0,STRING_combined
+H3C11,STRING,1,857.0,STRING_combined
+H3C7,STRING,1,857.0,STRING_combined
+KLF6,STRING,1,857.0,STRING_combined
+NANOG,STRING,1,857.0,STRING_combined
+BID,STRING,1,856.0,STRING_combined
+STEAP3,STRING,1,856.0,STRING_combined
+BNIP3L,STRING,1,855.0,STRING_combined
+PLK2,STRING,1,855.0,STRING_combined
+SESN2,STRING,1,854.0,STRING_combined
+CDH1,STRING,1,853.0,STRING_combined
+PIK3R1,STRING,1,853.0,STRING_combined
+MYCN,STRING,1,852.0,STRING_combined
+PGR,STRING,1,849.0,STRING_combined
+IKBIP,STRING,1,845.0,STRING_combined
+ATRIP,STRING,1,840.0,STRING_combined
+MAGEA2B,STRING,1,839.0,STRING_combined
+MMP9,STRING,1,838.0,STRING_combined
+POLB,STRING,1,838.0,STRING_combined
+XIAP,STRING,1,836.0,STRING_combined
+DNMT3A,STRING,1,835.0,STRING_combined
+IFNG,STRING,1,834.0,STRING_combined
+CTCF,STRING,1,830.0,STRING_combined
+DRAM1,STRING,1,830.0,STRING_combined
+H4-16,STRING,1,824.0,STRING_combined
+H4C3,STRING,1,824.0,STRING_combined
+POU5F1,STRING,1,824.0,STRING_combined
+H4C5,STRING,1,822.0,STRING_combined
+H4C9,STRING,1,822.0,STRING_combined
+H4C2,STRING,1,821.0,STRING_combined
+H4C4,STRING,1,821.0,STRING_combined
+PXDN,STRING,1,821.0,STRING_combined
+PXDNL,STRING,1,821.0,STRING_combined
+FADD,STRING,1,820.0,STRING_combined
+H4C1,STRING,1,820.0,STRING_combined
+H4C12,STRING,1,820.0,STRING_combined
+H4C13,STRING,1,820.0,STRING_combined
+H4C15,STRING,1,820.0,STRING_combined
+RUNX1,STRING,1,820.0,STRING_combined
+H4C11,STRING,1,819.0,STRING_combined
+H4C8,STRING,1,819.0,STRING_combined
+ANXA5,STRING,1,818.0,STRING_combined
+LOC102723407,STRING,1,813.0,STRING_combined
+RAD9A,STRING,1,813.0,STRING_combined
+KEAP1,STRING,1,810.0,STRING_combined
+TGFB1,STRING,1,809.0,STRING_combined
+RAD17,STRING,1,807.0,STRING_combined
+CCNK,STRING,1,806.0,STRING_combined
+ATF2,STRING,1,805.0,STRING_combined
+NLRC4,STRING,1,802.0,STRING_combined
+RET,STRING,1,801.0,STRING_combined
+SREBF1,STRING,1,801.0,STRING_combined
+H2AC4,STRING,1,800.0,STRING_combined
+CDK5R1,STRING,1,798.0,STRING_combined
+MYOD1,STRING,1,797.0,STRING_combined
+SESN3,STRING,1,796.0,STRING_combined
+CASP2,STRING,1,794.0,STRING_combined
+RGCC,STRING,1,794.0,STRING_combined
+ABRAXAS2,STRING,1,790.0,STRING_combined
+NOTCH1,STRING,1,789.0,STRING_combined
+COMMD3-BMI1,STRING,1,787.0,STRING_combined
+KRT7,STRING,1,787.0,STRING_combined
+KDM6B,STRING,1,786.0,STRING_combined
+ESR2,STRING,1,783.0,STRING_combined
+IDH2,STRING,1,783.0,STRING_combined
+CNOT3,STRING,1,782.0,STRING_combined
+EGF,STRING,1,780.0,STRING_combined
+BDP1,STRING,1,778.0,STRING_combined
+IL6,STRING,1,777.0,STRING_combined
+CD274,STRING,1,776.0,STRING_combined
+CDK12,STRING,1,775.0,STRING_combined
+MMP7,STRING,1,774.0,STRING_combined
+ALK,STRING,1,772.0,STRING_combined
+PAX8,STRING,1,772.0,STRING_combined
+VDAC1,STRING,1,772.0,STRING_combined
+HLA-A,STRING,1,770.0,STRING_combined
+MGMT,STRING,1,770.0,STRING_combined
+MYB,STRING,1,770.0,STRING_combined
+VENTX,STRING,1,770.0,STRING_combined
+NSD2,STRING,1,769.0,STRING_combined
+TNFRSF10D,STRING,1,769.0,STRING_combined
+GRB2,STRING,1,766.0,STRING_combined
+POU4F1,STRING,1,766.0,STRING_combined
+STMN1,STRING,1,766.0,STRING_combined
+E2F8,STRING,1,765.0,STRING_combined
+ATG5,STRING,1,764.0,STRING_combined
+LGALS4,STRING,1,764.0,STRING_combined
+DICER1,STRING,1,762.0,STRING_combined
+KLK3,STRING,1,760.0,STRING_combined
+PRKN,STRING,1,760.0,STRING_combined
+RBL2,STRING,1,760.0,STRING_combined
+HDAC8,STRING,1,756.0,STRING_combined
+IL10,STRING,1,756.0,STRING_combined
+RABGGTA,STRING,1,756.0,STRING_combined
+STAT5A,STRING,1,755.0,STRING_combined
+FGF2,STRING,1,754.0,STRING_combined
+LMO3,STRING,1,754.0,STRING_combined
+SETD9,STRING,1,752.0,STRING_combined
+DCAF1,STRING,1,751.0,STRING_combined
+MMUT,STRING,1,751.0,STRING_combined
+SIRT3,STRING,1,750.0,STRING_combined
+SRSF2,STRING,1,750.0,STRING_combined
+SIRT6,STRING,1,748.0,STRING_combined
+MUTYH,STRING,1,746.0,STRING_combined
+IGF2,STRING,1,745.0,STRING_combined
+TTC5,STRING,1,745.0,STRING_combined
+POU4F2,STRING,1,743.0,STRING_combined
+HDAC3,STRING,1,741.0,STRING_combined
+IL2,STRING,1,741.0,STRING_combined
+TNFRSF1A,STRING,1,741.0,STRING_combined
+MAP1B,STRING,1,740.0,STRING_combined
+LIN28A,STRING,1,739.0,STRING_combined
+YWHAQ,STRING,1,739.0,STRING_combined
+PALB2,STRING,1,738.0,STRING_combined
+XPA,STRING,1,738.0,STRING_combined
+TXNDC9,STRING,1,737.0,STRING_combined
+EPAS1,STRING,1,736.0,STRING_combined
+FOXA1,STRING,1,735.0,STRING_combined
+ANK1,STRING,1,734.0,STRING_combined
+DLG4,STRING,1,734.0,STRING_combined
+HSPB2,STRING,1,733.0,STRING_combined
+HSPB3,STRING,1,733.0,STRING_combined
+MAF,STRING,1,731.0,STRING_combined
+DMD,STRING,1,730.0,STRING_combined
+GPX4,STRING,1,730.0,STRING_combined
+JAK2,STRING,1,728.0,STRING_combined
+STAT5B,STRING,1,728.0,STRING_combined
+BSG,STRING,1,727.0,STRING_combined
+CD38,STRING,1,727.0,STRING_combined
+CCAR2,STRING,1,726.0,STRING_combined
+H1-0,STRING,1,726.0,STRING_combined
+OGA,STRING,1,725.0,STRING_combined
+CITED2,STRING,1,723.0,STRING_combined
+FLT3,STRING,1,722.0,STRING_combined
+ICAM1,STRING,1,722.0,STRING_combined
+ASXL1,STRING,1,721.0,STRING_combined
+CABIN1,STRING,1,721.0,STRING_combined
+MYD88,STRING,1,721.0,STRING_combined
+HERC1,STRING,1,720.0,STRING_combined
+IGF1,STRING,1,720.0,STRING_combined
+THBS1,STRING,1,720.0,STRING_combined
+H4C7,STRING,1,719.0,STRING_combined
+PHGDH,STRING,1,719.0,STRING_combined
+CSF2,STRING,1,718.0,STRING_combined
+FASLG,STRING,1,718.0,STRING_combined
+FGFR3,STRING,1,718.0,STRING_combined
+IL1B,STRING,1,718.0,STRING_combined
+IL4,STRING,1,718.0,STRING_combined
+UBL4A,STRING,1,717.0,STRING_combined
+SKP2,STRING,1,716.0,STRING_combined
+APP,STRING,1,714.0,STRING_combined
+PPP2CB,STRING,1,714.0,STRING_combined
+TSC2,STRING,1,713.0,STRING_combined
+HUS1,STRING,1,712.0,STRING_combined
+NFYC,STRING,1,711.0,STRING_combined
+NOTCH3,STRING,1,710.0,STRING_combined
+SLC7A11,STRING,1,710.0,STRING_combined
+SERPINB5,STRING,1,709.0,STRING_combined
+EXO1,STRING,1,708.0,STRING_combined
+ZMAT3,STRING,1,708.0,STRING_combined
+MAGEA3,STRING,1,707.0,STRING_combined
+HK2,STRING,1,706.0,STRING_combined
+CD4,STRING,1,703.0,STRING_combined
+RCOR1,STRING,1,703.0,STRING_combined
+IRS1,STRING,1,702.0,STRING_combined
+NOP53,STRING,1,702.0,STRING_combined
+KHDRBS1,STRING,1,701.0,STRING_combined
+CD34,STRING,1,700.0,STRING_combined
+PRKCA,STRING,1,700.0,STRING_combined
+RPS6KB1,STRING,1,700.0,STRING_combined
+AAGAB,BioGRID,1,,Synthetic Growth Defect
+AARS,BioGRID,1,,Affinity Capture-MS
+AASDH,BioGRID,1,,Proximity Label-MS
+AATF,BioGRID,1,,Affinity Capture-Western
+AATK,BioGRID,1,,Proximity Label-MS
+ABCA12,BioGRID,1,,Synthetic Lethality
+ABCE1,BioGRID,1,,Affinity Capture-MS
+ABCF1,BioGRID,1,,Affinity Capture-MS
+ABCF2,BioGRID,1,,Affinity Capture-MS
+ABHD16B,BioGRID,1,,Negative Genetic
+ABR,BioGRID,1,,Affinity Capture-MS
+ACACA,BioGRID,1,,Affinity Capture-MS
+ACAD10,BioGRID,1,,Affinity Capture-MS
+ACADM,BioGRID,1,,Affinity Capture-MS
+ACBD3,BioGRID,1,,Affinity Capture-MS
+ACE2,BioGRID,1,,Affinity Capture-MS
+ACKR3,BioGRID,1,,Two-hybrid
+ACLY,BioGRID,1,,Affinity Capture-MS
+ACO2,BioGRID,1,,Affinity Capture-MS
+ACSL4,BioGRID,1,,Affinity Capture-MS
+ACTA2,BioGRID,1,,Affinity Capture-MS
+ACTBL2,BioGRID,1,,Affinity Capture-MS
+ACTG1,BioGRID,1,,Affinity Capture-MS
+ACTN4,BioGRID,1,,Affinity Capture-MS
+ACTR3,BioGRID,1,,Proximity Label-MS
+ACVR1C,BioGRID,1,,Synthetic Growth Defect
+ADAM28,BioGRID,1,,Synthetic Growth Defect
+ADAM9,BioGRID,1,,Affinity Capture-MS
+ADAR,BioGRID,1,,Affinity Capture-MS
+ADCK5,BioGRID,1,,Affinity Capture-MS
+ADD1,BioGRID,1,,Affinity Capture-MS
+ADD3,BioGRID,1,,Affinity Capture-MS
+ADH5,BioGRID,1,,Affinity Capture-Western
+ADNP,BioGRID,1,,Affinity Capture-MS
+ADO,BioGRID,1,,Synthetic Rescue
+AGBL2,BioGRID,1,,Affinity Capture-Western
+AGGF1,BioGRID,1,,Affinity Capture-Western
+AGPAT6,BioGRID,1,,Affinity Capture-MS
+AGT,BioGRID,1,,Two-hybrid
+AGTPBP1,BioGRID,1,,Affinity Capture-MS
+AGTRAP,BioGRID,1,,Affinity Capture-MS
+AHCTF1,BioGRID,1,,Affinity Capture-MS
+AHCY,BioGRID,1,,Affinity Capture-MS
+AHNAK,BioGRID,1,,Affinity Capture-Western
+AIFM1,BioGRID,1,,Affinity Capture-MS
+AIP,BioGRID,1,,Proximity Label-MS
+AIPL1,BioGRID,1,,Affinity Capture-MS
+AKAP12,BioGRID,1,,Affinity Capture-MS
+AKAP5,BioGRID,1,,Two-hybrid
+AKAP8L,BioGRID,1,,Affinity Capture-MS
+AKR1A1,BioGRID,1,,Negative Genetic
+ALDH18A1,BioGRID,1,,Affinity Capture-MS
+ALG6,BioGRID,1,,Affinity Capture-MS
+ALKBH5,BioGRID,1,,Proximity Label-MS
+ALYREF,BioGRID,1,,Affinity Capture-MS
+ANAPC2,BioGRID,1,,Proximity Label-MS
+ANG,BioGRID,1,,Affinity Capture-Western
+ANKRD2,BioGRID,1,,Affinity Capture-Western
+ANKRD26,BioGRID,1,,Proximity Label-MS
+ANKRD27,BioGRID,1,,Affinity Capture-MS
+ANKRD36C,BioGRID,1,,Affinity Capture-MS
+ANKRD49,BioGRID,1,,Synthetic Rescue
+ANP32E,BioGRID,1,,Proximity Label-MS
+ANXA11,BioGRID,1,,Synthetic Lethality
+ANXA3,BioGRID,1,,Two-hybrid
+ANXA7,BioGRID,1,,Two-hybrid
+AP1B1,BioGRID,1,,Affinity Capture-MS
+AP1G1,BioGRID,1,,Affinity Capture-MS
+AP2B1,BioGRID,1,,Affinity Capture-MS
+AP3B1,BioGRID,1,,Affinity Capture-MS
+AP3B2,BioGRID,1,,Synthetic Lethality
+AP3D1,BioGRID,1,,Affinity Capture-MS
+APBB2,BioGRID,1,,Reconstituted Complex
+APC,BioGRID,1,,Proximity Label-MS
+APEH,BioGRID,1,,Affinity Capture-MS
+APEX2,BioGRID,1,,Synthetic Rescue
+APOH,BioGRID,1,,Two-hybrid
+APPL1,BioGRID,1,,Two-hybrid
+APTX,BioGRID,1,,Affinity Capture-Western
+ARAF,BioGRID,1,,FRET
+ARG1,BioGRID,1,,Affinity Capture-MS
+ARGLU1,BioGRID,1,,Affinity Capture-MS
+ARHGAP20,BioGRID,1,,Affinity Capture-MS
+ARHGAP33,BioGRID,1,,Affinity Capture-MS
+ARHGAP5,BioGRID,1,,Affinity Capture-MS
+ARHGEF17,BioGRID,1,,Affinity Capture-MS
+ARHGEF26,BioGRID,1,,Affinity Capture-MS
+ARHGEF4,BioGRID,1,,Affinity Capture-MS
+ARID3B,BioGRID,1,,Affinity Capture-MS
+ARID5B,BioGRID,1,,Proximity Label-MS
+ARIH2,BioGRID,1,,Two-hybrid
+ARL14EPL,BioGRID,1,,Negative Genetic
+ARL3,BioGRID,1,,Two-hybrid
+ARL6IP1,BioGRID,1,,Affinity Capture-MS
+ARL6IP4,BioGRID,1,,Affinity Capture-MS
+ARL6IP5,BioGRID,1,,Affinity Capture-MS
+ARMCX5,BioGRID,1,,Synthetic Growth Defect
+ARNT,BioGRID,1,,FRET
+ARPP21,BioGRID,1,,Synthetic Growth Defect
+ARRB1,BioGRID,1,,Affinity Capture-Western
+ARRDC1,BioGRID,1,,Affinity Capture-MS
+ASF1A,BioGRID,1,,Affinity Capture-Western
+ASH2L,BioGRID,1,,Affinity Capture-Western
+ASPH,BioGRID,1,,Affinity Capture-MS
+ASPM,BioGRID,1,,Affinity Capture-Western
+ASTL,BioGRID,1,,Negative Genetic
+ATF7IP,BioGRID,1,,Proximity Label-MS
+ATIC,BioGRID,1,,Affinity Capture-MS
+ATN1,BioGRID,1,,Negative Genetic
+ATP1A1,BioGRID,1,,Affinity Capture-MS
+ATP2A2,BioGRID,1,,Affinity Capture-MS
+ATP2C1,BioGRID,1,,Negative Genetic
+ATP5A1,BioGRID,1,,Affinity Capture-MS
+ATP5O,BioGRID,1,,Synthetic Rescue
+ATP6V0A1,BioGRID,1,,Affinity Capture-MS
+ATP8A2,BioGRID,1,,Affinity Capture-MS
+ATXN3,BioGRID,1,,Affinity Capture-MS
+AZGP1,BioGRID,1,,Affinity Capture-MS
+B4GALT7,BioGRID,1,,Negative Genetic
+BAAT,BioGRID,1,,Affinity Capture-MS
+BABAM1,BioGRID,1,,Proximity Label-MS
+BACH1,BioGRID,1,,Affinity Capture-Western
+BACH2,BioGRID,1,,Proximity Label-MS
+BAG6,BioGRID,1,,Affinity Capture-Western
+BAIAP2L1,BioGRID,1,,Affinity Capture-Western
+BAP1,BioGRID,1,,Affinity Capture-Western
+BAZ1B,BioGRID,1,,Synthetic Rescue
+BBS7,BioGRID,1,,Affinity Capture-MS
+BCAP31,BioGRID,1,,Affinity Capture-MS
+BCAS3,BioGRID,1,,Affinity Capture-MS
+BCCIP,BioGRID,1,,Reconstituted Complex
+BCL2L12,BioGRID,1,,Reconstituted Complex
+BCOR,BioGRID,1,,Proximity Label-MS
+BCORL1,BioGRID,1,,Proximity Label-MS
+BCR,BioGRID,1,,Two-hybrid
+BDKRB1,BioGRID,1,,Negative Genetic
+BHLHE40,BioGRID,1,,Affinity Capture-Western
+BICD1,BioGRID,1,,Proximity Label-MS
+BIRC3,BioGRID,1,,Affinity Capture-MS
+BIRC6,BioGRID,1,,Affinity Capture-Western
+BLMH,BioGRID,1,,Affinity Capture-MS
+BMP1,BioGRID,1,,Two-hybrid
+BMS1,BioGRID,1,,Affinity Capture-MS
+BNC2,BioGRID,1,,Affinity Capture-MS
+BOP1,BioGRID,1,,Affinity Capture-MS
+BPTF,BioGRID,1,,Affinity Capture-MS
+BRAP,BioGRID,1,,Synthetic Rescue
+BRCC3,BioGRID,1,,Affinity Capture-Western
+BRD2,BioGRID,1,,Affinity Capture-MS
+BRD3,BioGRID,1,,Affinity Capture-MS
+BRD8,BioGRID,1,,Affinity Capture-Western
+BRDT,BioGRID,1,,Affinity Capture-MS
+BRE,BioGRID,1,,Affinity Capture-MS
+BRF1,BioGRID,1,,Affinity Capture-Western
+BRINP1,BioGRID,1,,Affinity Capture-Western
+BRSK2,BioGRID,1,,Affinity Capture-MS
+BTBD2,BioGRID,1,,Two-hybrid
+BTF3,BioGRID,1,,Affinity Capture-MS
+BTK,BioGRID,1,,Affinity Capture-MS
+C10ORF90,BioGRID,1,,Affinity Capture-Western
+C11ORF30,BioGRID,1,,Proximity Label-MS
+C11ORF68,BioGRID,1,,Negative Genetic
+C12ORF49,BioGRID,1,,Synthetic Growth Defect
+C12ORF5,BioGRID,1,,Co-localization
+C14ORF37,BioGRID,1,,Synthetic Lethality
+C14ORF80,BioGRID,1,,Synthetic Rescue
+C15ORF39,BioGRID,1,,Proximity Label-MS
+C16ORF59,BioGRID,1,,Negative Genetic
+C16ORF72,BioGRID,1,,Synthetic Rescue
+C18ORF21,BioGRID,1,,Negative Genetic
+C18ORF25,BioGRID,1,,Proximity Label-MS
+C19ORF38,BioGRID,1,,Synthetic Lethality
+C19ORF40,BioGRID,1,,Synthetic Lethality
+C19ORF44,BioGRID,1,,Affinity Capture-MS
+C19ORF47,BioGRID,1,,Proximity Label-MS
+C1ORF111,BioGRID,1,,Affinity Capture-MS
+C1ORF27,BioGRID,1,,Affinity Capture-MS
+C1ORF86,BioGRID,1,,Proximity Label-MS
+C2ORF44,BioGRID,1,,Proximity Label-MS
+C4B,BioGRID,1,,Affinity Capture-MS
+C4BPB,BioGRID,1,,Affinity Capture-MS
+C4ORF32,BioGRID,1,,Affinity Capture-MS
+C6ORF201,BioGRID,1,,Affinity Capture-MS
+C9ORF78,BioGRID,1,,Affinity Capture-MS
+CAB39,BioGRID,1,,Negative Genetic
+CABLES2,BioGRID,1,,Affinity Capture-Western
+CAD,BioGRID,1,,Affinity Capture-MS
+CADM2,BioGRID,1,,Affinity Capture-MS
+CADM4,BioGRID,1,,Negative Genetic
+CAGE1,BioGRID,1,,Affinity Capture-MS
+CALD1,BioGRID,1,,Affinity Capture-MS
+CANX,BioGRID,1,,Affinity Capture-MS
+CAP2,BioGRID,1,,Affinity Capture-MS
+CAPG,BioGRID,1,,Two-hybrid
+CAPN7,BioGRID,1,,Negative Genetic
+CAPN8,BioGRID,1,,Affinity Capture-MS
+CAPZA1,BioGRID,1,,Proximity Label-MS
+CAPZB,BioGRID,1,,Affinity Capture-MS
+CASC5,BioGRID,1,,Proximity Label-MS
+CASP14,BioGRID,1,,Affinity Capture-MS
+CAT,BioGRID,1,,Affinity Capture-MS
+CBL,BioGRID,1,,Affinity Capture-Western
+CBLB,BioGRID,1,,Affinity Capture-Western
+CBLC,BioGRID,1,,FRET
+CBX4,BioGRID,1,,Proximity Label-MS
+CC2D2B,BioGRID,1,,Affinity Capture-MS
+CCAR1,BioGRID,1,,Affinity Capture-Western
+CCDC174,BioGRID,1,,Proximity Label-MS
+CCDC175,BioGRID,1,,Affinity Capture-MS
+CCDC3,BioGRID,1,,Affinity Capture-Western
+CCDC54,BioGRID,1,,Negative Genetic
+CCDC6,BioGRID,1,,Co-localization
+CCDC86,BioGRID,1,,Negative Genetic
+CCDC91,BioGRID,1,,Affinity Capture-MS
+CCL18,BioGRID,1,,Two-hybrid
+CCNF,BioGRID,1,,Affinity Capture-MS
+CCNL1,BioGRID,1,,Affinity Capture-MS
+CCNT1,BioGRID,1,,Affinity Capture-MS
+CCT6B,BioGRID,1,,Synthetic Lethality
+CD2BP2,BioGRID,1,,Proximity Label-MS
+CD47,BioGRID,1,,Affinity Capture-MS
+CD69,BioGRID,1,,Synthetic Lethality
+CD81,BioGRID,1,,Affinity Capture-MS
+CDC123,BioGRID,1,,Affinity Capture-MS
+CDC14A,BioGRID,1,,Two-hybrid
+CDC14B,BioGRID,1,,Affinity Capture-Western
+CDC20,BioGRID,1,,Proximity Label-MS
+CDC23,BioGRID,1,,Proximity Label-MS
+CDC7,BioGRID,1,,Synthetic Lethality
+CDCA4,BioGRID,1,,Proximity Label-MS
+CDIPT,BioGRID,1,,Affinity Capture-MS
+CDK11A,BioGRID,1,,Proximity Label-MS
+CDK11B,BioGRID,1,,Proximity Label-MS
+CDKL2,BioGRID,1,,Affinity Capture-MS
+CDKN2AIP,BioGRID,1,,Proximity Label-MS
+CDS2,BioGRID,1,,Affinity Capture-MS
+CDY1,BioGRID,1,,Affinity Capture-MS
+CEBPZ,BioGRID,1,,Affinity Capture-Western
+CECR2,BioGRID,1,,Affinity Capture-MS
+CELA2B,BioGRID,1,,Affinity Capture-MS
+CENPA,BioGRID,1,,Synthetic Growth Defect
+CENPE,BioGRID,1,,Affinity Capture-MS
+CENPH,BioGRID,1,,Proximity Label-MS
+CENPJ,BioGRID,1,,Affinity Capture-MS
+CEP120,BioGRID,1,,Proximity Label-MS
+CEP128,BioGRID,1,,Proximity Label-MS
+CEP135,BioGRID,1,,Proximity Label-MS
+CEP152,BioGRID,1,,Proximity Label-MS
+CEP164,BioGRID,1,,Co-localization
+CEP170B,BioGRID,1,,Affinity Capture-MS
+CEP192,BioGRID,1,,Proximity Label-MS
+CEP295,BioGRID,1,,Affinity Capture-MS
+CEP350,BioGRID,1,,Affinity Capture-MS
+CEP55,BioGRID,1,,Affinity Capture-MS
+CEPT1,BioGRID,1,,Affinity Capture-MS
+CETP,BioGRID,1,,Two-hybrid
+CFTR,BioGRID,1,,Affinity Capture-MS
+CGNL1,BioGRID,1,,Affinity Capture-MS
+CHD7,BioGRID,1,,Proximity Label-MS
+CHD8,BioGRID,1,,Affinity Capture-Western
+CHM,BioGRID,1,,Affinity Capture-MS
+CHMP4B,BioGRID,1,,Affinity Capture-MS
+CHORDC1,BioGRID,1,,Affinity Capture-MS
+CHPT1,BioGRID,1,,Affinity Capture-MS
+CHRFAM7A,BioGRID,1,,Negative Genetic
+CHST9,BioGRID,1,,Affinity Capture-MS
+CIC,BioGRID,1,,Affinity Capture-MS
+CIRH1A,BioGRID,1,,Proximity Label-MS
+CIT,BioGRID,1,,Affinity Capture-MS
+CKAP2,BioGRID,1,,Affinity Capture-MS
+CKAP2L,BioGRID,1,,Affinity Capture-MS
+CKAP4,BioGRID,1,,Affinity Capture-MS
+CKS2,BioGRID,1,,Proximity Label-MS
+CLCA3P,BioGRID,1,,Synthetic Growth Defect
+CLCN7,BioGRID,1,,Affinity Capture-MS
+CLDND2,BioGRID,1,,Synthetic Lethality
+CLEC4D,BioGRID,1,,Affinity Capture-MS
+CLEC4E,BioGRID,1,,Affinity Capture-MS
+CLIP2,BioGRID,1,,Affinity Capture-MS
+CLK3,BioGRID,1,,Affinity Capture-MS
+CLPB,BioGRID,1,,Phenotypic Suppression
+CLPTM1,BioGRID,1,,Affinity Capture-MS
+CLSPN,BioGRID,1,,Proximity Label-MS
+CLTA,BioGRID,1,,Affinity Capture-MS
+CLTB,BioGRID,1,,Affinity Capture-MS
+CLTC,BioGRID,1,,Affinity Capture-MS
+CLUAP1,BioGRID,1,,Affinity Capture-MS
+CLUH,BioGRID,1,,Affinity Capture-MS
+CMTM6,BioGRID,1,,Affinity Capture-MS
+CMTR1,BioGRID,1,,Affinity Capture-MS
+CNBP,BioGRID,1,,Negative Genetic
+CNIH3,BioGRID,1,,Negative Genetic
+CNIH4,BioGRID,1,,Affinity Capture-MS
+CNKSR2,BioGRID,1,,Negative Genetic
+CNTD1,BioGRID,1,,Affinity Capture-MS
+CNTRL,BioGRID,1,,Negative Genetic
+COA1,BioGRID,1,,Affinity Capture-MS
+COL14A1,BioGRID,1,,Negative Genetic
+COL6A5,BioGRID,1,,Affinity Capture-MS
+COLQ,BioGRID,1,,Synthetic Lethality
+COPB1,BioGRID,1,,Affinity Capture-MS
+COPB2,BioGRID,1,,Affinity Capture-MS
+COPG1,BioGRID,1,,Affinity Capture-MS
+COPS2,BioGRID,1,,Affinity Capture-Western
+COPS3,BioGRID,1,,Co-fractionation
+COPS4,BioGRID,1,,Affinity Capture-Western
+COPS6,BioGRID,1,,Co-fractionation
+COPS7A,BioGRID,1,,Co-fractionation
+COPS8,BioGRID,1,,Co-fractionation
+COQ9,BioGRID,1,,Affinity Capture-MS
+CORO1C,BioGRID,1,,Affinity Capture-MS
+CORO7,BioGRID,1,,Affinity Capture-MS
+COX17,BioGRID,1,,Two-hybrid
+COX7C,BioGRID,1,,Synthetic Rescue
+CPA5,BioGRID,1,,Synthetic Growth Defect
+CPN1,BioGRID,1,,Synthetic Lethality
+CPNE3,BioGRID,1,,Affinity Capture-MS
+CPNE7,BioGRID,1,,Affinity Capture-MS
+CPSF7,BioGRID,1,,Proximity Label-MS
+CPT1A,BioGRID,1,,Affinity Capture-MS
+CRBN,BioGRID,1,,Affinity Capture-Western
+CREBZF,BioGRID,1,,Affinity Capture-Western
+CRK,BioGRID,1,,Two-hybrid
+CRTC2,BioGRID,1,,Affinity Capture-MS
+CRYGC,BioGRID,1,,Negative Genetic
+CSDE1,BioGRID,1,,Affinity Capture-MS
+CSN3,BioGRID,1,,Negative Genetic
+CSNK1A1L,BioGRID,1,,Affinity Capture-MS
+CSNK1G3,BioGRID,1,,Affinity Capture-MS
+CSRP2BP,BioGRID,1,,Proximity Label-MS
+CST6,BioGRID,1,,Affinity Capture-MS
+CSTA,BioGRID,1,,Affinity Capture-MS
+CTBP2,BioGRID,1,,Proximity Label-MS
+CTBS,BioGRID,1,,Synthetic Lethality
+CTR9,BioGRID,1,,Proximity Label-MS
+CTSB,BioGRID,1,,Affinity Capture-MS
+CTSL,BioGRID,1,,Affinity Capture-MS
+CTSS,BioGRID,1,,Affinity Capture-MS
+CUL2,BioGRID,1,,Affinity Capture-MS
+CUL3,BioGRID,1,,Affinity Capture-MS
+CUL4B,BioGRID,1,,Affinity Capture-Western
+CWF19L2,BioGRID,1,,Proximity Label-MS
+CXORF57,BioGRID,1,,Affinity Capture-MS
+CXXC1,BioGRID,1,,Affinity Capture-Western
+CYP20A1,BioGRID,1,,Synthetic Growth Defect
+DAB2IP,BioGRID,1,,Affinity Capture-Western
+DACH1,BioGRID,1,,Affinity Capture-Western
+DACT1,BioGRID,1,,Affinity Capture-MS
+DAD1,BioGRID,1,,Affinity Capture-MS
+DAOA,BioGRID,1,,Negative Genetic
+DAPK3,BioGRID,1,,Biochemical Activity
+DAZAP2,BioGRID,1,,Affinity Capture-Western
+DBN1,BioGRID,1,,Affinity Capture-MS
+DBR1,BioGRID,1,,Affinity Capture-MS
+DCAF10,BioGRID,1,,Negative Genetic
+DCAF12,BioGRID,1,,Affinity Capture-MS
+DCAF13,BioGRID,1,,Affinity Capture-Western
+DCAF7,BioGRID,1,,Affinity Capture-MS
+DCD,BioGRID,1,,Affinity Capture-MS
+DCLRE1C,BioGRID,1,,Synthetic Growth Defect
+DCP1A,BioGRID,1,,Affinity Capture-MS
+DCST1,BioGRID,1,,Reconstituted Complex
+DCTN2,BioGRID,1,,Affinity Capture-Western
+DCUN1D1,BioGRID,1,,Affinity Capture-MS
+DDI2,BioGRID,1,,Affinity Capture-MS
+DDRGK1,BioGRID,1,,Affinity Capture-MS
+DDX1,BioGRID,1,,Affinity Capture-MS
+DDX10,BioGRID,1,,Affinity Capture-MS
+DDX11,BioGRID,1,,Proximity Label-MS
+DDX11L8,BioGRID,1,,Affinity Capture-MS
+DDX18,BioGRID,1,,Affinity Capture-MS
+DDX21,BioGRID,1,,Affinity Capture-MS
+DDX24,BioGRID,1,,Affinity Capture-MS
+DDX27,BioGRID,1,,Affinity Capture-MS
+DDX31,BioGRID,1,,Synthetic Rescue
+DDX46,BioGRID,1,,Affinity Capture-MS
+DDX50,BioGRID,1,,Synthetic Growth Defect
+DDX54,BioGRID,1,,Affinity Capture-MS
+DDX60,BioGRID,1,,Affinity Capture-MS
+DECR1,BioGRID,1,,Affinity Capture-MS
+DEFB125,BioGRID,1,,Synthetic Lethality
+DGCR14,BioGRID,1,,Affinity Capture-MS
+DGKZ,BioGRID,1,,Affinity Capture-Western
+DHRS4,BioGRID,1,,Affinity Capture-MS
+DHX15,BioGRID,1,,Affinity Capture-MS
+DHX16,BioGRID,1,,Affinity Capture-MS
+DHX30,BioGRID,1,,Affinity Capture-MS
+DHX36,BioGRID,1,,Affinity Capture-MS
+DHX38,BioGRID,1,,Proximity Label-MS
+DHX40,BioGRID,1,,Proximity Label-MS
+DHX9,BioGRID,1,,Affinity Capture-MS
+DIS3,BioGRID,1,,Affinity Capture-MS
+DIS3L2,BioGRID,1,,Affinity Capture-MS
+DKK2,BioGRID,1,,Synthetic Growth Defect
+DLD,BioGRID,1,,Proximity Label-MS
+DLEU1,BioGRID,1,,Two-hybrid
+DLG5,BioGRID,1,,Proximity Label-MS
+DLST,BioGRID,1,,Affinity Capture-MS
+DNAH10,BioGRID,1,,Affinity Capture-MS
+DNAH17,BioGRID,1,,Affinity Capture-MS
+DNAJA2,BioGRID,1,,Affinity Capture-MS
+DNAJA3,BioGRID,1,,Affinity Capture-MS
+DNAJB6,BioGRID,1,,Affinity Capture-Western
+DNAJC7,BioGRID,1,,Two-hybrid
+DNM2,BioGRID,1,,Affinity Capture-MS
+DNMT3L,BioGRID,1,,Reconstituted Complex
+DOCK7,BioGRID,1,,Affinity Capture-MS
+DOK7,BioGRID,1,,Synthetic Lethality
+DOT1L,BioGRID,1,,Synthetic Growth Defect
+DPH1,BioGRID,1,,Affinity Capture-Western
+DPP4,BioGRID,1,,Affinity Capture-MS
+DPP6,BioGRID,1,,Synthetic Growth Defect
+DPP9,BioGRID,1,,Affinity Capture-MS
+DPY19L1,BioGRID,1,,Affinity Capture-MS
+DRG1,BioGRID,1,,Affinity Capture-MS
+DSC1,BioGRID,1,,Affinity Capture-MS
+DSC3,BioGRID,1,,Affinity Capture-MS
+DSCC1,BioGRID,1,,Synthetic Rescue
+DSG1,BioGRID,1,,Affinity Capture-MS
+DSG2,BioGRID,1,,Affinity Capture-MS
+DSP,BioGRID,1,,Affinity Capture-MS
+DTX3,BioGRID,1,,Affinity Capture-Western
+DVL2,BioGRID,1,,Two-hybrid
+DYNC1H1,BioGRID,1,,Affinity Capture-MS
+DYNC1I2,BioGRID,1,,Affinity Capture-MS
+DYNC2H1,BioGRID,1,,Proximity Label-MS
+DYNLL1,BioGRID,1,,Proximity Label-MS
+DYTN,BioGRID,1,,Affinity Capture-MS
+DZIP1,BioGRID,1,,Synthetic Growth Defect
+DZIP3,BioGRID,1,,Reconstituted Complex
+EAF2,BioGRID,1,,Two-hybrid
+EBNA1BP2,BioGRID,1,,Affinity Capture-MS
+ECD,BioGRID,1,,Affinity Capture-Western
+ECT2,BioGRID,1,,Affinity Capture-MS
+EDC4,BioGRID,1,,Negative Genetic
+EDEM1,BioGRID,1,,Affinity Capture-MS
+EEA1,BioGRID,1,,Affinity Capture-MS
+EEF1A1,BioGRID,1,,Affinity Capture-MS
+EEF1A1P5,BioGRID,1,,Affinity Capture-MS
+EFEMP2,BioGRID,1,,Two-hybrid
+EFNA4,BioGRID,1,,Synthetic Lethality
+EFNB2,BioGRID,1,,Negative Genetic
+EFTUD2,BioGRID,1,,Affinity Capture-MS
+EGLN3,BioGRID,1,,Affinity Capture-MS
+EIF2B3,BioGRID,1,,Synthetic Lethality
+EIF2S2,BioGRID,1,,Two-hybrid
+EIF2S3,BioGRID,1,,Affinity Capture-MS
+EIF3A,BioGRID,1,,Co-fractionation
+EIF3B,BioGRID,1,,Affinity Capture-MS
+EIF3C,BioGRID,1,,Affinity Capture-MS
+EIF3E,BioGRID,1,,Affinity Capture-MS
+EIF3F,BioGRID,1,,Affinity Capture-Western
+EIF3G,BioGRID,1,,Affinity Capture-MS
+EIF3H,BioGRID,1,,Affinity Capture-MS
+EIF3I,BioGRID,1,,Affinity Capture-MS
+EIF3L,BioGRID,1,,Affinity Capture-MS
+EIF3M,BioGRID,1,,Affinity Capture-MS
+EIF4B,BioGRID,1,,Affinity Capture-MS
+EIF4E2,BioGRID,1,,Affinity Capture-MS
+EIF5AL1,BioGRID,1,,Synthetic Rescue
+EIF5B,BioGRID,1,,Affinity Capture-MS
+ELL3,BioGRID,1,,Synthetic Growth Defect
+ELOVL1,BioGRID,1,,Affinity Capture-MS
+ELP2,BioGRID,1,,Affinity Capture-MS
+EMC1,BioGRID,1,,Affinity Capture-MS
+EML4,BioGRID,1,,Affinity Capture-MS
+ENAH,BioGRID,1,,Affinity Capture-MS
+EPB41,BioGRID,1,,Affinity Capture-MS
+EPB41L2,BioGRID,1,,Affinity Capture-MS
+EPB41L3,BioGRID,1,,Affinity Capture-MS
+EPG5,BioGRID,1,,Synthetic Growth Defect
+EPHA2,BioGRID,1,,FRET
+EPHA3,BioGRID,1,,Reconstituted Complex
+EPPK1,BioGRID,1,,Affinity Capture-MS
+EPRS,BioGRID,1,,Affinity Capture-MS
+ERBB3,BioGRID,1,,Negative Genetic
+ERCC8,BioGRID,1,,Affinity Capture-Western
+ERH,BioGRID,1,,Two-hybrid
+ERI3,BioGRID,1,,Negative Genetic
+ERN1,BioGRID,1,,Affinity Capture-Western
+ESRRA,BioGRID,1,,Proximity Label-MS
+ESRRG,BioGRID,1,,Affinity Capture-MS
+ESYT1,BioGRID,1,,Affinity Capture-MS
+ESYT2,BioGRID,1,,Affinity Capture-MS
+ETHE1,BioGRID,1,,Affinity Capture-Western
+ETV1,BioGRID,1,,Synthetic Growth Defect
+EVL,BioGRID,1,,Affinity Capture-MS
+EXOC3,BioGRID,1,,Synthetic Rescue
+EXOSC1,BioGRID,1,,Synthetic Rescue
+EXOSC10,BioGRID,1,,Affinity Capture-MS
+EXOSC4,BioGRID,1,,Synthetic Growth Defect
+EXOSC7,BioGRID,1,,Affinity Capture-MS
+EXOSC8,BioGRID,1,,Affinity Capture-MS
+EXOSC9,BioGRID,1,,Affinity Capture-MS
+EYA3,BioGRID,1,,Proximity Label-MS
+EZR,BioGRID,1,,Affinity Capture-MS
+FAM111A,BioGRID,1,,Affinity Capture-MS
+FAM115A,BioGRID,1,,Affinity Capture-MS
+FAM133A,BioGRID,1,,Affinity Capture-MS
+FAM133B,BioGRID,1,,Affinity Capture-MS
+FAM173A,BioGRID,1,,Two-hybrid
+FAM174A,BioGRID,1,,Negative Genetic
+FAM175B,BioGRID,1,,Affinity Capture-Western
+FAM178A,BioGRID,1,,Proximity Label-MS
+FAM188B,BioGRID,1,,Affinity Capture-MS
+FAM198B,BioGRID,1,,Affinity Capture-MS
+FAM217A,BioGRID,1,,Affinity Capture-MS
+FAM21A,BioGRID,1,,Proximity Label-MS
+FAM21C,BioGRID,1,,Proximity Label-MS
+FAM24A,BioGRID,1,,Negative Genetic
+FAM35A,BioGRID,1,,Affinity Capture-MS
+FAM47E-STBD1,BioGRID,1,,Negative Genetic
+FAM50A,BioGRID,1,,Proximity Label-MS
+FAM83D,BioGRID,1,,Affinity Capture-MS
+FAM91A1,BioGRID,1,,Affinity Capture-MS
+FARP2,BioGRID,1,,Affinity Capture-MS
+FARSA,BioGRID,1,,Proximity Label-MS
+FARSB,BioGRID,1,,Affinity Capture-MS
+FASN,BioGRID,1,,Affinity Capture-MS
+FAU,BioGRID,1,,Affinity Capture-MS
+FBL,BioGRID,1,,Affinity Capture-MS
+FBRS,BioGRID,1,,Proximity Label-MS
+FBRSL1,BioGRID,1,,Proximity Label-MS
+FBXL15,BioGRID,1,,Affinity Capture-MS
+FBXL6,BioGRID,1,,Affinity Capture-MS
+FBXL8,BioGRID,1,,Affinity Capture-Western
+FBXO21,BioGRID,1,,Affinity Capture-MS
+FBXO22,BioGRID,1,,Affinity Capture-Western
+FBXO4,BioGRID,1,,Affinity Capture-Western
+FBXO46,BioGRID,1,,Affinity Capture-MS
+FBXW11,BioGRID,1,,Affinity Capture-MS
+FCAMR,BioGRID,1,,Two-hybrid
+FCRL6,BioGRID,1,,Negative Genetic
+FERMT2,BioGRID,1,,Affinity Capture-MS
+FEV,BioGRID,1,,Affinity Capture-MS
+FGD6,BioGRID,1,,Affinity Capture-MS
+FGF10,BioGRID,1,,Affinity Capture-MS
+FGFR4,BioGRID,1,,FRET
+FHAD1,BioGRID,1,,Affinity Capture-MS
+FHIT,BioGRID,1,,Synthetic Growth Defect
+FKBP10,BioGRID,1,,Affinity Capture-MS
+FKBP3,BioGRID,1,,Affinity Capture-Western
+FKBP4,BioGRID,1,,Affinity Capture-Western
+FKBP5,BioGRID,1,,Proximity Label-MS
+FLG2,BioGRID,1,,Affinity Capture-MS
+FLI1,BioGRID,1,,Affinity Capture-MS
+FLNA,BioGRID,1,,Affinity Capture-MS
+FLNB,BioGRID,1,,Affinity Capture-MS
+FLVCR1,BioGRID,1,,Affinity Capture-MS
+FN3KRP,BioGRID,1,,Proximity Label-MS
+FOXA3,BioGRID,1,,Affinity Capture-MS
+FOXB1,BioGRID,1,,Affinity Capture-MS
+FOXC1,BioGRID,1,,Affinity Capture-MS
+FOXG1,BioGRID,1,,Affinity Capture-MS
+FOXJ3,BioGRID,1,,Affinity Capture-MS
+FOXK1,BioGRID,1,,Affinity Capture-MS
+FOXK2,BioGRID,1,,Affinity Capture-MS
+FOXN1,BioGRID,1,,Affinity Capture-MS
+FOXP1,BioGRID,1,,Affinity Capture-MS
+FOXP2,BioGRID,1,,Affinity Capture-MS
+FOXP4,BioGRID,1,,Affinity Capture-MS
+FOXQ1,BioGRID,1,,Affinity Capture-MS
+FOXS1,BioGRID,1,,Affinity Capture-MS
+FRMD6,BioGRID,1,,Affinity Capture-MS
+FSIP2,BioGRID,1,,Affinity Capture-MS
+FTH1,BioGRID,1,,Affinity Capture-MS
+FTSJ3,BioGRID,1,,Affinity Capture-MS
+FUBP3,BioGRID,1,,Negative Genetic
+FURIN,BioGRID,1,,Affinity Capture-MS
+FUS,BioGRID,1,,Affinity Capture-MS
+FUT10,BioGRID,1,,Negative Genetic
+FXR1,BioGRID,1,,Two-hybrid
+FXYD6,BioGRID,1,,Two-hybrid
+FZR1,BioGRID,1,,Biochemical Activity
+G3BP2,BioGRID,1,,Affinity Capture-MS
+GAA,BioGRID,1,,Affinity Capture-MS
+GABARAPL2,BioGRID,1,,Affinity Capture-MS
+GABRB2,BioGRID,1,,Affinity Capture-MS
+GABRG3,BioGRID,1,,Synthetic Growth Defect
+GAK,BioGRID,1,,Affinity Capture-MS
+GANAB,BioGRID,1,,Affinity Capture-MS
+GAPDHS,BioGRID,1,,Affinity Capture-MS
+GARS,BioGRID,1,,Affinity Capture-MS
+GART,BioGRID,1,,Affinity Capture-MS
+GAS5,BioGRID,1,,Affinity Capture-RNA
+GATA2,BioGRID,1,,Negative Genetic
+GATA4,BioGRID,1,,Affinity Capture-MS
+GATAD2A,BioGRID,1,,Proximity Label-MS
+GATAD2B,BioGRID,1,,Negative Genetic
+GBP2,BioGRID,1,,Affinity Capture-MS
+GBP6,BioGRID,1,,Affinity Capture-MS
+GCN1L1,BioGRID,1,,Affinity Capture-MS
+GEMIN5,BioGRID,1,,Affinity Capture-MS
+GFAP,BioGRID,1,,Proximity Label-MS
+GFM1,BioGRID,1,,Affinity Capture-MS
+GFM2,BioGRID,1,,Affinity Capture-MS
+GFPT2,BioGRID,1,,Synthetic Growth Defect
+GGA1,BioGRID,1,,Protein-peptide
+GGA2,BioGRID,1,,Protein-peptide
+GGA3,BioGRID,1,,Protein-peptide
+GHITM,BioGRID,1,,Affinity Capture-MS
+GID8,BioGRID,1,,Synthetic Rescue
+GIGYF2,BioGRID,1,,Affinity Capture-MS
+GJA5,BioGRID,1,,Synthetic Lethality
+GK2,BioGRID,1,,Synthetic Growth Defect
+GLCCI1,BioGRID,1,,Affinity Capture-MS
+GLI1,BioGRID,1,,Affinity Capture-MS
+GLIS1,BioGRID,1,,Negative Genetic
+GLRA1,BioGRID,1,,Negative Genetic
+GLTSCR1L,BioGRID,1,,Negative Genetic
+GLTSCR2,BioGRID,1,,Affinity Capture-Western
+GMPS,BioGRID,1,,Affinity Capture-Western
+GNB2,BioGRID,1,,Affinity Capture-MS
+GNB2L1,BioGRID,1,,Affinity Capture-MS
+GNL2,BioGRID,1,,Affinity Capture-MS
+GNL3L,BioGRID,1,,Affinity Capture-Western
+GNPNAT1,BioGRID,1,,Negative Genetic
+GNS,BioGRID,1,,Co-fractionation
+GOLGA2P5,BioGRID,1,,Synthetic Growth Defect
+GP6,BioGRID,1,,Synthetic Lethality
+GPATCH8,BioGRID,1,,Affinity Capture-MS
+GPCPD1,BioGRID,1,,Affinity Capture-MS
+GPER1,BioGRID,1,,Negative Genetic
+GPHN,BioGRID,1,,Affinity Capture-MS
+GPR156,BioGRID,1,,Affinity Capture-MS
+GPS1,BioGRID,1,,Co-fractionation
+GPS2,BioGRID,1,,Affinity Capture-Western
+GPSM3,BioGRID,1,,Synthetic Growth Defect
+GRIN2B,BioGRID,1,,Synthetic Growth Defect
+GRWD1,BioGRID,1,,Affinity Capture-MS
+GSE1,BioGRID,1,,Proximity Label-MS
+GSG2,BioGRID,1,,Affinity Capture-MS
+GSN,BioGRID,1,,Affinity Capture-MS
+GSPT1,BioGRID,1,,Affinity Capture-MS
+GSR,BioGRID,1,,Proximity Label-MS
+GSTM4,BioGRID,1,,Two-hybrid
+GSTO1,BioGRID,1,,Affinity Capture-MS
+GTF2A1,BioGRID,1,,Co-fractionation
+GTF2E1,BioGRID,1,,Co-fractionation
+GTF2E2,BioGRID,1,,Co-fractionation
+GTF2F1,BioGRID,1,,Co-fractionation
+GTF2H4,BioGRID,1,,Far Western
+GTF2I,BioGRID,1,,Affinity Capture-MS
+GTF3C2,BioGRID,1,,Affinity Capture-MS
+GTF3C3,BioGRID,1,,Affinity Capture-MS
+GTF3C4,BioGRID,1,,Affinity Capture-MS
+GTPBP1,BioGRID,1,,Affinity Capture-MS
+GTPBP2,BioGRID,1,,Affinity Capture-MS
+GTPBP4,BioGRID,1,,Affinity Capture-Western
+GUCY1A3,BioGRID,1,,Affinity Capture-Western
+GYPC,BioGRID,1,,Synthetic Lethality
+GYS2,BioGRID,1,,Affinity Capture-Western
+H1F0,BioGRID,1,,Affinity Capture-MS
+H2AFX,BioGRID,1,,Affinity Capture-Western
+HABP4,BioGRID,1,,Reconstituted Complex
+HADHA,BioGRID,1,,Affinity Capture-MS
+HADHB,BioGRID,1,,Affinity Capture-MS
+HAGH,BioGRID,1,,Negative Genetic
+HAL,BioGRID,1,,Affinity Capture-MS
+HAUS1,BioGRID,1,,Synthetic Growth Defect
+HAUS3,BioGRID,1,,Affinity Capture-MS
+HAUS4,BioGRID,1,,Synthetic Growth Defect
+HBB,BioGRID,1,,Affinity Capture-MS
+HBS1L,BioGRID,1,,Affinity Capture-MS
+HCFC1,BioGRID,1,,Affinity Capture-MS
+HDAC9,BioGRID,1,,Affinity Capture-Western
+HDC,BioGRID,1,,Affinity Capture-MS
+HDLBP,BioGRID,1,,Affinity Capture-MS
+HECTD1,BioGRID,1,,Affinity Capture-MS
+HECTD3,BioGRID,1,,Two-hybrid
+HECW1,BioGRID,1,,Affinity Capture-Western
+HECW2,BioGRID,1,,Affinity Capture-Western
+HELLS,BioGRID,1,,Biochemical Activity
+HERC3,BioGRID,1,,Affinity Capture-Western
+HERC5,BioGRID,1,,Affinity Capture-Western
+HERC6,BioGRID,1,,Affinity Capture-MS
+HEXIM1,BioGRID,1,,Affinity Capture-Western
+HGS,BioGRID,1,,Affinity Capture-MS
+HIF1AN,BioGRID,1,,Affinity Capture-MS
+HILS1,BioGRID,1,,Synthetic Lethality
+HINFP,BioGRID,1,,Two-hybrid
+HINT3,BioGRID,1,,Synthetic Growth Defect
+HIST1H1C,BioGRID,1,,Affinity Capture-MS
+HIST1H1D,BioGRID,1,,Affinity Capture-MS
+HIST1H2AB,BioGRID,1,,Affinity Capture-MS
+HIST1H2AE,BioGRID,1,,Proximity Label-MS
+HIST1H2AJ,BioGRID,1,,Affinity Capture-MS
+HIST1H2BB,BioGRID,1,,Affinity Capture-MS
+HIST1H2BL,BioGRID,1,,Affinity Capture-MS
+HIST1H4A,BioGRID,1,,Affinity Capture-MS
+HIST2H2BE,BioGRID,1,,Affinity Capture-MS
+HIVEP1,BioGRID,1,,Proximity Label-MS
+HM13,BioGRID,1,,Affinity Capture-MS
+HMX1,BioGRID,1,,Negative Genetic
+HN1L,BioGRID,1,,Affinity Capture-MS
+HNRNPA0,BioGRID,1,,Affinity Capture-MS
+HNRNPA1,BioGRID,1,,Affinity Capture-MS
+HNRNPA2B1,BioGRID,1,,Affinity Capture-MS
+HNRNPD,BioGRID,1,,Affinity Capture-MS
+HNRNPF,BioGRID,1,,Affinity Capture-MS
+HNRNPH1,BioGRID,1,,Affinity Capture-MS
+HNRNPL,BioGRID,1,,Affinity Capture-MS
+HNRNPM,BioGRID,1,,Affinity Capture-MS
+HNRNPR,BioGRID,1,,Affinity Capture-MS
+HNRNPUL1,BioGRID,1,,Affinity Capture-MS
+HNRNPUL2,BioGRID,1,,Affinity Capture-MS
+HOMER3,BioGRID,1,,Affinity Capture-MS
+HOOK3,BioGRID,1,,Affinity Capture-MS
+HOXA9,BioGRID,1,,Synthetic Growth Defect
+HOXD12,BioGRID,1,,Affinity Capture-MS
+HP1BP3,BioGRID,1,,Affinity Capture-MS
+HPCA,BioGRID,1,,Affinity Capture-MS
+HPRT1,BioGRID,1,,Proximity Label-MS
+HR,BioGRID,1,,Affinity Capture-Western
+HRNR,BioGRID,1,,Affinity Capture-MS
+HSD17B3,BioGRID,1,,Affinity Capture-MS
+HSD17B4,BioGRID,1,,Affinity Capture-MS
+HSF1,BioGRID,1,,Affinity Capture-Western
+HSF2,BioGRID,1,,Proximity Label-MS
+HSP90AB2P,BioGRID,1,,Affinity Capture-MS
+HSP90B1,BioGRID,1,,Affinity Capture-Western
+HSPA2,BioGRID,1,,Affinity Capture-MS
+HSPA4L,BioGRID,1,,Affinity Capture-MS
+HSPA6,BioGRID,1,,Affinity Capture-MS
+HSPE1,BioGRID,1,,Affinity Capture-MS
+HSPH1,BioGRID,1,,Affinity Capture-MS
+HTATSF1,BioGRID,1,,Affinity Capture-MS
+HTRA4,BioGRID,1,,Affinity Capture-MS
+HYAL4,BioGRID,1,,Synthetic Growth Defect
+HYDIN,BioGRID,1,,Affinity Capture-MS
+HYOU1,BioGRID,1,,Affinity Capture-MS
+HYPK,BioGRID,1,,Affinity Capture-MS
+IARS,BioGRID,1,,Affinity Capture-MS
+IARS2,BioGRID,1,,Affinity Capture-MS
+ICK,BioGRID,1,,Affinity Capture-MS
+ID1,BioGRID,1,,Synthetic Lethality
+IDE,BioGRID,1,,Affinity Capture-MS
+IDH3B,BioGRID,1,,Affinity Capture-MS
+IFITM1,BioGRID,1,,Affinity Capture-MS
+IFITM3,BioGRID,1,,Affinity Capture-MS
+IFT172,BioGRID,1,,Affinity Capture-MS
+IGF2BP1,BioGRID,1,,Affinity Capture-Western
+IGF2BP3,BioGRID,1,,Affinity Capture-MS
+IGHG2,BioGRID,1,,Affinity Capture-MS
+IGHV1-2,BioGRID,1,,Affinity Capture-MS
+IGJ,BioGRID,1,,Affinity Capture-MS
+IGKV2-29,BioGRID,1,,Affinity Capture-MS
+IKBKG,BioGRID,1,,Negative Genetic
+IKZF3,BioGRID,1,,Proximity Label-MS
+IL13RA2,BioGRID,1,,Affinity Capture-Western
+IL1A,BioGRID,1,,Synthetic Growth Defect
+ILF3,BioGRID,1,,Affinity Capture-MS
+IMP3,BioGRID,1,,Synthetic Growth Defect
+INADL,BioGRID,1,,Proximity Label-MS
+INCENP,BioGRID,1,,Affinity Capture-MS
+INSIG1,BioGRID,1,,Synthetic Growth Defect
+IPO4,BioGRID,1,,Synthetic Rescue
+IQCG,BioGRID,1,,Affinity Capture-MS
+IQGAP1,BioGRID,1,,Affinity Capture-MS
+IRF7,BioGRID,1,,Two-hybrid
+IRS4,BioGRID,1,,Affinity Capture-MS
+IRX1,BioGRID,1,,Synthetic Growth Defect
+ITGB7,BioGRID,1,,Synthetic Lethality
+ITPK1,BioGRID,1,,Biochemical Activity
+ITPKC,BioGRID,1,,Affinity Capture-MS
+JDP2,BioGRID,1,,Reconstituted Complex
+JMJD8,BioGRID,1,,Synthetic Growth Defect
+JUP,BioGRID,1,,Affinity Capture-MS
+KANSL3,BioGRID,1,,Synthetic Rescue
+KAT7,BioGRID,1,,Affinity Capture-Western
+KCNA5,BioGRID,1,,Negative Genetic
+KCNJ10,BioGRID,1,,Synthetic Lethality
+KCTD15,BioGRID,1,,Affinity Capture-MS
+KCTD17,BioGRID,1,,Affinity Capture-MS
+KDELC2,BioGRID,1,,Affinity Capture-MS
+KDM2B,BioGRID,1,,Proximity Label-MS
+KDM4C,BioGRID,1,,Affinity Capture-Western
+KDM4D,BioGRID,1,,Affinity Capture-Western
+KDM5C,BioGRID,1,,Proximity Label-MS
+KHSRP,BioGRID,1,,Affinity Capture-MS
+KIAA0087,BioGRID,1,,Two-hybrid
+KIAA0430,BioGRID,1,,Affinity Capture-MS
+KIAA0907,BioGRID,1,,Negative Genetic
+KIAA1551,BioGRID,1,,Proximity Label-MS
+KIF11,BioGRID,1,,Affinity Capture-MS
+KIF16B,BioGRID,1,,Affinity Capture-MS
+KIF1C,BioGRID,1,,Affinity Capture-MS
+KIF20A,BioGRID,1,,Affinity Capture-MS
+KIF22,BioGRID,1,,Affinity Capture-MS
+KIF2A,BioGRID,1,,Dosage Rescue
+KIF2C,BioGRID,1,,Synthetic Rescue
+KIF5B,BioGRID,1,,Affinity Capture-MS
+KIF5C,BioGRID,1,,Affinity Capture-MS
+KIF9,BioGRID,1,,Affinity Capture-MS
+KLF12,BioGRID,1,,Affinity Capture-Western
+KLF9,BioGRID,1,,Co-localization
+KLHL10,BioGRID,1,,Synthetic Lethality
+KLHL15,BioGRID,1,,Negative Genetic
+KLHL4,BioGRID,1,,Affinity Capture-Western
+KLHL40,BioGRID,1,,Synthetic Growth Defect
+KLRF1,BioGRID,1,,Synthetic Growth Defect
+KMT2E,BioGRID,1,,Affinity Capture-Western
+KNTC1,BioGRID,1,,Affinity Capture-MS
+KPNA4,BioGRID,1,,Affinity Capture-Western
+KPNA6,BioGRID,1,,Proximity Label-MS
+KPNB1,BioGRID,1,,Affinity Capture-Western
+KPRP,BioGRID,1,,Affinity Capture-MS
+KRBA2,BioGRID,1,,Affinity Capture-MS
+KRT1,BioGRID,1,,Affinity Capture-MS
+KRT10,BioGRID,1,,Affinity Capture-MS
+KRT14,BioGRID,1,,Affinity Capture-MS
+KRT16,BioGRID,1,,Affinity Capture-MS
+KRT17,BioGRID,1,,Affinity Capture-MS
+KRT2,BioGRID,1,,Affinity Capture-MS
+KRT35,BioGRID,1,,Proximity Label-MS
+KRT6B,BioGRID,1,,Affinity Capture-MS
+KRT77,BioGRID,1,,Affinity Capture-MS
+KRT78,BioGRID,1,,Affinity Capture-MS
+KRT80,BioGRID,1,,Affinity Capture-MS
+KRT9,BioGRID,1,,Affinity Capture-MS
+L1RE1,BioGRID,1,,Affinity Capture-MS
+LACTB,BioGRID,1,,Affinity Capture-Western
+LAMA4,BioGRID,1,,Two-hybrid
+LAMP1,BioGRID,1,,Affinity Capture-MS
+LAMP2,BioGRID,1,,Affinity Capture-MS
+LAMTOR5,BioGRID,1,,Affinity Capture-Western
+LAP3,BioGRID,1,,Synthetic Growth Defect
+LAPTM5,BioGRID,1,,Synthetic Growth Defect
+LARP7,BioGRID,1,,Affinity Capture-MS
+LARS,BioGRID,1,,Affinity Capture-MS
+LATS1,BioGRID,1,,Proximity Label-MS
+LBR,BioGRID,1,,Affinity Capture-MS
+LCLAT1,BioGRID,1,,Affinity Capture-MS
+LCN1,BioGRID,1,,Proximity Label-MS
+LDB3,BioGRID,1,,Affinity Capture-Western
+LDHA,BioGRID,1,,Affinity Capture-MS
+LDHAL6B,BioGRID,1,,Affinity Capture-MS
+LDHB,BioGRID,1,,Affinity Capture-MS
+LENG1,BioGRID,1,,Affinity Capture-MS
+LEO1,BioGRID,1,,Proximity Label-MS
+LGI4,BioGRID,1,,Synthetic Growth Defect
+LGR6,BioGRID,1,,Negative Genetic
+LIG3,BioGRID,1,,Affinity Capture-MS
+LIMA1,BioGRID,1,,Affinity Capture-MS
+LIMS2,BioGRID,1,,Negative Genetic
+LIN54,BioGRID,1,,Negative Genetic
+LIN7C,BioGRID,1,,Negative Genetic
+LINC01194,BioGRID,1,,Affinity Capture-Western
+LMBRD2,BioGRID,1,,Affinity Capture-MS
+LMLN,BioGRID,1,,Synthetic Lethality
+LMNA,BioGRID,1,,Affinity Capture-MS
+LMNB1,BioGRID,1,,Affinity Capture-MS
+LMOD1,BioGRID,1,,Affinity Capture-MS
+LNX1,BioGRID,1,,Affinity Capture-Western
+LOC388882,BioGRID,1,,Affinity Capture-MS
+LOC554223,BioGRID,1,,Negative Genetic
+LOC613037,BioGRID,1,,Affinity Capture-Western
+LOH12CR1,BioGRID,1,,Negative Genetic
+LRIF1,BioGRID,1,,Proximity Label-MS
+LRIG1,BioGRID,1,,Affinity Capture-MS
+LRP1,BioGRID,1,,Affinity Capture-MS
+LRPAP1,BioGRID,1,,Affinity Capture-Western
+LRPPRC,BioGRID,1,,Affinity Capture-Western
+LRR1,BioGRID,1,,Affinity Capture-MS
+LRRC15,BioGRID,1,,Negative Genetic
+LRRC27,BioGRID,1,,Negative Genetic
+LRRC31,BioGRID,1,,Affinity Capture-MS
+LRRC59,BioGRID,1,,Affinity Capture-MS
+LRWD1,BioGRID,1,,Affinity Capture-MS
+LSG1,BioGRID,1,,Affinity Capture-MS
+LSM12,BioGRID,1,,Synthetic Rescue
+LSM14A,BioGRID,1,,Affinity Capture-MS
+LY6G5B,BioGRID,1,,Affinity Capture-MS
+LYN,BioGRID,1,,Affinity Capture-Western
+LYZ,BioGRID,1,,Affinity Capture-MS
+LZTS2,BioGRID,1,,Proximity Label-MS
+MAD2L1BP,BioGRID,1,,Two-hybrid
+MAD2L2,BioGRID,1,,Negative Genetic
+MAFK,BioGRID,1,,Affinity Capture-Western
+MAGEA1,BioGRID,1,,Affinity Capture-Western
+MAGEA2,BioGRID,1,,Affinity Capture-Western
+MAGEB18,BioGRID,1,,Two-hybrid
+MAGEB2,BioGRID,1,,Affinity Capture-MS
+MAGI3,BioGRID,1,,Negative Genetic
+MAGT1,BioGRID,1,,Affinity Capture-MS
+MAML1,BioGRID,1,,Reconstituted Complex
+MAP1LC3B,BioGRID,1,,Affinity Capture-Western
+MAP2K5,BioGRID,1,,FRET
+MAP4,BioGRID,1,,Affinity Capture-MS
+MAP4K4,BioGRID,1,,Affinity Capture-MS
+MAP9,BioGRID,1,,Two-hybrid
+MAPK10,BioGRID,1,,Affinity Capture-Western
+MAPK6,BioGRID,1,,Affinity Capture-MS
+MAPK7,BioGRID,1,,Affinity Capture-Western
+MAPK8IP3,BioGRID,1,,Affinity Capture-MS
+MARS,BioGRID,1,,Affinity Capture-MS
+MARVELD2,BioGRID,1,,Affinity Capture-MS
+MATR3,BioGRID,1,,Affinity Capture-MS
+MAVS,BioGRID,1,,Affinity Capture-Western
+MAX,BioGRID,1,,Proximity Label-MS
+MB21D2,BioGRID,1,,Negative Genetic
+MBTD1,BioGRID,1,,Proximity Label-MS
+MCCC1,BioGRID,1,,Affinity Capture-MS
+MCCC2,BioGRID,1,,Affinity Capture-MS
+MCF2,BioGRID,1,,Affinity Capture-MS
+MCM2,BioGRID,1,,Affinity Capture-MS
+MCM3,BioGRID,1,,Affinity Capture-MS
+MCM3AP,BioGRID,1,,Proximity Label-MS
+MCM5,BioGRID,1,,Affinity Capture-MS
+MCM6,BioGRID,1,,Affinity Capture-MS
+MCM7,BioGRID,1,,Affinity Capture-MS
+MCM8,BioGRID,1,,Synthetic Growth Defect
+MCMBP,BioGRID,1,,Proximity Label-MS
+MCOLN2,BioGRID,1,,Affinity Capture-MS
+MDH1,BioGRID,1,,Affinity Capture-Western
+MECOM,BioGRID,1,,Affinity Capture-MS
+MECP2,BioGRID,1,,Affinity Capture-MS
+MED16,BioGRID,1,,Affinity Capture-MS
+MED21,BioGRID,1,,Reconstituted Complex
+MED22,BioGRID,1,,Synthetic Growth Defect
+MED23,BioGRID,1,,Proximity Label-MS
+MED25,BioGRID,1,,Synthetic Rescue
+MED27,BioGRID,1,,Proximity Label-MS
+MED8,BioGRID,1,,Synthetic Growth Defect
+MEGF6,BioGRID,1,,Affinity Capture-MS
+MEP1A,BioGRID,1,,Synthetic Lethality
+MEPCE,BioGRID,1,,Affinity Capture-MS
+METTL3,BioGRID,1,,Proximity Label-MS
+MEX3A,BioGRID,1,,Affinity Capture-Western
+MFAP4,BioGRID,1,,Affinity Capture-MS
+MFSD1,BioGRID,1,,Affinity Capture-MS
+MFSD12,BioGRID,1,,Synthetic Growth Defect
+MGA,BioGRID,1,,Proximity Label-MS
+MGEA5,BioGRID,1,,Affinity Capture-MS
+MGST2,BioGRID,1,,Affinity Capture-MS
+MIA2,BioGRID,1,,Synthetic Growth Defect
+MIB1,BioGRID,1,,Affinity Capture-MS
+MIDN,BioGRID,1,,Affinity Capture-MS
+MINK1,BioGRID,1,,Affinity Capture-MS
+MIS18BP1,BioGRID,1,,Proximity Label-MS
+MKNK1,BioGRID,1,,Affinity Capture-MS
+MKRN1,BioGRID,1,,Affinity Capture-Western
+MKRN2,BioGRID,1,,Affinity Capture-Western
+MLF2,BioGRID,1,,Affinity Capture-Western
+MMRN1,BioGRID,1,,Affinity Capture-MS
+MNAT1,BioGRID,1,,Reconstituted Complex
+MOB2,BioGRID,1,,Proximity Label-MS
+MOCS1,BioGRID,1,,Affinity Capture-MS
+MOGS,BioGRID,1,,Affinity Capture-MS
+MORC3,BioGRID,1,,Proximity Label-MS
+MORC4,BioGRID,1,,Proximity Label-MS
+MORN2,BioGRID,1,,Synthetic Growth Defect
+MPDU1,BioGRID,1,,Affinity Capture-MS
+MPEG1,BioGRID,1,,Affinity Capture-MS
+MPG,BioGRID,1,,Affinity Capture-MS
+MPHOSPH6,BioGRID,1,,Two-hybrid
+MPP1,BioGRID,1,,Negative Genetic
+MRE11A,BioGRID,1,,Affinity Capture-Western
+MRPL24,BioGRID,1,,Affinity Capture-MS
+MRPL38,BioGRID,1,,Affinity Capture-MS
+MRPL39,BioGRID,1,,Affinity Capture-MS
+MRPL41,BioGRID,1,,Affinity Capture-MS
+MRPS14,BioGRID,1,,Affinity Capture-MS
+MRPS18B,BioGRID,1,,Affinity Capture-MS
+MRPS2,BioGRID,1,,Affinity Capture-MS
+MRPS22,BioGRID,1,,Affinity Capture-MS
+MRPS23,BioGRID,1,,Affinity Capture-MS
+MRPS25,BioGRID,1,,Affinity Capture-MS
+MRPS27,BioGRID,1,,Affinity Capture-MS
+MRPS28,BioGRID,1,,Affinity Capture-MS
+MRPS5,BioGRID,1,,Affinity Capture-MS
+MRPS9,BioGRID,1,,Affinity Capture-MS
+MSI2,BioGRID,1,,Affinity Capture-Western
+MSL2,BioGRID,1,,Affinity Capture-Western
+MSN,BioGRID,1,,Affinity Capture-MS
+MST1,BioGRID,1,,Synthetic Rescue
+MT1G,BioGRID,1,,Affinity Capture-Western
+MTHFD1,BioGRID,1,,Affinity Capture-MS
+MTHFSD,BioGRID,1,,Affinity Capture-Western
+MTMR14,BioGRID,1,,Affinity Capture-MS
+MTRF1,BioGRID,1,,Affinity Capture-MS
+MUC2,BioGRID,1,,Affinity Capture-MS
+MVP,BioGRID,1,,Two-hybrid
+MYADM,BioGRID,1,,Affinity Capture-MS
+MYBPC1,BioGRID,1,,Synthetic Growth Defect
+MYH13,BioGRID,1,,Affinity Capture-MS
+MYH4,BioGRID,1,,Affinity Capture-MS
+MYH9,BioGRID,1,,Affinity Capture-MS
+MYL6B,BioGRID,1,,Affinity Capture-Western
+MYL9,BioGRID,1,,Affinity Capture-Western
+MYLK,BioGRID,1,,Affinity Capture-MS
+MYO16,BioGRID,1,,Affinity Capture-MS
+MYO1C,BioGRID,1,,Affinity Capture-MS
+MYO1D,BioGRID,1,,Affinity Capture-MS
+MYO5B,BioGRID,1,,Affinity Capture-MS
+MYO5C,BioGRID,1,,Affinity Capture-MS
+MYO6,BioGRID,1,,Affinity Capture-MS
+MYO9A,BioGRID,1,,Affinity Capture-MS
+MYOT,BioGRID,1,,Synthetic Growth Defect
+MZT2B,BioGRID,1,,Affinity Capture-MS
+NAA40,BioGRID,1,,Proximity Label-MS
+NAB1,BioGRID,1,,Proximity Label-MS
+NABP1,BioGRID,1,,Reconstituted Complex
+NABP2,BioGRID,1,,Affinity Capture-Western
+NADSYN1,BioGRID,1,,Affinity Capture-MS
+NAP1L1,BioGRID,1,,Reconstituted Complex
+NARFL,BioGRID,1,,Affinity Capture-MS
+NAT10,BioGRID,1,,Affinity Capture-MS
+NBR1,BioGRID,1,,Affinity Capture-MS
+NCAPD3,BioGRID,1,,Affinity Capture-MS
+NCAPH,BioGRID,1,,Affinity Capture-MS
+NCF1,BioGRID,1,,Synthetic Rescue
+NCOA2,BioGRID,1,,Reconstituted Complex
+NCOA3,BioGRID,1,,Reconstituted Complex
+NCOR2,BioGRID,1,,Proximity Label-MS
+ND5,BioGRID,1,,Affinity Capture-MS
+NDE1,BioGRID,1,,Synthetic Rescue
+NDRG4,BioGRID,1,,Affinity Capture-Western
+NDUFA11,BioGRID,1,,Affinity Capture-MS
+NDUFV3,BioGRID,1,,Negative Genetic
+NEDD1,BioGRID,1,,Affinity Capture-MS
+NEIL3,BioGRID,1,,Reconstituted Complex
+NEK9,BioGRID,1,,Affinity Capture-MS
+NELFA,BioGRID,1,,Affinity Capture-MS
+NELFCD,BioGRID,1,,Synthetic Growth Defect
+NES,BioGRID,1,,Affinity Capture-MS
+NEURL1,BioGRID,1,,Synthetic Lethality
+NEURL4,BioGRID,1,,Affinity Capture-Western
+NEUROG2,BioGRID,1,,Synthetic Growth Defect
+NFATC1,BioGRID,1,,Affinity Capture-MS
+NFATC2IP,BioGRID,1,,Proximity Label-MS
+NFATC3,BioGRID,1,,Proximity Label-MS
+NFKB2,BioGRID,1,,Affinity Capture-MS
+NFRKB,BioGRID,1,,Proximity Label-MS
+NFXL1,BioGRID,1,,Negative Genetic
+NGFR,BioGRID,1,,Affinity Capture-Western
+NHLRC2,BioGRID,1,,Affinity Capture-MS
+NHSL1,BioGRID,1,,Affinity Capture-MS
+NIM1K,BioGRID,1,,Synthetic Lethality
+NIN,BioGRID,1,,Proximity Label-MS
+NINL,BioGRID,1,,Proximity Label-MS
+NKAIN4,BioGRID,1,,Negative Genetic
+NKG7,BioGRID,1,,Negative Genetic
+NKRF,BioGRID,1,,Affinity Capture-MS
+NLK,BioGRID,1,,Affinity Capture-Western
+NME4,BioGRID,1,,Affinity Capture-MS
+NMNAT1,BioGRID,1,,Synthetic Lethality
+NMT1,BioGRID,1,,Affinity Capture-Western
+NMT2,BioGRID,1,,Affinity Capture-Western
+NNT,BioGRID,1,,Affinity Capture-MS
+NOC3L,BioGRID,1,,Affinity Capture-MS
+NOL10,BioGRID,1,,Affinity Capture-MS
+NOL9,BioGRID,1,,Affinity Capture-MS
+NOMO1,BioGRID,1,,Affinity Capture-MS
+NOMO2,BioGRID,1,,Proximity Label-MS
+NONO,BioGRID,1,,Synthetic Rescue
+NOP2,BioGRID,1,,Affinity Capture-MS
+NOP56,BioGRID,1,,Affinity Capture-MS
+NOSIP,BioGRID,1,,Proximity Label-MS
+NOTCH4,BioGRID,1,,Affinity Capture-Western
+NPAS3,BioGRID,1,,Affinity Capture-MS
+NPEPPS,BioGRID,1,,Affinity Capture-MS
+NPLOC4,BioGRID,1,,Affinity Capture-MS
+NPRL3,BioGRID,1,,Affinity Capture-Western
+NR1I2,BioGRID,1,,Affinity Capture-MS
+NR3C2,BioGRID,1,,Negative Genetic
+NRD1,BioGRID,1,,Affinity Capture-MS
+NRIP1,BioGRID,1,,Affinity Capture-MS
+NRON,BioGRID,1,,Protein-RNA
+NRP1,BioGRID,1,,Proximity Label-MS
+NSMF,BioGRID,1,,Negative Genetic
+NT5C3A,BioGRID,1,,Synthetic Growth Defect
+NTHL1,BioGRID,1,,Reconstituted Complex
+NTSR2,BioGRID,1,,Negative Genetic
+NUB1,BioGRID,1,,Affinity Capture-Western
+NUDCD3,BioGRID,1,,Proximity Label-MS
+NUFIP2,BioGRID,1,,Affinity Capture-MS
+NUMA1,BioGRID,1,,Affinity Capture-MS
+NUP107,BioGRID,1,,Proximity Label-MS
+NUP133,BioGRID,1,,Affinity Capture-MS
+NUP155,BioGRID,1,,Affinity Capture-MS
+NUP160,BioGRID,1,,Affinity Capture-MS
+NUP43,BioGRID,1,,Proximity Label-MS
+NUP88,BioGRID,1,,Affinity Capture-MS
+NUP93,BioGRID,1,,Affinity Capture-MS
+NUP98,BioGRID,1,,Synthetic Lethality
+NXF1,BioGRID,1,,Affinity Capture-MS
+OAS2,BioGRID,1,,Affinity Capture-MS
+OCRL,BioGRID,1,,Affinity Capture-MS
+OFD1,BioGRID,1,,Affinity Capture-MS
+OGDH,BioGRID,1,,Affinity Capture-MS
+OGN,BioGRID,1,,Negative Genetic
+OGT,BioGRID,1,,Reconstituted Complex
+OLA1,BioGRID,1,,Affinity Capture-MS
+OLIG2,BioGRID,1,,Phenotypic Suppression
+OPRD1,BioGRID,1,,Negative Genetic
+OR2L5,BioGRID,1,,Negative Genetic
+OR51M1,BioGRID,1,,Negative Genetic
+OR6C75,BioGRID,1,,Affinity Capture-MS
+OR8G2,BioGRID,1,,Negative Genetic
+ORC1,BioGRID,1,,Affinity Capture-MS
+ORC2,BioGRID,1,,Co-localization
+ORC3,BioGRID,1,,Negative Genetic
+OSBP,BioGRID,1,,Affinity Capture-MS
+OSBPL11,BioGRID,1,,Affinity Capture-MS
+OSBPL9,BioGRID,1,,Affinity Capture-MS
+OTUD1,BioGRID,1,,Affinity Capture-Western
+OTUD3,BioGRID,1,,Affinity Capture-Western
+OTUD5,BioGRID,1,,Affinity Capture-MS
+OTULIN,BioGRID,1,,Negative Genetic
+P3H1,BioGRID,1,,Affinity Capture-MS
+P3H2,BioGRID,1,,Affinity Capture-MS
+PABPC1,BioGRID,1,,Affinity Capture-MS
+PABPC3,BioGRID,1,,Affinity Capture-MS
+PABPC4,BioGRID,1,,Affinity Capture-MS
+PACRG,BioGRID,1,,Synthetic Growth Defect
+PACS1,BioGRID,1,,Affinity Capture-MS
+PADI1,BioGRID,1,,Reconstituted Complex
+PAF1,BioGRID,1,,Proximity Label-MS
+PAFAH1B3,BioGRID,1,,Two-hybrid
+PAK4,BioGRID,1,,Reconstituted Complex
+PAK7,BioGRID,1,,Affinity Capture-MS
+PALLD,BioGRID,1,,Affinity Capture-MS
+PAN2,BioGRID,1,,Affinity Capture-MS
+PAN3,BioGRID,1,,Affinity Capture-MS
+PAPOLA,BioGRID,1,,Affinity Capture-MS
+PAPOLG,BioGRID,1,,Proximity Label-MS
+PARK2,BioGRID,1,,Reconstituted Complex
+PARN,BioGRID,1,,Affinity Capture-MS
+PAXIP1,BioGRID,1,,Affinity Capture-MS
+PC,BioGRID,1,,Affinity Capture-MS
+PCBP1,BioGRID,1,,Affinity Capture-MS
+PCBP2,BioGRID,1,,Synthetic Rescue
+PCCA,BioGRID,1,,Affinity Capture-MS
+PCCB,BioGRID,1,,Affinity Capture-MS
+PCDHA4,BioGRID,1,,Two-hybrid
+PCGF1,BioGRID,1,,Negative Genetic
+PCID2,BioGRID,1,,Negative Genetic
+PCMT1,BioGRID,1,,Affinity Capture-MS
+PDAP1,BioGRID,1,,Synthetic Rescue
+PDCD11,BioGRID,1,,Affinity Capture-MS
+PDCD5,BioGRID,1,,Reconstituted Complex
+PDCD6,BioGRID,1,,Affinity Capture-MS
+PDE12,BioGRID,1,,Affinity Capture-MS
+PDHA1,BioGRID,1,,Affinity Capture-MS
+PDIA4,BioGRID,1,,Affinity Capture-MS
+PDIA5,BioGRID,1,,Synthetic Growth Defect
+PDLIM7,BioGRID,1,,Affinity Capture-Western
+PDPR,BioGRID,1,,Affinity Capture-MS
+PDXK,BioGRID,1,,Affinity Capture-MS
+PDXP,BioGRID,1,,Synthetic Lethality
+PDZD4,BioGRID,1,,Affinity Capture-MS
+PECR,BioGRID,1,,Affinity Capture-MS
+PEF1,BioGRID,1,,Proximity Label-MS
+PELI1,BioGRID,1,,Affinity Capture-MS
+PELI2,BioGRID,1,,Protein-peptide
+PELO,BioGRID,1,,Proximity Label-MS
+PES1,BioGRID,1,,Affinity Capture-MS
+PFAS,BioGRID,1,,Affinity Capture-MS
+PFDN1,BioGRID,1,,Synthetic Rescue
+PFKM,BioGRID,1,,Affinity Capture-MS
+PGAM2,BioGRID,1,,Proximity Label-MS
+PGLYRP4,BioGRID,1,,Negative Genetic
+PGM3,BioGRID,1,,Affinity Capture-MS
+PHC1,BioGRID,1,,Affinity Capture-MS
+PHKA2,BioGRID,1,,Affinity Capture-MS
+PHKB,BioGRID,1,,Affinity Capture-MS
+PHKG2,BioGRID,1,,Affinity Capture-MS
+PHYH,BioGRID,1,,Synthetic Growth Defect
+PIAS3,BioGRID,1,,Proximity Label-MS
+PIK3C3,BioGRID,1,,Affinity Capture-MS
+PIM3,BioGRID,1,,Affinity Capture-MS
+PIP,BioGRID,1,,Affinity Capture-MS
+PIP4K2C,BioGRID,1,,Affinity Capture-MS
+PIP5K1C,BioGRID,1,,Affinity Capture-MS
+PIPOX,BioGRID,1,,Affinity Capture-MS
+PIWIL1,BioGRID,1,,Affinity Capture-Western
+PKIA,BioGRID,1,,Synthetic Growth Defect
+PLA2G12A,BioGRID,1,,Synthetic Rescue
+PLA2G4A,BioGRID,1,,Affinity Capture-MS
+PLAA,BioGRID,1,,Affinity Capture-MS
+PLAC8,BioGRID,1,,Synthetic Growth Defect
+PLCB4,BioGRID,1,,Affinity Capture-MS
+PLCE1,BioGRID,1,,Affinity Capture-Western
+PLCG1,BioGRID,1,,Affinity Capture-MS
+PLCG2,BioGRID,1,,Two-hybrid
+PLCH2,BioGRID,1,,Affinity Capture-MS
+PLD1,BioGRID,1,,Affinity Capture-MS
+PLEC,BioGRID,1,,Affinity Capture-MS
+PLEKHA4,BioGRID,1,,Affinity Capture-MS
+PLG,BioGRID,1,,Affinity Capture-MS
+PLOD3,BioGRID,1,,Affinity Capture-MS
+PNISR,BioGRID,1,,Affinity Capture-MS
+PNLDC1,BioGRID,1,,Affinity Capture-MS
+PNP,BioGRID,1,,Two-hybrid
+POGLUT1,BioGRID,1,,Negative Genetic
+POLA1,BioGRID,1,,Affinity Capture-Western
+POLD1,BioGRID,1,,Affinity Capture-MS
+POLD3,BioGRID,1,,Synthetic Growth Defect
+POLDIP2,BioGRID,1,,Affinity Capture-MS
+POLDIP3,BioGRID,1,,Proximity Label-MS
+POLR1D,BioGRID,1,,Synthetic Growth Defect
+POLR2A,BioGRID,1,,Reconstituted Complex
+POLR2B,BioGRID,1,,Affinity Capture-MS
+POLR2C,BioGRID,1,,Negative Genetic
+POLR3B,BioGRID,1,,Affinity Capture-MS
+POLR3C,BioGRID,1,,Proximity Label-MS
+POLRMT,BioGRID,1,,Affinity Capture-MS
+POMP,BioGRID,1,,Negative Genetic
+POP1,BioGRID,1,,Affinity Capture-MS
+PPA1,BioGRID,1,,Two-hybrid
+PPFIBP1,BioGRID,1,,Affinity Capture-MS
+PPIB,BioGRID,1,,Affinity Capture-Western
+PPIL2,BioGRID,1,,Proximity Label-MS
+PPM1B,BioGRID,1,,Affinity Capture-MS
+PPM1G,BioGRID,1,,Synthetic Rescue
+PPP1CA,BioGRID,1,,Two-hybrid
+PPP1CC,BioGRID,1,,Affinity Capture-Western
+PPP1R10,BioGRID,1,,Affinity Capture-MS
+PPP1R12A,BioGRID,1,,Affinity Capture-MS
+PPP2R3C,BioGRID,1,,Synthetic Rescue
+PPP3CA,BioGRID,1,,Affinity Capture-MS
+PPP3R1,BioGRID,1,,Affinity Capture-MS
+PPP4C,BioGRID,1,,Reconstituted Complex
+PPWD1,BioGRID,1,,Affinity Capture-MS
+PQBP1,BioGRID,1,,Proximity Label-MS
+PRAM1,BioGRID,1,,Affinity Capture-Western
+PRAME,BioGRID,1,,Affinity Capture-MS
+PRDM11,BioGRID,1,,Affinity Capture-MS
+PRDM2,BioGRID,1,,Affinity Capture-Western
+PRDX2,BioGRID,1,,Affinity Capture-MS
+PRDX3,BioGRID,1,,Proximity Label-MS
+PRDX6,BioGRID,1,,Affinity Capture-MS
+PRKCI,BioGRID,1,,Affinity Capture-MS
+PRKCSH,BioGRID,1,,Affinity Capture-MS
+PRKD1,BioGRID,1,,Biochemical Activity
+PRKD3,BioGRID,1,,Affinity Capture-MS
+PRKRIR,BioGRID,1,,Reconstituted Complex
+PRMT3,BioGRID,1,,Affinity Capture-Western
+PRMT7,BioGRID,1,,Affinity Capture-MS
+PRNP,BioGRID,1,,Affinity Capture-MS
+PRO1596,BioGRID,1,,Synthetic Lethality
+PROSC,BioGRID,1,,Proximity Label-MS
+PROSER1,BioGRID,1,,Affinity Capture-MS
+PRPF3,BioGRID,1,,Affinity Capture-MS
+PRPF6,BioGRID,1,,Synthetic Growth Defect
+PRPF8,BioGRID,1,,Reconstituted Complex
+PRR11,BioGRID,1,,Negative Genetic
+PRRC2A,BioGRID,1,,Affinity Capture-MS
+PRRC2B,BioGRID,1,,Proximity Label-MS
+PRRC2C,BioGRID,1,,Affinity Capture-MS
+PRY2,BioGRID,1,,Negative Genetic
+PSD3,BioGRID,1,,Synthetic Growth Defect
+PSMA1,BioGRID,1,,Co-fractionation
+PSMA3,BioGRID,1,,Reconstituted Complex
+PSMB3,BioGRID,1,,Biochemical Activity
+PSMB4,BioGRID,1,,Affinity Capture-MS
+PSMB6,BioGRID,1,,Affinity Capture-MS
+PSMC3,BioGRID,1,,Affinity Capture-Western
+PSMC4,BioGRID,1,,Affinity Capture-Western
+PSMD1,BioGRID,1,,Affinity Capture-MS
+PSMD11,BioGRID,1,,Two-hybrid
+PSMD6,BioGRID,1,,Affinity Capture-Western
+PSMD7,BioGRID,1,,Affinity Capture-MS
+PSPC1,BioGRID,1,,Affinity Capture-MS
+PTCD1,BioGRID,1,,Synthetic Lethality
+PTCD3,BioGRID,1,,Affinity Capture-MS
+PTCHD3,BioGRID,1,,Negative Genetic
+PTDSS2,BioGRID,1,,Affinity Capture-MS
+PTGES3,BioGRID,1,,Affinity Capture-Western
+PTH,BioGRID,1,,Affinity Capture-MS
+PTK6,BioGRID,1,,Synthetic Rescue
+PTPLAD1,BioGRID,1,,Affinity Capture-MS
+PTPLB,BioGRID,1,,Affinity Capture-MS
+PTPRF,BioGRID,1,,Affinity Capture-MS
+PTPRU,BioGRID,1,,Affinity Capture-MS
+PTTG1IP,BioGRID,1,,Reconstituted Complex
+PTX3,BioGRID,1,,Synthetic Growth Defect
+PUM2,BioGRID,1,,Negative Genetic
+PURG,BioGRID,1,,Synthetic Growth Defect
+PUS7L,BioGRID,1,,Affinity Capture-MS
+PVR,BioGRID,1,,Affinity Capture-MS
+PVRIG,BioGRID,1,,Negative Genetic
+PWP1,BioGRID,1,,Affinity Capture-MS
+PWP2,BioGRID,1,,Affinity Capture-MS
+PWWP2A,BioGRID,1,,Synthetic Lethality
+PXK,BioGRID,1,,Affinity Capture-MS
+PXN,BioGRID,1,,Proximity Label-MS
+PYGL,BioGRID,1,,Affinity Capture-MS
+PYHIN1,BioGRID,1,,Affinity Capture-MS
+RAB4A,BioGRID,1,,Two-hybrid
+RAB7A,BioGRID,1,,Two-hybrid
+RABEP1,BioGRID,1,,Affinity Capture-MS
+RABL6,BioGRID,1,,Affinity Capture-Western
+RAD18,BioGRID,1,,Affinity Capture-Western
+RAD23A,BioGRID,1,,Affinity Capture-Western
+RAD54L2,BioGRID,1,,Proximity Label-MS
+RAE1,BioGRID,1,,Affinity Capture-MS
+RAF1,BioGRID,1,,Affinity Capture-MS
+RAG1,BioGRID,1,,Reconstituted Complex
+RAN,BioGRID,1,,Affinity Capture-MS
+RANBP9,BioGRID,1,,Two-hybrid
+RANGAP1,BioGRID,1,,Proximity Label-MS
+RAP1B,BioGRID,1,,Two-hybrid
+RAP1GAP,BioGRID,1,,Affinity Capture-MS
+RAP2C,BioGRID,1,,Affinity Capture-MS
+RAPSN,BioGRID,1,,Negative Genetic
+RAVER1,BioGRID,1,,Affinity Capture-MS
+RBBP7,BioGRID,1,,Affinity Capture-MS
+RBBP8,BioGRID,1,,Proximity Label-MS
+RBCK1,BioGRID,1,,Affinity Capture-Western
+RBM10,BioGRID,1,,Affinity Capture-Western
+RBM11,BioGRID,1,,Proximity Label-MS
+RBM14,BioGRID,1,,Affinity Capture-MS
+RBM15,BioGRID,1,,Affinity Capture-MS
+RBM20,BioGRID,1,,Proximity Label-MS
+RBM22,BioGRID,1,,Proximity Label-MS
+RBM28,BioGRID,1,,Affinity Capture-MS
+RBM3,BioGRID,1,,Affinity Capture-MS
+RBM33,BioGRID,1,,Proximity Label-MS
+RBM39,BioGRID,1,,Affinity Capture-MS
+RBM6,BioGRID,1,,Proximity Label-MS
+RBSN,BioGRID,1,,Affinity Capture-MS
+RCC1,BioGRID,1,,Two-hybrid
+RCC2,BioGRID,1,,Affinity Capture-MS
+RCN2,BioGRID,1,,Affinity Capture-MS
+RDH13,BioGRID,1,,Affinity Capture-MS
+RDX,BioGRID,1,,Affinity Capture-MS
+RECQL,BioGRID,1,,Affinity Capture-MS
+RECQL5,BioGRID,1,,Synthetic Growth Defect
+RETNLB,BioGRID,1,,Synthetic Growth Defect
+REV1,BioGRID,1,,Affinity Capture-Western
+RFC1,BioGRID,1,,Affinity Capture-Western
+RFC3,BioGRID,1,,Affinity Capture-MS
+RFC4,BioGRID,1,,Affinity Capture-MS
+RFPL3,BioGRID,1,,Affinity Capture-MS
+RFT1,BioGRID,1,,Affinity Capture-MS
+RFWD2,BioGRID,1,,Affinity Capture-Western
+RFWD3,BioGRID,1,,Affinity Capture-Western
+RGAG4,BioGRID,1,,Negative Genetic
+RHAG,BioGRID,1,,Synthetic Lethality
+RHOG,BioGRID,1,,Synthetic Rescue
+RIMBP2,BioGRID,1,,Negative Genetic
+RIPK4,BioGRID,1,,Affinity Capture-MS
+RIT1,BioGRID,1,,Negative Genetic
+RMDN1,BioGRID,1,,Synthetic Growth Defect
+RMI1,BioGRID,1,,Proximity Label-MS
+RNASE4,BioGRID,1,,Synthetic Growth Defect
+RNASEH2A,BioGRID,1,,Synthetic Rescue
+RNASEL,BioGRID,1,,Affinity Capture-MS
+RNF125,BioGRID,1,,Affinity Capture-Western
+RNF126,BioGRID,1,,Affinity Capture-Western
+RNF128,BioGRID,1,,Reconstituted Complex
+RNF138,BioGRID,1,,Biochemical Activity
+RNF157,BioGRID,1,,Affinity Capture-Western
+RNF187,BioGRID,1,,Affinity Capture-Western
+RNF19A,BioGRID,1,,Affinity Capture-Western
+RNF219,BioGRID,1,,Proximity Label-MS
+RNF220,BioGRID,1,,Proximity Label-MS
+RNF31,BioGRID,1,,Affinity Capture-Western
+RNF34,BioGRID,1,,Affinity Capture-Western
+RNF38,BioGRID,1,,Affinity Capture-Western
+RNF39,BioGRID,1,,Affinity Capture-Western
+RNF43,BioGRID,1,,Affinity Capture-Western
+RNF6,BioGRID,1,,Reconstituted Complex
+RNF8,BioGRID,1,,Proximity Label-MS
+RNGTT,BioGRID,1,,Proximity Label-MS
+ROCK1,BioGRID,1,,Affinity Capture-MS
+RORC,BioGRID,1,,Affinity Capture-MS
+RPA3,BioGRID,1,,Proximity Label-MS
+RPA4,BioGRID,1,,Affinity Capture-Western
+RPGRIP1L,BioGRID,1,,Proximity Label-MS
+RPL10A,BioGRID,1,,Affinity Capture-MS
+RPL10L,BioGRID,1,,Affinity Capture-MS
+RPL12,BioGRID,1,,Affinity Capture-MS
+RPL13,BioGRID,1,,Affinity Capture-MS
+RPL13AP3,BioGRID,1,,Affinity Capture-MS
+RPL14,BioGRID,1,,Affinity Capture-MS
+RPL15,BioGRID,1,,Affinity Capture-MS
+RPL17,BioGRID,1,,Affinity Capture-MS
+RPL18,BioGRID,1,,Affinity Capture-MS
+RPL18A,BioGRID,1,,Affinity Capture-MS
+RPL19,BioGRID,1,,Affinity Capture-MS
+RPL21,BioGRID,1,,Affinity Capture-MS
+RPL23,BioGRID,1,,Affinity Capture-Western
+RPL23A,BioGRID,1,,Affinity Capture-MS
+RPL24,BioGRID,1,,Affinity Capture-MS
+RPL26L1,BioGRID,1,,Affinity Capture-MS
+RPL27,BioGRID,1,,Affinity Capture-MS
+RPL27A,BioGRID,1,,Affinity Capture-MS
+RPL27AP6,BioGRID,1,,Affinity Capture-MS
+RPL28,BioGRID,1,,Affinity Capture-MS
+RPL29,BioGRID,1,,Affinity Capture-MS
+RPL29P11,BioGRID,1,,Affinity Capture-MS
+RPL3,BioGRID,1,,Affinity Capture-MS
+RPL30,BioGRID,1,,Affinity Capture-MS
+RPL31,BioGRID,1,,Affinity Capture-MS
+RPL36P14,BioGRID,1,,Synthetic Growth Defect
+RPL37A,BioGRID,1,,Affinity Capture-MS
+RPL38,BioGRID,1,,Proximity Label-MS
+RPL4,BioGRID,1,,Affinity Capture-MS
+RPL6,BioGRID,1,,Affinity Capture-MS
+RPL7,BioGRID,1,,Affinity Capture-MS
+RPL7A,BioGRID,1,,Affinity Capture-MS
+RPL8,BioGRID,1,,Affinity Capture-MS
+RPLP1,BioGRID,1,,Affinity Capture-MS
+RPLP2,BioGRID,1,,Affinity Capture-MS
+RPN1,BioGRID,1,,Affinity Capture-MS
+RPN2,BioGRID,1,,Affinity Capture-MS
+RPRD1A,BioGRID,1,,Affinity Capture-MS
+RPRD1B,BioGRID,1,,Negative Genetic
+RPS10,BioGRID,1,,Two-hybrid
+RPS13,BioGRID,1,,Affinity Capture-MS
+RPS14,BioGRID,1,,Affinity Capture-MS
+RPS15,BioGRID,1,,Affinity Capture-MS
+RPS15P2,BioGRID,1,,Affinity Capture-MS
+RPS16,BioGRID,1,,Affinity Capture-MS
+RPS17,BioGRID,1,,Affinity Capture-MS
+RPS18,BioGRID,1,,Affinity Capture-MS
+RPS2,BioGRID,1,,Affinity Capture-MS
+RPS24,BioGRID,1,,Affinity Capture-MS
+RPS25,BioGRID,1,,Affinity Capture-MS
+RPS26,BioGRID,1,,Affinity Capture-Western
+RPS3A,BioGRID,1,,Affinity Capture-MS
+RPS4X,BioGRID,1,,Affinity Capture-MS
+RPS6KA1,BioGRID,1,,Biochemical Activity
+RPS6KA2,BioGRID,1,,Two-hybrid
+RPS6KA3,BioGRID,1,,Biochemical Activity
+RPS7,BioGRID,1,,Affinity Capture-Western
+RPS8,BioGRID,1,,Affinity Capture-MS
+RPS9,BioGRID,1,,Affinity Capture-MS
+RPUSD1,BioGRID,1,,Affinity Capture-MS
+RPUSD4,BioGRID,1,,Synthetic Growth Defect
+RRAD,BioGRID,1,,Affinity Capture-MS
+RREB1,BioGRID,1,,Affinity Capture-MS
+RRP1B,BioGRID,1,,Affinity Capture-MS
+RSBN1,BioGRID,1,,Affinity Capture-MS
+RSF1,BioGRID,1,,Affinity Capture-MS
+RSL1D1,BioGRID,1,,Affinity Capture-MS
+RTN3,BioGRID,1,,Affinity Capture-MS
+RTN4,BioGRID,1,,Affinity Capture-MS
+RTN4IP1,BioGRID,1,,Synthetic Lethality
+RUNDC1,BioGRID,1,,Affinity Capture-MS
+RUVBL2,BioGRID,1,,Proximity Label-MS
+RYBP,BioGRID,1,,Affinity Capture-Western
+RYK,BioGRID,1,,Affinity Capture-MS
+S100A8,BioGRID,1,,Two-hybrid
+SACM1L,BioGRID,1,,Affinity Capture-MS
+SACS,BioGRID,1,,Synthetic Growth Defect
+SAFB,BioGRID,1,,Affinity Capture-Western
+SAFB2,BioGRID,1,,Affinity Capture-Western
+SALL1,BioGRID,1,,Proximity Label-MS
+SALL2,BioGRID,1,,Proximity Label-MS
+SAMD7,BioGRID,1,,Synthetic Growth Defect
+SARS,BioGRID,1,,Affinity Capture-MS
+SART1,BioGRID,1,,Affinity Capture-MS
+SART3,BioGRID,1,,Affinity Capture-Western
+SAT1,BioGRID,1,,Two-hybrid
+SATB1,BioGRID,1,,Proximity Label-MS
+SATB2,BioGRID,1,,Proximity Label-MS
+SATL1,BioGRID,1,,Synthetic Lethality
+SBDS,BioGRID,1,,Affinity Capture-Western
+SBF2,BioGRID,1,,Synthetic Growth Defect
+SBNO1,BioGRID,1,,Affinity Capture-MS
+SBSN,BioGRID,1,,Affinity Capture-MS
+SCAMP1,BioGRID,1,,Two-hybrid
+SCAMP2,BioGRID,1,,Affinity Capture-MS
+SCAMP3,BioGRID,1,,Affinity Capture-MS
+SCAMP4,BioGRID,1,,Affinity Capture-MS
+SCARF2,BioGRID,1,,Affinity Capture-MS
+SCLY,BioGRID,1,,Negative Genetic
+SCN3B,BioGRID,1,,Affinity Capture-Western
+SCP2,BioGRID,1,,Affinity Capture-MS
+SCYL2,BioGRID,1,,Affinity Capture-MS
+SDCCAG3,BioGRID,1,,Proximity Label-MS
+SDHA,BioGRID,1,,Affinity Capture-MS
+SDPR,BioGRID,1,,Affinity Capture-MS
+SEC13,BioGRID,1,,Affinity Capture-MS
+SEC14L5,BioGRID,1,,Affinity Capture-MS
+SEC23A,BioGRID,1,,Affinity Capture-MS
+SEC24A,BioGRID,1,,Affinity Capture-MS
+SEC24C,BioGRID,1,,Affinity Capture-MS
+SEC24D,BioGRID,1,,Affinity Capture-MS
+SEC31A,BioGRID,1,,Affinity Capture-MS
+SEC61A1,BioGRID,1,,Affinity Capture-MS
+SEC63,BioGRID,1,,Synthetic Growth Defect
+SEL1L,BioGRID,1,,Affinity Capture-MS
+SENP1,BioGRID,1,,Affinity Capture-Western
+SENP3,BioGRID,1,,Affinity Capture-Western
+SENP5,BioGRID,1,,Affinity Capture-MS
+SENP6,BioGRID,1,,Proximity Label-MS
+SEPHS1,BioGRID,1,,Synthetic Rescue
+SEPT9,BioGRID,1,,Affinity Capture-MS
+SERBP1,BioGRID,1,,Affinity Capture-Western
+SERINC1,BioGRID,1,,Affinity Capture-MS
+SERPINA9,BioGRID,1,,Affinity Capture-MS
+SERPINB12,BioGRID,1,,Affinity Capture-MS
+SERPINB9,BioGRID,1,,Two-hybrid
+SERPINH1,BioGRID,1,,Affinity Capture-Western
+SETD1B,BioGRID,1,,Proximity Label-MS
+SETD4,BioGRID,1,,Negative Genetic
+SETD8,BioGRID,1,,Biochemical Activity
+SETDB1,BioGRID,1,,Proximity Label-MS
+SETX,BioGRID,1,,Proximity Label-MS
+SF3A1,BioGRID,1,,Affinity Capture-MS
+SF3A2,BioGRID,1,,Affinity Capture-MS
+SF3B1,BioGRID,1,,Affinity Capture-MS
+SF3B2,BioGRID,1,,Affinity Capture-MS
+SF3B3,BioGRID,1,,Affinity Capture-MS
+SFPQ,BioGRID,1,,Affinity Capture-MS
+SGOL1,BioGRID,1,,Proximity Label-MS
+SH3PXD2B,BioGRID,1,,Affinity Capture-MS
+SHANK3,BioGRID,1,,Affinity Capture-MS
+SIN3B,BioGRID,1,,Affinity Capture-Western
+SIPA1L2,BioGRID,1,,Proximity Label-MS
+SIVA1,BioGRID,1,,Affinity Capture-Western
+SKI,BioGRID,1,,Affinity Capture-Western
+SKIV2L2,BioGRID,1,,Affinity Capture-MS
+SLAIN2,BioGRID,1,,Affinity Capture-MS
+SLAMF1,BioGRID,1,,Synthetic Growth Defect
+SLC16A1,BioGRID,1,,Affinity Capture-MS
+SLC1A5,BioGRID,1,,Affinity Capture-MS
+SLC25A10,BioGRID,1,,Affinity Capture-MS
+SLC25A13,BioGRID,1,,Affinity Capture-MS
+SLC25A3,BioGRID,1,,Affinity Capture-MS
+SLC25A34,BioGRID,1,,Negative Genetic
+SLC25A5,BioGRID,1,,Affinity Capture-MS
+SLC25A6,BioGRID,1,,Affinity Capture-MS
+SLC26A6,BioGRID,1,,Affinity Capture-MS
+SLC29A1,BioGRID,1,,Affinity Capture-MS
+SLC2A12,BioGRID,1,,Affinity Capture-MS
+SLC35B2,BioGRID,1,,Affinity Capture-MS
+SLC35F2,BioGRID,1,,Affinity Capture-MS
+SLC38A1,BioGRID,1,,Affinity Capture-MS
+SLC38A10,BioGRID,1,,Negative Genetic
+SLC38A2,BioGRID,1,,Affinity Capture-MS
+SLC39A14,BioGRID,1,,Affinity Capture-MS
+SLC3A2,BioGRID,1,,Affinity Capture-MS
+SLC5A6,BioGRID,1,,Affinity Capture-MS
+SLC5A7,BioGRID,1,,Affinity Capture-Western
+SLC6A15,BioGRID,1,,Affinity Capture-MS
+SLC7A1,BioGRID,1,,Affinity Capture-MS
+SLC7A2,BioGRID,1,,Synthetic Growth Defect
+SLC7A5,BioGRID,1,,Affinity Capture-MS
+SLC9A9,BioGRID,1,,Two-hybrid
+SLFN11,BioGRID,1,,Proximity Label-MS
+SLFN5,BioGRID,1,,Negative Genetic
+SLX4,BioGRID,1,,Proximity Label-MS
+SLX4IP,BioGRID,1,,Affinity Capture-MS
+SMAD1,BioGRID,1,,Affinity Capture-Western
+SMAD7,BioGRID,1,,Affinity Capture-Western
+SMARCA1,BioGRID,1,,Affinity Capture-MS
+SMARCA5,BioGRID,1,,Affinity Capture-MS
+SMARCAD1,BioGRID,1,,Proximity Label-MS
+SMARCC1,BioGRID,1,,Co-fractionation
+SMARCD2,BioGRID,1,,Affinity Capture-Western
+SMARCD3,BioGRID,1,,Negative Genetic
+SMC5,BioGRID,1,,Affinity Capture-MS
+SMG5,BioGRID,1,,Affinity Capture-MS
+SMG7,BioGRID,1,,Affinity Capture-Western
+SMTN,BioGRID,1,,Affinity Capture-MS
+SMURF1,BioGRID,1,,Affinity Capture-Western
+SMYD3,BioGRID,1,,Affinity Capture-Western
+SND1,BioGRID,1,,Affinity Capture-MS
+SNRNP70,BioGRID,1,,Affinity Capture-MS
+SNRPA1,BioGRID,1,,Affinity Capture-MS
+SNRPD3,BioGRID,1,,Affinity Capture-MS
+SNRPN,BioGRID,1,,Two-hybrid
+SNW1,BioGRID,1,,Affinity Capture-MS
+SNX12,BioGRID,1,,Synthetic Growth Defect
+SNX2,BioGRID,1,,Affinity Capture-MS
+SNX5,BioGRID,1,,Affinity Capture-MS
+SOAT1,BioGRID,1,,Affinity Capture-MS
+SOS2,BioGRID,1,,Affinity Capture-MS
+SOX13,BioGRID,1,,Proximity Label-MS
+SOX15,BioGRID,1,,Affinity Capture-MS
+SOX4,BioGRID,1,,Reconstituted Complex
+SP110,BioGRID,1,,Affinity Capture-MS
+SP3,BioGRID,1,,Affinity Capture-Western
+SPAG9,BioGRID,1,,Affinity Capture-MS
+SPATA1,BioGRID,1,,Affinity Capture-MS
+SPATA31A1,BioGRID,1,,Negative Genetic
+SPATA6L,BioGRID,1,,Affinity Capture-MS
+SPCS1,BioGRID,1,,Affinity Capture-MS
+SPCS2,BioGRID,1,,Affinity Capture-MS
+SPEN,BioGRID,1,,Proximity Label-MS
+SPESP1,BioGRID,1,,Synthetic Growth Defect
+SPICE1,BioGRID,1,,Proximity Label-MS
+SPIN1,BioGRID,1,,Affinity Capture-MS
+SPNS1,BioGRID,1,,Affinity Capture-MS
+SPRTN,BioGRID,1,,Proximity Label-MS
+SPSB1,BioGRID,1,,Affinity Capture-Western
+SPTA1,BioGRID,1,,Affinity Capture-MS
+SPTAN1,BioGRID,1,,Affinity Capture-MS
+SPTBN1,BioGRID,1,,Affinity Capture-MS
+SRCAP,BioGRID,1,,Proximity Label-MS
+SRP72,BioGRID,1,,Affinity Capture-MS
+SRP9,BioGRID,1,,Affinity Capture-MS
+SRPK1,BioGRID,1,,Two-hybrid
+SRSF6,BioGRID,1,,Affinity Capture-MS
+SSB,BioGRID,1,,Affinity Capture-MS
+SSMEM1,BioGRID,1,,Affinity Capture-MS
+SST,BioGRID,1,,Negative Genetic
+SSX2IP,BioGRID,1,,Proximity Label-MS
+SSX5,BioGRID,1,,Negative Genetic
+ST13,BioGRID,1,,Proximity Label-MS
+STAM2,BioGRID,1,,Synthetic Growth Defect
+STAMBP,BioGRID,1,,Biochemical Activity
+STARD10,BioGRID,1,,Two-hybrid
+STBD1,BioGRID,1,,Affinity Capture-MS
+STEAP4,BioGRID,1,,Synthetic Lethality
+STIL,BioGRID,1,,Proximity Label-MS
+STIP1,BioGRID,1,,Affinity Capture-MS
+STK38,BioGRID,1,,Affinity Capture-MS
+STK4,BioGRID,1,,Co-localization
+STOML3,BioGRID,1,,Negative Genetic
+STRAP,BioGRID,1,,Affinity Capture-MS
+STT3A,BioGRID,1,,Affinity Capture-MS
+STT3B,BioGRID,1,,Synthetic Growth Defect
+STX18,BioGRID,1,,Negative Genetic
+STX2,BioGRID,1,,Synthetic Growth Defect
+STX5,BioGRID,1,,Two-hybrid
+STXBP4,BioGRID,1,,Synthetic Growth Defect
+SUB1,BioGRID,1,,Reconstituted Complex
+SULT1E1,BioGRID,1,,Two-hybrid
+SUMO3,BioGRID,1,,Affinity Capture-MS
+SUPT20H,BioGRID,1,,Proximity Label-MS
+SUPT3H,BioGRID,1,,Affinity Capture-Western
+SUPT5H,BioGRID,1,,Affinity Capture-MS
+SUPT6H,BioGRID,1,,Affinity Capture-MS
+SUPT7L,BioGRID,1,,Affinity Capture-Western
+SURF4,BioGRID,1,,Affinity Capture-MS
+SV2A,BioGRID,1,,Affinity Capture-MS
+SYCP2L,BioGRID,1,,Affinity Capture-MS
+SYK,BioGRID,1,,Affinity Capture-MS
+SYN2,BioGRID,1,,Negative Genetic
+SYNCRIP,BioGRID,1,,Affinity Capture-MS
+SYNE2,BioGRID,1,,Affinity Capture-MS
+SYNE3,BioGRID,1,,Proximity Label-MS
+SYNPO2,BioGRID,1,,Affinity Capture-MS
+SYT12,BioGRID,1,,Negative Genetic
+SYT5,BioGRID,1,,Negative Genetic
+SYVN1,BioGRID,1,,Affinity Capture-Western
+TAB1,BioGRID,1,,Affinity Capture-MS
+TADA1,BioGRID,1,,Affinity Capture-Western
+TADA2A,BioGRID,1,,Affinity Capture-Western
+TAF10,BioGRID,1,,Affinity Capture-Western
+TAF1A,BioGRID,1,,Reconstituted Complex
+TAF1B,BioGRID,1,,Reconstituted Complex
+TAF1C,BioGRID,1,,Reconstituted Complex
+TAF4,BioGRID,1,,Co-fractionation
+TAF5,BioGRID,1,,Affinity Capture-Western
+TAF5L,BioGRID,1,,Affinity Capture-Western
+TAF7,BioGRID,1,,Co-fractionation
+TAMM41,BioGRID,1,,Negative Genetic
+TARS,BioGRID,1,,Affinity Capture-MS
+TAS1R1,BioGRID,1,,Affinity Capture-MS
+TAS2R60,BioGRID,1,,Negative Genetic
+TBC1D21,BioGRID,1,,Negative Genetic
+TBC1D24,BioGRID,1,,Synthetic Growth Defect
+TBC1D4,BioGRID,1,,Affinity Capture-MS
+TBCK,BioGRID,1,,Affinity Capture-MS
+TBKBP1,BioGRID,1,,Proximity Label-MS
+TBL3,BioGRID,1,,Affinity Capture-MS
+TBPL1,BioGRID,1,,Reconstituted Complex
+TBX5,BioGRID,1,,Affinity Capture-MS
+TCEA1,BioGRID,1,,Co-fractionation
+TCEAL1,BioGRID,1,,Affinity Capture-MS
+TCEAL4,BioGRID,1,,Affinity Capture-MS
+TCERG1,BioGRID,1,,Proximity Label-MS
+TCF4,BioGRID,1,,Reconstituted Complex
+TCHH,BioGRID,1,,Affinity Capture-MS
+TCOF1,BioGRID,1,,Synthetic Rescue
+TDP2,BioGRID,1,,Proximity Label-MS
+TEAD2,BioGRID,1,,FRET
+TECR,BioGRID,1,,Affinity Capture-MS
+TEP1,BioGRID,1,,Reconstituted Complex
+TES,BioGRID,1,,Affinity Capture-MS
+TESPA1,BioGRID,1,,Affinity Capture-MS
+TFAP2B,BioGRID,1,,Affinity Capture-Western
+TFAP2C,BioGRID,1,,Reconstituted Complex
+TFAP4,BioGRID,1,,Affinity Capture-Western
+TFCP2,BioGRID,1,,Affinity Capture-MS
+TFIP11,BioGRID,1,,Affinity Capture-Western
+TFPI2,BioGRID,1,,Affinity Capture-Western
+TFRC,BioGRID,1,,Affinity Capture-MS
+TGIF2,BioGRID,1,,Negative Genetic
+TGM1,BioGRID,1,,Affinity Capture-MS
+TGM2,BioGRID,1,,Affinity Capture-Western
+TGM3,BioGRID,1,,Affinity Capture-MS
+THADA,BioGRID,1,,Synthetic Lethality
+THAP1,BioGRID,1,,Synthetic Growth Defect
+THAP8,BioGRID,1,,Two-hybrid
+THOC2,BioGRID,1,,Affinity Capture-MS
+THOC3,BioGRID,1,,Proximity Label-MS
+THRAP3,BioGRID,1,,Affinity Capture-MS
+TIAF1,BioGRID,1,,FRET
+TIMM50,BioGRID,1,,Affinity Capture-MS
+TK1,BioGRID,1,,Two-hybrid
+TKT,BioGRID,1,,Affinity Capture-MS
+TLE3,BioGRID,1,,Affinity Capture-MS
+TLN1,BioGRID,1,,Affinity Capture-MS
+TLR5,BioGRID,1,,Affinity Capture-MS
+TM9SF2,BioGRID,1,,Affinity Capture-MS
+TM9SF3,BioGRID,1,,Affinity Capture-MS
+TM9SF4,BioGRID,1,,Affinity Capture-MS
+TMCO2,BioGRID,1,,Negative Genetic
+TMED1,BioGRID,1,,Negative Genetic
+TMED9,BioGRID,1,,Co-fractionation
+TMEM106B,BioGRID,1,,Affinity Capture-MS
+TMEM116,BioGRID,1,,Negative Genetic
+TMEM165,BioGRID,1,,Affinity Capture-MS
+TMEM173,BioGRID,1,,Affinity Capture-Western
+TMEM200A,BioGRID,1,,Synthetic Growth Defect
+TMEM205,BioGRID,1,,Affinity Capture-MS
+TMEM245,BioGRID,1,,Affinity Capture-MS
+TMEM258,BioGRID,1,,Affinity Capture-MS
+TMEM63B,BioGRID,1,,Affinity Capture-MS
+TMEM86A,BioGRID,1,,Negative Genetic
+TMPRSS11B,BioGRID,1,,Affinity Capture-MS
+TMPRSS2,BioGRID,1,,Affinity Capture-MS
+TMTC3,BioGRID,1,,Affinity Capture-MS
+TMTC4,BioGRID,1,,Affinity Capture-MS
+TMUB1,BioGRID,1,,Affinity Capture-Western
+TNC,BioGRID,1,,Affinity Capture-MS
+TNFRSF11B,BioGRID,1,,Affinity Capture-MS
+TNIK,BioGRID,1,,Affinity Capture-MS
+TNK2,BioGRID,1,,Affinity Capture-Western
+TNRC6B,BioGRID,1,,Affinity Capture-MS
+TOM1L1,BioGRID,1,,Synthetic Growth Defect
+TONSL,BioGRID,1,,Proximity Label-MS
+TOP2B,BioGRID,1,,Affinity Capture-Western
+TOP3B,BioGRID,1,,Affinity Capture-MS
+TOR1AIP2,BioGRID,1,,Affinity Capture-MS
+TOX4,BioGRID,1,,Affinity Capture-MS
+TP53I11,BioGRID,1,,Affinity Capture-MS
+TPCN2,BioGRID,1,,Synthetic Lethality
+TPM1,BioGRID,1,,Affinity Capture-MS
+TPM3,BioGRID,1,,Affinity Capture-MS
+TPM4,BioGRID,1,,Affinity Capture-MS
+TPP2,BioGRID,1,,Affinity Capture-MS
+TPRN,BioGRID,1,,Proximity Label-MS
+TRA2A,BioGRID,1,,Affinity Capture-MS
+TRA2B,BioGRID,1,,Affinity Capture-MS
+TRAF7,BioGRID,1,,Affinity Capture-Western
+TRAIP,BioGRID,1,,Affinity Capture-MS
+TRAM1,BioGRID,1,,Affinity Capture-MS
+TRAM1L1,BioGRID,1,,Negative Genetic
+TRAPPC11,BioGRID,1,,Affinity Capture-Western
+TRIM2,BioGRID,1,,Affinity Capture-Western
+TRIM21,BioGRID,1,,Affinity Capture-MS
+TRIM23,BioGRID,1,,Affinity Capture-Western
+TRIM26,BioGRID,1,,Proximity Label-MS
+TRIM27,BioGRID,1,,Affinity Capture-Western
+TRIM29,BioGRID,1,,Affinity Capture-Western
+TRIM3,BioGRID,1,,Negative Genetic
+TRIM31,BioGRID,1,,Affinity Capture-Western
+TRIM32,BioGRID,1,,Affinity Capture-Western
+TRIM33,BioGRID,1,,Proximity Label-MS
+TRIM37,BioGRID,1,,Affinity Capture-Western
+TRIM39,BioGRID,1,,Affinity Capture-Western
+TRIM41,BioGRID,1,,Affinity Capture-Western
+TRIM42,BioGRID,1,,Negative Genetic
+TRIM45,BioGRID,1,,Affinity Capture-Western
+TRIM47,BioGRID,1,,Affinity Capture-Western
+TRIM59,BioGRID,1,,Affinity Capture-Western
+TRIM65,BioGRID,1,,Affinity Capture-Western
+TRIM66,BioGRID,1,,Affinity Capture-MS
+TRIM67,BioGRID,1,,Affinity Capture-Western
+TRIM69,BioGRID,1,,Affinity Capture-Western
+TRIM71,BioGRID,1,,Affinity Capture-MS
+TRIM72,BioGRID,1,,Affinity Capture-Western
+TRIM8,BioGRID,1,,Affinity Capture-Western
+TRIML2,BioGRID,1,,Affinity Capture-Western
+TRIP12,BioGRID,1,,Negative Genetic
+TRMT10C,BioGRID,1,,Affinity Capture-MS
+TRMT11,BioGRID,1,,Affinity Capture-Western
+TRNT1,BioGRID,1,,Negative Genetic
+TRPM1,BioGRID,1,,Affinity Capture-MS
+TRPT1,BioGRID,1,,Negative Genetic
+TSC22D1,BioGRID,1,,Two-hybrid
+TSC22D3,BioGRID,1,,Reconstituted Complex
+TSEN34,BioGRID,1,,Synthetic Rescue
+TSNAX,BioGRID,1,,Dosage Rescue
+TSPAN3,BioGRID,1,,Affinity Capture-MS
+TSPAN6,BioGRID,1,,Affinity Capture-MS
+TSPY1,BioGRID,1,,Affinity Capture-Western
+TSR1,BioGRID,1,,Affinity Capture-MS
+TTC16,BioGRID,1,,Affinity Capture-MS
+TTC28,BioGRID,1,,Synthetic Growth Defect
+TTC38,BioGRID,1,,Affinity Capture-MS
+TTC4,BioGRID,1,,Proximity Label-MS
+TTC7A,BioGRID,1,,Affinity Capture-MS
+TTK,BioGRID,1,,Affinity Capture-Western
+TTLL12,BioGRID,1,,Affinity Capture-MS
+TTLL5,BioGRID,1,,Affinity Capture-Western
+TTLL6,BioGRID,1,,Affinity Capture-MS
+TUBA1A,BioGRID,1,,Affinity Capture-MS
+TUBA1C,BioGRID,1,,Affinity Capture-MS
+TUBA4A,BioGRID,1,,Affinity Capture-MS
+TUBA8,BioGRID,1,,Affinity Capture-MS
+TUBB2B,BioGRID,1,,Proximity Label-MS
+TUBB4A,BioGRID,1,,Proximity Label-MS
+TUBB4B,BioGRID,1,,Affinity Capture-MS
+TUBB8,BioGRID,1,,Affinity Capture-MS
+TUBG1,BioGRID,1,,Affinity Capture-MS
+TUBGCP2,BioGRID,1,,Affinity Capture-MS
+TUBGCP6,BioGRID,1,,Affinity Capture-MS
+TXNL1,BioGRID,1,,Negative Genetic
+TXNRD1,BioGRID,1,,Affinity Capture-Western
+U2SURP,BioGRID,1,,Affinity Capture-MS
+UBA2,BioGRID,1,,Proximity Label-MS
+UBA52,BioGRID,1,,Affinity Capture-MS
+UBA6,BioGRID,1,,Synthetic Lethality
+UBAC2,BioGRID,1,,Affinity Capture-MS
+UBE2B,BioGRID,1,,Affinity Capture-Western
+UBE2C,BioGRID,1,,Synthetic Rescue
+UBE2D2,BioGRID,1,,Reconstituted Complex
+UBE2H,BioGRID,1,,Affinity Capture-MS
+UBE2L3,BioGRID,1,,Biochemical Activity
+UBE2M,BioGRID,1,,Biochemical Activity
+UBE2O,BioGRID,1,,Affinity Capture-MS
+UBE2Q1,BioGRID,1,,Affinity Capture-Western
+UBE2V2,BioGRID,1,,Two-hybrid
+UBE3C,BioGRID,1,,Affinity Capture-Western
+UBE4A,BioGRID,1,,Affinity Capture-Western
+UBN1,BioGRID,1,,Proximity Label-MS
+UBN2,BioGRID,1,,Proximity Label-MS
+UBQLN2,BioGRID,1,,Synthetic Growth Defect
+UBR4,BioGRID,1,,Affinity Capture-MS
+UFD1L,BioGRID,1,,Two-hybrid
+UFL1,BioGRID,1,,Affinity Capture-MS
+UFM1,BioGRID,1,,Affinity Capture-MS
+UGT2B15,BioGRID,1,,Affinity Capture-MS
+UHRF1,BioGRID,1,,Affinity Capture-Western
+UIMC1,BioGRID,1,,Affinity Capture-Western
+ULK1,BioGRID,1,,Affinity Capture-MS
+ULK3,BioGRID,1,,Affinity Capture-MS
+UMOD,BioGRID,1,,Synthetic Lethality
+UMPS,BioGRID,1,,Synthetic Growth Defect
+UNC13D,BioGRID,1,,Negative Genetic
+UPF1,BioGRID,1,,Affinity Capture-MS
+URB2,BioGRID,1,,Negative Genetic
+UROS,BioGRID,1,,Synthetic Lethality
+USH2A,BioGRID,1,,Synthetic Growth Defect
+USO1,BioGRID,1,,Affinity Capture-Western
+USP1,BioGRID,1,,Synthetic Growth Defect
+USP15,BioGRID,1,,Affinity Capture-Western
+USP21,BioGRID,1,,Biochemical Activity
+USP29,BioGRID,1,,Affinity Capture-Western
+USP3,BioGRID,1,,Affinity Capture-Western
+USP34,BioGRID,1,,Proximity Label-MS
+USP39,BioGRID,1,,Affinity Capture-MS
+USP4,BioGRID,1,,Negative Genetic
+USP49,BioGRID,1,,Co-localization
+USP5,BioGRID,1,,Affinity Capture-MS
+USP9X,BioGRID,1,,Affinity Capture-MS
+UTF1,BioGRID,1,,Negative Genetic
+UTP11L,BioGRID,1,,Affinity Capture-MS
+UTP14A,BioGRID,1,,Reconstituted Complex
+VAPB,BioGRID,1,,Affinity Capture-MS
+VASP,BioGRID,1,,Affinity Capture-MS
+VAT1,BioGRID,1,,Affinity Capture-MS
+VDR,BioGRID,1,,Affinity Capture-Western
+VPRBP,BioGRID,1,,Reconstituted Complex
+VPS16,BioGRID,1,,Affinity Capture-MS
+VPS72,BioGRID,1,,Proximity Label-MS
+VRK2,BioGRID,1,,Biochemical Activity
+VRK3,BioGRID,1,,Affinity Capture-MS
+WAC,BioGRID,1,,Affinity Capture-MS
+WDR1,BioGRID,1,,Affinity Capture-MS
+WDR12,BioGRID,1,,Affinity Capture-MS
+WDR3,BioGRID,1,,Affinity Capture-MS
+WDR33,BioGRID,1,,Two-hybrid
+WDR36,BioGRID,1,,Affinity Capture-MS
+WDR44,BioGRID,1,,Affinity Capture-MS
+WDR47,BioGRID,1,,Affinity Capture-MS
+WDR48,BioGRID,1,,Affinity Capture-MS
+WDR75,BioGRID,1,,Affinity Capture-MS
+WDR82,BioGRID,1,,Reconstituted Complex
+WDR83,BioGRID,1,,Negative Genetic
+WDR91,BioGRID,1,,Affinity Capture-MS
+WFS1,BioGRID,1,,Affinity Capture-MS
+WHSC1,BioGRID,1,,Affinity Capture-Western
+WNT4,BioGRID,1,,Negative Genetic
+WWP1,BioGRID,1,,Reconstituted Complex
+WWP2,BioGRID,1,,Affinity Capture-MS
+WWTR1,BioGRID,1,,Proximity Label-MS
+XAB2,BioGRID,1,,Proximity Label-MS
+XPC,BioGRID,1,,Affinity Capture-Western
+XPNPEP3,BioGRID,1,,Affinity Capture-MS
+XRCC5,BioGRID,1,,Affinity Capture-MS
+XRN2,BioGRID,1,,Affinity Capture-MS
+YBX3,BioGRID,1,,Affinity Capture-MS
+YEATS2,BioGRID,1,,Proximity Label-MS
+YEATS4,BioGRID,1,,Proximity Label-MS
+YES1P1,BioGRID,1,,Affinity Capture-MS
+YIPF5,BioGRID,1,,Affinity Capture-MS
+YIPF6,BioGRID,1,,Affinity Capture-MS
+YOD1,BioGRID,1,,Affinity Capture-Western
+YTHDC1,BioGRID,1,,Affinity Capture-MS
+YTHDF1,BioGRID,1,,Affinity Capture-MS
+YTHDF2,BioGRID,1,,Affinity Capture-MS
+YTHDF3,BioGRID,1,,Affinity Capture-MS
+YY1AP1,BioGRID,1,,Proximity Label-MS
+YY2,BioGRID,1,,Reconstituted Complex
+ZAK,BioGRID,1,,Affinity Capture-MS
+ZBED4,BioGRID,1,,Affinity Capture-MS
+ZBTB14,BioGRID,1,,Affinity Capture-MS
+ZBTB17,BioGRID,1,,Affinity Capture-Western
+ZBTB2,BioGRID,1,,Affinity Capture-Western
+ZBTB21,BioGRID,1,,Proximity Label-MS
+ZBTB33,BioGRID,1,,Affinity Capture-Western
+ZBTB44,BioGRID,1,,Affinity Capture-MS
+ZBTB49,BioGRID,1,,Affinity Capture-Western
+ZBTB5,BioGRID,1,,Affinity Capture-Western
+ZBTB7A,BioGRID,1,,Affinity Capture-Western
+ZBTB8A,BioGRID,1,,Reconstituted Complex
+ZC3H15,BioGRID,1,,Affinity Capture-MS
+ZC3H18,BioGRID,1,,Affinity Capture-MS
+ZC3H7A,BioGRID,1,,Proximity Label-MS
+ZC3HAV1,BioGRID,1,,Affinity Capture-MS
+ZCCHC10,BioGRID,1,,Two-hybrid
+ZCCHC18,BioGRID,1,,Negative Genetic
+ZCCHC2,BioGRID,1,,Proximity Label-MS
+ZCCHC8,BioGRID,1,,Proximity Label-MS
+ZDBF2,BioGRID,1,,Proximity Label-MS
+ZDHHC18,BioGRID,1,,Affinity Capture-MS
+ZDHHC23,BioGRID,1,,Affinity Capture-MS
+ZDHHC5,BioGRID,1,,Affinity Capture-MS
+ZFP91,BioGRID,1,,Affinity Capture-MS
+ZFR,BioGRID,1,,Affinity Capture-MS
+ZFYVE16,BioGRID,1,,Affinity Capture-MS
+ZGRF1,BioGRID,1,,Proximity Label-MS
+ZHX1,BioGRID,1,,Two-hybrid
+ZIC3,BioGRID,1,,Reconstituted Complex
+ZMAT2,BioGRID,1,,Negative Genetic
+ZMIZ1,BioGRID,1,,Two-hybrid
+ZMIZ2,BioGRID,1,,Two-hybrid
+ZMPSTE24,BioGRID,1,,Affinity Capture-MS
+ZMYM2,BioGRID,1,,Proximity Label-MS
+ZMYM3,BioGRID,1,,Proximity Label-MS
+ZMYM4,BioGRID,1,,Proximity Label-MS
+ZMYM6,BioGRID,1,,Proximity Label-MS
+ZMYND11,BioGRID,1,,Affinity Capture-Western
+ZNF146,BioGRID,1,,Proximity Label-MS
+ZNF177,BioGRID,1,,Affinity Capture-MS
+ZNF180,BioGRID,1,,Proximity Label-MS
+ZNF207,BioGRID,1,,Negative Genetic
+ZNF217,BioGRID,1,,Proximity Label-MS
+ZNF230,BioGRID,1,,Negative Genetic
+ZNF24,BioGRID,1,,Two-hybrid
+ZNF267,BioGRID,1,,Affinity Capture-MS
+ZNF268,BioGRID,1,,Negative Genetic
+ZNF280C,BioGRID,1,,Affinity Capture-MS
+ZNF300,BioGRID,1,,Synthetic Growth Defect
+ZNF302,BioGRID,1,,Two-hybrid
+ZNF318,BioGRID,1,,Proximity Label-MS
+ZNF326,BioGRID,1,,Affinity Capture-MS
+ZNF329,BioGRID,1,,Affinity Capture-MS
+ZNF384,BioGRID,1,,Affinity Capture-MS
+ZNF398,BioGRID,1,,Co-localization
+ZNF451,BioGRID,1,,Affinity Capture-MS
+ZNF507,BioGRID,1,,Proximity Label-MS
+ZNF514,BioGRID,1,,Affinity Capture-MS
+ZNF516,BioGRID,1,,Proximity Label-MS
+ZNF546,BioGRID,1,,Proximity Label-MS
+ZNF574,BioGRID,1,,Synthetic Rescue
+ZNF593,BioGRID,1,,Synthetic Rescue
+ZNF598,BioGRID,1,,Affinity Capture-MS
+ZNF608,BioGRID,1,,Affinity Capture-MS
+ZNF619,BioGRID,1,,Synthetic Growth Defect
+ZNF629,BioGRID,1,,Proximity Label-MS
+ZNF644,BioGRID,1,,Proximity Label-MS
+ZNF645,BioGRID,1,,Reconstituted Complex
+ZNF648,BioGRID,1,,Affinity Capture-MS
+ZNF668,BioGRID,1,,Affinity Capture-Western
+ZNF679,BioGRID,1,,Two-hybrid
+ZNF703,BioGRID,1,,Proximity Label-MS
+ZNF763,BioGRID,1,,Synthetic Growth Defect
+ZNF79,BioGRID,1,,Negative Genetic
+ZNF814,BioGRID,1,,Affinity Capture-MS
+ZNF839,BioGRID,1,,Two-hybrid
+ZNF92,BioGRID,1,,Proximity Label-MS
+ZNHIT1,BioGRID,1,,Reconstituted Complex
+ZRSR2,BioGRID,1,,Affinity Capture-MS
+ZSWIM3,BioGRID,1,,Affinity Capture-MS
+ZSWIM8,BioGRID,1,,Proximity Label-MS
+ZWINT,BioGRID,1,,Affinity Capture-MS
+ZYX,BioGRID,1,,Affinity Capture-MS
+ZZZ3,BioGRID,1,,Proximity Label-MS

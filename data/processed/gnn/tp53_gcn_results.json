@@ -1,0 +1,54 @@
+{
+  "gene": "TP53",
+  "model": "GCN",
+  "num_nodes": 2758,
+  "num_edges": 164026,
+  "train_size": 1654,
+  "val_size": 551,
+  "test_size": 552,
+  "train_metrics": {
+    "loss": 0.3917,
+    "accuracy": 0.8446,
+    "precision": 0.715,
+    "recall": 0.6939,
+    "f1": 0.7043,
+    "tp": 306,
+    "tn": 1091,
+    "fp": 122,
+    "fn": 135,
+    "positive_rate": 0.2666
+  },
+  "val_metrics": {
+    "loss": 0.4098,
+    "accuracy": 0.8403,
+    "precision": 0.7843,
+    "recall": 0.6857,
+    "f1": 0.7317,
+    "tp": 120,
+    "tn": 343,
+    "fp": 33,
+    "fn": 55,
+    "positive_rate": 0.3176
+  },
+  "test_metrics": {
+    "loss": 0.3758,
+    "accuracy": 0.8714,
+    "precision": 0.7651,
+    "recall": 0.76,
+    "f1": 0.7625,
+    "tp": 114,
+    "tn": 367,
+    "fp": 35,
+    "fn": 36,
+    "positive_rate": 0.2717
+  },
+  "fit_summary": {
+    "verdict": "reasonable_fit",
+    "overfit_flag": false,
+    "underfit_flag": false,
+    "train_val_accuracy_gap": 0.0043,
+    "val_train_loss_gap": 0.0181,
+    "best_epoch": 198,
+    "best_epoch_is_early": false
+  }
+}
