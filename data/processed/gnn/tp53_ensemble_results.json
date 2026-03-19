@@ -1,0 +1,164 @@
+{
+  "gene": "TP53",
+  "model": "ENSEMBLE",
+  "num_nodes": 2758,
+  "num_features": 16,
+  "train_size": 1653,
+  "val_size": 551,
+  "test_size": 553,
+  "train_metrics": {
+    "loss": 0.2953,
+    "accuracy": 0.9002,
+    "precision": 0.8639,
+    "recall": 0.7603,
+    "specificity": 0.9539,
+    "balanced_accuracy": 0.8571,
+    "f1": 0.8088,
+    "tp": 349,
+    "tn": 1139,
+    "fp": 55,
+    "fn": 110,
+    "positive_rate": 0.2777
+  },
+  "val_metrics": {
+    "loss": 0.374,
+    "accuracy": 0.8512,
+    "precision": 0.784,
+    "recall": 0.6405,
+    "specificity": 0.9322,
+    "balanced_accuracy": 0.7863,
+    "f1": 0.705,
+    "tp": 98,
+    "tn": 371,
+    "fp": 27,
+    "fn": 55,
+    "positive_rate": 0.2777
+  },
+  "test_metrics": {
+    "loss": 0.3656,
+    "accuracy": 0.8571,
+    "precision": 0.782,
+    "recall": 0.6753,
+    "specificity": 0.9273,
+    "balanced_accuracy": 0.8013,
+    "f1": 0.7247,
+    "tp": 104,
+    "tn": 370,
+    "fp": 29,
+    "fn": 50,
+    "positive_rate": 0.2785
+  },
+  "component_metrics": {
+    "random_forest_val": {
+      "loss": 0.3939,
+      "accuracy": 0.8276,
+      "precision": 0.6726,
+      "recall": 0.7386,
+      "specificity": 0.8618,
+      "balanced_accuracy": 0.8002,
+      "f1": 0.704,
+      "tp": 113,
+      "tn": 343,
+      "fp": 55,
+      "fn": 40,
+      "positive_rate": 0.2777
+    },
+    "xgboost_val": {
+      "loss": 0.3678,
+      "accuracy": 0.8221,
+      "precision": 0.6571,
+      "recall": 0.7516,
+      "specificity": 0.8492,
+      "balanced_accuracy": 0.8004,
+      "f1": 0.7012,
+      "tp": 115,
+      "tn": 338,
+      "fp": 60,
+      "fn": 38,
+      "positive_rate": 0.2777
+    }
+  },
+  "fit_summary": {
+    "verdict": "reasonable_fit",
+    "overfit_flag": false,
+    "underfit_flag": false,
+    "train_val_accuracy_gap": 0.049,
+    "val_train_loss_gap": 0.0787
+  },
+  "training_config": {
+    "rf_estimators": 400,
+    "rf_estimators_per_batch": 20,
+    "xgb_estimators": 400,
+    "n_jobs": 2,
+    "rf_weight": 0.4999,
+    "xgb_weight": 0.5001,
+    "decision_threshold": 0.59,
+    "xgb_scale_pos_weight": 2.6013
+  },
+  "feature_importances": [
+    {
+      "feature": "biogrid_distance_to_tp53",
+      "importance": 0.212012
+    },
+    {
+      "feature": "has_biogrid_direct",
+      "importance": 0.178926
+    },
+    {
+      "feature": "biogrid_avg_neighbor_degree",
+      "importance": 0.154682
+    },
+    {
+      "feature": "biogrid_experiment_diversity",
+      "importance": 0.109796
+    },
+    {
+      "feature": "biogrid_physical_experiment_diversity",
+      "importance": 0.074465
+    },
+    {
+      "feature": "biogrid_clustering_coefficient",
+      "importance": 0.066987
+    },
+    {
+      "feature": "biogrid_degree_subgraph",
+      "importance": 0.03137
+    },
+    {
+      "feature": "biogrid_jaccard_with_tp53",
+      "importance": 0.031187
+    },
+    {
+      "feature": "biogrid_physical_degree",
+      "importance": 0.030685
+    },
+    {
+      "feature": "biogrid_tp53_physical_edge",
+      "importance": 0.027766
+    },
+    {
+      "feature": "biogrid_shared_neighbors_with_tp53",
+      "importance": 0.024666
+    },
+    {
+      "feature": "biogrid_physical_fraction",
+      "importance": 0.023042
+    },
+    {
+      "feature": "biogrid_genetic_degree",
+      "importance": 0.016532
+    },
+    {
+      "feature": "biogrid_genetic_experiment_diversity",
+      "importance": 0.016312
+    },
+    {
+      "feature": "biogrid_two_hop_from_tp53",
+      "importance": 0.001264
+    },
+    {
+      "feature": "biogrid_component_size",
+      "importance": 0.00031
+    }
+  ]
+}

@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TP53 RANDOM FOREST Metrics</title>
+  <title>TP53 XGBOOST Metrics</title>
   <style>
     body {
       margin: 0;
@@ -64,26 +64,26 @@
 <body>
   <main>
     <section class="panel">
-      <h1>TP53 RANDOM FOREST Metrics</h1>
+      <h1>TP53 XGBOOST Metrics</h1>
       <p>Tabular baseline model trained on TP53 subgraph node features.</p>
       <div class="cards">
-        <div class="card"><span>Test Accuracy</span><strong>0.8228</strong></div>
-        <div class="card"><span>Balanced Accuracy</span><strong>0.7974</strong></div>
-        <div class="card"><span>F1 Score</span><strong>0.6994</strong></div>
-        <div class="card"><span>Fit Verdict</span><strong>reasonable_fit</strong></div>
+        <div class="card"><span>Test Accuracy</span><strong>0.8427</strong></div>
+        <div class="card"><span>Balanced Accuracy</span><strong>0.8172</strong></div>
+        <div class="card"><span>F1 Score</span><strong>0.7290</strong></div>
+        <div class="card"><span>Fit Verdict</span><strong>likely_overfitting</strong></div>
       </div>
       <table>
         <thead>
           <tr><th>Metric</th><th>Train</th><th>Validation</th><th>Test</th></tr>
         </thead>
         <tbody>
-          <tr><td>Accuracy</td><td>0.8512</td><td>0.8276</td><td>0.8228</td></tr>
-          <tr><td>Balanced Accuracy</td><td>0.8279</td><td>0.8002</td><td>0.7974</td></tr>
-          <tr><td>Precision</td><td>0.7134</td><td>0.6726</td><td>0.6628</td></tr>
-          <tr><td>Recall</td><td>0.7756</td><td>0.7386</td><td>0.7403</td></tr>
-          <tr><td>Specificity</td><td>0.8802</td><td>0.8618</td><td>0.8546</td></tr>
-          <tr><td>F1</td><td>0.7432</td><td>0.7040</td><td>0.6994</td></tr>
-          <tr><td>Loss</td><td>0.3592</td><td>0.3939</td><td>0.3881</td></tr>
+          <tr><td>Accuracy</td><td>0.9123</td><td>0.8221</td><td>0.8427</td></tr>
+          <tr><td>Balanced Accuracy</td><td>0.9058</td><td>0.8004</td><td>0.8172</td></tr>
+          <tr><td>Precision</td><td>0.8115</td><td>0.6571</td><td>0.7006</td></tr>
+          <tr><td>Recall</td><td>0.8911</td><td>0.7516</td><td>0.7597</td></tr>
+          <tr><td>Specificity</td><td>0.9204</td><td>0.8492</td><td>0.8747</td></tr>
+          <tr><td>F1</td><td>0.8494</td><td>0.7012</td><td>0.7290</td></tr>
+          <tr><td>Loss</td><td>0.2408</td><td>0.3678</td><td>0.3535</td></tr>
         </tbody>
       </table>
     </section>

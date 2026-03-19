@@ -36,6 +36,18 @@ FEATURE_COLS = [
     "biogrid_degree_subgraph",
     "biogrid_distance_to_tp53",
     "biogrid_component_size",
+    "biogrid_shared_neighbors_with_tp53",
+    "biogrid_jaccard_with_tp53",
+    "biogrid_two_hop_from_tp53",
+    "biogrid_physical_degree",
+    "biogrid_genetic_degree",
+    "biogrid_physical_fraction",
+    "biogrid_tp53_physical_edge",
+    "biogrid_experiment_diversity",
+    "biogrid_physical_experiment_diversity",
+    "biogrid_genetic_experiment_diversity",
+    "biogrid_avg_neighbor_degree",
+    "biogrid_clustering_coefficient",
 ]
 
 
@@ -59,6 +71,7 @@ def _build_biogrid_feature_frame(node_table: pd.DataFrame, edge_table: pd.DataFr
         adjacency[node_b].add(node_a)
 
     degree_map = {node_id: len(neighbors) for node_id, neighbors in adjacency.items()}
+    target_neighbors = adjacency.get(target_gene, set())
 
     distance_map: dict[str, int] = {target_gene: 0}
     queue = deque([target_gene])
@@ -91,10 +104,104 @@ def _build_biogrid_feature_frame(node_table: pd.DataFrame, edge_table: pd.DataFr
         for node in component_nodes:
             component_size_map[node] = component_size
 
+    biogrid_path = GNN_DIR.parent / "biogrid_human_ppi.csv"
+    biogrid_df = pd.read_csv(biogrid_path)
+    biogrid_df["protein1"] = biogrid_df["protein1"].astype(str)
+    biogrid_df["protein2"] = biogrid_df["protein2"].astype(str)
+    biogrid_df["experimental_system_type"] = biogrid_df["experimental_system_type"].astype(str).str.lower()
+
+    physical_degree_map: dict[str, int] = defaultdict(int)
+    genetic_degree_map: dict[str, int] = defaultdict(int)
+    physical_tp53_neighbors: set[str] = set()
+    experiment_map: dict[str, set[str]] = defaultdict(set)
+    physical_experiment_map: dict[str, set[str]] = defaultdict(set)
+    genetic_experiment_map: dict[str, set[str]] = defaultdict(set)
+    for _, row in biogrid_df.iterrows():
+        protein1 = row["protein1"]
+        protein2 = row["protein2"]
+        edge_type = row["experimental_system_type"]
+        experiment_name = str(row["experimental_system"])
+        experiment_map[protein1].add(experiment_name)
+        experiment_map[protein2].add(experiment_name)
+        if edge_type == "physical":
+            physical_degree_map[protein1] += 1
+            physical_degree_map[protein2] += 1
+            physical_experiment_map[protein1].add(experiment_name)
+            physical_experiment_map[protein2].add(experiment_name)
+            if protein1 == target_gene:
+                physical_tp53_neighbors.add(protein2)
+            elif protein2 == target_gene:
+                physical_tp53_neighbors.add(protein1)
+        elif edge_type == "genetic":
+            genetic_degree_map[protein1] += 1
+            genetic_degree_map[protein2] += 1
+            genetic_experiment_map[protein1].add(experiment_name)
+            genetic_experiment_map[protein2].add(experiment_name)
+
+    avg_neighbor_degree_map: dict[str, float] = {}
+    clustering_coefficient_map: dict[str, float] = {}
+    for node_id, neighbors in adjacency.items():
+        if not neighbors:
+            avg_neighbor_degree_map[node_id] = 0.0
+            clustering_coefficient_map[node_id] = 0.0
+            continue
+
+        avg_neighbor_degree_map[node_id] = float(
+            sum(degree_map.get(neighbor, 0) for neighbor in neighbors) / len(neighbors)
+        )
+
+        if len(neighbors) < 2:
+            clustering_coefficient_map[node_id] = 0.0
+            continue
+
+        links_between_neighbors = 0
+        neighbor_list = sorted(neighbors)
+        for idx, neighbor_a in enumerate(neighbor_list):
+            neighbor_links = adjacency.get(neighbor_a, set())
+            for neighbor_b in neighbor_list[idx + 1:]:
+                if neighbor_b in neighbor_links:
+                    links_between_neighbors += 1
+        possible_links = len(neighbor_list) * (len(neighbor_list) - 1) / 2
+        clustering_coefficient_map[node_id] = links_between_neighbors / possible_links if possible_links else 0.0
+
     feature_frame = node_table[["node_id", "label_string_supported", "has_biogrid_direct"]].copy()
     feature_frame["biogrid_degree_subgraph"] = feature_frame["node_id"].map(degree_map).fillna(0).astype(int)
     feature_frame["biogrid_distance_to_tp53"] = feature_frame["node_id"].map(distance_map).fillna(99).astype(int)
     feature_frame["biogrid_component_size"] = feature_frame["node_id"].map(component_size_map).fillna(1).astype(int)
+    feature_frame["biogrid_shared_neighbors_with_tp53"] = feature_frame["node_id"].map(
+        lambda node_id: len(adjacency.get(str(node_id), set()) & target_neighbors)
+    ).astype(int)
+    feature_frame["biogrid_jaccard_with_tp53"] = feature_frame["node_id"].map(
+        lambda node_id: (
+            len(adjacency.get(str(node_id), set()) & target_neighbors)
+            / max(len(adjacency.get(str(node_id), set()) | target_neighbors), 1)
+        )
+    ).astype(float)
+    feature_frame["biogrid_two_hop_from_tp53"] = (
+        feature_frame["biogrid_distance_to_tp53"].astype(int) <= 2
+    ).astype(int)
+    feature_frame["biogrid_physical_degree"] = feature_frame["node_id"].map(physical_degree_map).fillna(0).astype(int)
+    feature_frame["biogrid_genetic_degree"] = feature_frame["node_id"].map(genetic_degree_map).fillna(0).astype(int)
+    feature_frame["biogrid_physical_fraction"] = (
+        feature_frame["biogrid_physical_degree"]
+        / (feature_frame["biogrid_physical_degree"] + feature_frame["biogrid_genetic_degree"]).replace(0, 1)
+    ).astype(float)
+    feature_frame["biogrid_tp53_physical_edge"] = feature_frame["node_id"].isin(physical_tp53_neighbors).astype(int)
+    feature_frame["biogrid_experiment_diversity"] = feature_frame["node_id"].map(
+        lambda node_id: len(experiment_map.get(str(node_id), set()))
+    ).astype(int)
+    feature_frame["biogrid_physical_experiment_diversity"] = feature_frame["node_id"].map(
+        lambda node_id: len(physical_experiment_map.get(str(node_id), set()))
+    ).astype(int)
+    feature_frame["biogrid_genetic_experiment_diversity"] = feature_frame["node_id"].map(
+        lambda node_id: len(genetic_experiment_map.get(str(node_id), set()))
+    ).astype(int)
+    feature_frame["biogrid_avg_neighbor_degree"] = feature_frame["node_id"].map(
+        avg_neighbor_degree_map
+    ).fillna(0.0).astype(float)
+    feature_frame["biogrid_clustering_coefficient"] = feature_frame["node_id"].map(
+        clustering_coefficient_map
+    ).fillna(0.0).astype(float)
     return feature_frame
 
 
@@ -143,24 +250,39 @@ def validate_feature_set(node_table: pd.DataFrame) -> None:
 def split_feature_table(node_table: pd.DataFrame, seed: int) -> SplitData:
     labeled = node_table[node_table["label_string_supported"] >= 0].copy()
     rng = np.random.default_rng(seed)
-    perm = rng.permutation(len(labeled))
-    labeled = labeled.iloc[perm].reset_index(drop=True)
 
-    train_end = int(0.6 * len(labeled))
-    val_end = int(0.8 * len(labeled))
+    train_parts: list[pd.DataFrame] = []
+    val_parts: list[pd.DataFrame] = []
+    test_parts: list[pd.DataFrame] = []
+    for label_value, group in labeled.groupby("label_string_supported"):
+        perm = rng.permutation(len(group))
+        group = group.iloc[perm].reset_index(drop=True)
+        train_end = int(0.6 * len(group))
+        val_end = int(0.8 * len(group))
+        train_parts.append(group.iloc[:train_end])
+        val_parts.append(group.iloc[train_end:val_end])
+        test_parts.append(group.iloc[val_end:])
+
+    train_frame = pd.concat(train_parts, ignore_index=True)
+    val_frame = pd.concat(val_parts, ignore_index=True)
+    test_frame = pd.concat(test_parts, ignore_index=True)
+
+    train_frame = train_frame.iloc[rng.permutation(len(train_frame))].reset_index(drop=True)
+    val_frame = val_frame.iloc[rng.permutation(len(val_frame))].reset_index(drop=True)
+    test_frame = test_frame.iloc[rng.permutation(len(test_frame))].reset_index(drop=True)
 
     def _xy(frame: pd.DataFrame) -> tuple[np.ndarray, np.ndarray]:
         x = frame[FEATURE_COLS].astype(float).to_numpy()
         y = frame["label_string_supported"].astype(int).to_numpy()
         return x, y
 
-    x_train, y_train = _xy(labeled.iloc[:train_end])
-    x_val, y_val = _xy(labeled.iloc[train_end:val_end])
-    x_test, y_test = _xy(labeled.iloc[val_end:])
+    x_train, y_train = _xy(train_frame)
+    x_val, y_val = _xy(val_frame)
+    x_test, y_test = _xy(test_frame)
     return SplitData(x_train, y_train, x_val, y_val, x_test, y_test)
 
 
-def evaluate_predictions(y_true: np.ndarray, y_prob: np.ndarray) -> dict[str, float | int]:
+def evaluate_predictions(y_true: np.ndarray, y_prob: np.ndarray, threshold: float = 0.5) -> dict[str, float | int]:
     if len(y_true) == 0:
         return {
             "loss": 0.0,
@@ -178,7 +300,7 @@ def evaluate_predictions(y_true: np.ndarray, y_prob: np.ndarray) -> dict[str, fl
         }
 
     y_prob = np.clip(y_prob.astype(float), 1e-7, 1.0 - 1e-7)
-    y_pred = (y_prob >= 0.5).astype(int)
+    y_pred = (y_prob >= threshold).astype(int)
     loss = float(log_loss(y_true, y_prob, labels=[0, 1]))
     accuracy = float((y_pred == y_true).mean())
 
@@ -228,6 +350,85 @@ def summarize_generalization(train_metrics: dict[str, float | int], val_metrics:
         "train_val_accuracy_gap": accuracy_gap,
         "val_train_loss_gap": loss_gap,
     }
+
+
+def _fit_random_forest_model(split: SplitData, seed: int, n_estimators: int, estimators_per_batch: int, n_jobs: int) -> RandomForestClassifier:
+    class_weights = compute_class_weight("balanced", classes=np.array([0, 1]), y=split.y_train)
+    class_weight_map = {0: float(class_weights[0]), 1: float(class_weights[1])}
+    model = RandomForestClassifier(
+        n_estimators=0,
+        random_state=seed,
+        class_weight=class_weight_map,
+        n_jobs=n_jobs,
+        warm_start=True,
+        max_depth=6,
+        min_samples_leaf=15,
+        min_samples_split=25,
+        max_features="sqrt",
+    )
+    total_estimators = 0
+    while total_estimators < n_estimators:
+        next_total = min(total_estimators + estimators_per_batch, n_estimators)
+        model.set_params(n_estimators=next_total)
+        print(
+            f"Random Forest progress: training trees {total_estimators + 1}-{next_total} "
+            f"of {n_estimators} with n_jobs={n_jobs}",
+            flush=True,
+        )
+        model.fit(split.x_train, split.y_train)
+        total_estimators = next_total
+    return model
+
+
+def _import_xgboost():
+    try:
+        import xgboost as xgb
+    except ModuleNotFoundError as exc:
+        if exc.name == "xgboost":
+            print("Missing dependency: xgboost")
+            print("Install xgboost in the project virtualenv before training the XGBoost model.")
+            raise SystemExit(1)
+        raise
+    return xgb
+
+
+def _fit_xgboost_model(split: SplitData, seed: int, n_estimators: int, n_jobs: int):
+    xgb = _import_xgboost()
+    negative_count = int((split.y_train == 0).sum())
+    positive_count = int((split.y_train == 1).sum())
+    scale_pos_weight = negative_count / max(positive_count, 1)
+
+    model = xgb.XGBClassifier(
+        objective="binary:logistic",
+        eval_metric="logloss",
+        random_state=seed,
+        n_estimators=n_estimators,
+        max_depth=4,
+        learning_rate=0.03,
+        subsample=0.9,
+        colsample_bytree=0.9,
+        min_child_weight=2,
+        reg_lambda=2.0,
+        n_jobs=n_jobs,
+        scale_pos_weight=scale_pos_weight,
+    )
+    model.fit(split.x_train, split.y_train, eval_set=[(split.x_val, split.y_val)], verbose=False)
+    return model, scale_pos_weight
+
+
+def _best_threshold_for_accuracy(y_true: np.ndarray, y_prob: np.ndarray) -> tuple[float, float, float]:
+    best_threshold = 0.5
+    best_accuracy = -1.0
+    best_f1 = -1.0
+    for threshold in np.linspace(0.2, 0.8, 61):
+        metrics = evaluate_predictions(y_true, y_prob, threshold=float(threshold))
+        accuracy = float(metrics["accuracy"])
+        f1 = float(metrics["f1"])
+        if accuracy > best_accuracy or (accuracy == best_accuracy and f1 > best_f1):
+            best_accuracy = accuracy
+            best_f1 = f1
+            best_threshold = float(threshold)
+    return best_threshold, best_accuracy, best_f1
 
 
 def render_metrics_dashboard(gene: str, model_name: str, results: dict[str, object]) -> str:
@@ -356,30 +557,7 @@ def train_random_forest(
     node_table = load_feature_table(gene)
     validate_feature_set(node_table)
     split = split_feature_table(node_table, seed)
-    class_weights = compute_class_weight("balanced", classes=np.array([0, 1]), y=split.y_train)
-    class_weight_map = {0: float(class_weights[0]), 1: float(class_weights[1])}
-    model = RandomForestClassifier(
-        n_estimators=0,
-        random_state=seed,
-        class_weight=class_weight_map,
-        n_jobs=n_jobs,
-        warm_start=True,
-        max_depth=6,
-        min_samples_leaf=15,
-        min_samples_split=25,
-        max_features="sqrt",
-    )
-    total_estimators = 0
-    while total_estimators < n_estimators:
-        next_total = min(total_estimators + estimators_per_batch, n_estimators)
-        model.set_params(n_estimators=next_total)
-        print(
-            f"Random Forest progress: training trees {total_estimators + 1}-{next_total} "
-            f"of {n_estimators} with n_jobs={n_jobs}",
-            flush=True,
-        )
-        model.fit(split.x_train, split.y_train)
-        total_estimators = next_total
+    model = _fit_random_forest_model(split, seed, n_estimators, estimators_per_batch, n_jobs)
 
     train_prob = model.predict_proba(split.x_train)[:, 1]
     val_prob = model.predict_proba(split.x_val)[:, 1]
@@ -412,6 +590,135 @@ def train_random_forest(
     ]
     results["feature_importances"] = feature_importance_rows
     return save_results(gene, "random_forest", results)
+
+
+def train_xgboost(
+    gene: str = "TP53",
+    seed: int = 42,
+    n_estimators: int = 400,
+    n_jobs: int = 2,
+) -> dict[str, object]:
+    node_table = load_feature_table(gene)
+    validate_feature_set(node_table)
+    split = split_feature_table(node_table, seed)
+    model, scale_pos_weight = _fit_xgboost_model(split, seed, n_estimators, n_jobs)
+
+    train_prob = model.predict_proba(split.x_train)[:, 1]
+    val_prob = model.predict_proba(split.x_val)[:, 1]
+    test_prob = model.predict_proba(split.x_test)[:, 1]
+    results = {
+        "gene": gene.upper(),
+        "model": "XGBOOST",
+        "num_nodes": int(len(node_table)),
+        "num_features": len(FEATURE_COLS),
+        "train_size": int(len(split.y_train)),
+        "val_size": int(len(split.y_val)),
+        "test_size": int(len(split.y_test)),
+        "train_metrics": evaluate_predictions(split.y_train, train_prob),
+        "val_metrics": evaluate_predictions(split.y_val, val_prob),
+        "test_metrics": evaluate_predictions(split.y_test, test_prob),
+    }
+    results["fit_summary"] = summarize_generalization(results["train_metrics"], results["val_metrics"])
+    results["training_config"] = {
+        "n_estimators": n_estimators,
+        "n_jobs": n_jobs,
+        "max_depth": 4,
+        "learning_rate": 0.03,
+        "subsample": 0.9,
+        "colsample_bytree": 0.9,
+        "min_child_weight": 2,
+        "reg_lambda": 2.0,
+        "scale_pos_weight": round(scale_pos_weight, 4),
+    }
+    results["feature_importances"] = [
+        {"feature": feature, "importance": float(importance)}
+        for feature, importance in sorted(zip(FEATURE_COLS, model.feature_importances_), key=lambda item: item[1], reverse=True)
+    ]
+    return save_results(gene, "xgboost", results)
+
+
+def train_ensemble(
+    gene: str = "TP53",
+    seed: int = 42,
+    rf_estimators: int = 400,
+    rf_estimators_per_batch: int = 20,
+    xgb_estimators: int = 400,
+    n_jobs: int = 2,
+) -> dict[str, object]:
+    node_table = load_feature_table(gene)
+    validate_feature_set(node_table)
+    split = split_feature_table(node_table, seed)
+
+    rf_model = _fit_random_forest_model(split, seed, rf_estimators, rf_estimators_per_batch, n_jobs)
+    xgb_model, scale_pos_weight = _fit_xgboost_model(split, seed, xgb_estimators, n_jobs)
+
+    rf_train_prob = rf_model.predict_proba(split.x_train)[:, 1]
+    rf_val_prob = rf_model.predict_proba(split.x_val)[:, 1]
+    rf_test_prob = rf_model.predict_proba(split.x_test)[:, 1]
+
+    xgb_train_prob = xgb_model.predict_proba(split.x_train)[:, 1]
+    xgb_val_prob = xgb_model.predict_proba(split.x_val)[:, 1]
+    xgb_test_prob = xgb_model.predict_proba(split.x_test)[:, 1]
+
+    rf_val_metrics = evaluate_predictions(split.y_val, rf_val_prob)
+    xgb_val_metrics = evaluate_predictions(split.y_val, xgb_val_prob)
+    rf_weight = float(rf_val_metrics["balanced_accuracy"]) + 1e-6
+    xgb_weight = float(xgb_val_metrics["balanced_accuracy"]) + 1e-6
+    total_weight = rf_weight + xgb_weight
+    rf_weight /= total_weight
+    xgb_weight /= total_weight
+
+    train_prob = (rf_weight * rf_train_prob) + (xgb_weight * xgb_train_prob)
+    val_prob = (rf_weight * rf_val_prob) + (xgb_weight * xgb_val_prob)
+    test_prob = (rf_weight * rf_test_prob) + (xgb_weight * xgb_test_prob)
+
+    threshold, _, _ = _best_threshold_for_accuracy(split.y_val, val_prob)
+    train_metrics = evaluate_predictions(split.y_train, train_prob, threshold)
+    val_metrics = evaluate_predictions(split.y_val, val_prob, threshold)
+    test_metrics = evaluate_predictions(split.y_test, test_prob, threshold)
+
+    results = {
+        "gene": gene.upper(),
+        "model": "ENSEMBLE",
+        "num_nodes": int(len(node_table)),
+        "num_features": len(FEATURE_COLS),
+        "train_size": int(len(split.y_train)),
+        "val_size": int(len(split.y_val)),
+        "test_size": int(len(split.y_test)),
+        "train_metrics": train_metrics,
+        "val_metrics": val_metrics,
+        "test_metrics": test_metrics,
+        "component_metrics": {
+            "random_forest_val": rf_val_metrics,
+            "xgboost_val": xgb_val_metrics,
+        },
+    }
+    results["fit_summary"] = summarize_generalization(train_metrics, val_metrics)
+    results["training_config"] = {
+        "rf_estimators": rf_estimators,
+        "rf_estimators_per_batch": rf_estimators_per_batch,
+        "xgb_estimators": xgb_estimators,
+        "n_jobs": n_jobs,
+        "rf_weight": round(rf_weight, 4),
+        "xgb_weight": round(xgb_weight, 4),
+        "decision_threshold": round(threshold, 4),
+        "xgb_scale_pos_weight": round(scale_pos_weight, 4),
+    }
+    results["feature_importances"] = [
+        {
+            "feature": feature,
+            "importance": round(
+                (rf_weight * float(rf_importance)) + (xgb_weight * float(xgb_importance)),
+                6,
+            ),
+        }
+        for feature, rf_importance, xgb_importance in sorted(
+            zip(FEATURE_COLS, rf_model.feature_importances_, xgb_model.feature_importances_),
+            key=lambda item: (rf_weight * float(item[1])) + (xgb_weight * float(item[2])),
+            reverse=True,
+        )
+    ]
+    return save_results(gene, "ensemble", results)
 
 
 def parse_args() -> argparse.Namespace:

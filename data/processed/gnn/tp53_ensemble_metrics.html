@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>TP53 RANDOM FOREST Metrics</title>
+  <title>TP53 ENSEMBLE Metrics</title>
   <style>
     body {
       margin: 0;
@@ -64,12 +64,12 @@
 <body>
   <main>
     <section class="panel">
-      <h1>TP53 RANDOM FOREST Metrics</h1>
+      <h1>TP53 ENSEMBLE Metrics</h1>
       <p>Tabular baseline model trained on TP53 subgraph node features.</p>
       <div class="cards">
-        <div class="card"><span>Test Accuracy</span><strong>0.8228</strong></div>
-        <div class="card"><span>Balanced Accuracy</span><strong>0.7974</strong></div>
-        <div class="card"><span>F1 Score</span><strong>0.6994</strong></div>
+        <div class="card"><span>Test Accuracy</span><strong>0.8571</strong></div>
+        <div class="card"><span>Balanced Accuracy</span><strong>0.8013</strong></div>
+        <div class="card"><span>F1 Score</span><strong>0.7247</strong></div>
         <div class="card"><span>Fit Verdict</span><strong>reasonable_fit</strong></div>
       </div>
       <table>
@@ -77,13 +77,13 @@
           <tr><th>Metric</th><th>Train</th><th>Validation</th><th>Test</th></tr>
         </thead>
         <tbody>
-          <tr><td>Accuracy</td><td>0.8512</td><td>0.8276</td><td>0.8228</td></tr>
-          <tr><td>Balanced Accuracy</td><td>0.8279</td><td>0.8002</td><td>0.7974</td></tr>
-          <tr><td>Precision</td><td>0.7134</td><td>0.6726</td><td>0.6628</td></tr>
-          <tr><td>Recall</td><td>0.7756</td><td>0.7386</td><td>0.7403</td></tr>
-          <tr><td>Specificity</td><td>0.8802</td><td>0.8618</td><td>0.8546</td></tr>
-          <tr><td>F1</td><td>0.7432</td><td>0.7040</td><td>0.6994</td></tr>
-          <tr><td>Loss</td><td>0.3592</td><td>0.3939</td><td>0.3881</td></tr>
+          <tr><td>Accuracy</td><td>0.9002</td><td>0.8512</td><td>0.8571</td></tr>
+          <tr><td>Balanced Accuracy</td><td>0.8571</td><td>0.7863</td><td>0.8013</td></tr>
+          <tr><td>Precision</td><td>0.8639</td><td>0.7840</td><td>0.7820</td></tr>
+          <tr><td>Recall</td><td>0.7603</td><td>0.6405</td><td>0.6753</td></tr>
+          <tr><td>Specificity</td><td>0.9539</td><td>0.9322</td><td>0.9273</td></tr>
+          <tr><td>F1</td><td>0.8088</td><td>0.7050</td><td>0.7247</td></tr>
+          <tr><td>Loss</td><td>0.2953</td><td>0.3740</td><td>0.3656</td></tr>
         </tbody>
       </table>
     </section>

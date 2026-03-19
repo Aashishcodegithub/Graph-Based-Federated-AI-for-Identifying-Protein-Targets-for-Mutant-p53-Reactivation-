@@ -46,6 +46,18 @@ def run_random_forest_step(gene: str) -> dict[str, object]:
     return run_random_forest_model(gene)
 
 
+def run_xgboost_step(gene: str) -> dict[str, object]:
+    from p53_ppi_project.train_xgboost import run_xgboost_model
+
+    return run_xgboost_model(gene)
+
+
+def run_ensemble_step(gene: str) -> dict[str, object]:
+    from p53_ppi_project.train_ensemble import run_ensemble_model
+
+    return run_ensemble_model(gene)
+
+
 def run_preprocessing_step():
     try:
         from p53_ppi_project.preprocessing import run_all
@@ -97,7 +109,7 @@ def main() -> int:
             log(f" - {file_path}")
         return 1
 
-    # preprocessing_results = run_step("1/5", "Running preprocessing", run_preprocessing_step)
+    # preprocessing_results = run_step("1/8", "Running preprocessing", run_preprocessing_step)
     # string_mapping_status = validate_string_mapping_step(preprocessing_results["string_links"])
     # if string_mapping_status["mapped"]:
     #     log(
@@ -109,9 +121,9 @@ def main() -> int:
     #     log("STRING validation warning: mapping to gene symbols did not happen.")
     #     log(f"Expected STRING info file at: {STRING_INFO_FILE}")
     #     log("Add 9606.protein.info.v12.0.txt to data/raw/string/ and rerun.")
-    log("\n[1/5] Skipping preprocessing and using existing processed outputs.")
+    log("\n[1/8] Skipping preprocessing and using existing processed outputs.")
 
-    ppi_build_results = run_step("2/6", "Building TP53 PPI network", build_tp53_ppi_step, "TP53")
+    ppi_build_results = run_step("2/8", "Building TP53 PPI network", build_tp53_ppi_step, "TP53")
     log(
         "Built TP53 PPI network: "
         f"{ppi_build_results['num_nodes']} nodes, "
@@ -124,7 +136,7 @@ def main() -> int:
     log(f"Saved node features: {ppi_build_results['features_path']}")
     log(f"Saved TP53 graph: {ppi_build_results['graph_path']}")
 
-    ppi_results = run_step("3/6", "Running PPI analysis", analyze_gene_ppi_step, "TP53")
+    ppi_results = run_step("3/8", "Running PPI analysis", analyze_gene_ppi_step, "TP53")
     log(
         "PPI analysis completed for "
         f"{ppi_results['gene']}: "
@@ -135,7 +147,7 @@ def main() -> int:
     log(f"Saved interaction summary: {ppi_results['summary_path']}")
 
     reactivation_results = run_step(
-        "4/6",
+        "4/8",
         "Prioritizing mutant p53 reactivation targets",
         prioritize_reactivation_targets_step,
         "TP53",
@@ -144,20 +156,44 @@ def main() -> int:
     log(f"Saved mutant p53 profile: {reactivation_results['profile_path']}")
 
     log("\nRandom Forest stage can take a while on this graph because it uses the full 400-tree model.")
-    random_forest_results = run_step("5/6", "Training Random Forest baseline", run_random_forest_step, "TP53")
+    random_forest_results = run_step(
+        "5/8",
+        "Training Random Forest baseline with engineered BioGRID features",
+        run_random_forest_step,
+        "TP53",
+    )
     log(
         "Random Forest test accuracy: "
         f"{random_forest_results['test_metrics']['accuracy']:.4f}, "
         f"F1: {random_forest_results['test_metrics']['f1']:.4f}"
     )
+    log(f"Random Forest feature count: {random_forest_results['num_features']}")
     log(f"Saved Random Forest results: {random_forest_results['results_path']}")
 
-    visualization_path = run_step("6/6", "Rendering TP53 visualization", generate_visualization_step, "TP53")
+    xgboost_results = run_step("6/8", "Training XGBoost baseline", run_xgboost_step, "TP53")
+    log(
+        "XGBoost test accuracy: "
+        f"{xgboost_results['test_metrics']['accuracy']:.4f}, "
+        f"F1: {xgboost_results['test_metrics']['f1']:.4f}"
+    )
+    log(f"Saved XGBoost results: {xgboost_results['results_path']}")
+
+    ensemble_results = run_step("7/8", "Training RF + XGBoost ensemble", run_ensemble_step, "TP53")
+    log(
+        "Ensemble test accuracy: "
+        f"{ensemble_results['test_metrics']['accuracy']:.4f}, "
+        f"F1: {ensemble_results['test_metrics']['f1']:.4f}"
+    )
+    log(f"Saved ensemble results: {ensemble_results['results_path']}")
+
+    visualization_path = run_step("8/8", "Rendering TP53 visualization", generate_visualization_step, "TP53")
     log(f"Saved TP53 visualization: {visualization_path}")
 
     log("\nModel training commands after installing dependencies:")
     log("  ./.venv/bin/python -m p53_ppi_project.train_gnn --model gcn")
     log("  ./.venv/bin/python -m p53_ppi_project.train_random_forest")
+    log("  ./.venv/bin/python -m p53_ppi_project.train_xgboost")
+    log("  ./.venv/bin/python -m p53_ppi_project.train_ensemble")
     log(f"GNN artifacts directory: {GNN_DIR}")
 
     return 0

@@ -42,6 +42,8 @@ def load_gnn_metric_summaries(gene: str = TARGET_GENE) -> list[dict[str, Any]]:
     model_specs = [
         ("gcn", "GCN"),
         ("random_forest", "RANDOM_FOREST"),
+        ("xgboost", "XGBOOST"),
+        ("ensemble", "ENSEMBLE"),
     ]
     for model_name, default_label in model_specs:
         results_path = GNN_DIR / f"{prefix}_{model_name}_results.json"
