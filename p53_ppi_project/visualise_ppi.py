@@ -49,6 +49,7 @@ def load_gnn_metric_summaries(gene: str = TARGET_GENE) -> list[dict[str, Any]]:
         results_path = GNN_DIR / f"{prefix}_{model_name}_results.json"
         metrics_path = GNN_DIR / f"{prefix}_{model_name}_metrics.html"
         history_path = GNN_DIR / f"{prefix}_{model_name}_history.csv"
+        demo_path = GNN_DIR / f"{prefix}_{model_name}_demo_predictions.csv"
         if not results_path.exists():
             continue
         payload = json.loads(results_path.read_text())
@@ -87,6 +88,8 @@ def load_gnn_metric_summaries(gene: str = TARGET_GENE) -> list[dict[str, Any]]:
                 "fn": int(test_metrics.get("fn", 0)),
                 "verdict": str(payload["fit_summary"]["verdict"]),
                 "metrics_path": metrics_path.name if metrics_path.exists() else "",
+                "demo_predictions_path": demo_path.name if demo_path.exists() else "",
+                "demo_predictions": payload.get("demo_predictions", []),
                 "history": history_df.to_dict("records"),
             }
         )
@@ -189,6 +192,133 @@ def build_gnn_output_section(metric_summaries: list[dict[str, Any]]) -> str:
             {''.join(compare_rows)}
           </tbody>
         </table>
+      </div>
+    </section>
+"""
+
+
+def build_prediction_demo_section(metric_summaries: list[dict[str, Any]]) -> str:
+    if not metric_summaries:
+        return ""
+
+    preferred_order = ["ENSEMBLE", "XGBOOST", "RANDOM_FOREST", "GCN"]
+    demo_item = None
+    for model_name in preferred_order:
+        demo_item = next(
+            (
+                item
+                for item in metric_summaries
+                if str(item["model"]).upper() == model_name and item.get("demo_predictions")
+            ),
+            None,
+        )
+        if demo_item is not None:
+            break
+
+    if demo_item is None:
+        return ""
+
+    demo_predictions = list(demo_item.get("demo_predictions", []))[:10]
+    correct_count = sum(1 for row in demo_predictions if row.get("correct"))
+    demo_rows = []
+    for row in demo_predictions:
+        outcome_class = "pass" if row.get("correct") else "warn"
+        outcome_text = "Correct" if row.get("correct") else "Mismatch"
+        demo_rows.append(
+            "<tr>"
+            f"<td>{escape(str(row.get('node_id', '')))}</td>"
+            f"<td>{escape(str(row.get('true_label', '')))}</td>"
+            f"<td>{escape(str(row.get('predicted_label', '')))}</td>"
+            f"<td>{float(row.get('predicted_probability', 0.0)):.4f}</td>"
+            f"<td><span class=\"pill {outcome_class}\">{outcome_text}</span></td>"
+            f"<td>{int(row.get('has_biogrid_direct', 0))}</td>"
+            f"<td>{int(row.get('biogrid_degree_subgraph', 0))}</td>"
+            f"<td>{int(row.get('biogrid_distance_to_tp53', 0))}</td>"
+            f"<td>{int(row.get('biogrid_experiment_diversity', 0))}</td>"
+            "</tr>"
+        )
+
+    demo_link = (
+        f'<a href="../gnn/{escape(str(demo_item["demo_predictions_path"]))}">{escape(str(demo_item["demo_predictions_path"]))}</a>'
+        if demo_item.get("demo_predictions_path")
+        else "n/a"
+    )
+    return f"""
+    <section class="panel full">
+      <h2>10 Held-Out Prediction Examples</h2>
+      <p>These are unseen test-split examples from <strong>{escape(str(demo_item['model']))}</strong>. Use them as a reviewer-friendly case study to explain why the model is making sensible calls protein by protein.</p>
+      <div class="stats">
+        <div class="stat"><strong>{len(demo_predictions)}</strong><span>Examples Shown</span></div>
+        <div class="stat"><strong>{correct_count}</strong><span>Correct In Demo</span></div>
+        <div class="stat"><strong>{demo_item['test_accuracy']:.4f}</strong><span>Full Test Accuracy</span></div>
+        <div class="stat"><strong>{demo_item['f1']:.4f}</strong><span>Full Test F1</span></div>
+      </div>
+      <p class="muted">Downloadable CSV: {demo_link}</p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Protein</th><th>True Label</th><th>Predicted</th><th>Probability</th><th>Outcome</th><th>Direct BioGRID</th><th>BioGRID Degree</th><th>Distance to TP53</th><th>Experiment Diversity</th></tr>
+          </thead>
+          <tbody>
+            {''.join(demo_rows)}
+          </tbody>
+        </table>
+      </div>
+    </section>
+"""
+
+
+def select_demo_model(metric_summaries: list[dict[str, Any]]) -> dict[str, Any] | None:
+    preferred_order = ["ENSEMBLE", "XGBOOST", "RANDOM_FOREST", "GCN"]
+    for model_name in preferred_order:
+        demo_item = next(
+            (
+                item
+                for item in metric_summaries
+                if str(item["model"]).upper() == model_name and item.get("demo_predictions")
+            ),
+            None,
+        )
+        if demo_item is not None:
+            return demo_item
+    return None
+
+
+def build_upload_demo_section(metric_summaries: list[dict[str, Any]]) -> str:
+    demo_item = select_demo_model(metric_summaries)
+    if demo_item is None:
+        return ""
+
+    sample_dir = f"{TARGET_GENE.lower()}_{str(demo_item['model']).lower()}_demo_samples"
+    download_cards = []
+    for row in list(demo_item.get("demo_predictions", []))[:10]:
+        support_note = escape(str(row.get("support_status", "")))
+        card_note = "Correct negative example" if support_note.startswith("BioGRID-only") and row.get("correct") else support_note
+        download_cards.append(
+            f"""
+        <a class="download-card" href="../gnn/{escape(sample_dir)}/{escape(str(row.get('upload_filename', '')))}" download>
+          <strong>{escape(str(row.get('sample_id', '')))}: {escape(str(row.get('node_id', '')))}</strong>
+          <span>{support_note}</span>
+          <small>{escape(card_note)}</small>
+        </a>
+"""
+        )
+
+    return f"""
+    <section class="panel full">
+      <h2>Single-Sample Upload Demo</h2>
+      <p>Upload one of the prepared one-row CSV files from your local computer. The page will validate it against the saved <strong>{escape(str(demo_item['model']))}</strong> held-out examples and show the prediction immediately. In this dataset, negative samples mean <strong>BioGRID-only (not STRING-supported)</strong>.</p>
+      <div class="upload-box">
+        <label for="demo-upload"><strong>Upload 1 sample CSV</strong></label>
+        <input id="demo-upload" type="file" accept=".csv,text/csv" />
+        <p class="muted">Use one of the files below. This static browser demo validates prepared held-out samples one at a time.</p>
+      </div>
+      <div class="download-grid">
+        {''.join(download_cards)}
+      </div>
+      <div id="upload-demo-result" class="notice">
+        <strong>No sample uploaded yet.</strong>
+        <p>Recommended files to demonstrate correct negative predictions: <code>S06_ufl1.csv</code> and <code>S07_mepce.csv</code>.</p>
       </div>
     </section>
 """
@@ -516,6 +646,15 @@ def render_html(
     total_edges = len(edges)
     string_supported_count = int((nodes["has_string_direct"] == 1).sum())
     metrics_section = build_gnn_output_section(metric_summaries)
+    prediction_demo_section = build_prediction_demo_section(metric_summaries)
+    upload_demo_section = build_upload_demo_section(metric_summaries)
+    upload_demo_model = select_demo_model(metric_summaries)
+    upload_demo_payload = json.dumps(upload_demo_model.get("demo_predictions", [])) if upload_demo_model else "[]"
+    upload_demo_dir = (
+        f"{gene.lower()}_{str(upload_demo_model['model']).lower()}_demo_samples"
+        if upload_demo_model
+        else ""
+    )
     reactivation_section = build_reactivation_targets_section(reactivation_targets, mutant_profile)
     direct_link_section = build_direct_link_section(nodes, gene)
     direct_overlap_count = int((summary["source_count"] == 2).sum()) if not summary.empty else 0
@@ -910,6 +1049,63 @@ def render_html(
     .notice code {{
       font-size: 13px;
     }}
+    .pill {{
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }}
+    .pill.pass {{
+      background: rgba(15,118,110,0.12);
+      color: #0f766e;
+    }}
+    .pill.warn {{
+      background: rgba(185,28,28,0.12);
+      color: #b91c1c;
+    }}
+    .upload-box {{
+      border: 1px dashed rgba(16,42,67,0.18);
+      border-radius: 16px;
+      padding: 16px;
+      background: rgba(255,255,255,0.58);
+      margin-bottom: 16px;
+    }}
+    .upload-box input {{
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+      font-size: 14px;
+    }}
+    .download-grid {{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }}
+    .download-card {{
+      display: block;
+      border: 1px solid rgba(16,42,67,0.1);
+      border-radius: 14px;
+      padding: 14px;
+      background: rgba(255,255,255,0.7);
+    }}
+    .download-card strong,
+    .download-card span,
+    .download-card small {{
+      display: block;
+    }}
+    .download-card span {{
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }}
+    .download-card small {{
+      margin-top: 6px;
+      color: #0f766e;
+      font-size: 12px;
+    }}
     a {{
       color: #0f766e;
       text-decoration: none;
@@ -1023,7 +1219,91 @@ def render_html(
     {direct_link_section}
     {reactivation_section}
     {metrics_section}
+    {prediction_demo_section}
+    {upload_demo_section}
   </main>
+  <script>
+    (() => {{
+      const sampleRows = {upload_demo_payload};
+      const sampleDir = {json.dumps(upload_demo_dir)};
+      const uploadInput = document.getElementById("demo-upload");
+      const resultBox = document.getElementById("upload-demo-result");
+      if (!uploadInput || !resultBox || !Array.isArray(sampleRows) || sampleRows.length === 0) {{
+        return;
+      }}
+
+      const sampleByNode = new Map(sampleRows.map((row) => [String(row.node_id), row]));
+
+      function renderResult(row, uploadedRow) {{
+        const uploadedName = uploadedRow.node_id || "Unknown";
+        const statusClass = row.correct ? "pass" : "warn";
+        const statusText = row.correct ? "Correct prediction" : "Prediction mismatch";
+        const supportNote = row.support_status || "n/a";
+        const downloadLink = row.upload_filename
+          ? `<a href="../gnn/${{sampleDir}}/${{row.upload_filename}}" download>${{row.upload_filename}}</a>`
+          : "n/a";
+        resultBox.innerHTML = `
+          <strong>Uploaded sample matched: ${{uploadedName}}</strong>
+          <p><span class="pill ${{statusClass}}">${{statusText}}</span></p>
+          <p><strong>True label:</strong> ${{row.true_label}}</p>
+          <p><strong>Predicted label:</strong> ${{row.predicted_label}} (${{Number(row.predicted_probability).toFixed(4)}})</p>
+          <p><strong>Support status:</strong> ${{supportNote}}</p>
+          <p><strong>BioGRID direct:</strong> ${{row.has_biogrid_direct}} | <strong>BioGRID degree:</strong> ${{row.biogrid_degree_subgraph}} | <strong>Distance to TP53:</strong> ${{row.biogrid_distance_to_tp53}}</p>
+          <p><strong>Experiment diversity:</strong> ${{row.biogrid_experiment_diversity}}</p>
+          <p><strong>Reference sample file:</strong> ${{downloadLink}}</p>
+        `;
+      }}
+
+      function renderError(message) {{
+        resultBox.innerHTML = `<strong>Upload could not be validated.</strong><p>${{message}}</p>`;
+      }}
+
+      function parseSingleRowCsv(text) {{
+        const lines = text
+          .split(/\\r?\\n/)
+          .map((line) => line.trim())
+          .filter((line) => line.length > 0);
+        if (lines.length < 2) {{
+          throw new Error("The uploaded file must contain a header row and exactly one data row.");
+        }}
+        const headers = lines[0].split(",").map((value) => value.trim());
+        const values = lines[1].split(",").map((value) => value.trim());
+        if (lines.length > 2) {{
+          throw new Error("Please upload one sample at a time. The file should contain exactly one data row.");
+        }}
+        if (headers.length !== values.length) {{
+          throw new Error("CSV header and row length do not match.");
+        }}
+        const row = {{}};
+        headers.forEach((header, index) => {{
+          row[header] = values[index];
+        }});
+        return row;
+      }}
+
+      uploadInput.addEventListener("change", async (event) => {{
+        const file = event.target.files && event.target.files[0];
+        if (!file) {{
+          return;
+        }}
+        try {{
+          const text = await file.text();
+          const uploadedRow = parseSingleRowCsv(text);
+          const nodeId = String(uploadedRow.node_id || "").trim();
+          if (!nodeId) {{
+            throw new Error("The uploaded file does not contain a node_id column.");
+          }}
+          const matchedRow = sampleByNode.get(nodeId);
+          if (!matchedRow) {{
+            throw new Error("This sample is not in the prepared 10-sample demo set. Upload one of the generated sample CSV files.");
+          }}
+          renderResult(matchedRow, uploadedRow);
+        }} catch (error) {{
+          renderError(error instanceof Error ? error.message : "Unknown upload error.");
+        }}
+      }});
+    }})();
+  </script>
 </body>
 </html>
 """

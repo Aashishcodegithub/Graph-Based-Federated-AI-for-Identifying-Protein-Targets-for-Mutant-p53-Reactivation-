@@ -348,6 +348,63 @@
     .notice code {
       font-size: 13px;
     }
+    .pill {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.03em;
+    }
+    .pill.pass {
+      background: rgba(15,118,110,0.12);
+      color: #0f766e;
+    }
+    .pill.warn {
+      background: rgba(185,28,28,0.12);
+      color: #b91c1c;
+    }
+    .upload-box {
+      border: 1px dashed rgba(16,42,67,0.18);
+      border-radius: 16px;
+      padding: 16px;
+      background: rgba(255,255,255,0.58);
+      margin-bottom: 16px;
+    }
+    .upload-box input {
+      margin-top: 10px;
+      display: block;
+      width: 100%;
+      font-size: 14px;
+    }
+    .download-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .download-card {
+      display: block;
+      border: 1px solid rgba(16,42,67,0.1);
+      border-radius: 14px;
+      padding: 14px;
+      background: rgba(255,255,255,0.7);
+    }
+    .download-card strong,
+    .download-card span,
+    .download-card small {
+      display: block;
+    }
+    .download-card span {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .download-card small {
+      margin-top: 6px;
+      color: #0f766e;
+      font-size: 12px;
+    }
     a {
       color: #0f766e;
       text-decoration: none;
@@ -736,15 +793,15 @@
       <article class="model-card">
         <div class="model-head">
           <h3>XGBOOST</h3>
-          <span>reasonable_fit</span>
+          <span>likely_overfitting</span>
         </div>
         <div class="mini-stats">
-          <div><strong>0.7993</strong><span>Test Accuracy</span></div>
-          <div><strong>0.7752</strong><span>Balanced Accuracy</span></div>
-          <div><strong>0.6667</strong><span>F1 Score</span></div>
+          <div><strong>0.8427</strong><span>Test Accuracy</span></div>
+          <div><strong>0.8172</strong><span>Balanced Accuracy</span></div>
+          <div><strong>0.7290</strong><span>F1 Score</span></div>
         </div>
         <div class="curve-placeholder">No epoch curve for this model.</div>
-        <p class="muted">Train accuracy 0.8651, test loss 0.4449. Detailed dashboard: <a href="../gnn/tp53_xgboost_metrics.html">tp53_xgboost_metrics.html</a></p>
+        <p class="muted">Train accuracy 0.9123, test loss 0.3535. Detailed dashboard: <a href="../gnn/tp53_xgboost_metrics.html">tp53_xgboost_metrics.html</a></p>
       </article>
 
       <article class="model-card">
@@ -768,12 +825,195 @@
             <tr><th>Model</th><th>Test Acc</th><th>Bal Acc</th><th>Precision</th><th>Recall</th><th>Specificity</th><th>F1</th><th>TP/TN/FP/FN</th></tr>
           </thead>
           <tbody>
-            <tr><td>GCN</td><td>0.8714</td><td>0.8365</td><td>0.7651</td><td>0.7600</td><td>0.9129</td><td>0.7625</td><td>114/367/35/36</td></tr><tr><td>RANDOM_FOREST</td><td>0.8228</td><td>0.7974</td><td>0.6628</td><td>0.7403</td><td>0.8546</td><td>0.6994</td><td>114/341/58/40</td></tr><tr><td>XGBOOST</td><td>0.7993</td><td>0.7752</td><td>0.6201</td><td>0.7208</td><td>0.8296</td><td>0.6667</td><td>111/331/68/43</td></tr><tr><td>ENSEMBLE</td><td>0.8571</td><td>0.8013</td><td>0.7820</td><td>0.6753</td><td>0.9273</td><td>0.7247</td><td>104/370/29/50</td></tr>
+            <tr><td>GCN</td><td>0.8714</td><td>0.8365</td><td>0.7651</td><td>0.7600</td><td>0.9129</td><td>0.7625</td><td>114/367/35/36</td></tr><tr><td>RANDOM_FOREST</td><td>0.8228</td><td>0.7974</td><td>0.6628</td><td>0.7403</td><td>0.8546</td><td>0.6994</td><td>114/341/58/40</td></tr><tr><td>XGBOOST</td><td>0.8427</td><td>0.8172</td><td>0.7006</td><td>0.7597</td><td>0.8747</td><td>0.7290</td><td>117/349/50/37</td></tr><tr><td>ENSEMBLE</td><td>0.8571</td><td>0.8013</td><td>0.7820</td><td>0.6753</td><td>0.9273</td><td>0.7247</td><td>104/370/29/50</td></tr>
           </tbody>
         </table>
       </div>
     </section>
 
+    
+    <section class="panel full">
+      <h2>10 Held-Out Prediction Examples</h2>
+      <p>These are unseen test-split examples from <strong>ENSEMBLE</strong>. Use them as a reviewer-friendly case study to explain why the model is making sensible calls protein by protein.</p>
+      <div class="stats">
+        <div class="stat"><strong>10</strong><span>Examples Shown</span></div>
+        <div class="stat"><strong>7</strong><span>Correct In Demo</span></div>
+        <div class="stat"><strong>0.8571</strong><span>Full Test Accuracy</span></div>
+        <div class="stat"><strong>0.7247</strong><span>Full Test F1</span></div>
+      </div>
+      <p class="muted">Downloadable CSV: <a href="../gnn/tp53_ensemble_demo_predictions.csv">tp53_ensemble_demo_predictions.csv</a></p>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr><th>Protein</th><th>True Label</th><th>Predicted</th><th>Probability</th><th>Outcome</th><th>Direct BioGRID</th><th>BioGRID Degree</th><th>Distance to TP53</th><th>Experiment Diversity</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>RPA1</td><td>STRING-supported</td><td>STRING-supported</td><td>0.8300</td><td><span class="pill pass">Correct</span></td><td>1</td><td>1145</td><td>1</td><td>13</td></tr><tr><td>ESR1</td><td>STRING-supported</td><td>STRING-supported</td><td>0.8305</td><td><span class="pill pass">Correct</span></td><td>1</td><td>878</td><td>1</td><td>13</td></tr><tr><td>ESR2</td><td>STRING-supported</td><td>STRING-supported</td><td>0.9810</td><td><span class="pill pass">Correct</span></td><td>0</td><td>706</td><td>2</td><td>8</td></tr><tr><td>HDAC1</td><td>STRING-supported</td><td>STRING-supported</td><td>0.8801</td><td><span class="pill pass">Correct</span></td><td>1</td><td>508</td><td>1</td><td>14</td></tr><tr><td>USP7</td><td>STRING-supported</td><td>STRING-supported</td><td>0.9077</td><td><span class="pill pass">Correct</span></td><td>1</td><td>401</td><td>1</td><td>14</td></tr><tr><td>UFL1</td><td>BioGRID-only</td><td>BioGRID-only</td><td>0.4287</td><td><span class="pill pass">Correct</span></td><td>1</td><td>479</td><td>1</td><td>9</td></tr><tr><td>MEPCE</td><td>BioGRID-only</td><td>BioGRID-only</td><td>0.4821</td><td><span class="pill pass">Correct</span></td><td>1</td><td>415</td><td>1</td><td>8</td></tr><tr><td>CUL3</td><td>BioGRID-only</td><td>STRING-supported</td><td>0.8110</td><td><span class="pill warn">Mismatch</span></td><td>1</td><td>998</td><td>1</td><td>13</td></tr><tr><td>EFTUD2</td><td>BioGRID-only</td><td>STRING-supported</td><td>0.6299</td><td><span class="pill warn">Mismatch</span></td><td>1</td><td>668</td><td>1</td><td>12</td></tr><tr><td>RBM39</td><td>BioGRID-only</td><td>STRING-supported</td><td>0.7937</td><td><span class="pill warn">Mismatch</span></td><td>1</td><td>513</td><td>1</td><td>14</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    
+    <section class="panel full">
+      <h2>Single-Sample Upload Demo</h2>
+      <p>Upload one of the prepared one-row CSV files from your local computer. The page will validate it against the saved <strong>ENSEMBLE</strong> held-out examples and show the prediction immediately. In this dataset, negative samples mean <strong>BioGRID-only (not STRING-supported)</strong>.</p>
+      <div class="upload-box">
+        <label for="demo-upload"><strong>Upload 1 sample CSV</strong></label>
+        <input id="demo-upload" type="file" accept=".csv,text/csv" />
+        <p class="muted">Use one of the files below. This static browser demo validates prepared held-out samples one at a time.</p>
+      </div>
+      <div class="download-grid">
+        
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S01_rpa1.csv" download>
+          <strong>S01: RPA1</strong>
+          <span>BioGRID + STRING</span>
+          <small>BioGRID + STRING</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S02_esr1.csv" download>
+          <strong>S02: ESR1</strong>
+          <span>BioGRID + STRING</span>
+          <small>BioGRID + STRING</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S03_esr2.csv" download>
+          <strong>S03: ESR2</strong>
+          <span>STRING-only</span>
+          <small>STRING-only</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S04_hdac1.csv" download>
+          <strong>S04: HDAC1</strong>
+          <span>BioGRID + STRING</span>
+          <small>BioGRID + STRING</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S05_usp7.csv" download>
+          <strong>S05: USP7</strong>
+          <span>BioGRID + STRING</span>
+          <small>BioGRID + STRING</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S06_ufl1.csv" download>
+          <strong>S06: UFL1</strong>
+          <span>BioGRID-only (not STRING-supported)</span>
+          <small>Correct negative example</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S07_mepce.csv" download>
+          <strong>S07: MEPCE</strong>
+          <span>BioGRID-only (not STRING-supported)</span>
+          <small>Correct negative example</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S08_cul3.csv" download>
+          <strong>S08: CUL3</strong>
+          <span>BioGRID-only (not STRING-supported)</span>
+          <small>BioGRID-only (not STRING-supported)</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S09_eftud2.csv" download>
+          <strong>S09: EFTUD2</strong>
+          <span>BioGRID-only (not STRING-supported)</span>
+          <small>BioGRID-only (not STRING-supported)</small>
+        </a>
+
+        <a class="download-card" href="../gnn/tp53_ensemble_demo_samples/S10_rbm39.csv" download>
+          <strong>S10: RBM39</strong>
+          <span>BioGRID-only (not STRING-supported)</span>
+          <small>BioGRID-only (not STRING-supported)</small>
+        </a>
+
+      </div>
+      <div id="upload-demo-result" class="notice">
+        <strong>No sample uploaded yet.</strong>
+        <p>Recommended files to demonstrate correct negative predictions: <code>S06_ufl1.csv</code> and <code>S07_mepce.csv</code>.</p>
+      </div>
+    </section>
+
   </main>
+  <script>
+    (() => {
+      const sampleRows = [{"sample_id": "S01", "node_id": "RPA1", "true_label": "STRING-supported", "predicted_label": "STRING-supported", "predicted_probability": 0.83, "correct": true, "support_status": "BioGRID + STRING", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 1145, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 13, "upload_filename": "S01_rpa1.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S01_rpa1.csv"}, {"sample_id": "S02", "node_id": "ESR1", "true_label": "STRING-supported", "predicted_label": "STRING-supported", "predicted_probability": 0.8305, "correct": true, "support_status": "BioGRID + STRING", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 878, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 13, "upload_filename": "S02_esr1.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S02_esr1.csv"}, {"sample_id": "S03", "node_id": "ESR2", "true_label": "STRING-supported", "predicted_label": "STRING-supported", "predicted_probability": 0.981, "correct": true, "support_status": "STRING-only", "has_biogrid_direct": 0, "biogrid_degree_subgraph": 706, "biogrid_distance_to_tp53": 2, "biogrid_experiment_diversity": 8, "upload_filename": "S03_esr2.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S03_esr2.csv"}, {"sample_id": "S04", "node_id": "HDAC1", "true_label": "STRING-supported", "predicted_label": "STRING-supported", "predicted_probability": 0.8801, "correct": true, "support_status": "BioGRID + STRING", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 508, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 14, "upload_filename": "S04_hdac1.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S04_hdac1.csv"}, {"sample_id": "S05", "node_id": "USP7", "true_label": "STRING-supported", "predicted_label": "STRING-supported", "predicted_probability": 0.9077, "correct": true, "support_status": "BioGRID + STRING", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 401, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 14, "upload_filename": "S05_usp7.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S05_usp7.csv"}, {"sample_id": "S06", "node_id": "UFL1", "true_label": "BioGRID-only", "predicted_label": "BioGRID-only", "predicted_probability": 0.4287, "correct": true, "support_status": "BioGRID-only (not STRING-supported)", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 479, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 9, "upload_filename": "S06_ufl1.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S06_ufl1.csv"}, {"sample_id": "S07", "node_id": "MEPCE", "true_label": "BioGRID-only", "predicted_label": "BioGRID-only", "predicted_probability": 0.4821, "correct": true, "support_status": "BioGRID-only (not STRING-supported)", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 415, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 8, "upload_filename": "S07_mepce.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S07_mepce.csv"}, {"sample_id": "S08", "node_id": "CUL3", "true_label": "BioGRID-only", "predicted_label": "STRING-supported", "predicted_probability": 0.811, "correct": false, "support_status": "BioGRID-only (not STRING-supported)", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 998, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 13, "upload_filename": "S08_cul3.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S08_cul3.csv"}, {"sample_id": "S09", "node_id": "EFTUD2", "true_label": "BioGRID-only", "predicted_label": "STRING-supported", "predicted_probability": 0.6299, "correct": false, "support_status": "BioGRID-only (not STRING-supported)", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 668, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 12, "upload_filename": "S09_eftud2.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S09_eftud2.csv"}, {"sample_id": "S10", "node_id": "RBM39", "true_label": "BioGRID-only", "predicted_label": "STRING-supported", "predicted_probability": 0.7937, "correct": false, "support_status": "BioGRID-only (not STRING-supported)", "has_biogrid_direct": 1, "biogrid_degree_subgraph": 513, "biogrid_distance_to_tp53": 1, "biogrid_experiment_diversity": 14, "upload_filename": "S10_rbm39.csv", "upload_path": "/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_ensemble_demo_samples/S10_rbm39.csv"}];
+      const sampleDir = "tp53_ensemble_demo_samples";
+      const uploadInput = document.getElementById("demo-upload");
+      const resultBox = document.getElementById("upload-demo-result");
+      if (!uploadInput || !resultBox || !Array.isArray(sampleRows) || sampleRows.length === 0) {
+        return;
+      }
+
+      const sampleByNode = new Map(sampleRows.map((row) => [String(row.node_id), row]));
+
+      function renderResult(row, uploadedRow) {
+        const uploadedName = uploadedRow.node_id || "Unknown";
+        const statusClass = row.correct ? "pass" : "warn";
+        const statusText = row.correct ? "Correct prediction" : "Prediction mismatch";
+        const supportNote = row.support_status || "n/a";
+        const downloadLink = row.upload_filename
+          ? `<a href="../gnn/${sampleDir}/${row.upload_filename}" download>${row.upload_filename}</a>`
+          : "n/a";
+        resultBox.innerHTML = `
+          <strong>Uploaded sample matched: ${uploadedName}</strong>
+          <p><span class="pill ${statusClass}">${statusText}</span></p>
+          <p><strong>True label:</strong> ${row.true_label}</p>
+          <p><strong>Predicted label:</strong> ${row.predicted_label} (${Number(row.predicted_probability).toFixed(4)})</p>
+          <p><strong>Support status:</strong> ${supportNote}</p>
+          <p><strong>BioGRID direct:</strong> ${row.has_biogrid_direct} | <strong>BioGRID degree:</strong> ${row.biogrid_degree_subgraph} | <strong>Distance to TP53:</strong> ${row.biogrid_distance_to_tp53}</p>
+          <p><strong>Experiment diversity:</strong> ${row.biogrid_experiment_diversity}</p>
+          <p><strong>Reference sample file:</strong> ${downloadLink}</p>
+        `;
+      }
+
+      function renderError(message) {
+        resultBox.innerHTML = `<strong>Upload could not be validated.</strong><p>${message}</p>`;
+      }
+
+      function parseSingleRowCsv(text) {
+        const lines = text
+          .split(/\r?\n/)
+          .map((line) => line.trim())
+          .filter((line) => line.length > 0);
+        if (lines.length < 2) {
+          throw new Error("The uploaded file must contain a header row and exactly one data row.");
+        }
+        const headers = lines[0].split(",").map((value) => value.trim());
+        const values = lines[1].split(",").map((value) => value.trim());
+        if (lines.length > 2) {
+          throw new Error("Please upload one sample at a time. The file should contain exactly one data row.");
+        }
+        if (headers.length !== values.length) {
+          throw new Error("CSV header and row length do not match.");
+        }
+        const row = {};
+        headers.forEach((header, index) => {
+          row[header] = values[index];
+        });
+        return row;
+      }
+
+      uploadInput.addEventListener("change", async (event) => {
+        const file = event.target.files && event.target.files[0];
+        if (!file) {
+          return;
+        }
+        try {
+          const text = await file.text();
+          const uploadedRow = parseSingleRowCsv(text);
+          const nodeId = String(uploadedRow.node_id || "").trim();
+          if (!nodeId) {
+            throw new Error("The uploaded file does not contain a node_id column.");
+          }
+          const matchedRow = sampleByNode.get(nodeId);
+          if (!matchedRow) {
+            throw new Error("This sample is not in the prepared 10-sample demo set. Upload one of the generated sample CSV files.");
+          }
+          renderResult(matchedRow, uploadedRow);
+        } catch (error) {
+          renderError(error instanceof Error ? error.message : "Unknown upload error.");
+        }
+      });
+    })();
+  </script>
 </body>
 </html>

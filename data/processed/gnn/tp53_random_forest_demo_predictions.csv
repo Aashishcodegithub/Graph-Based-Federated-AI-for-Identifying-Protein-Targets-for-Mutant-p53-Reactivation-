@@ -1,0 +1,11 @@
+sample_id,node_id,true_label,predicted_label,predicted_probability,correct,support_status,has_biogrid_direct,biogrid_degree_subgraph,biogrid_distance_to_tp53,biogrid_experiment_diversity,upload_filename,upload_path
+S01,RPA1,STRING-supported,STRING-supported,0.8353,True,BioGRID + STRING,1,1145,1,13,S01_rpa1.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S01_rpa1.csv
+S02,ESR1,STRING-supported,STRING-supported,0.8362,True,BioGRID + STRING,1,878,1,13,S02_esr1.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S02_esr1.csv
+S03,ESR2,STRING-supported,STRING-supported,0.9671,True,STRING-only,0,706,2,8,S03_esr2.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S03_esr2.csv
+S04,HDAC1,STRING-supported,STRING-supported,0.876,True,BioGRID + STRING,1,508,1,14,S04_hdac1.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S04_hdac1.csv
+S05,USP7,STRING-supported,STRING-supported,0.876,True,BioGRID + STRING,1,401,1,14,S05_usp7.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S05_usp7.csv
+S06,UFL1,BioGRID-only,BioGRID-only,0.4545,True,BioGRID-only (not STRING-supported),1,479,1,9,S06_ufl1.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S06_ufl1.csv
+S07,CIC,BioGRID-only,BioGRID-only,0.4304,True,BioGRID-only (not STRING-supported),1,350,1,7,S07_cic.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S07_cic.csv
+S08,CUL3,BioGRID-only,STRING-supported,0.7703,False,BioGRID-only (not STRING-supported),1,998,1,13,S08_cul3.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S08_cul3.csv
+S09,EFTUD2,BioGRID-only,STRING-supported,0.7078,False,BioGRID-only (not STRING-supported),1,668,1,12,S09_eftud2.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S09_eftud2.csv
+S10,RBM39,BioGRID-only,STRING-supported,0.8135,False,BioGRID-only (not STRING-supported),1,513,1,14,S10_rbm39.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S10_rbm39.csv

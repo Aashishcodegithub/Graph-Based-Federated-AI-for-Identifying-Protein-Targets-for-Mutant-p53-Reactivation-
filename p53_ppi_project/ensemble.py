@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import shutil
 from collections import defaultdict, deque
 from dataclasses import dataclass
 from pathlib import Path
@@ -59,6 +60,9 @@ class SplitData:
     y_val: np.ndarray
     x_test: np.ndarray
     y_test: np.ndarray
+    train_frame: pd.DataFrame
+    val_frame: pd.DataFrame
+    test_frame: pd.DataFrame
 
 
 def _build_biogrid_feature_frame(node_table: pd.DataFrame, edge_table: pd.DataFrame, target_gene: str) -> pd.DataFrame:
@@ -279,7 +283,17 @@ def split_feature_table(node_table: pd.DataFrame, seed: int) -> SplitData:
     x_train, y_train = _xy(train_frame)
     x_val, y_val = _xy(val_frame)
     x_test, y_test = _xy(test_frame)
-    return SplitData(x_train, y_train, x_val, y_val, x_test, y_test)
+    return SplitData(
+        x_train=x_train,
+        y_train=y_train,
+        x_val=x_val,
+        y_val=y_val,
+        x_test=x_test,
+        y_test=y_test,
+        train_frame=train_frame,
+        val_frame=val_frame,
+        test_frame=test_frame,
+    )
 
 
 def evaluate_predictions(y_true: np.ndarray, y_prob: np.ndarray, threshold: float = 0.5) -> dict[str, float | int]:
@@ -431,6 +445,119 @@ def _best_threshold_for_accuracy(y_true: np.ndarray, y_prob: np.ndarray) -> tupl
     return best_threshold, best_accuracy, best_f1
 
 
+def _label_name(label_value: int) -> str:
+    return "STRING-supported" if int(label_value) == 1 else "BioGRID-only"
+
+
+def _build_demo_predictions(
+    frame: pd.DataFrame,
+    y_prob: np.ndarray,
+    threshold: float,
+    max_rows: int = 10,
+) -> list[dict[str, object]]:
+    demo = frame.copy()
+    demo["predicted_probability"] = np.clip(y_prob.astype(float), 0.0, 1.0)
+    demo["predicted_label"] = (demo["predicted_probability"] >= float(threshold)).astype(int)
+    demo["correct"] = (demo["predicted_label"] == demo["label_string_supported"].astype(int)).astype(int)
+    positive_preferred = [
+        "ATM", "MDM2", "MDM4", "EP300", "BRCA1", "USP7", "SIRT1", "PARP1", "EGFR", "ESR1", "MYC", "BRD4",
+    ]
+    negative_preferred = [
+        "PARK2", "BAP1", "RAF1", "CUL3", "TRIM67", "EFTUD2", "RBM39", "ACE2", "MCM2", "BIRC3",
+    ]
+
+    def _select_by_class(label_value: int, desired_count: int, preferred_names: list[str]) -> pd.DataFrame:
+        class_rows = demo[demo["label_string_supported"].astype(int) == label_value].copy()
+        preference_map = {name: rank for rank, name in enumerate(preferred_names)}
+        class_rows["preferred_rank"] = class_rows["node_id"].map(lambda node_id: preference_map.get(str(node_id), 999))
+        class_rows = class_rows.sort_values(
+            [
+                "preferred_rank",
+                "correct",
+                "biogrid_degree_subgraph",
+                "biogrid_experiment_diversity",
+                "predicted_probability",
+            ],
+            ascending=[True, False, False, False, False],
+        )
+        return class_rows.head(desired_count)
+
+    positive_target = max_rows // 2
+    negative_target = max_rows - positive_target
+    selected_parts = [
+        _select_by_class(1, positive_target, positive_preferred),
+        _select_by_class(0, negative_target, negative_preferred),
+    ]
+    selected_demo = pd.concat(selected_parts, ignore_index=True)
+
+    if len(selected_demo) < max_rows:
+        remaining = demo[~demo["node_id"].isin(selected_demo["node_id"])].copy()
+        remaining = remaining.sort_values(
+            ["correct", "biogrid_degree_subgraph", "biogrid_experiment_diversity", "predicted_probability"],
+            ascending=[False, False, False, False],
+        )
+        selected_demo = pd.concat([selected_demo, remaining.head(max_rows - len(selected_demo))], ignore_index=True)
+
+    selected_demo = selected_demo.sort_values(
+        ["label_string_supported", "correct", "biogrid_degree_subgraph", "node_id"],
+        ascending=[False, False, False, True],
+    ).head(max_rows)
+
+    rows: list[dict[str, object]] = []
+    for sample_index, (_, row) in enumerate(selected_demo.iterrows(), start=1):
+        true_label = int(row["label_string_supported"])
+        predicted_label = int(row["predicted_label"])
+        if true_label == 1:
+            support_status = "BioGRID + STRING" if int(row["has_biogrid_direct"]) == 1 else "STRING-only"
+        else:
+            support_status = "BioGRID-only (not STRING-supported)" if int(row["has_biogrid_direct"]) == 1 else "Unsupported by both direct sources"
+        rows.append(
+            {
+                "sample_id": f"S{sample_index:02d}",
+                "node_id": str(row["node_id"]),
+                "true_label": _label_name(true_label),
+                "predicted_label": _label_name(predicted_label),
+                "predicted_probability": round(float(row["predicted_probability"]), 4),
+                "correct": bool(int(row["correct"])),
+                "support_status": support_status,
+                "has_biogrid_direct": int(row["has_biogrid_direct"]),
+                "biogrid_degree_subgraph": int(row["biogrid_degree_subgraph"]),
+                "biogrid_distance_to_tp53": int(row["biogrid_distance_to_tp53"]),
+                "biogrid_experiment_diversity": int(row["biogrid_experiment_diversity"]),
+            }
+        )
+    return rows
+
+
+def _slugify_token(text: str) -> str:
+    cleaned = "".join(char.lower() if char.isalnum() else "_" for char in text)
+    cleaned = "_".join(part for part in cleaned.split("_") if part)
+    return cleaned or "sample"
+
+
+def _write_demo_prediction_assets(prefix: str, demo_predictions: list[dict[str, object]]) -> tuple[list[dict[str, object]], Path, Path, Path]:
+    demo_path = GNN_DIR / f"{prefix}_demo_predictions.csv"
+    manifest_path = GNN_DIR / f"{prefix}_demo_manifest.json"
+    sample_dir = GNN_DIR / f"{prefix}_demo_samples"
+
+    if sample_dir.exists():
+        shutil.rmtree(sample_dir)
+    sample_dir.mkdir(parents=True, exist_ok=True)
+
+    enriched_predictions: list[dict[str, object]] = []
+    for row in demo_predictions:
+        row_payload = dict(row)
+        filename = f"{row_payload['sample_id']}_{_slugify_token(str(row_payload['node_id']))}.csv"
+        row_payload["upload_filename"] = filename
+        row_payload["upload_path"] = str(sample_dir / filename)
+        pd.DataFrame([row_payload]).to_csv(sample_dir / filename, index=False)
+        enriched_predictions.append(row_payload)
+
+    pd.DataFrame(enriched_predictions).to_csv(demo_path, index=False)
+    manifest_path.write_text(json.dumps({"samples": enriched_predictions}, indent=2))
+    return enriched_predictions, demo_path, manifest_path, sample_dir
+
+
 def render_metrics_dashboard(gene: str, model_name: str, results: dict[str, object]) -> str:
     train = results["train_metrics"]
     val = results["val_metrics"]
@@ -535,15 +662,31 @@ def save_results(gene: str, model_name: str, results: dict[str, object], history
     results_path = GNN_DIR / f"{prefix}_results.json"
     history_path = GNN_DIR / f"{prefix}_history.csv"
     metrics_html_path = GNN_DIR / f"{prefix}_metrics.html"
+    demo_path = GNN_DIR / f"{prefix}_demo_predictions.csv"
+    manifest_path = GNN_DIR / f"{prefix}_demo_manifest.json"
+    demo_dir = GNN_DIR / f"{prefix}_demo_samples"
     if history_rows:
         pd.DataFrame(history_rows).to_csv(history_path, index=False)
     elif history_path.exists():
         history_path.unlink()
-    results_path.write_text(json.dumps(results, indent=2))
-    metrics_html_path.write_text(render_metrics_dashboard(gene.upper(), model_name.upper().replace("_", " "), results))
+    demo_predictions = results.get("demo_predictions", [])
+    if demo_predictions:
+        enriched_predictions, demo_path, manifest_path, demo_dir = _write_demo_prediction_assets(prefix, list(demo_predictions))
+        results["demo_predictions"] = enriched_predictions
+    elif demo_path.exists():
+        demo_path.unlink()
+        if manifest_path.exists():
+            manifest_path.unlink()
+        if demo_dir.exists():
+            shutil.rmtree(demo_dir)
     results["results_path"] = str(results_path)
     results["history_path"] = str(history_path) if history_rows else ""
     results["metrics_html_path"] = str(metrics_html_path)
+    results["demo_predictions_path"] = str(demo_path) if demo_predictions else ""
+    results["demo_manifest_path"] = str(manifest_path) if demo_predictions else ""
+    results["demo_samples_dir"] = str(demo_dir) if demo_predictions else ""
+    results_path.write_text(json.dumps(results, indent=2))
+    metrics_html_path.write_text(render_metrics_dashboard(gene.upper(), model_name.upper().replace("_", " "), results))
     return results
 
 
@@ -589,6 +732,7 @@ def train_random_forest(
         for feature, importance in sorted(zip(FEATURE_COLS, model.feature_importances_), key=lambda item: item[1], reverse=True)
     ]
     results["feature_importances"] = feature_importance_rows
+    results["demo_predictions"] = _build_demo_predictions(split.test_frame, test_prob, threshold=0.5)
     return save_results(gene, "random_forest", results)
 
 
@@ -634,6 +778,7 @@ def train_xgboost(
         {"feature": feature, "importance": float(importance)}
         for feature, importance in sorted(zip(FEATURE_COLS, model.feature_importances_), key=lambda item: item[1], reverse=True)
     ]
+    results["demo_predictions"] = _build_demo_predictions(split.test_frame, test_prob, threshold=0.5)
     return save_results(gene, "xgboost", results)
 
 
@@ -718,6 +863,7 @@ def train_ensemble(
             reverse=True,
         )
     ]
+    results["demo_predictions"] = _build_demo_predictions(split.test_frame, test_prob, threshold=threshold)
     return save_results(gene, "ensemble", results)
 
 

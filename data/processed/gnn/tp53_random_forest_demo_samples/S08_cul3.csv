@@ -1,0 +1,2 @@
+sample_id,node_id,true_label,predicted_label,predicted_probability,correct,support_status,has_biogrid_direct,biogrid_degree_subgraph,biogrid_distance_to_tp53,biogrid_experiment_diversity,upload_filename,upload_path
+S08,CUL3,BioGRID-only,STRING-supported,0.7703,False,BioGRID-only (not STRING-supported),1,998,1,13,S08_cul3.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_random_forest_demo_samples/S08_cul3.csv

@@ -1,0 +1,2 @@
+sample_id,node_id,true_label,predicted_label,predicted_probability,correct,support_status,has_biogrid_direct,biogrid_degree_subgraph,biogrid_distance_to_tp53,biogrid_experiment_diversity,upload_filename,upload_path
+S06,UFL1,BioGRID-only,BioGRID-only,0.4029,True,BioGRID-only (not STRING-supported),1,479,1,9,S06_ufl1.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_xgboost_demo_samples/S06_ufl1.csv

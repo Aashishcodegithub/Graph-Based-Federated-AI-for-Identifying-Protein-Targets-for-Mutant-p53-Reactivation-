@@ -1,0 +1,2 @@
+sample_id,node_id,true_label,predicted_label,predicted_probability,correct,support_status,has_biogrid_direct,biogrid_degree_subgraph,biogrid_distance_to_tp53,biogrid_experiment_diversity,upload_filename,upload_path
+S03,ESR2,STRING-supported,STRING-supported,0.9949,True,STRING-only,0,706,2,8,S03_esr2.csv,/Users/aashishkumarsingh/Documents/FACDP/data/processed/gnn/tp53_xgboost_demo_samples/S03_esr2.csv
